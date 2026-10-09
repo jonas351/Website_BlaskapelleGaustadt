@@ -1,0 +1,40 @@
+---
+import '../styles/global.css';
+import Icon from '../components/Icon.astro';
+import { site } from '../data/site';
+interface Props { title?: string; description?: string; }
+const { title = 'Musik, die verbindet', description = 'Die Blaskapelle Gaustadt: unsere Kapelle, Auftritte, Eindrücke und alles zum Mitmachen. Blasmusik und Gemeinschaft in Gaustadt.' } = Astro.props;
+const links = [['/', 'Startseite'], ['/kapelle/', 'Die Kapelle'], ['/termine/', 'Termine'], ['/galerie/', 'Galerie'], ['/mitmachen/', 'Mitmachen']];
+const path = Astro.url.pathname;
+---
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} · {site.name}</title><meta name="description" content={description} />
+    <meta name="theme-color" content="#183c34" />
+    <meta property="og:title" content={`${title} · ${site.name}`} /><meta property="og:description" content={description} /><meta property="og:type" content="website" /><meta property="og:locale" content="de_DE" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Zum Inhalt springen</a>
+    <div class="topline"><div class="container"><span>BLASMUSIK AUS GAUSTADT. MIT HERZ.</span><a href={site.instagram} target="_blank" rel="noopener noreferrer"><Icon name="instagram" size={14} /> {site.instagramHandle}<span class="sr-only"> (öffnet in einem neuen Tab)</span></a></div></div>
+    <header class="site-header"><div class="container header-inner">
+      <a class="brand" href="/" aria-label="Blaskapelle Gaustadt – Startseite"><span class="brand-mark" aria-hidden="true">bg<span>♪</span></span><span class="brand-type">BLASKAPELLE<strong>GAUSTADT</strong></span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav"><span>Menü</span><span class="menu-lines" aria-hidden="true"></span></button>
+      <nav id="main-nav" aria-label="Hauptnavigation">{links.map(([href, label]) => <a href={href} class:list={[{ active: path === href }]} aria-current={path === href ? 'page' : undefined}>{label}</a>)}<a href="/kontakt/" class:list={['nav-contact', { active: path === '/kontakt/' }]} aria-current={path === '/kontakt/' ? 'page' : undefined}>Kontakt <Icon name="diagonal" size={16} /></a></nav>
+    </div></header>
+    <main id="main"><slot /></main>
+    <footer class="site-footer"><div class="container footer-main"><div class="footer-brand"><a class="brand" href="/"><span class="brand-mark" aria-hidden="true">bg<span>♪</span></span><span class="brand-type">BLASKAPELLE<strong>GAUSTADT</strong></span></a><p>Heimat im Herzen.<br />Musik im Blut.</p></div><div><h2>Entdecken</h2><a href="/kapelle/">Die Kapelle</a><a href="/termine/">Termine & Auftritte</a><a href="/galerie/">Bilder & Eindrücke</a></div><div><h2>Zusammenkommen</h2><a href="/mitmachen/">Mitmachen</a><a href="/kontakt/?anliegen=auftritt">Auftritt anfragen</a><a href="/kontakt/">Kontakt</a></div><div class="footer-social"><h2>Immer in Verbindung</h2><p>Neuigkeiten und kleine Einblicke<br />gibt’s auch auf Instagram.</p><a href={site.instagram} target="_blank" rel="noopener noreferrer"><Icon name="instagram" size={18} /> {site.instagramHandle} <Icon name="diagonal" size={16} /><span class="sr-only"> (öffnet in einem neuen Tab)</span></a></div></div><div class="container footer-bottom"><span>© {new Date().getFullYear()} {site.name}</span><div><a href="/impressum/">Impressum</a><a href="/datenschutz/">Datenschutz</a></div><span>Mit ♡ für Gaustadt.</span></div></footer>
+    <script>
+      const button = document.querySelector<HTMLButtonElement>('.menu-toggle');
+      const nav = document.querySelector<HTMLElement>('#main-nav');
+      function closeMenu() { button?.setAttribute('aria-expanded', 'false'); nav?.classList.remove('is-open'); }
+      button?.addEventListener('click', () => { const open = button.getAttribute('aria-expanded') !== 'true'; button.setAttribute('aria-expanded', String(open)); nav?.classList.toggle('is-open', open); });
+      document.addEventListener('keydown', e => { if (e.key === 'Escape' && button?.getAttribute('aria-expanded') === 'true') { closeMenu(); button.focus(); } });
+      nav?.querySelectorAll('a').forEach(a => a.addEventListener('click', closeMenu));
+      document.addEventListener('click', e => { if (e.target instanceof Node && !nav?.contains(e.target) && !button?.contains(e.target)) closeMenu(); });
+      window.matchMedia('(min-width: 1001px)').addEventListener('change', closeMenu);
+    </script>
+  </body>
+</html>

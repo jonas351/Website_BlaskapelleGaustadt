@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHeading from '../components/PageHeading.astro';
+import Icon from '../components/Icon.astro';
+import { gallery, site } from '../data/site';
+---
+<Layout title="Bilder & Eindrücke" description="Einblicke in die Blaskapelle Gaustadt und der direkte Weg zu unserem Instagram-Profil.">
+  <PageHeading label="BILDER & EINDRÜCKE" title="Momente, die nachklingen." text="Auf der Bühne, hinter den Kulissen und miteinander. Hier ist Platz für die kleinen und großen Momente aus unserem Kapellenleben." />
+  <section class="section container">{gallery.length ? <div class="photo-grid">{gallery.map(photo => <figure><button class="gallery-photo" data-src={photo.src} data-alt={photo.alt} aria-label={`Bild vergrößern: ${photo.caption}`}><img src={photo.src} alt={photo.alt} loading="lazy" /><span><Icon name="diagonal" /></span></button><figcaption><span class="eyebrow">{photo.category}</span><h3>{photo.caption}</h3></figcaption></figure>)}</div> : <><div class="gallery-placeholder-grid"><div class="gallery-placeholder illustration-one"><span class="eyebrow">AUF DER BÜHNE</span><span class="illustration-notes" aria-hidden="true">♫</span><h2>Der Moment.<br />Der Klang.</h2><span class="illustration-caption">Illustration · Foto folgt</span></div><div class="gallery-placeholder illustration-two"><span class="eyebrow">MITTENDRIN</span><span class="illustration-notes" aria-hidden="true">♪</span><h2>Zusammen<br />ist’s schöner.</h2><span class="illustration-caption">Illustration · Foto folgt</span></div><div class="gallery-placeholder illustration-three"><span class="eyebrow">HINTER DEN KULISSEN</span><span class="illustration-notes" aria-hidden="true">♬</span><h2>Viele Töne.<br />Ein Team.</h2><span class="illustration-caption">Illustration · Foto folgt</span></div></div><p class="gallery-note">Unsere Fotogalerie entsteht hier. Bis dahin findest du aktuelle Bilder und Einblicke auf Instagram.</p></>}
+  </section><section class="social-banner container"><span class="social-mark"><Icon name="instagram" size={44} /></span><div><p class="eyebrow">FOLG UNS EIN STÜCK</p><h2>Kapellenleben zum Mitnehmen.</h2><p>Direkt von uns. Auf Instagram: {site.instagramHandle}</p></div><a class="button button-green" href={site.instagram} target="_blank" rel="noopener noreferrer">Zum Profil <Icon name="diagonal" /><span class="sr-only"> (öffnet in einem neuen Tab)</span></a></section>
+  <dialog id="lightbox"><button class="lightbox-close" aria-label="Bild schließen">×</button><img src="" alt="" /><p></p></dialog>
+  <script>
+    const dialog = document.querySelector<HTMLDialogElement>('#lightbox');
+    document.querySelectorAll<HTMLButtonElement>('.gallery-photo').forEach(button => button.addEventListener('click', () => {
+      const img = dialog?.querySelector('img'); if (!dialog || !img) return;
+      img.src = button.dataset.src ?? ''; img.alt = button.dataset.alt ?? '';
+      const caption = dialog.querySelector('p'); if (caption) caption.textContent = button.dataset.alt ?? '';
+      dialog.showModal();
+    }));
+    dialog?.querySelector('button')?.addEventListener('click',()=>dialog.close());
+    dialog?.addEventListener('click', e => { if (e.target === dialog) dialog.close(); });
+  </script>
+</Layout>

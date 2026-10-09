@@ -1,0 +1,9 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHeading from '../components/PageHeading.astro';
+import { site } from '../data/site';
+---
+<Layout title="Impressum">
+  <PageHeading label="RECHTLICHES" title="Impressum" text="Angaben zum Anbieter dieser Website." />
+  <section class="section container legal-content"><div class="draft-notice"><strong>Vorlage – vor Veröffentlichung vervollständigen.</strong><p>Die folgenden Angaben sind Platzhalter. Die für den Verein zutreffenden Pflichtangaben müssen ergänzt und geprüft werden.</p></div><h2>Anbieter</h2><p class="placeholder">{site.legalName}<br />{site.legalAddress}</p><h2>Vertreten durch</h2><p class="placeholder">{site.representative}</p><h2>Kontakt</h2>{site.email ? <p>E-Mail: <a href={`mailto:${site.email}`}>{site.email}</a></p> : <p class="placeholder">[Kontakt-E-Mail ergänzen]</p>}{site.phone ? <p>Telefon: {site.phone}</p> : <p class="placeholder">[Weitere Möglichkeit zur unmittelbaren Kontaktaufnahme ergänzen]</p>}<h2>Registerangaben</h2><p class="placeholder">{site.register}</p><h2>Inhaltlich verantwortlich</h2><p class="placeholder">{site.responsible}</p><h2>Bildnachweise</h2><p>Die derzeit verwendeten Instrumenten- und Musikdarstellungen sind Illustrationen für diesen Website-Entwurf. Sie zeigen keine tatsächlichen Mitglieder oder Auftritte der Kapelle.</p><p class="placeholder">[Bei Ergänzung eigener Fotos: Fotografen, Nutzungsrechte und gegebenenfalls erforderliche Bildnachweise ergänzen]</p></section>
+</Layout>

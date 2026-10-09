@@ -1,0 +1,15 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHeading from '../components/PageHeading.astro';
+import Icon from '../components/Icon.astro';
+import { events, site } from '../data/site';
+const today = new Date().toISOString().slice(0,10);
+const upcoming = [...events].filter(e => e.date >= today).sort((a,b)=>a.date.localeCompare(b.date));
+const past = [...events].filter(e => e.date < today).sort((a,b)=>b.date.localeCompare(a.date));
+const date = (value: string) => new Intl.DateTimeFormat('de-DE',{dateStyle:'full',timeZone:'Europe/Berlin'}).format(new Date(value+'T12:00:00'));
+---
+<Layout title="Termine & Auftritte" description="Alle bestätigten Termine und Auftritte der Blaskapelle Gaustadt im Überblick.">
+  <PageHeading label="TERMINE & AUFTRITTE" title="Musik erlebt man am besten zusammen." text="Ob vor der Bühne oder mittendrin: Hier findest du unsere kommenden Auftritte und alle Infos zum Dabeisein." />
+  <section class="section container"><div class="section-title"><h2>Die nächsten Termine</h2><span class="status-pill"><span></span>Live dabei sein</span></div>{upcoming.length ? <div class="event-list">{upcoming.map(event => <article class="event-row"><div class="event-date"><strong>{new Date(event.date+'T12:00:00').getDate()}</strong><span>{new Intl.DateTimeFormat('de-DE',{month:'short'}).format(new Date(event.date+'T12:00:00'))}</span></div><div><h3>{event.title}</h3><p class="event-meta"><Icon name="calendar" size={16} />{date(event.date)} · {event.time} Uhr</p><p class="event-meta"><Icon name="pin" size={16} />{event.place}</p><p>{event.description}</p>{event.url && <a class="text-link dark" href={event.url} target="_blank" rel="noopener noreferrer">Zur Veranstaltung <Icon name="diagonal" /><span class="sr-only"> (öffnet in einem neuen Tab)</span></a>}</div></article>)}</div> : <div class="empty-state"><span class="empty-icon"><Icon name="calendar" size={38} /></span><p class="eyebrow">VORFREUDE IST DIE SCHÖNSTE FREUDE</p><h3>Hier ist bald Musik drin.</h3><p>Unsere nächsten bestätigten Auftritte werden hier veröffentlicht.<br />Schau wieder vorbei oder folge uns auf Instagram.</p><a class="button button-green" href={site.instagram} target="_blank" rel="noopener noreferrer"><Icon name="instagram" /> Aktuelles auf Instagram <Icon name="diagonal" size={17} /><span class="sr-only"> (öffnet in einem neuen Tab)</span></a><p class="placeholder small">[Bestätigte Veranstaltungen ergänzen]</p></div>}{past.length > 0 && <div class="past-events"><h2>Vergangene Auftritte</h2>{past.map(event => <article class="past-event"><span>{date(event.date)}</span><h3>{event.title}</h3><p>{event.place}</p></article>)}</div>}</section>
+  <section class="join-banner container"><div><p class="eyebrow">EIN ANLASS. VIELE MÖGLICHKEITEN.</p><h2>Ihr plant ein Fest?</h2><p>Erzählt uns von eurer Veranstaltung. Wir besprechen gemeinsam, was möglich ist.</p></div><a class="button button-light" href="/kontakt/?anliegen=auftritt">Auftritt anfragen <Icon /></a></section>
+</Layout>

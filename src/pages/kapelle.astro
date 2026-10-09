@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import PageHeading from '../components/PageHeading.astro';
+import BrassArt from '../components/BrassArt.astro';
+import JoinBanner from '../components/JoinBanner.astro';
+import Icon from '../components/Icon.astro';
+---
+<Layout title="Die Kapelle" description="Lerne die Blaskapelle Gaustadt kennen: Musik, Menschen und Gemeinschaft.">
+  <PageHeading label="DIE KAPELLE" title="Viele Persönlichkeiten. Ein gemeinsamer Klang." text="Musik verbindet. Hier lernst du die Menschen, die Geschichten und das Miteinander hinter der Blaskapelle Gaustadt kennen." />
+  <section class="section container about-grid"><div class="instrument-panel"><BrassArt variant="small" /></div><div class="about-copy"><p class="eyebrow">DAS MACHT UNS AUS</p><h2>Mit Herz dabei.<br />Mit Freude zusammen.</h2><p>Jedes Instrument bringt seine eigene Stimme mit. Erst zusammen entsteht der Klang einer Kapelle – und genau dieses Miteinander macht Blasmusik so besonders.</p><p>Unsere Website gibt dir einen Einblick in die Blaskapelle Gaustadt. Du möchtest uns persönlich kennenlernen? Dann melde dich bei uns.</p><a href="/kontakt/" class="text-link dark">Ins Gespräch kommen <Icon /></a></div></section>
+  <section class="soft-section"><div class="container section"><div class="section-title"><div><p class="eyebrow">MUSIK & MENSCHEN</p><h2>Unsere Kapelle stellt sich vor.</h2></div></div><div class="three-grid"><article class="info-card"><Icon name="music" size={28} /><h3>Unsere Musik</h3><p class="placeholder">[Repertoire und musikalische Schwerpunkte ergänzen]</p><p>Hier ist Platz für die Musik, die euch begeistert – und für das, was euer Publikum bei einem Auftritt erwartet.</p></article><article class="info-card"><Icon name="heart" size={28} /><h3>Unsere Menschen</h3><p class="placeholder">[Musikalische Leitung, Vorstand und Mitglieder ergänzen]</p><p>Stellt die Menschen vor, die eure Kapelle gestalten. Gerne mit Namen, Aufgaben und eigenen Bildern.</p></article><article class="info-card"><Icon name="clock" size={28} /><h3>Unsere Geschichte</h3><p class="placeholder">[Gründungsjahr und Vereinsgeschichte ergänzen]</p><p>Von den Anfängen bis heute: Hier finden die wichtigen Momente eurer Vereinsgeschichte ihren Platz.</p></article></div></div></section>
+  <JoinBanner />
+</Layout>
