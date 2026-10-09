@@ -1,0 +1,676 @@
+{
+  "version": "0.4",
+  "title": "Bilder & Eindrücke",
+  "type": "page",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "0af940ff",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": "22",
+          "row": "22",
+          "isLinked": true,
+          "size": 22
+        },
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "50",
+          "bottom": "70",
+          "left": "50",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "isLinked": false
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_align_items": "stretch",
+        "_css_classes": "bg-section-title",
+        "_title": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "65",
+          "right": "35",
+          "bottom": "65",
+          "left": "35",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#f0eee4"
+      },
+      "elements": [
+        {
+          "id": "5d8b8da5",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "BILDER & EINDRÜCKE",
+            "header_size": "p",
+            "title_color": "#65716a",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 10
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 10
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 10
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.15
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            },
+            "_css_classes": "bg-eyebrow"
+          },
+          "elements": []
+        },
+        {
+          "id": "79873501",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Momente, die nachklingen.",
+            "header_size": "h1",
+            "title_color": "#233c33",
+            "typography_typography": "custom",
+            "typography_font_family": "Gaustadt Serif",
+            "typography_font_weight": "400",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 56
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 48
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.15
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "6ec78816",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Auf der Bühne, hinter den Kulissen und miteinander. Hier ist Platz für die kleinen und großen Momente aus unserem Kapellenleben.</p>",
+            "text_color": "#65716a",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.8
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            }
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "155b3dfb",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": "30",
+          "row": "30",
+          "isLinked": true,
+          "size": 30
+        },
+        "padding": {
+          "unit": "px",
+          "top": "85",
+          "right": "50",
+          "bottom": "85",
+          "left": "50",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "isLinked": false
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_align_items": "stretch",
+        "_css_classes": "",
+        "_title": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "65",
+          "right": "35",
+          "bottom": "65",
+          "left": "35",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "2091719a",
+          "elType": "widget",
+          "widgetType": "image-gallery",
+          "settings": {
+            "wp_gallery": [
+              {
+                "bg_asset": "illustration-1"
+              },
+              {
+                "bg_asset": "illustration-2"
+              },
+              {
+                "bg_asset": "illustration-3"
+              }
+            ],
+            "gallery_columns": 3,
+            "thumbnail_size": "large",
+            "gallery_link": "file",
+            "open_lightbox": "yes",
+            "gallery_display_caption": "",
+            "image_spacing": "custom",
+            "image_spacing_custom": {
+              "unit": "px",
+              "size": 20
+            },
+            "__globals__": {},
+            "_css_classes": "bg-gallery",
+            "_title": "Bilder auswählen und ersetzen"
+          },
+          "elements": []
+        },
+        {
+          "id": "4b3c60cd",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Unsere Fotogalerie entsteht hier. Diese Bilder sind Illustrationen – echte Vereinsfotos folgen. Bis dahin findest du aktuelle Einblicke auf Instagram.</p>",
+            "text_color": "#65716a",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.8
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            }
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "0a518abf",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": "30",
+          "row": "30",
+          "isLinked": true,
+          "size": 30
+        },
+        "padding": {
+          "unit": "px",
+          "top": "48",
+          "right": "50",
+          "bottom": "48",
+          "left": "50",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "40",
+          "right": "25",
+          "bottom": "40",
+          "left": "25",
+          "isLinked": false
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_align_items": "stretch",
+        "_css_classes": "",
+        "_title": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "65",
+          "right": "35",
+          "bottom": "65",
+          "left": "35",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#183c34"
+      },
+      "elements": [
+        {
+          "id": "cc258bf9",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "column": "25",
+              "row": "25",
+              "isLinked": true,
+              "size": 25
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_align_items": "stretch",
+            "_css_classes": "",
+            "_title": ""
+          },
+          "elements": [
+            {
+              "id": "ebce2fe1",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "22",
+                  "row": "22",
+                  "isLinked": true,
+                  "size": 22
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 72
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_align_items": "stretch",
+                "_css_classes": "",
+                "_title": ""
+              },
+              "elements": [
+                {
+                  "id": "70430133",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "DEIN PLATZ IN DER KAPELLE",
+                    "header_size": "p",
+                    "title_color": "#dbc18a",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.15
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_css_classes": "bg-eyebrow"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "d821e260",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Kapellenleben zum Mitnehmen.",
+                    "header_size": "h2",
+                    "title_color": "#faf8f1",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Gaustadt Serif",
+                    "typography_font_weight": "400",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 36
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 36
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 32
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.15
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "e285826b",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Direkt von uns. Auf Instagram: @bk.gaustadt</p>",
+                    "text_color": "#c1cdbc",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.8
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "58ded2e0",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "22",
+                  "row": "22",
+                  "isLinked": true,
+                  "size": 22
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 25
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_align_items": "stretch",
+                "_css_classes": "",
+                "_title": "",
+                "flex_justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "f5d3af0e",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Zum Instagram-Profil ↗",
+                    "link": {
+                      "url": "https://www.instagram.com/bk.gaustadt/",
+                      "is_external": false
+                    },
+                    "background_color": "#faf8f1",
+                    "button_text_color": "#183c34",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "600",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "3",
+                      "right": "3",
+                      "bottom": "3",
+                      "left": "3",
+                      "isLinked": true
+                    },
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "15",
+                      "right": "23",
+                      "bottom": "15",
+                      "left": "23",
+                      "isLinked": false
+                    },
+                    "align": "left",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_element_width": "auto",
+                    "__globals__": {
+                      "typography_typography": "",
+                      "background_color": "",
+                      "button_text_color": ""
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

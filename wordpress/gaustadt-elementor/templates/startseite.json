@@ -1,0 +1,2521 @@
+{
+  "version": "0.4",
+  "title": "Startseite",
+  "type": "page",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "d4451269",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": "0",
+          "row": "0",
+          "isLinked": true,
+          "size": 0
+        },
+        "padding": {
+          "unit": "px",
+          "top": "35",
+          "right": "50",
+          "bottom": "35",
+          "left": "50",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "45",
+          "right": "20",
+          "bottom": "45",
+          "left": "20",
+          "isLinked": false
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_align_items": "stretch",
+        "_css_classes": "",
+        "_title": "Start: Heimat & Musik",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "65",
+          "right": "35",
+          "bottom": "65",
+          "left": "35",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#183c34"
+      },
+      "elements": [
+        {
+          "id": "6a09e531",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "column": "22",
+              "row": "22",
+              "isLinked": true,
+              "size": 22
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 55
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_align_items": "stretch",
+            "_css_classes": "",
+            "_title": "",
+            "flex_justify_content": "center"
+          },
+          "elements": [
+            {
+              "id": "0eea8c94",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "WIR SIND DIE BLASKAPELLE GAUSTADT",
+                "header_size": "p",
+                "title_color": "#dbc18a",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "title_color": ""
+                },
+                "_css_classes": "bg-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "b3fcb89f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Heimat im Herzen.<br><em style=\"color:#dbc18a\">Musik im Blut.</em>",
+                "header_size": "h1",
+                "title_color": "#faf8f1",
+                "typography_typography": "custom",
+                "typography_font_family": "Gaustadt Serif",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 68
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 40
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "title_color": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "3490a7e1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Wenn aus vielen Tönen ein Miteinander wird.<br>Entdecke unsere Kapelle und die Freude an der Blasmusik.</p>",
+                "text_color": "#ccd4c9",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "text_color": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "ef1ffae5",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "25",
+                  "row": "25",
+                  "isLinked": true,
+                  "size": 25
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_align_items": "stretch",
+                "_css_classes": "",
+                "_title": ""
+              },
+              "elements": [
+                {
+                  "id": "b44d83e5",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Unsere Kapelle →",
+                    "link": {
+                      "url": "@@link:kapelle@@",
+                      "is_external": false
+                    },
+                    "background_color": "#dbc18a",
+                    "button_text_color": "#183c34",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "600",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "3",
+                      "right": "3",
+                      "bottom": "3",
+                      "left": "3",
+                      "isLinked": true
+                    },
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "15",
+                      "right": "23",
+                      "bottom": "15",
+                      "left": "23",
+                      "isLinked": false
+                    },
+                    "align": "left",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_element_width": "auto",
+                    "__globals__": {
+                      "typography_typography": "",
+                      "background_color": "",
+                      "button_text_color": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "4db4edd7",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Live erleben ↗",
+                    "link": {
+                      "url": "@@link:termine@@",
+                      "is_external": false
+                    },
+                    "background_color": "#183c34",
+                    "button_text_color": "#faf8f1",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "600",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "3",
+                      "right": "3",
+                      "bottom": "3",
+                      "left": "3",
+                      "isLinked": true
+                    },
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "15",
+                      "right": "23",
+                      "bottom": "15",
+                      "left": "23",
+                      "isLinked": false
+                    },
+                    "align": "left",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_element_width": "auto",
+                    "__globals__": {
+                      "typography_typography": "",
+                      "background_color": "",
+                      "button_text_color": ""
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "64a2d703",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>DAHEIM IN GAUSTADT · BAMBERG</p>",
+                "text_color": "#bbc8b7",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "text_color": ""
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "bfa5e0d6",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "column": "22",
+              "row": "22",
+              "isLinked": true,
+              "size": 22
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 45
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_align_items": "stretch",
+            "_css_classes": "",
+            "_title": "",
+            "flex_justify_content": "center"
+          },
+          "elements": [
+            {
+              "id": "839f523e",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "bg_asset": "brass"
+                },
+                "image_size": "full",
+                "align": "center",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {},
+                "_css_classes": "bg-art"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d71551d6",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": "25",
+          "row": "25",
+          "isLinked": true,
+          "size": 25
+        },
+        "padding": {
+          "unit": "px",
+          "top": "22",
+          "right": "50",
+          "bottom": "22",
+          "left": "50",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "20",
+          "right": "20",
+          "bottom": "20",
+          "left": "20",
+          "isLinked": true
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_align_items": "stretch",
+        "_css_classes": "",
+        "_title": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "65",
+          "right": "35",
+          "bottom": "65",
+          "left": "35",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#f0eee4"
+      },
+      "elements": [
+        {
+          "id": "a9ac7636",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>♫ Musik, die Freude macht</p>",
+            "text_color": "#65716a",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.8
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "19539a53",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>♡ Gemeinschaft, die bleibt</p>",
+            "text_color": "#65716a",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.8
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "5a223e0a",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>⌖ Verwurzelt in Gaustadt</p>",
+            "text_color": "#65716a",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.8
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            }
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "73c8306c",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": "80",
+          "row": "80",
+          "isLinked": true,
+          "size": 80
+        },
+        "padding": {
+          "unit": "px",
+          "top": "85",
+          "right": "50",
+          "bottom": "85",
+          "left": "50",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "isLinked": false
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_align_items": "stretch",
+        "_css_classes": "",
+        "_title": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "65",
+          "right": "35",
+          "bottom": "65",
+          "left": "35",
+          "isLinked": false
+        },
+        "_element_id": "kennenlernen"
+      },
+      "elements": [
+        {
+          "id": "2ceb259c",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "column": "22",
+              "row": "22",
+              "isLinked": true,
+              "size": 22
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 46
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_align_items": "stretch",
+            "_css_classes": "",
+            "_title": ""
+          },
+          "elements": [
+            {
+              "id": "de725cf6",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "bg_asset": "together"
+                },
+                "image_size": "full",
+                "align": "center",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {}
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "3695408c",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "column": "22",
+              "row": "22",
+              "isLinked": true,
+              "size": 22
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 46
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_align_items": "stretch",
+            "_css_classes": "",
+            "_title": "",
+            "flex_justify_content": "center"
+          },
+          "elements": [
+            {
+              "id": "da61d56d",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "DIE MENSCHEN HINTER DER MUSIK",
+                "header_size": "p",
+                "title_color": "#65716a",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "title_color": ""
+                },
+                "_css_classes": "bg-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "81310414",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Mehr als Musik.<br>Ein Stück Zuhause.",
+                "header_size": "h2",
+                "title_color": "#233c33",
+                "typography_typography": "custom",
+                "typography_font_family": "Gaustadt Serif",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "title_color": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "665c03b6",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Blasmusik lebt von den Menschen, die sie machen. Von der Freude am Zusammenspielen und von Momenten, die man miteinander teilt.</p>",
+                "text_color": "#65716a",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "text_color": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "0f6e40a3",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Wir möchten dir zeigen, wer hinter der Blaskapelle Gaustadt steckt. Lerne uns kennen – oder finde selbst deinen Platz in der Kapelle.</p>",
+                "text_color": "#65716a",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "text_color": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "0c34603c",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Mehr über uns →",
+                "link": {
+                  "url": "@@link:kapelle@@",
+                  "is_external": false
+                },
+                "background_color": "#183c34",
+                "button_text_color": "#faf8f1",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "typography_font_weight": "600",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "3",
+                  "right": "3",
+                  "bottom": "3",
+                  "left": "3",
+                  "isLinked": true
+                },
+                "text_padding": {
+                  "unit": "px",
+                  "top": "15",
+                  "right": "23",
+                  "bottom": "15",
+                  "left": "23",
+                  "isLinked": false
+                },
+                "align": "left",
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_element_width": "auto",
+                "__globals__": {
+                  "typography_typography": "",
+                  "background_color": "",
+                  "button_text_color": ""
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "29330448",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": "30",
+          "row": "30",
+          "isLinked": true,
+          "size": 30
+        },
+        "padding": {
+          "unit": "px",
+          "top": "65",
+          "right": "50",
+          "bottom": "65",
+          "left": "50",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "isLinked": false
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_align_items": "stretch",
+        "_css_classes": "",
+        "_title": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "65",
+          "right": "35",
+          "bottom": "65",
+          "left": "35",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#f0eee4"
+      },
+      "elements": [
+        {
+          "id": "e5fbb848",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "SEHEN. HÖREN. DABEI SEIN.",
+            "header_size": "p",
+            "title_color": "#65716a",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 10
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 10
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 10
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.15
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            },
+            "_css_classes": "bg-eyebrow"
+          },
+          "elements": []
+        },
+        {
+          "id": "c32c4ab3",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Wir sehen uns vor der Bühne.",
+            "header_size": "h2",
+            "title_color": "#233c33",
+            "typography_typography": "custom",
+            "typography_font_family": "Gaustadt Serif",
+            "typography_font_weight": "400",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 32
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.15
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "f6cfd5aa",
+          "elType": "widget",
+          "widgetType": "gaustadt-events",
+          "settings": {
+            "source": "shared",
+            "single": "yes",
+            "empty_title": "Die nächsten Auftritte folgen.",
+            "empty_text": "Sobald Termine bestätigt sind, findest du sie hier. Bis dahin gibt’s Neuigkeiten auf Instagram.",
+            "__globals__": {}
+          },
+          "elements": []
+        },
+        {
+          "id": "4030888d",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Alle Termine →",
+            "link": {
+              "url": "@@link:termine@@",
+              "is_external": false
+            },
+            "background_color": "#183c34",
+            "button_text_color": "#faf8f1",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_font_weight": "600",
+            "border_radius": {
+              "unit": "px",
+              "top": "3",
+              "right": "3",
+              "bottom": "3",
+              "left": "3",
+              "isLinked": true
+            },
+            "text_padding": {
+              "unit": "px",
+              "top": "15",
+              "right": "23",
+              "bottom": "15",
+              "left": "23",
+              "isLinked": false
+            },
+            "align": "left",
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "_element_width": "auto",
+            "__globals__": {
+              "typography_typography": "",
+              "background_color": "",
+              "button_text_color": ""
+            }
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "e0679b8e",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": "30",
+          "row": "30",
+          "isLinked": true,
+          "size": 30
+        },
+        "padding": {
+          "unit": "px",
+          "top": "85",
+          "right": "50",
+          "bottom": "85",
+          "left": "50",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "isLinked": false
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_align_items": "stretch",
+        "_css_classes": "",
+        "_title": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "65",
+          "right": "35",
+          "bottom": "65",
+          "left": "35",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "8411200d",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "NOCH EIN BISSCHEN NÄHER DRAN",
+            "header_size": "p",
+            "title_color": "#65716a",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 10
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 10
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 10
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.15
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            },
+            "_css_classes": "bg-eyebrow"
+          },
+          "elements": []
+        },
+        {
+          "id": "256417d8",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Entdecke unsere Welt.",
+            "header_size": "h2",
+            "title_color": "#233c33",
+            "typography_typography": "custom",
+            "typography_font_family": "Gaustadt Serif",
+            "typography_font_weight": "400",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 32
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.15
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "f3177248",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "column": "25",
+              "row": "25",
+              "isLinked": true,
+              "size": 25
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_align_items": "stretch",
+            "_css_classes": "",
+            "_title": ""
+          },
+          "elements": [
+            {
+              "id": "985f342a",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "22",
+                  "row": "22",
+                  "isLinked": true,
+                  "size": 22
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_align_items": "stretch",
+                "_css_classes": "bg-card",
+                "_title": ""
+              },
+              "elements": [
+                {
+                  "id": "f4dcabe5",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "bg_asset": "illustration-1"
+                    },
+                    "image_size": "full",
+                    "align": "center",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {}
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "612e3fd8",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "BILDER & EINDRÜCKE",
+                    "header_size": "p",
+                    "title_color": "#65716a",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.15
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_css_classes": "bg-eyebrow"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "7f05a2d0",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Ein Blick ins Kapellenleben.",
+                    "header_size": "h3",
+                    "title_color": "#233c33",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Gaustadt Serif",
+                    "typography_font_weight": "400",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 25
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 25
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 25
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.15
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "4853dd89",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Unsere Bildergalerie und aktuelle Einblicke.</p>",
+                    "text_color": "#65716a",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.8
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "afa4799e",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Zur Galerie ↗",
+                    "link": {
+                      "url": "@@link:galerie@@",
+                      "is_external": false
+                    },
+                    "background_color": "#183c34",
+                    "button_text_color": "#faf8f1",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "600",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "3",
+                      "right": "3",
+                      "bottom": "3",
+                      "left": "3",
+                      "isLinked": true
+                    },
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "15",
+                      "right": "23",
+                      "bottom": "15",
+                      "left": "23",
+                      "isLinked": false
+                    },
+                    "align": "left",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_element_width": "auto",
+                    "__globals__": {
+                      "typography_typography": "",
+                      "background_color": "",
+                      "button_text_color": ""
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "8d79cb79",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "22",
+                  "row": "22",
+                  "isLinked": true,
+                  "size": 22
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_align_items": "stretch",
+                "_css_classes": "bg-card",
+                "_title": ""
+              },
+              "elements": [
+                {
+                  "id": "094dce61",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "bg_asset": "illustration-2"
+                    },
+                    "image_size": "full",
+                    "align": "center",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {}
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "c57f64cf",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "MITMACHEN",
+                    "header_size": "p",
+                    "title_color": "#65716a",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.15
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_css_classes": "bg-eyebrow"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "e3b73e03",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Spiel mit. Sei dabei.",
+                    "header_size": "h3",
+                    "title_color": "#233c33",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Gaustadt Serif",
+                    "typography_font_weight": "400",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 25
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 25
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 25
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.15
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "d225634a",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Ein Instrument, viele Möglichkeiten, ein Miteinander.</p>",
+                    "text_color": "#65716a",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.8
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "c2f7cba5",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Mitmachen ↗",
+                    "link": {
+                      "url": "@@link:mitmachen@@",
+                      "is_external": false
+                    },
+                    "background_color": "#183c34",
+                    "button_text_color": "#faf8f1",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "600",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "3",
+                      "right": "3",
+                      "bottom": "3",
+                      "left": "3",
+                      "isLinked": true
+                    },
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "15",
+                      "right": "23",
+                      "bottom": "15",
+                      "left": "23",
+                      "isLinked": false
+                    },
+                    "align": "left",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_element_width": "auto",
+                    "__globals__": {
+                      "typography_typography": "",
+                      "background_color": "",
+                      "button_text_color": ""
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "7fa12dbf",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "22",
+                  "row": "22",
+                  "isLinked": true,
+                  "size": 22
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "22",
+                  "right": "22",
+                  "bottom": "22",
+                  "left": "22",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 31
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_align_items": "stretch",
+                "_css_classes": "bg-card",
+                "_title": ""
+              },
+              "elements": [
+                {
+                  "id": "1dedd344",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "bg_asset": "illustration-3"
+                    },
+                    "image_size": "full",
+                    "align": "center",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {}
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "2b2b6093",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "AUFTRITT ANFRAGEN",
+                    "header_size": "p",
+                    "title_color": "#65716a",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.15
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_css_classes": "bg-eyebrow"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b6df2c4e",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Ihr feiert. Wir spielen?",
+                    "header_size": "h3",
+                    "title_color": "#233c33",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Gaustadt Serif",
+                    "typography_font_weight": "400",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 25
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 25
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 25
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.15
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b011cf51",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Erzählt uns von eurer Veranstaltung.</p>",
+                    "text_color": "#65716a",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.8
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "9f7e16c5",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Auftritt anfragen ↗",
+                    "link": {
+                      "url": "@@link:kontakt@@?anliegen=auftritt",
+                      "is_external": false
+                    },
+                    "background_color": "#183c34",
+                    "button_text_color": "#faf8f1",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "600",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "3",
+                      "right": "3",
+                      "bottom": "3",
+                      "left": "3",
+                      "isLinked": true
+                    },
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "15",
+                      "right": "23",
+                      "bottom": "15",
+                      "left": "23",
+                      "isLinked": false
+                    },
+                    "align": "left",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_element_width": "auto",
+                    "__globals__": {
+                      "typography_typography": "",
+                      "background_color": "",
+                      "button_text_color": ""
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2e2f378b",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": "30",
+          "row": "30",
+          "isLinked": true,
+          "size": 30
+        },
+        "padding": {
+          "unit": "px",
+          "top": "48",
+          "right": "50",
+          "bottom": "48",
+          "left": "50",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "40",
+          "right": "25",
+          "bottom": "40",
+          "left": "25",
+          "isLinked": false
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_align_items": "stretch",
+        "_css_classes": "",
+        "_title": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "65",
+          "right": "35",
+          "bottom": "65",
+          "left": "35",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#183c34"
+      },
+      "elements": [
+        {
+          "id": "394c316b",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "column": "25",
+              "row": "25",
+              "isLinked": true,
+              "size": 25
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_align_items": "stretch",
+            "_css_classes": "",
+            "_title": ""
+          },
+          "elements": [
+            {
+              "id": "926ba0f3",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "22",
+                  "row": "22",
+                  "isLinked": true,
+                  "size": 22
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 72
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_align_items": "stretch",
+                "_css_classes": "",
+                "_title": ""
+              },
+              "elements": [
+                {
+                  "id": "ac40e56a",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "DEIN PLATZ IN DER KAPELLE",
+                    "header_size": "p",
+                    "title_color": "#dbc18a",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.15
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_css_classes": "bg-eyebrow"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "e32a7a73",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Zusammen klingt’s besser.",
+                    "header_size": "h2",
+                    "title_color": "#faf8f1",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Gaustadt Serif",
+                    "typography_font_weight": "400",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 36
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 36
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 32
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.15
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "7aedb0f2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Du spielst ein Instrument oder möchtest anfangen? Lass uns ins Gespräch kommen.</p>",
+                    "text_color": "#c1cdbc",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.8
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "6399387d",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "22",
+                  "row": "22",
+                  "isLinked": true,
+                  "size": 22
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 25
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_align_items": "stretch",
+                "_css_classes": "",
+                "_title": "",
+                "flex_justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "6d3f935d",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Mitmachen →",
+                    "link": {
+                      "url": "@@link:mitmachen@@",
+                      "is_external": false
+                    },
+                    "background_color": "#faf8f1",
+                    "button_text_color": "#183c34",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "600",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "3",
+                      "right": "3",
+                      "bottom": "3",
+                      "left": "3",
+                      "isLinked": true
+                    },
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "15",
+                      "right": "23",
+                      "bottom": "15",
+                      "left": "23",
+                      "isLinked": false
+                    },
+                    "align": "left",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_element_width": "auto",
+                    "__globals__": {
+                      "typography_typography": "",
+                      "background_color": "",
+                      "button_text_color": ""
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

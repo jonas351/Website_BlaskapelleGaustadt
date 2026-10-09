@@ -1,4 +1,16 @@
-# Blaskapelle Gaustadt
+# Blaskapelle Gaustadt – WordPress & Elementor
+
+Die Website wird jetzt mit **WordPress und Elementor Free** gepflegt. Texte, Bilder, Termine, Menü und gemeinsame Kopf-/Fußbereiche sind über Elementor bearbeitbar.
+
+- **Installierbares Theme:** `wordpress/releases/gaustadt-elementor.zip`.
+- **Einrichtung und Pflege:** [Schritt-für-Schritt-Anleitung](wordpress/ANLEITUNG.md).
+- **Technische Entwicklung und Tests:** [Entwicklungsanleitung](wordpress/ENTWICKLUNG.md).
+
+Für die einmalige Einrichtung in WordPress unter **Design → Themes → Theme hinzufügen → Theme hochladen** die Theme-ZIP installieren und aktivieren. Dann im Menü **Gaustadt** Elementor bereitstellen und Starterseiten anlegen. Seiten mit Elementor bearbeiten und nach dem Ersetzen der Platzhalter veröffentlichen. Elementor Pro wird nicht benötigt. Der Starterimport erhält vorhandene Seiten und überschreibt beim Wiederholen keine eigenen Bearbeitungen.
+
+Die ZIP ist zum Hochladen in WordPress gedacht. Auf dem Vereinsserver muss dafür WordPress laufen; dort ist diese Website noch nicht installiert. Die folgenden Astro-Dateien bleiben als ursprünglicher Design-Prototyp erhalten.
+
+## Ursprünglicher Astro-Prototyp
 
 Responsive, statische Vereinswebsite mit Astro. Seiten: Startseite, Kapelle, Termine, Galerie, Mitmachen, Kontakt, Impressum und Datenschutz; eigene 404-Seite. Keine Datenbank, kein Tracking, keine extern geladenen Schriftarten und keine Instagram-Einbettung.
 

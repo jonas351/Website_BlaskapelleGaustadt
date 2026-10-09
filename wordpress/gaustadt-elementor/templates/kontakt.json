@@ -1,0 +1,732 @@
+{
+  "version": "0.4",
+  "title": "Kontakt",
+  "type": "page",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "cd4b2895",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": "22",
+          "row": "22",
+          "isLinked": true,
+          "size": 22
+        },
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "50",
+          "bottom": "70",
+          "left": "50",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "isLinked": false
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_align_items": "stretch",
+        "_css_classes": "bg-section-title",
+        "_title": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "65",
+          "right": "35",
+          "bottom": "65",
+          "left": "35",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#f0eee4"
+      },
+      "elements": [
+        {
+          "id": "cbc84917",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "KONTAKT",
+            "header_size": "p",
+            "title_color": "#65716a",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 10
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 10
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 10
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.15
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            },
+            "_css_classes": "bg-eyebrow"
+          },
+          "elements": []
+        },
+        {
+          "id": "1f781ce8",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Der gute Ton beginnt mit einem Hallo.",
+            "header_size": "h1",
+            "title_color": "#233c33",
+            "typography_typography": "custom",
+            "typography_font_family": "Gaustadt Serif",
+            "typography_font_weight": "400",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 56
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 48
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.15
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "b2947f8a",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Eine Frage, eine Idee oder ein Fest in Planung? Wir freuen uns, von dir zu hören.</p>",
+            "text_color": "#65716a",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.8
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            }
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "e6a5bd38",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": "65",
+          "row": "65",
+          "isLinked": true,
+          "size": 65
+        },
+        "padding": {
+          "unit": "px",
+          "top": "85",
+          "right": "50",
+          "bottom": "85",
+          "left": "50",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "isLinked": false
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_align_items": "stretch",
+        "_css_classes": "",
+        "_title": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "65",
+          "right": "35",
+          "bottom": "65",
+          "left": "35",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "72c61eeb",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "column": "22",
+              "row": "22",
+              "isLinked": true,
+              "size": 22
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 34
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_align_items": "stretch",
+            "_css_classes": "",
+            "_title": ""
+          },
+          "elements": [
+            {
+              "id": "8339d3c0",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "SO ERREICHST DU UNS",
+                "header_size": "p",
+                "title_color": "#65716a",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "title_color": ""
+                },
+                "_css_classes": "bg-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "2ad60aba",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Lass uns reden.",
+                "header_size": "h2",
+                "title_color": "#233c33",
+                "typography_typography": "custom",
+                "typography_font_family": "Gaustadt Serif",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "title_color": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "16bfa0b0",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Für Auftritte, fürs Mitspielen und für alles, was du uns gerne sagen möchtest.</p>",
+                "text_color": "#65716a",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "text_color": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "8b9bf75f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "E-Mail",
+                "header_size": "h3",
+                "title_color": "#233c33",
+                "typography_typography": "custom",
+                "typography_font_family": "Gaustadt Serif",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "title_color": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "a291374f",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>[gaustadt_email]</p>",
+                "text_color": "#65716a",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "text_color": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "01adf81e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Instagram",
+                "header_size": "h3",
+                "title_color": "#233c33",
+                "typography_typography": "custom",
+                "typography_font_family": "Gaustadt Serif",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "title_color": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "7fe28dcd",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><a href=\"https://www.instagram.com/bk.gaustadt/\" target=\"_blank\" rel=\"noopener noreferrer\">@bk.gaustadt ↗</a></p>",
+                "text_color": "#65716a",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "text_color": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "12596724",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Unser Probenraum",
+                "header_size": "h3",
+                "title_color": "#233c33",
+                "typography_typography": "custom",
+                "typography_font_family": "Gaustadt Serif",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "title_color": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "0e16602f",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>[Probenraum und Adresse ergänzen]</p>",
+                "text_color": "#7c6342",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "text_color": ""
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "ff944942",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "column": "22",
+              "row": "22",
+              "isLinked": true,
+              "size": 22
+            },
+            "padding": {
+              "unit": "px",
+              "top": "35",
+              "right": "35",
+              "bottom": "35",
+              "left": "35",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "25",
+              "right": "18",
+              "bottom": "25",
+              "left": "18",
+              "isLinked": false
+            },
+            "width": {
+              "unit": "%",
+              "size": 59
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_align_items": "stretch",
+            "_css_classes": "bg-card",
+            "_title": "",
+            "background_background": "classic",
+            "background_color": "#fffefa"
+          },
+          "elements": [
+            {
+              "id": "948b7b41",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Was liegt dir auf dem Herzen?",
+                "header_size": "h2",
+                "title_color": "#233c33",
+                "typography_typography": "custom",
+                "typography_font_family": "Gaustadt Serif",
+                "typography_font_weight": "400",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "title_color": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "db209921",
+              "elType": "widget",
+              "widgetType": "gaustadt-inquiry",
+              "settings": {
+                "email": "",
+                "privacy_link": {
+                  "url": "@@link:datenschutz@@"
+                },
+                "__globals__": {},
+                "_title": "Kontakt-E-Mail und Anfragehilfe"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,890 @@
+{
+  "version": "0.4",
+  "title": "Datenschutz",
+  "type": "page",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "87800987",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": "22",
+          "row": "22",
+          "isLinked": true,
+          "size": 22
+        },
+        "padding": {
+          "unit": "px",
+          "top": "70",
+          "right": "50",
+          "bottom": "70",
+          "left": "50",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "isLinked": false
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_align_items": "stretch",
+        "_css_classes": "bg-section-title",
+        "_title": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "65",
+          "right": "35",
+          "bottom": "65",
+          "left": "35",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#f0eee4"
+      },
+      "elements": [
+        {
+          "id": "9ac73d96",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "RECHTLICHES",
+            "header_size": "p",
+            "title_color": "#65716a",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 10
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 10
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 10
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.15
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            },
+            "_css_classes": "bg-eyebrow"
+          },
+          "elements": []
+        },
+        {
+          "id": "12af821f",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Datenschutz",
+            "header_size": "h1",
+            "title_color": "#233c33",
+            "typography_typography": "custom",
+            "typography_font_family": "Gaustadt Serif",
+            "typography_font_weight": "400",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 56
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 48
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 40
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.15
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "b3081611",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Informationen zum Umgang mit personenbezogenen Daten auf dieser Website.</p>",
+            "text_color": "#65716a",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.8
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            }
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "4b7216f8",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": "30",
+          "row": "30",
+          "isLinked": true,
+          "size": 30
+        },
+        "padding": {
+          "unit": "px",
+          "top": "85",
+          "right": "50",
+          "bottom": "85",
+          "left": "50",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "isLinked": false
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_align_items": "stretch",
+        "_css_classes": "bg-legal",
+        "_title": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 850
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "65",
+          "right": "35",
+          "bottom": "65",
+          "left": "35",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "9dbe3fac",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "ENTWURF – BETRIEB UND HOSTING ERGÄNZEN",
+            "header_size": "p",
+            "title_color": "#7c6342",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 10
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 10
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 10
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.15
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            },
+            "_css_classes": "bg-eyebrow"
+          },
+          "elements": []
+        },
+        {
+          "id": "45f32286",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Diese Vorlage beschreibt den technischen Aufbau. Verantwortliche, Hosting, Datenverarbeitung und Rechtsgrundlagen müssen vor Veröffentlichung geprüft und vervollständigt werden.</p>",
+            "text_color": "#7c6342",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.8
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "27ba36d1",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "1. Verantwortlicher",
+            "header_size": "h2",
+            "title_color": "#233c33",
+            "typography_typography": "custom",
+            "typography_font_family": "Gaustadt Serif",
+            "typography_font_weight": "400",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.15
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "71090f06",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>[Vollständiger Vereinsname und Rechtsform]<br>[Adresse und vertretungsberechtigte Personen]<br>Kontakt: [gaustadt_email]</p>",
+            "text_color": "#65716a",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.8
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "6297acdb",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "2. Hosting und WordPress",
+            "header_size": "h2",
+            "title_color": "#233c33",
+            "typography_typography": "custom",
+            "typography_font_family": "Gaustadt Serif",
+            "typography_font_weight": "400",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.15
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "40944c6c",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Beim Aufruf der Website werden technisch erforderliche Verbindungsdaten, darunter die IP-Adresse, an den Server übermittelt. Der tatsächliche Hosting-Anbieter und seine Protokollierung sind zu ergänzen. WordPress und Elementor verarbeiten für Anmeldung, Verwaltung und Bearbeitung der Website Daten und können hierbei Cookies und lokale Browser-Speicher verwenden. Besucher benötigen für die hier angebotenen Inhalte kein Benutzerkonto.</p>",
+            "text_color": "#65716a",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.8
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "7fa1b6f1",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>[Hosting-Anbieter, Serverstandort, Empfänger, Zwecke, Rechtsgrundlagen, Speicherdauer, eingesetzte Plugins und gegebenenfalls Auftragsverarbeitung ergänzen]</p>",
+            "text_color": "#7c6342",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.8
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "958a49e0",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "3. Kontaktaufnahme",
+            "header_size": "h2",
+            "title_color": "#233c33",
+            "typography_typography": "custom",
+            "typography_font_family": "Gaustadt Serif",
+            "typography_font_weight": "400",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.15
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "c8c34960",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Die Anfragehilfe stellt die Eingaben ausschließlich im Browser zur Nachricht zusammen. Sie übermittelt sie nicht an einen Formularserver und speichert sie nicht dauerhaft im Browser. Über die Kopierfunktion kann der Text in die Zwischenablage übernommen werden. Erst wenn du die Nachricht selbst per E-Mail oder Instagram sendest, wird sie über den gewählten Dienst übermittelt. Für die Bearbeitung eingehender Anfragen werden die mitgeteilten Angaben benötigt.</p>",
+            "text_color": "#65716a",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.8
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "5eb92fa5",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>[Rechtsgrundlagen, Empfänger und Löschfristen für eingehende Kontaktanfragen ergänzen]</p>",
+            "text_color": "#7c6342",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.8
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "974560fa",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "4. Instagram und externe Links",
+            "header_size": "h2",
+            "title_color": "#233c33",
+            "typography_typography": "custom",
+            "typography_font_family": "Gaustadt Serif",
+            "typography_font_weight": "400",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.15
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "0bd237a6",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Diese Website verlinkt auf das Instagram-Profil der Kapelle. Instagram-Beiträge werden nicht eingebettet. Wenn du dem Link folgst, gelten die Datenschutzinformationen des jeweiligen Anbieters.</p>",
+            "text_color": "#65716a",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.8
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "f55034db",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "5. Schriftarten, Dienste und Cookies",
+            "header_size": "h2",
+            "title_color": "#233c33",
+            "typography_typography": "custom",
+            "typography_font_family": "Gaustadt Serif",
+            "typography_font_weight": "400",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.15
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "6f97ac05",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Die gelieferten Seiten verwenden die Systemschriften Georgia und Arial. Es ist kein Analyse- oder Werbedienst Bestandteil dieses Themes. WordPress-, Elementor-, Hosting- und Plugin-Einstellungen können zusätzliche Dienste oder Datenverarbeitung aktivieren; der tatsächliche Betrieb muss geprüft werden. Das Theme unterbindet das externe Laden von Google Fonts durch Elementor. Bei zusätzlichen Plugins oder eigenen Erweiterungen muss dies erneut geprüft werden.</p>",
+            "text_color": "#65716a",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.8
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "ae6ebca3",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>[Tatsächliche Cookies, lokale Speicher, Dienste und gegebenenfalls erforderliche Einwilligungen ergänzen]</p>",
+            "text_color": "#7c6342",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.8
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "007e5f40",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "6. Deine Rechte",
+            "header_size": "h2",
+            "title_color": "#233c33",
+            "typography_typography": "custom",
+            "typography_font_family": "Gaustadt Serif",
+            "typography_font_weight": "400",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 28
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.15
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "6b4c97e1",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Unter den gesetzlichen Voraussetzungen hast du insbesondere Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit. Du kannst einer Verarbeitung widersprechen und eine Einwilligung für die Zukunft widerrufen. Außerdem kannst du dich bei einer Datenschutzaufsichtsbehörde beschweren.</p>",
+            "text_color": "#65716a",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.8
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "bfcbce7c",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>[Zuständige Datenschutzaufsichtsbehörde und Kontaktweg ergänzen]</p>",
+            "text_color": "#7c6342",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.8
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            }
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}

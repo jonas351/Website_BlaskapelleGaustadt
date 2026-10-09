@@ -1,0 +1,793 @@
+{
+  "version": "0.4",
+  "title": "Fußbereich",
+  "type": "section",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "6b0db517",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": "30",
+          "row": "30",
+          "isLinked": true,
+          "size": 30
+        },
+        "padding": {
+          "unit": "px",
+          "top": "55",
+          "right": "50",
+          "bottom": "55",
+          "left": "50",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "40",
+          "right": "20",
+          "bottom": "40",
+          "left": "20",
+          "isLinked": false
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_align_items": "stretch",
+        "_css_classes": "",
+        "_title": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "65",
+          "right": "35",
+          "bottom": "65",
+          "left": "35",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#eeeee3"
+      },
+      "elements": [
+        {
+          "id": "52ccdac2",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "column": "25",
+              "row": "25",
+              "isLinked": true,
+              "size": 25
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_align_items": "stretch",
+            "_css_classes": "",
+            "_title": ""
+          },
+          "elements": [
+            {
+              "id": "6a0e4904",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "22",
+                  "row": "22",
+                  "isLinked": true,
+                  "size": 22
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 25
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_align_items": "stretch",
+                "_css_classes": "",
+                "_title": ""
+              },
+              "elements": [
+                {
+                  "id": "c05714fc",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "<small>BLASKAPELLE</small>GAUSTADT",
+                    "header_size": "h3",
+                    "title_color": "#183c34",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Gaustadt Serif",
+                    "typography_font_weight": "400",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 23
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 23
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 23
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.15
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_css_classes": "bg-brand"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "6c2b95d4",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Heimat im Herzen.<br>Musik im Blut.</p>",
+                    "text_color": "#65716a",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.8
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "18645c63",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "22",
+                  "row": "22",
+                  "isLinked": true,
+                  "size": 22
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 21
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_align_items": "stretch",
+                "_css_classes": "bg-footer-links",
+                "_title": ""
+              },
+              "elements": [
+                {
+                  "id": "c583ef8b",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Entdecken",
+                    "header_size": "p",
+                    "title_color": "#65716a",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.15
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_css_classes": "bg-eyebrow"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "7aa84505",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><a href=\"@@link:kapelle@@\">Die Kapelle</a></p><p><a href=\"@@link:termine@@\">Termine & Auftritte</a></p><p><a href=\"@@link:galerie@@\">Bilder & Eindrücke</a></p>",
+                    "text_color": "#65716a",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.8
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "91aebb10",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "22",
+                  "row": "22",
+                  "isLinked": true,
+                  "size": 22
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 21
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_align_items": "stretch",
+                "_css_classes": "bg-footer-links",
+                "_title": ""
+              },
+              "elements": [
+                {
+                  "id": "fd18f38e",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Zusammenkommen",
+                    "header_size": "p",
+                    "title_color": "#65716a",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.15
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_css_classes": "bg-eyebrow"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "d53ae379",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><a href=\"@@link:mitmachen@@\">Mitmachen</a></p><p><a href=\"@@link:kontakt@@\">Auftritt anfragen</a></p><p><a href=\"@@link:kontakt@@\">Kontakt</a></p>",
+                    "text_color": "#65716a",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.8
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "e02169dc",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "22",
+                  "row": "22",
+                  "isLinked": true,
+                  "size": 22
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 27
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_align_items": "stretch",
+                "_css_classes": "",
+                "_title": ""
+              },
+              "elements": [
+                {
+                  "id": "457208c9",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Immer in Verbindung",
+                    "header_size": "p",
+                    "title_color": "#65716a",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 10
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.15
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_css_classes": "bg-eyebrow"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "9863ccc2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Neuigkeiten und kleine Einblicke gibt’s auch auf Instagram.</p>",
+                    "text_color": "#65716a",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.8
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "d6fede80",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "@bk.gaustadt ↗",
+                    "link": {
+                      "url": "https://www.instagram.com/bk.gaustadt/",
+                      "is_external": true
+                    },
+                    "background_color": "#183c34",
+                    "button_text_color": "#faf8f1",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_font_weight": "600",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "3",
+                      "right": "3",
+                      "bottom": "3",
+                      "left": "3",
+                      "isLinked": true
+                    },
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "15",
+                      "right": "23",
+                      "bottom": "15",
+                      "left": "23",
+                      "isLinked": false
+                    },
+                    "align": "left",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_element_width": "auto",
+                    "__globals__": {
+                      "typography_typography": "",
+                      "background_color": "",
+                      "button_text_color": ""
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "09a57228",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "column": "20",
+              "row": "20",
+              "isLinked": true,
+              "size": 20
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_align_items": "stretch",
+            "_css_classes": "",
+            "_title": ""
+          },
+          "elements": [
+            {
+              "id": "494d322b",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Blaskapelle Gaustadt</p>",
+                "text_color": "#65716a",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "text_color": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "570887ff",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><a href=\"@@link:impressum@@\">Impressum</a> · <a href=\"@@link:datenschutz@@\">Datenschutz</a></p>",
+                "text_color": "#65716a",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "text_color": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "9cf3a6de",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Mit ♡ für Gaustadt.</p>",
+                "text_color": "#65716a",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.8
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "text_color": ""
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
