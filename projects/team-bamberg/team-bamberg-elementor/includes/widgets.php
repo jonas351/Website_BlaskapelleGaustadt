@@ -126,17 +126,17 @@ class TeamBamberg_Inquiry_Widget extends \Elementor\Widget_Base {
         $privacy = $s['privacy_link']['url'] ?? '';
         ?>
         <div class="tb-inquiry" data-tb-inquiry data-email="<?php echo esc_attr($email); ?>">
-            <p class="tb-inquiry-note"><?php echo $email ? 'Bereite deine Anfrage vor und öffne sie anschließend in deinem E-Mail-Programm.' : 'Bereite deine Nachricht vor. Du kannst den Text anschließend kopieren. Eine bestätigte Empfängeradresse muss noch ergänzt werden.'; ?></p>
+            <p class="tb-inquiry-note"><?php echo $email ? 'Schreiben Sie uns Ihr Anliegen. Anschließend öffnen Sie die vorbereitete Nachricht in Ihrem E-Mail-Programm.' : 'Kontaktvorschau: Schreiben Sie Ihr Anliegen und kopieren Sie anschließend den vorbereiteten Text. Die Empfängeradresse wird noch ergänzt.'; ?></p>
             <noscript><p>Zum Vorbereiten der Nachricht wird JavaScript benötigt. Die Telefonnummern stehen auf dieser Seite.</p></noscript>
             <form><fieldset disabled>
-                <div class="tb-form-row"><label for="<?php echo esc_attr($id); ?>-name">Dein Name *<input id="<?php echo esc_attr($id); ?>-name" name="name" autocomplete="name" required maxlength="120" placeholder="Vor- und Nachname"></label><label for="<?php echo esc_attr($id); ?>-email">Deine E-Mail *<input id="<?php echo esc_attr($id); ?>-email" name="email" type="email" autocomplete="email" required maxlength="254" placeholder="Für unsere Rückmeldung"></label></div>
+                <div class="tb-form-row"><label for="<?php echo esc_attr($id); ?>-name">Ihr Name *<input id="<?php echo esc_attr($id); ?>-name" name="name" autocomplete="name" required maxlength="120" placeholder="Vor- und Nachname"></label><label for="<?php echo esc_attr($id); ?>-email">Ihre E-Mail *<input id="<?php echo esc_attr($id); ?>-email" name="email" type="email" autocomplete="email" required maxlength="254" placeholder="name@beispiel.de"></label></div>
                 <label for="<?php echo esc_attr($id); ?>-subject">Worum geht’s? *<select id="<?php echo esc_attr($id); ?>-subject" name="subject" required><option value="Allgemeine Anfrage">Eine allgemeine Frage</option><option value="Stadtpolitik">Eine Frage zur Stadtpolitik</option><option value="Mitmachen">Mitglied werden</option><option value="Unterstützung">Die CSU Bamberg unterstützen</option></select></label>
-                <label for="<?php echo esc_attr($id); ?>-message">Deine Nachricht *<textarea id="<?php echo esc_attr($id); ?>-message" name="message" rows="6" required minlength="10" maxlength="5000" placeholder="Erzähl uns ein bisschen mehr …"></textarea></label>
-                <p class="tb-inquiry-note">Deine Angaben werden nur im Browser zusammengestellt. Es wird noch nichts gesendet. <?php if ($privacy) { ?><a href="<?php echo esc_url($privacy); ?>">Datenschutz</a><?php } ?></p>
-                <button class="tb-button" type="submit"><?php echo esc_html($s['button_text']); ?></button><p class="tb-inquiry-note">* Pflichtfelder</p>
+                <label for="<?php echo esc_attr($id); ?>-message">Ihre Nachricht *<textarea id="<?php echo esc_attr($id); ?>-message" name="message" rows="6" required minlength="10" maxlength="5000" placeholder="Was beschäftigt Sie? Erzählen Sie uns von Ihrer Frage oder Idee …"></textarea></label>
+                <p class="tb-inquiry-note">Ihre Angaben werden hier nur vorbereitet. Es wird nichts automatisch gesendet. <?php if ($privacy) { ?><a href="<?php echo esc_url($privacy); ?>">Datenschutz</a><?php } ?></p>
+                <div class="tb-form-foot"><button class="tb-button" type="submit"><?php echo esc_html($s['button_text']); ?></button><p class="tb-inquiry-note">* Pflichtfelder</p></div>
             </fieldset></form>
             <section class="tb-inquiry-result" hidden aria-labelledby="<?php echo esc_attr($id); ?>-result">
-                <h3 id="<?php echo esc_attr($id); ?>-result" tabindex="-1">Deine Nachricht ist vorbereitet.</h3><p>Es wurde noch nichts gesendet. Prüfe den Text und sende ihn anschließend an uns.</p>
+                <h3 id="<?php echo esc_attr($id); ?>-result" tabindex="-1">Ihre Nachricht ist vorbereitet.</h3><p>Es wurde noch nichts gesendet. Prüfen Sie den Text und senden Sie ihn anschließend über einen bestätigten Kontaktweg.</p>
                 <textarea class="tb-prepared" rows="8" readonly aria-label="Vorbereitete Nachricht"></textarea>
                 <div class="tb-result-actions"><button type="button" class="tb-button">Nachricht kopieren</button><?php if ($email) { ?><a data-tb-send href="<?php echo esc_attr('mailto:' . $email); ?>">E-Mail-Programm öffnen →</a><?php } ?></div>
                 <p class="tb-result-status" role="status" aria-live="polite"></p>

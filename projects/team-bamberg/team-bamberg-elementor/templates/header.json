@@ -215,7 +215,7 @@
         "flex_align_items": "stretch",
         "css_classes": "tb-header-main",
         "background_background": "classic",
-        "background_color": "#ffffff",
+        "background_color": "#f1ede5",
         "boxed_width": {
           "unit": "px",
           "size": 1240
@@ -583,7 +583,7 @@
                     "items": [
                       {
                         "_id": "fbc2d321",
-                        "label": "Über uns",
+                        "label": "Menschen",
                         "link": {
                           "url": "@@link:kreisvorstand-2@@"
                         }

@@ -37,6 +37,14 @@ function team_bamberg_setup_screen() {
     echo '<h2>Website anlegen</h2><p>' . count($manifest['pages']) . ' Seiten, Kopf- und Fußbereich sowie Originalbilder und Dokumente importieren. Seiten starten als <strong>Entwürfe</strong>. Bestehende Seiten und Bearbeitungen werden beim Wiederholen erhalten.</p>';
     echo '<button type="button" class="button button-primary" id="team-bamberg-import" data-url="' . esc_url(admin_url('admin-ajax.php')) . '" data-nonce="' . esc_attr(wp_create_nonce('team_bamberg_import')) . '">' . ($state ? 'Import fortsetzen / fehlende Seiten ergänzen' : 'Website-Seiten anlegen') . '</button><p id="team-bamberg-progress" role="status" aria-live="polite"></p><noscript><p>Für den Import JavaScript aktivieren.</p></noscript>';
     if (!empty($state['pages'])) {
+        if (($state['design_version'] ?? '') !== TEAM_BAMBERG_THEME_VERSION) {
+            echo '<h2>Neue, persönlichere Gestaltung</h2><p>Übernimmt die neuen Vorlagen für alle importierten Team-Bamberg-Seiten sowie Kopf- und Fußbereich. <strong>Ersetzt dabei die bisherigen Elementor-Texte und Layouts.</strong> Diese Inhalte werden vorher gesichert und können unten wiederhergestellt werden. Eingetragene Termine, Kontakt-Empfängeradresse und Menü bleiben erhalten. Andere WordPress-Seiten bleiben unverändert.</p><form method="post" action="' . esc_url(admin_url('admin-post.php')) . '"><input type="hidden" name="action" value="team_bamberg_redesign">';
+            wp_nonce_field('team_bamberg_redesign'); submit_button('Neue Gestaltung übernehmen', 'primary', 'submit', false); echo '</form>';
+        } else { echo '<p><strong>Die neue Gestaltung ist eingerichtet.</strong> Alle Inhalte können weiterhin direkt in Elementor bearbeitet werden.</p>'; }
+        if (get_option('team_bamberg_design_backup')) {
+            echo '<form style="margin-top:12px" method="post" action="' . esc_url(admin_url('admin-post.php')) . '"><input type="hidden" name="action" value="team_bamberg_restore_design">';
+            wp_nonce_field('team_bamberg_restore_design'); submit_button('Bisherige Seiteninhalte wiederherstellen', 'secondary', 'submit', false); echo '</form>';
+        }
         echo '<h2>Seiten bearbeiten</h2><table class="widefat striped"><thead><tr><th>Seite</th><th>Status</th><th>Bearbeiten</th></tr></thead><tbody>';
         foreach ($manifest['pages'] as $slug => $page) {
             $id = (int) ($state['pages'][$slug] ?? 0);
@@ -66,19 +74,29 @@ function team_bamberg_setup_screen() {
     echo '</ul><p><strong>Kontakt:</strong> Die Anfragehilfe bereitet Text zum Kopieren oder für das E-Mail-Programm vor. Kein automatischer Versand. Die bestätigte Empfängeradresse im Widget „Team Bamberg Anfrage“ auf der Kontaktseite eintragen.</p><p><strong>Neue Termine:</strong> Auf der Termineseite im Widget „Team Bamberg Termine“ eintragen. Die Startseite übernimmt bestätigte kommende Termine automatisch. Alte Originalangaben stehen getrennt darunter.</p><p><strong>Bilder:</strong> Originaldateien und vorhandene Bildnutzungsrechte vor Veröffentlichung mit dem bisherigen Betreiber abgleichen.</p></div>';
 }
 function team_bamberg_resolve($value, $state) {
+    static $cache = array();
+    $key = md5(wp_json_encode(array($state['pages'], $state['media'], get_option('permalink_structure'))));
+    if (!isset($cache[$key])) {
+        $urls = array();
+        foreach ($state['pages'] as $slug => $id) {
+            $token = '@@link:' . $slug . '@@'; $url = get_permalink($id);
+            $urls[$token . '?'] = $url . (strpos($url, '?') !== false ? '&' : '?');
+            $urls[$token] = $url;
+        }
+        foreach ($state['media'] as $asset => $id) { $urls['@@asset:' . $asset . '@@'] = wp_get_attachment_url($id) ?: ''; }
+        $cache[$key] = $urls;
+    }
+    return team_bamberg_resolve_value($value, $state, $cache[$key]);
+}
+function team_bamberg_resolve_value($value, $state, $urls) {
     if (is_array($value)) {
         if (isset($value['team_asset'])) {
             $id = (int) ($state['media'][$value['team_asset']] ?? 0);
-            return array('id' => $id, 'url' => wp_get_attachment_url($id) ?: '');
+            return array('id' => $id, 'url' => $urls['@@asset:' . $value['team_asset'] . '@@'] ?? '');
         }
-        foreach ($value as $key => $item) { $value[$key] = team_bamberg_resolve($item, $state); }
+        foreach ($value as $key => $item) { $value[$key] = team_bamberg_resolve_value($item, $state, $urls); }
     } elseif (is_string($value)) {
-        foreach ($state['pages'] as $slug => $id) {
-            $token = '@@link:' . $slug . '@@'; $url = get_permalink($id);
-            $value = str_replace($token . '?', $url . (strpos($url, '?') !== false ? '&' : '?'), $value);
-            $value = str_replace($token, $url, $value);
-        }
-        foreach ($state['media'] as $key => $id) { $value = str_replace('@@asset:' . $key . '@@', wp_get_attachment_url($id) ?: '', $value); }
+        $value = strtr($value, $urls);
     }
     return $value;
 }
@@ -86,6 +104,7 @@ function team_bamberg_import_step() {
     if (!did_action('elementor/loaded')) { return new WP_Error('elementor', 'Elementor zuerst aktivieren.'); }
     $manifest = team_bamberg_manifest(); if (is_wp_error($manifest)) { return $manifest; }
     $state = get_option('team_bamberg_setup_state', array());
+    if (!$state) { $state['design_version'] = TEAM_BAMBERG_THEME_VERSION; }
     $state += array('pages' => array(), 'parts' => array(), 'media' => array());
     // Allocate all page IDs before resolving internal links. Never reuse unrelated pages.
     foreach (array('pages', 'parts') as $group) {
@@ -140,7 +159,7 @@ function team_bamberg_import_step() {
             update_post_meta($id, '_elementor_template_type', $group === 'parts' ? 'section' : 'wp-page');
             update_post_meta($id, '_elementor_version', ELEMENTOR_VERSION);
             update_post_meta($id, '_elementor_data', wp_slash(wp_json_encode(team_bamberg_resolve($template['content'], $state))));
-            update_post_meta($id, '_elementor_page_settings', array('hide_title' => 'yes', 'background_background' => 'classic', 'background_color' => '#ffffff'));
+            update_post_meta($id, '_elementor_page_settings', array('hide_title' => 'yes', 'background_background' => 'classic', 'background_color' => '#f1ede5'));
             update_post_meta($id, '_wp_page_template', 'default');
             if ($group === 'parts') { wp_set_object_terms($id, 'section', 'elementor_library_type'); }
             delete_post_meta($id, '_elementor_element_cache'); delete_post_meta($id, '_team_bamberg_pending');
@@ -174,5 +193,86 @@ add_action('admin_post_team_bamberg_publish_local', function () {
             delete_post_meta($id, '_elementor_element_cache');
         }
     }
+    wp_safe_redirect(admin_url('admin.php?page=team-bamberg')); exit;
+});
+
+// Explicit design replacement, with a reversible content backup. Normal imports preserve edits.
+function team_bamberg_preserve_widget_settings($elements, $settings) {
+    foreach ($elements as &$element) {
+        $type = $element['widgetType'] ?? '';
+        if (isset($settings[$type])) { $element['settings'] = array_merge($element['settings'], $settings[$type]); }
+        $element['elements'] = team_bamberg_preserve_widget_settings($element['elements'] ?? array(), $settings);
+    }
+    unset($element);
+    return $elements;
+}
+function team_bamberg_apply_redesign() {
+    if (!did_action('elementor/loaded')) { return new WP_Error('elementor', 'Elementor zuerst aktivieren.'); }
+    $state = get_option('team_bamberg_setup_state', array());
+    if (($state['design_version'] ?? '') === TEAM_BAMBERG_THEME_VERSION) { return true; }
+    $manifest = team_bamberg_manifest(); if (is_wp_error($manifest)) { return $manifest; }
+    foreach ($manifest['media'] as $key => $item) {
+        if (empty($state['media'][$key]) || !wp_get_attachment_url($state['media'][$key])) {
+            return new WP_Error('import', 'Bitte zuerst den Import fortsetzen, damit alle Originalbilder vorhanden sind.');
+        }
+    }
+    $replacement = array(); $backup = array();
+    // Validate every managed page before writing any replacement.
+    foreach (array('pages', 'parts') as $group) {
+        foreach ($manifest[$group] as $slug => $info) {
+            $id = (int) ($state[$group][$slug] ?? 0);
+            if (!$id || !get_post($id) || get_post_status($id) === 'trash' || get_post_meta($id, '_team_bamberg_pending', true)) {
+                return new WP_Error('import', 'Bitte zuerst den Website-Import abschließen.');
+            }
+            $template = json_decode(file_get_contents(get_theme_file_path('/templates/' . sanitize_file_name($slug) . '.json')), true);
+            if (!is_array($template) || empty($template['content'])) { return new WP_Error('template', 'Ungültige Vorlage: ' . $slug); }
+            $old = get_post_meta($id, '_elementor_data', true);
+            $backup[$id] = array('data' => $old, 'page_settings' => get_post_meta($id, '_elementor_page_settings', true));
+            $preserve = array();
+            foreach (array('team-bamberg-events', 'team-bamberg-inquiry', 'team-bamberg-navigation') as $type) {
+                $settings = team_bamberg_find_widget(json_decode($old, true) ?? array(), $type);
+                if ($settings !== null) { $preserve[$type] = $settings; }
+            }
+            $replacement[$id] = team_bamberg_preserve_widget_settings(team_bamberg_resolve($template['content'], $state), $preserve);
+        }
+    }
+    update_option('team_bamberg_design_backup', $backup, false);
+    foreach ($replacement as $id => $content) {
+        update_post_meta($id, '_elementor_data', wp_slash(wp_json_encode($content)));
+        $settings = (array) get_post_meta($id, '_elementor_page_settings', true);
+        $settings['background_background'] = 'classic'; $settings['background_color'] = '#f1ede5';
+        update_post_meta($id, '_elementor_page_settings', $settings);
+        delete_post_meta($id, '_elementor_element_cache'); delete_post_meta($id, '_elementor_css');
+    }
+    $state['design_version'] = TEAM_BAMBERG_THEME_VERSION;
+    update_option('team_bamberg_setup_state', $state, false);
+    \Elementor\Plugin::instance()->files_manager->clear_cache();
+    return true;
+}
+function team_bamberg_restore_design() {
+    $backup = get_option('team_bamberg_design_backup', array());
+    $state = get_option('team_bamberg_setup_state', array());
+    $managed = array_merge(array_values($state['pages'] ?? array()), array_values($state['parts'] ?? array()));
+    foreach ($backup as $id => $item) {
+        if (!in_array((int) $id, array_map('intval', $managed), true) || !get_post($id)) { continue; }
+        update_post_meta($id, '_elementor_data', wp_slash($item['data']));
+        update_post_meta($id, '_elementor_page_settings', $item['page_settings']);
+        delete_post_meta($id, '_elementor_element_cache'); delete_post_meta($id, '_elementor_css');
+    }
+    unset($state['design_version']); update_option('team_bamberg_setup_state', $state, false);
+    delete_option('team_bamberg_design_backup');
+    if (did_action('elementor/loaded')) { \Elementor\Plugin::instance()->files_manager->clear_cache(); }
+}
+add_action('admin_post_team_bamberg_redesign', function () {
+    if (!current_user_can('manage_options')) { wp_die('Keine Berechtigung.', '', array('response' => 403)); }
+    check_admin_referer('team_bamberg_redesign');
+    $result = team_bamberg_apply_redesign();
+    if (is_wp_error($result)) { wp_die(esc_html($result->get_error_message())); }
+    wp_safe_redirect(admin_url('admin.php?page=team-bamberg')); exit;
+});
+add_action('admin_post_team_bamberg_restore_design', function () {
+    if (!current_user_can('manage_options')) { wp_die('Keine Berechtigung.', '', array('response' => 403)); }
+    check_admin_referer('team_bamberg_restore_design');
+    team_bamberg_restore_design();
     wp_safe_redirect(admin_url('admin.php?page=team-bamberg')); exit;
 });

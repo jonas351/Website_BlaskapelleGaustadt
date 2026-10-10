@@ -330,12 +330,28 @@
       "title": "Anna_Niedermaier-1024x1024.png",
       "mime": "image/png"
     },
+    "7258db95d9b64e1ca45c": {
+      "file": "7258db95d9b64e1ca45c.png",
+      "source_url": "https://team-bamberg.de/wp-content/uploads/2021/01/Christian_Lange-1-1024x1024.png",
+      "sha256": "7258db95d9b64e1ca45cb6b15f21cdac7c415ce85ece8ade0f69de3457d77c7b",
+      "alt": "Dr. Christian Lange",
+      "title": "Christian_Lange-1-1024x1024.png",
+      "mime": "image/png"
+    },
     "3857c366517707202776": {
       "file": "3857c366517707202776.png",
       "source_url": "https://team-bamberg.de/wp-content/uploads/2021/01/Anne_Rudel-1024x1024.png",
       "sha256": "3857c3665177072027769e7dd55abf8fdd4cd17e372cf564684748f6bb048d5c",
       "alt": "Anne Rudel",
       "title": "Anne_Rudel-1024x1024.png",
+      "mime": "image/png"
+    },
+    "75f6a9abfbd2c9a1203e": {
+      "file": "75f6a9abfbd2c9a1203e.png",
+      "source_url": "https://team-bamberg.de/wp-content/uploads/2021/01/You_Xie-1024x1024.png",
+      "sha256": "75f6a9abfbd2c9a1203e0b188f5117a3662f3b041b898b67987efc80be2536c6",
+      "alt": "You Xie",
+      "title": "You_Xie-1024x1024.png",
       "mime": "image/png"
     },
     "ba35bddf5e95cb4f6426": {
@@ -618,14 +634,6 @@
       "title": "e50cf95f-ac09-41ee-9ca1-2dc43d0b66a1-q27c7xokhqbi6c2eyrv7vk7pswfi8oadiycvg1uqhs.jpg",
       "mime": "image/jpeg"
     },
-    "7258db95d9b64e1ca45c": {
-      "file": "7258db95d9b64e1ca45c.png",
-      "source_url": "https://team-bamberg.de/wp-content/uploads/2021/01/Christian_Lange-1-1024x1024.png",
-      "sha256": "7258db95d9b64e1ca45cb6b15f21cdac7c415ce85ece8ade0f69de3457d77c7b",
-      "alt": "Dr. Christian Lange",
-      "title": "Christian_Lange-1-1024x1024.png",
-      "mime": "image/png"
-    },
     "08c5c7ba70a0f2472dbe": {
       "file": "08c5c7ba70a0f2472dbe.png",
       "source_url": "https://team-bamberg.de/wp-content/uploads/2021/01/Franz-Wilhelm_Heller-1024x1024.png",
@@ -642,11 +650,43 @@
       "title": "Ursula_Redler-1024x1024.png",
       "mime": "image/png"
     },
+    "9220a0f8fa97d3ff8a82": {
+      "file": "9220a0f8fa97d3ff8a82.png",
+      "source_url": "https://team-bamberg.de/wp-content/uploads/2021/01/Michael_Kalb-1024x1024.png",
+      "sha256": "9220a0f8fa97d3ff8a82c416ec7aebf8be0e3fcd477f5cb1e3c4570762ed9bde",
+      "alt": "Michael Kalb",
+      "title": "Michael_Kalb-1024x1024.png",
+      "mime": "image/png"
+    },
+    "0b332f90f051b4823f92": {
+      "file": "0b332f90f051b4823f92.png",
+      "source_url": "https://team-bamberg.de/wp-content/uploads/2021/01/Stefan_Kuhn-1024x1024.png",
+      "sha256": "0b332f90f051b4823f92f5d40462498d2b00b8dce8a5eeaf992984a070e4c72d",
+      "alt": "Stefan Kuhn",
+      "title": "Stefan_Kuhn-1024x1024.png",
+      "mime": "image/png"
+    },
+    "b622227a5dbdf4fcc76c": {
+      "file": "b622227a5dbdf4fcc76c.png",
+      "source_url": "https://team-bamberg.de/wp-content/uploads/2021/01/Peter_Neller-1024x1024.png",
+      "sha256": "b622227a5dbdf4fcc76cc249f938698614cdbd04b83278ee29565724a25acf4e",
+      "alt": "Peter Neller",
+      "title": "Peter_Neller-1024x1024.png",
+      "mime": "image/png"
+    },
+    "847759d0b41d7e97f12c": {
+      "file": "847759d0b41d7e97f12c.png",
+      "source_url": "https://team-bamberg.de/wp-content/uploads/2021/01/Gerhard_Seitz-1024x1024.png",
+      "sha256": "847759d0b41d7e97f12ca41333db9753e084eb76a0a68bd12268704d55e48942",
+      "alt": "Prof. Dr. Gerhard Seitz",
+      "title": "Gerhard_Seitz-1024x1024.png",
+      "mime": "image/png"
+    },
     "a5f37e88e2882ed9d43d": {
       "file": "a5f37e88e2882ed9d43d.jpg",
       "source_url": "https://team-bamberg.de/wp-content/uploads/2020/11/201129-Headerkontakt-11-scaled.jpg",
       "sha256": "a5f37e88e2882ed9d43da400e55c9850c9212cb6ed276d146e08a584350add80",
-      "alt": "201129-Headerkontakt-11",
+      "alt": "Kontakt",
       "title": "201129-Headerkontakt-11-scaled.jpg",
       "mime": "image/jpeg"
     },
@@ -654,7 +694,7 @@
       "file": "7a9322f73f0df004444d.jpg",
       "source_url": "https://team-bamberg.de/wp-content/uploads/2020/11/201129-Header-michaelsberg-11-scaled.jpg",
       "sha256": "7a9322f73f0df004444d4aa0d34c29e0924f003b3d93c4227ce365002d341531",
-      "alt": "201129-Header-michaelsberg-11",
+      "alt": "Kreisverband",
       "title": "201129-Header-michaelsberg-11-scaled.jpg",
       "mime": "image/jpeg"
     },
@@ -734,7 +774,7 @@
       "file": "ef22cdd455f3910f9807.jpg",
       "source_url": "https://team-bamberg.de/wp-content/uploads/2020/11/201129-Header-Bild-csu-raute-11-scaled.jpg",
       "sha256": "ef22cdd455f3910f9807ccaa452ac899b165a19f2c6a4ae7b6b80b7d0e9da961",
-      "alt": "201129-Header-Bild-csu-raute-11",
+      "alt": "Mandatsträger",
       "title": "201129-Header-Bild-csu-raute-11-scaled.jpg",
       "mime": "image/jpeg"
     },
@@ -770,61 +810,21 @@
       "title": "csm_Thomas_SOEDER_2020_frei_2ff8ed76b6.png",
       "mime": "image/png"
     },
-    "9220a0f8fa97d3ff8a82": {
-      "file": "9220a0f8fa97d3ff8a82.png",
-      "source_url": "https://team-bamberg.de/wp-content/uploads/2021/01/Michael_Kalb-1024x1024.png",
-      "sha256": "9220a0f8fa97d3ff8a82c416ec7aebf8be0e3fcd477f5cb1e3c4570762ed9bde",
-      "alt": "Michael Kalb",
-      "title": "Michael_Kalb-1024x1024.png",
-      "mime": "image/png"
-    },
     "2b4fd2018ad6c71019ee": {
       "file": "2b4fd2018ad6c71019ee.jpg",
       "source_url": "https://team-bamberg.de/wp-content/uploads/2020/11/201129-Header-Bild-Bamberg-11-scaled.jpg",
       "sha256": "2b4fd2018ad6c71019eed2dd1f0d81420c655963f76cd7ad9518b4f5d76bcecb",
-      "alt": "201129-Header-Bild-Bamberg-11",
+      "alt": "Ortsverbände",
       "title": "201129-Header-Bild-Bamberg-11-scaled.jpg",
       "mime": "image/jpeg"
-    },
-    "b622227a5dbdf4fcc76c": {
-      "file": "b622227a5dbdf4fcc76c.png",
-      "source_url": "https://team-bamberg.de/wp-content/uploads/2021/01/Peter_Neller-1024x1024.png",
-      "sha256": "b622227a5dbdf4fcc76cc249f938698614cdbd04b83278ee29565724a25acf4e",
-      "alt": "Peter Neller",
-      "title": "Peter_Neller-1024x1024.png",
-      "mime": "image/png"
-    },
-    "847759d0b41d7e97f12c": {
-      "file": "847759d0b41d7e97f12c.png",
-      "source_url": "https://team-bamberg.de/wp-content/uploads/2021/01/Gerhard_Seitz-1024x1024.png",
-      "sha256": "847759d0b41d7e97f12ca41333db9753e084eb76a0a68bd12268704d55e48942",
-      "alt": "Prof. Dr. Gerhard Seitz",
-      "title": "Gerhard_Seitz-1024x1024.png",
-      "mime": "image/png"
     },
     "c831b8a8cace6eac5304": {
       "file": "c831b8a8cace6eac5304.jpg",
       "source_url": "https://team-bamberg.de/wp-content/uploads/2020/11/201129-Header-Bild-Blanko-1-scaled.jpg",
       "sha256": "c831b8a8cace6eac5304ec966ea4480b1f19972bbfc35de8565a13b40d7bc1cb",
-      "alt": "201129 Header Bild Blanko 1",
+      "alt": "Spenden",
       "title": "201129-Header-Bild-Blanko-1-scaled.jpg",
       "mime": "image/jpeg"
-    },
-    "0b332f90f051b4823f92": {
-      "file": "0b332f90f051b4823f92.png",
-      "source_url": "https://team-bamberg.de/wp-content/uploads/2021/01/Stefan_Kuhn-1024x1024.png",
-      "sha256": "0b332f90f051b4823f92f5d40462498d2b00b8dce8a5eeaf992984a070e4c72d",
-      "alt": "Stefan Kuhn",
-      "title": "Stefan_Kuhn-1024x1024.png",
-      "mime": "image/png"
-    },
-    "75f6a9abfbd2c9a1203e": {
-      "file": "75f6a9abfbd2c9a1203e.png",
-      "source_url": "https://team-bamberg.de/wp-content/uploads/2021/01/You_Xie-1024x1024.png",
-      "sha256": "75f6a9abfbd2c9a1203e0b188f5117a3662f3b041b898b67987efc80be2536c6",
-      "alt": "You Xie",
-      "title": "You_Xie-1024x1024.png",
-      "mime": "image/png"
     },
     "65cef129bf1fb5734d11": {
       "file": "65cef129bf1fb5734d11.jpg",
@@ -1450,6 +1450,9 @@
     ],
     "masked_email_addresses": [
       "",
+      "*************@*mx.de„>me*************@*mx.de",
+      "********@*********er.de„>st********@*********er.de",
+      "******@****ud.com„>st******@****ud.com",
       "Be*****************@*mx.de",
       "Ne**********@*********rg.de",
       "an**************@*****ok.de",

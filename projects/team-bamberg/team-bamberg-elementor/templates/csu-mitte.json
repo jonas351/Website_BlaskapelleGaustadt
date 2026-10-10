@@ -5,7 +5,7 @@
   "page_settings": {},
   "content": [
     {
-      "id": "9228a214",
+      "id": "3c73520b",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -22,9 +22,9 @@
         },
         "padding": {
           "unit": "px",
-          "top": "55",
+          "top": "48",
           "right": "40",
-          "bottom": "55",
+          "bottom": "48",
           "left": "40",
           "isLinked": false
         },
@@ -46,7 +46,7 @@
         "flex_align_items": "stretch",
         "css_classes": "tb-page-title",
         "background_background": "classic",
-        "background_color": "#f3f7fa",
+        "background_color": "#e5ddce",
         "boxed_width": {
           "unit": "px",
           "size": 1240
@@ -62,134 +62,329 @@
       },
       "elements": [
         {
-          "id": "e4d7c7c4",
-          "elType": "widget",
-          "widgetType": "text-editor",
+          "id": "4815e379",
+          "elType": "container",
+          "isInner": false,
           "settings": {
-            "editor": "<p><a href=\"@@link:startseite@@\">Startseite</a> <span aria-hidden=\"true\">/</span> CSU Mitte</p>",
-            "text_color": "#566779",
-            "typography_typography": "custom",
-            "typography_font_family": "Arial",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 12
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "width": {
+              "unit": "%",
+              "size": 100
             },
-            "typography_line_height": {
-              "unit": "em",
-              "size": 1.75
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
             },
-            "__globals__": {
-              "typography_typography": "",
-              "text_color": ""
-            },
-            "_margin": {
+            "padding": {
               "unit": "px",
               "top": "0",
               "right": "0",
               "bottom": "0",
               "left": "0",
               "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 65,
+              "column": "65",
+              "row": "65",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch",
+            "css_classes": ""
+          },
+          "elements": [
+            {
+              "id": "ab1b1484",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 62
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": "",
+                "flex_justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "b61fc24c",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><a href=\"@@link:startseite@@\">Startseite</a> <span aria-hidden=\"true\">/</span> CSU Mitte</p>",
+                    "text_color": "#566779",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.75
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "10fae929",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "CSU BAMBERG-STADT",
+                    "header_size": "p",
+                    "title_color": "#006da9",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -0.3
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_css_classes": "tb-eyebrow"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "fb2ef939",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "CSU Mitte",
+                    "header_size": "h1",
+                    "title_color": "#142b43",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 62
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 56
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 46
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -1.6
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "5a466fff",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Zu Hause in Mitte. Lernen Sie den Ortsverband, die vorgestellten Menschen und die Kontaktmöglichkeiten aus dem bisherigen Auftritt kennen.</p>",
+                    "text_color": "#566779",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.75
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "edc82e72",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 38
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": ""
+              },
+              "elements": [
+                {
+                  "id": "6ccd6c02",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "team_asset": "8e4e68da466dd6049518"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "align": "center",
+                    "__globals__": {},
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_css_classes": "tb-page-photo"
+                  },
+                  "elements": []
+                }
+              ]
             }
-          },
-          "elements": []
-        },
-        {
-          "id": "8f249245",
-          "elType": "widget",
-          "widgetType": "heading",
-          "settings": {
-            "title": "CSU BAMBERG-STADT",
-            "header_size": "p",
-            "title_color": "#006da9",
-            "typography_typography": "custom",
-            "typography_font_family": "Arial",
-            "typography_font_weight": "800",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 11
-            },
-            "typography_font_size_tablet": {
-              "unit": "px",
-              "size": 11
-            },
-            "typography_font_size_mobile": {
-              "unit": "px",
-              "size": 11
-            },
-            "typography_line_height": {
-              "unit": "em",
-              "size": 1.08
-            },
-            "typography_letter_spacing": {
-              "unit": "px",
-              "size": -0.3
-            },
-            "__globals__": {
-              "typography_typography": "",
-              "title_color": ""
-            },
-            "_margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": true
-            },
-            "_css_classes": "tb-eyebrow"
-          },
-          "elements": []
-        },
-        {
-          "id": "a3dbe106",
-          "elType": "widget",
-          "widgetType": "heading",
-          "settings": {
-            "title": "CSU Mitte",
-            "header_size": "h1",
-            "title_color": "#142b43",
-            "typography_typography": "custom",
-            "typography_font_family": "Arial",
-            "typography_font_weight": "800",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 62
-            },
-            "typography_font_size_tablet": {
-              "unit": "px",
-              "size": 56
-            },
-            "typography_font_size_mobile": {
-              "unit": "px",
-              "size": 46
-            },
-            "typography_line_height": {
-              "unit": "em",
-              "size": 1.08
-            },
-            "typography_letter_spacing": {
-              "unit": "px",
-              "size": -1.6
-            },
-            "__globals__": {
-              "typography_typography": "",
-              "title_color": ""
-            },
-            "_margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": true
-            }
-          },
-          "elements": []
+          ]
         }
       ]
     },
     {
-      "id": "43e8ccd7",
+      "id": "c4d5d92f",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -244,7 +439,7 @@
       },
       "elements": [
         {
-          "id": "c6cbc45f",
+          "id": "56b3f915",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -275,919 +470,6 @@
             "_css_classes": "tb-source-note"
           },
           "elements": []
-        }
-      ]
-    },
-    {
-      "id": "a35354ba",
-      "elType": "container",
-      "isInner": false,
-      "settings": {
-        "content_width": "boxed",
-        "flex_direction": "column",
-        "flex_direction_mobile": "column",
-        "width": {
-          "unit": "%",
-          "size": 100
-        },
-        "width_mobile": {
-          "unit": "%",
-          "size": 100
-        },
-        "padding": {
-          "unit": "px",
-          "top": "30",
-          "right": "40",
-          "bottom": "30",
-          "left": "40",
-          "isLinked": false
-        },
-        "padding_mobile": {
-          "unit": "px",
-          "top": "42",
-          "right": "20",
-          "bottom": "42",
-          "left": "20",
-          "isLinked": false
-        },
-        "flex_gap": {
-          "unit": "px",
-          "size": 24,
-          "column": "24",
-          "row": "24",
-          "isLinked": true
-        },
-        "flex_align_items": "stretch",
-        "css_classes": "",
-        "boxed_width": {
-          "unit": "px",
-          "size": 1240
-        },
-        "padding_tablet": {
-          "unit": "px",
-          "top": "60",
-          "right": "30",
-          "bottom": "60",
-          "left": "30",
-          "isLinked": false
-        }
-      },
-      "elements": [
-        {
-          "id": "09014e8d",
-          "elType": "container",
-          "isInner": false,
-          "settings": {
-            "content_width": "full",
-            "flex_direction": "column",
-            "flex_direction_mobile": "column",
-            "width": {
-              "unit": "%",
-              "size": 100
-            },
-            "width_mobile": {
-              "unit": "%",
-              "size": 100
-            },
-            "padding": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": true
-            },
-            "padding_mobile": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": true
-            },
-            "flex_gap": {
-              "unit": "px",
-              "size": 24,
-              "column": "24",
-              "row": "24",
-              "isLinked": true
-            },
-            "flex_align_items": "stretch",
-            "css_classes": "tb-grid tb-grid-1"
-          },
-          "elements": [
-            {
-              "id": "02148d1d",
-              "elType": "container",
-              "isInner": false,
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "width": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 24,
-                  "column": "24",
-                  "row": "24",
-                  "isLinked": true
-                },
-                "flex_align_items": "stretch",
-                "css_classes": "tb-content-block"
-              },
-              "elements": [
-                {
-                  "id": "77737c21",
-                  "elType": "widget",
-                  "widgetType": "image",
-                  "settings": {
-                    "image": {
-                      "team_asset": "8e4e68da466dd6049518"
-                    },
-                    "image_size": "full",
-                    "width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "align": "center",
-                    "__globals__": {},
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "_css_classes": "tb-original-image"
-                  },
-                  "elements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "6ba1355d",
-      "elType": "container",
-      "isInner": false,
-      "settings": {
-        "content_width": "boxed",
-        "flex_direction": "column",
-        "flex_direction_mobile": "column",
-        "width": {
-          "unit": "%",
-          "size": 100
-        },
-        "width_mobile": {
-          "unit": "%",
-          "size": 100
-        },
-        "padding": {
-          "unit": "px",
-          "top": "30",
-          "right": "40",
-          "bottom": "30",
-          "left": "40",
-          "isLinked": false
-        },
-        "padding_mobile": {
-          "unit": "px",
-          "top": "42",
-          "right": "20",
-          "bottom": "42",
-          "left": "20",
-          "isLinked": false
-        },
-        "flex_gap": {
-          "unit": "px",
-          "size": 24,
-          "column": "24",
-          "row": "24",
-          "isLinked": true
-        },
-        "flex_align_items": "stretch",
-        "css_classes": "",
-        "boxed_width": {
-          "unit": "px",
-          "size": 1240
-        },
-        "padding_tablet": {
-          "unit": "px",
-          "top": "60",
-          "right": "30",
-          "bottom": "60",
-          "left": "30",
-          "isLinked": false
-        }
-      },
-      "elements": [
-        {
-          "id": "07bf50e6",
-          "elType": "container",
-          "isInner": false,
-          "settings": {
-            "content_width": "full",
-            "flex_direction": "column",
-            "flex_direction_mobile": "column",
-            "width": {
-              "unit": "%",
-              "size": 100
-            },
-            "width_mobile": {
-              "unit": "%",
-              "size": 100
-            },
-            "padding": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": true
-            },
-            "padding_mobile": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": true
-            },
-            "flex_gap": {
-              "unit": "px",
-              "size": 24,
-              "column": "24",
-              "row": "24",
-              "isLinked": true
-            },
-            "flex_align_items": "stretch",
-            "css_classes": "tb-grid tb-grid-1"
-          },
-          "elements": [
-            {
-              "id": "c6fece5a",
-              "elType": "container",
-              "isInner": false,
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "width": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 24,
-                  "column": "24",
-                  "row": "24",
-                  "isLinked": true
-                },
-                "flex_align_items": "stretch",
-                "css_classes": "tb-content-block"
-              },
-              "elements": [
-                {
-                  "id": "2a4b82ec",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "<strong><h3><strong>CSU-Ortsverband Mitte</strong></h3></strong>",
-                    "header_size": "h3",
-                    "title_color": "#142b43",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Arial",
-                    "typography_font_weight": "800",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 26
-                    },
-                    "typography_font_size_tablet": {
-                      "unit": "px",
-                      "size": 26
-                    },
-                    "typography_font_size_mobile": {
-                      "unit": "px",
-                      "size": 26
-                    },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.08
-                    },
-                    "typography_letter_spacing": {
-                      "unit": "px",
-                      "size": -0.3
-                    },
-                    "__globals__": {
-                      "typography_typography": "",
-                      "title_color": ""
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "c3f91d7d",
-      "elType": "container",
-      "isInner": false,
-      "settings": {
-        "content_width": "boxed",
-        "flex_direction": "column",
-        "flex_direction_mobile": "column",
-        "width": {
-          "unit": "%",
-          "size": 100
-        },
-        "width_mobile": {
-          "unit": "%",
-          "size": 100
-        },
-        "padding": {
-          "unit": "px",
-          "top": "30",
-          "right": "40",
-          "bottom": "30",
-          "left": "40",
-          "isLinked": false
-        },
-        "padding_mobile": {
-          "unit": "px",
-          "top": "42",
-          "right": "20",
-          "bottom": "42",
-          "left": "20",
-          "isLinked": false
-        },
-        "flex_gap": {
-          "unit": "px",
-          "size": 24,
-          "column": "24",
-          "row": "24",
-          "isLinked": true
-        },
-        "flex_align_items": "stretch",
-        "css_classes": "",
-        "boxed_width": {
-          "unit": "px",
-          "size": 1240
-        },
-        "padding_tablet": {
-          "unit": "px",
-          "top": "60",
-          "right": "30",
-          "bottom": "60",
-          "left": "30",
-          "isLinked": false
-        }
-      },
-      "elements": [
-        {
-          "id": "83525cf3",
-          "elType": "container",
-          "isInner": false,
-          "settings": {
-            "content_width": "full",
-            "flex_direction": "column",
-            "flex_direction_mobile": "column",
-            "width": {
-              "unit": "%",
-              "size": 100
-            },
-            "width_mobile": {
-              "unit": "%",
-              "size": 100
-            },
-            "padding": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": true
-            },
-            "padding_mobile": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": true
-            },
-            "flex_gap": {
-              "unit": "px",
-              "size": 24,
-              "column": "24",
-              "row": "24",
-              "isLinked": true
-            },
-            "flex_align_items": "stretch",
-            "css_classes": "tb-grid tb-grid-1"
-          },
-          "elements": [
-            {
-              "id": "ae896d5d",
-              "elType": "container",
-              "isInner": false,
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "width": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 24,
-                  "column": "24",
-                  "row": "24",
-                  "isLinked": true
-                },
-                "flex_align_items": "stretch",
-                "css_classes": "tb-content-block"
-              },
-              "elements": [
-                {
-                  "id": "a82dcf94",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "<p><!-- [if gte mso 9]><xml><br /> <o:OfficeDocumentSettings><br />  <o:AllowPNG/><br /> </o:OfficeDocumentSettings><br /></xml><![endif]--><!-- [if gte mso 9]><xml><br /> <w:WordDocument><br />  <w:View>Normal</w:View><br />  <w:Zoom>0</w:Zoom><br />  <w:TrackMoves/><br />  <w:TrackFormatting/><br />  <w:HyphenationZone>21</w:HyphenationZone><br />  <w:PunctuationKerning/><br />  <w:ValidateAgainstSchemas/><br />  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid><br />  <w:IgnoreMixedContent>false</w:IgnoreMixedContent><br />  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText><br />  <w:DoNotPromoteQF/><br />  <w:LidThemeOther>DE</w:LidThemeOther><br />  <w:LidThemeAsian>X-NONE</w:LidThemeAsian><br />  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript><br />  <w:Compatibility><br />   <w:BreakWrappedTables/><br />   <w:SnapToGridInCell/><br />   <w:WrapTextWithPunct/><br />   <w:UseAsianBreakRules/><br />   <w:DontGrowAutofit/><br />   <w:SplitPgBreakAndParaMark/><br />   <w:EnableOpenTypeKerning/><br />   <w:DontFlipMirrorIndents/><br />   <w:OverrideTableStyleHps/><br />  </w:Compatibility><br />  <m:mathPr><br />   <m:mathFont m:val=\"Cambria Math\"/><br />   <m:brkBin m:val=\"before\"/><br />   <m:brkBinSub m:val=\"&#45;-\"/><br />   <m:smallFrac m:val=\"off\"/><br />   <m:dispDef/><br />   <m:lMargin m:val=\"0\"/><br />   <m:rMargin m:val=\"0\"/><br />   <m:defJc m:val=\"centerGroup\"/><br />   <m:wrapIndent m:val=\"1440\"/><br />   <m:intLim m:val=\"subSup\"/><br />   <m:naryLim m:val=\"undOvr\"/><br />  </m:mathPr></w:WordDocument><br /></xml><![endif]--><!-- [if gte mso 9]><xml><br /> <w:LatentStyles DefLockedState=\"false\" DefUnhideWhenUsed=\"true\" DefSemiHidden=\"true\" DefQFormat=\"false\" DefPriority=\"99\" LatentStyleCount=\"267\"><br />  <w:LsdException Locked=\"false\" Priority=\"0\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Normal\"/><br />  <w:LsdException Locked=\"false\" Priority=\"9\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"heading 1\"/><br />  <w:LsdException Locked=\"false\" Priority=\"9\" QFormat=\"true\" Name=\"heading 2\"/><br />  <w:LsdException Locked=\"false\" Priority=\"9\" QFormat=\"true\" Name=\"heading 3\"/><br />  <w:LsdException Locked=\"false\" Priority=\"9\" QFormat=\"true\" Name=\"heading 4\"/><br />  <w:LsdException Locked=\"false\" Priority=\"9\" QFormat=\"true\" Name=\"heading 5\"/><br />  <w:LsdException Locked=\"false\" Priority=\"9\" QFormat=\"true\" Name=\"heading 6\"/><br />  <w:LsdException Locked=\"false\" Priority=\"9\" QFormat=\"true\" Name=\"heading 7\"/><br />  <w:LsdException Locked=\"false\" Priority=\"9\" QFormat=\"true\" Name=\"heading 8\"/><br />  <w:LsdException Locked=\"false\" Priority=\"9\" QFormat=\"true\" Name=\"heading 9\"/><br />  <w:LsdException Locked=\"false\" Priority=\"39\" Name=\"toc 1\"/><br />  <w:LsdException Locked=\"false\" Priority=\"39\" Name=\"toc 2\"/><br />  <w:LsdException Locked=\"false\" Priority=\"39\" Name=\"toc 3\"/><br />  <w:LsdException Locked=\"false\" Priority=\"39\" Name=\"toc 4\"/><br />  <w:LsdException Locked=\"false\" Priority=\"39\" Name=\"toc 5\"/><br />  <w:LsdException Locked=\"false\" Priority=\"39\" Name=\"toc 6\"/><br />  <w:LsdException Locked=\"false\" Priority=\"39\" Name=\"toc 7\"/><br />  <w:LsdException Locked=\"false\" Priority=\"39\" Name=\"toc 8\"/><br />  <w:LsdException Locked=\"false\" Priority=\"39\" Name=\"toc 9\"/><br />  <w:LsdException Locked=\"false\" Priority=\"35\" QFormat=\"true\" Name=\"caption\"/><br />  <w:LsdException Locked=\"false\" Priority=\"10\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Title\"/><br />  <w:LsdException Locked=\"false\" Priority=\"1\" Name=\"Default Paragraph Font\"/><br />  <w:LsdException Locked=\"false\" Priority=\"11\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Subtitle\"/><br />  <w:LsdException Locked=\"false\" Priority=\"22\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Strong\"/><br />  <w:LsdException Locked=\"false\" Priority=\"20\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Emphasis\"/><br />  <w:LsdException Locked=\"false\" Priority=\"59\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Table Grid\"/><br />  <w:LsdException Locked=\"false\" UnhideWhenUsed=\"false\" Name=\"Placeholder Text\"/><br />  <w:LsdException Locked=\"false\" Priority=\"1\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"No Spacing\"/><br />  <w:LsdException Locked=\"false\" Priority=\"60\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Light Shading\"/><br />  <w:LsdException Locked=\"false\" Priority=\"61\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Light List\"/><br />  <w:LsdException Locked=\"false\" Priority=\"62\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Light Grid\"/><br />  <w:LsdException Locked=\"false\" Priority=\"63\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Shading 1\"/><br />  <w:LsdException Locked=\"false\" Priority=\"64\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Shading 2\"/><br />  <w:LsdException Locked=\"false\" Priority=\"65\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium List 1\"/><br />  <w:LsdException Locked=\"false\" Priority=\"66\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium List 2\"/><br />  <w:LsdException Locked=\"false\" Priority=\"67\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Grid 1\"/><br />  <w:LsdException Locked=\"false\" Priority=\"68\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Grid 2\"/><br />  <w:LsdException Locked=\"false\" Priority=\"69\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Grid 3\"/><br />  <w:LsdException Locked=\"false\" Priority=\"70\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Dark List\"/><br />  <w:LsdException Locked=\"false\" Priority=\"71\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Colorful Shading\"/><br />  <w:LsdException Locked=\"false\" Priority=\"72\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Colorful List\"/><br />  <w:LsdException Locked=\"false\" Priority=\"73\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Colorful Grid\"/><br />  <w:LsdException Locked=\"false\" Priority=\"60\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Light Shading Accent 1\"/><br />  <w:LsdException Locked=\"false\" Priority=\"61\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Light List Accent 1\"/><br />  <w:LsdException Locked=\"false\" Priority=\"62\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Light Grid Accent 1\"/><br />  <w:LsdException Locked=\"false\" Priority=\"63\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Shading 1 Accent 1\"/><br />  <w:LsdException Locked=\"false\" Priority=\"64\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Shading 2 Accent 1\"/><br />  <w:LsdException Locked=\"false\" Priority=\"65\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium List 1 Accent 1\"/><br />  <w:LsdException Locked=\"false\" UnhideWhenUsed=\"false\" Name=\"Revision\"/><br />  <w:LsdException Locked=\"false\" Priority=\"34\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"List Paragraph\"/><br />  <w:LsdException Locked=\"false\" Priority=\"29\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Quote\"/><br />  <w:LsdException Locked=\"false\" Priority=\"30\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Intense Quote\"/><br />  <w:LsdException Locked=\"false\" Priority=\"66\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium List 2 Accent 1\"/><br />  <w:LsdException Locked=\"false\" Priority=\"67\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Grid 1 Accent 1\"/><br />  <w:LsdException Locked=\"false\" Priority=\"68\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Grid 2 Accent 1\"/><br />  <w:LsdException Locked=\"false\" Priority=\"69\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Grid 3 Accent 1\"/><br />  <w:LsdException Locked=\"false\" Priority=\"70\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Dark List Accent 1\"/><br />  <w:LsdException Locked=\"false\" Priority=\"71\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Colorful Shading Accent 1\"/><br />  <w:LsdException Locked=\"false\" Priority=\"72\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Colorful List Accent 1\"/><br />  <w:LsdException Locked=\"false\" Priority=\"73\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Colorful Grid Accent 1\"/><br />  <w:LsdException Locked=\"false\" Priority=\"60\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Light Shading Accent 2\"/><br />  <w:LsdException Locked=\"false\" Priority=\"61\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Light List Accent 2\"/><br />  <w:LsdException Locked=\"false\" Priority=\"62\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Light Grid Accent 2\"/><br />  <w:LsdException Locked=\"false\" Priority=\"63\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Shading 1 Accent 2\"/><br />  <w:LsdException Locked=\"false\" Priority=\"64\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Shading 2 Accent 2\"/><br />  <w:LsdException Locked=\"false\" Priority=\"65\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium List 1 Accent 2\"/><br />  <w:LsdException Locked=\"false\" Priority=\"66\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium List 2 Accent 2\"/><br />  <w:LsdException Locked=\"false\" Priority=\"67\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Grid 1 Accent 2\"/><br />  <w:LsdException Locked=\"false\" Priority=\"68\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Grid 2 Accent 2\"/><br />  <w:LsdException Locked=\"false\" Priority=\"69\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Grid 3 Accent 2\"/><br />  <w:LsdException Locked=\"false\" Priority=\"70\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Dark List Accent 2\"/><br />  <w:LsdException Locked=\"false\" Priority=\"71\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Colorful Shading Accent 2\"/><br />  <w:LsdException Locked=\"false\" Priority=\"72\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Colorful List Accent 2\"/><br />  <w:LsdException Locked=\"false\" Priority=\"73\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Colorful Grid Accent 2\"/><br />  <w:LsdException Locked=\"false\" Priority=\"60\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Light Shading Accent 3\"/><br />  <w:LsdException Locked=\"false\" Priority=\"61\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Light List Accent 3\"/><br />  <w:LsdException Locked=\"false\" Priority=\"62\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Light Grid Accent 3\"/><br />  <w:LsdException Locked=\"false\" Priority=\"63\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Shading 1 Accent 3\"/><br />  <w:LsdException Locked=\"false\" Priority=\"64\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Shading 2 Accent 3\"/><br />  <w:LsdException Locked=\"false\" Priority=\"65\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium List 1 Accent 3\"/><br />  <w:LsdException Locked=\"false\" Priority=\"66\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium List 2 Accent 3\"/><br />  <w:LsdException Locked=\"false\" Priority=\"67\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Grid 1 Accent 3\"/><br />  <w:LsdException Locked=\"false\" Priority=\"68\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Grid 2 Accent 3\"/><br />  <w:LsdException Locked=\"false\" Priority=\"69\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Grid 3 Accent 3\"/><br />  <w:LsdException Locked=\"false\" Priority=\"70\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Dark List Accent 3\"/><br />  <w:LsdException Locked=\"false\" Priority=\"71\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Colorful Shading Accent 3\"/><br />  <w:LsdException Locked=\"false\" Priority=\"72\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Colorful List Accent 3\"/><br />  <w:LsdException Locked=\"false\" Priority=\"73\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Colorful Grid Accent 3\"/><br />  <w:LsdException Locked=\"false\" Priority=\"60\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Light Shading Accent 4\"/><br />  <w:LsdException Locked=\"false\" Priority=\"61\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Light List Accent 4\"/><br />  <w:LsdException Locked=\"false\" Priority=\"62\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Light Grid Accent 4\"/><br />  <w:LsdException Locked=\"false\" Priority=\"63\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Shading 1 Accent 4\"/><br />  <w:LsdException Locked=\"false\" Priority=\"64\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Shading 2 Accent 4\"/><br />  <w:LsdException Locked=\"false\" Priority=\"65\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium List 1 Accent 4\"/><br />  <w:LsdException Locked=\"false\" Priority=\"66\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium List 2 Accent 4\"/><br />  <w:LsdException Locked=\"false\" Priority=\"67\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Grid 1 Accent 4\"/><br />  <w:LsdException Locked=\"false\" Priority=\"68\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Grid 2 Accent 4\"/><br />  <w:LsdException Locked=\"false\" Priority=\"69\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Grid 3 Accent 4\"/><br />  <w:LsdException Locked=\"false\" Priority=\"70\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Dark List Accent 4\"/><br />  <w:LsdException Locked=\"false\" Priority=\"71\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Colorful Shading Accent 4\"/><br />  <w:LsdException Locked=\"false\" Priority=\"72\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Colorful List Accent 4\"/><br />  <w:LsdException Locked=\"false\" Priority=\"73\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Colorful Grid Accent 4\"/><br />  <w:LsdException Locked=\"false\" Priority=\"60\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Light Shading Accent 5\"/><br />  <w:LsdException Locked=\"false\" Priority=\"61\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Light List Accent 5\"/><br />  <w:LsdException Locked=\"false\" Priority=\"62\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Light Grid Accent 5\"/><br />  <w:LsdException Locked=\"false\" Priority=\"63\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Shading 1 Accent 5\"/><br />  <w:LsdException Locked=\"false\" Priority=\"64\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Shading 2 Accent 5\"/><br />  <w:LsdException Locked=\"false\" Priority=\"65\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium List 1 Accent 5\"/><br />  <w:LsdException Locked=\"false\" Priority=\"66\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium List 2 Accent 5\"/><br />  <w:LsdException Locked=\"false\" Priority=\"67\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Grid 1 Accent 5\"/><br />  <w:LsdException Locked=\"false\" Priority=\"68\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Grid 2 Accent 5\"/><br />  <w:LsdException Locked=\"false\" Priority=\"69\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Grid 3 Accent 5\"/><br />  <w:LsdException Locked=\"false\" Priority=\"70\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Dark List Accent 5\"/><br />  <w:LsdException Locked=\"false\" Priority=\"71\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Colorful Shading Accent 5\"/><br />  <w:LsdException Locked=\"false\" Priority=\"72\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Colorful List Accent 5\"/><br />  <w:LsdException Locked=\"false\" Priority=\"73\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Colorful Grid Accent 5\"/><br />  <w:LsdException Locked=\"false\" Priority=\"60\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Light Shading Accent 6\"/><br />  <w:LsdException Locked=\"false\" Priority=\"61\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Light List Accent 6\"/><br />  <w:LsdException Locked=\"false\" Priority=\"62\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Light Grid Accent 6\"/><br />  <w:LsdException Locked=\"false\" Priority=\"63\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Shading 1 Accent 6\"/><br />  <w:LsdException Locked=\"false\" Priority=\"64\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Shading 2 Accent 6\"/><br />  <w:LsdException Locked=\"false\" Priority=\"65\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium List 1 Accent 6\"/><br />  <w:LsdException Locked=\"false\" Priority=\"66\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium List 2 Accent 6\"/><br />  <w:LsdException Locked=\"false\" Priority=\"67\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Grid 1 Accent 6\"/><br />  <w:LsdException Locked=\"false\" Priority=\"68\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Grid 2 Accent 6\"/><br />  <w:LsdException Locked=\"false\" Priority=\"69\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Medium Grid 3 Accent 6\"/><br />  <w:LsdException Locked=\"false\" Priority=\"70\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Dark List Accent 6\"/><br />  <w:LsdException Locked=\"false\" Priority=\"71\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Colorful Shading Accent 6\"/><br />  <w:LsdException Locked=\"false\" Priority=\"72\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Colorful List Accent 6\"/><br />  <w:LsdException Locked=\"false\" Priority=\"73\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" Name=\"Colorful Grid Accent 6\"/><br />  <w:LsdException Locked=\"false\" Priority=\"19\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Subtle Emphasis\"/><br />  <w:LsdException Locked=\"false\" Priority=\"21\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Intense Emphasis\"/><br />  <w:LsdException Locked=\"false\" Priority=\"31\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Subtle Reference\"/><br />  <w:LsdException Locked=\"false\" Priority=\"32\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Intense Reference\"/><br />  <w:LsdException Locked=\"false\" Priority=\"33\" SemiHidden=\"false\" UnhideWhenUsed=\"false\" QFormat=\"true\" Name=\"Book Title\"/><br />  <w:LsdException Locked=\"false\" Priority=\"37\" Name=\"Bibliography\"/><br />  <w:LsdException Locked=\"false\" Priority=\"39\" QFormat=\"true\" Name=\"TOC Heading\"/><br /> </w:LatentStyles><br /></xml><![endif]--><!-- [if gte mso 10]></p>\n<style>\n /* Style Definitions */<br /> table.MsoNormalTable<br />\t{mso-style-name:\"Normale Tabelle\";<br />\tmso-tstyle-rowband-size:0;<br />\tmso-tstyle-colband-size:0;<br />\tmso-style-noshow:yes;<br />\tmso-style-priority:99;<br />\tmso-style-parent:\"\";<br />\tmso-padding-alt:0cm 5.4pt 0cm 5.4pt;<br />\tmso-para-margin-top:0cm;<br />\tmso-para-margin-right:0cm;<br />\tmso-para-margin-bottom:10.0pt;<br />\tmso-para-margin-left:0cm;<br />\tline-height:115%;<br />\tmso-pagination:widow-orphan;<br />\tfont-size:11.0pt;<br />\tfont-family:\"Calibri\",\"sans-serif\";<br />\tmso-ascii-font-family:Calibri;<br />\tmso-ascii-theme-font:minor-latin;<br />\tmso-hansi-font-family:Calibri;<br />\tmso-hansi-theme-font:minor-latin;<br />\tmso-bidi-font-family:\"Times New Roman\";<br />\tmso-bidi-theme-font:minor-bidi;<br />\tmso-fareast-language:EN-US;}<br /></style>\n<p><![endif]--></p>\n<p>Das Gebiet des ersten Ortsverbandes erstreckt sich auf die sogenannte Inselstadt und wird durch die beiden Regnitzarme begrenzt.</p>\n<p>Die Bamberger Innenstadt ist das pulsierende Zentrum des Bamberger Lebens mit all seinen politischen Herausforderungen. Sie ist ein Teil des Weltkulturerbes der UNESCO und war seit dem zwölften Jahrhundert der Ort des Bamberger Marktes und ab dem 18. Jahrhundert auch Sitz der Bamberger Verwaltung. Die Harmonie von barockem Stadtbild mit den ansässigen Einzelhändlern und Gastronomen macht die einmalige Atmosphäre der Bamberger Innenstadt aus und lädt Bewohner und Besucher gleichermaßen zum Einkaufen und Erholen ein. Abgerundet wird diese besondere Atmosphäre durch das innerstädtische Naherholungsgebiet im Hain.</p>\n<p>In der Innenstadt ist auch der Schul- und Kulturmittelpunkt Bambergs. Hier befinden sich neben den geisteswissenschaftlichen Fakultäten der Otto-Friedrich-Universität und den meisten Bamberger Schulen auch das E.T.A.-Hoffmann-Theater, das Internationale Künstlerhaus Villa Concordia und die Konzert- und Kongresshalle, die Heimat der weltberühmten Bamberger Symphoniker.</p><p><strong>Traditionsreicher CSU-Ortsverband</strong></p>\n<p>Die CSU Bamberg-Mitte ist einer der ältesten Ortsverbände Bambergs. \nViele prägende Mitglieder der Bamberger CSU kommen aus der \nInnenstadt-CSU: Altbürgermeister Rudolf Grafberger, der ehemalige \nlangjährige Fraktionsvorsitzende im Stadtrat Erich Kropf, Georg Nickles,\n der erfolgreiche Unternehmer Willy Gatz, Landtagsabgeordneter a. D. Dr.\n Helmut Müller oder der bekannte Bamberger Rechtsanwalt Dr. \nFranz-Wilhelm Heller sind hier nur Beispiele für eine Vielzahl von \n“Urgesteinen” der Bamberger CSU.</p>\n<p><strong>Gemeinsam</strong></p>\n<p>Die Innenstadt CSU setzt sich zusammen mit ihren Stadträten für ein \nausgewogenes Miteinander von Bewohnern, Händlern und Gewerbetreibenden \nein. Sie versucht in ihrer politischen Arbeit die Belange der \nunterschiedlichen Interessensgruppen für das Gemeinwohl zu \nberücksichtigen.</p>",
-                    "text_color": "#566779",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Arial",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 16
-                    },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.75
-                    },
-                    "__globals__": {
-                      "typography_typography": "",
-                      "text_color": ""
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "5a466fff",
-      "elType": "container",
-      "isInner": false,
-      "settings": {
-        "content_width": "boxed",
-        "flex_direction": "column",
-        "flex_direction_mobile": "column",
-        "width": {
-          "unit": "%",
-          "size": 100
-        },
-        "width_mobile": {
-          "unit": "%",
-          "size": 100
-        },
-        "padding": {
-          "unit": "px",
-          "top": "30",
-          "right": "40",
-          "bottom": "30",
-          "left": "40",
-          "isLinked": false
-        },
-        "padding_mobile": {
-          "unit": "px",
-          "top": "42",
-          "right": "20",
-          "bottom": "42",
-          "left": "20",
-          "isLinked": false
-        },
-        "flex_gap": {
-          "unit": "px",
-          "size": 24,
-          "column": "24",
-          "row": "24",
-          "isLinked": true
-        },
-        "flex_align_items": "stretch",
-        "css_classes": "",
-        "boxed_width": {
-          "unit": "px",
-          "size": 1240
-        },
-        "padding_tablet": {
-          "unit": "px",
-          "top": "60",
-          "right": "30",
-          "bottom": "60",
-          "left": "30",
-          "isLinked": false
-        }
-      },
-      "elements": [
-        {
-          "id": "fb2ef939",
-          "elType": "container",
-          "isInner": false,
-          "settings": {
-            "content_width": "full",
-            "flex_direction": "column",
-            "flex_direction_mobile": "column",
-            "width": {
-              "unit": "%",
-              "size": 100
-            },
-            "width_mobile": {
-              "unit": "%",
-              "size": 100
-            },
-            "padding": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": true
-            },
-            "padding_mobile": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": true
-            },
-            "flex_gap": {
-              "unit": "px",
-              "size": 24,
-              "column": "24",
-              "row": "24",
-              "isLinked": true
-            },
-            "flex_align_items": "stretch",
-            "css_classes": "tb-grid tb-grid-1"
-          },
-          "elements": [
-            {
-              "id": "10fae929",
-              "elType": "container",
-              "isInner": false,
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "width": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 24,
-                  "column": "24",
-                  "row": "24",
-                  "isLinked": true
-                },
-                "flex_align_items": "stretch",
-                "css_classes": "tb-content-block"
-              },
-              "elements": [
-                {
-                  "id": "b61fc24c",
-                  "elType": "widget",
-                  "widgetType": "image",
-                  "settings": {
-                    "image": {
-                      "team_asset": "f4fab342c51dd207e523"
-                    },
-                    "image_size": "full",
-                    "width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "align": "center",
-                    "__globals__": {},
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "_css_classes": "tb-original-image"
-                  },
-                  "elements": []
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "4815e379",
-      "elType": "container",
-      "isInner": false,
-      "settings": {
-        "content_width": "boxed",
-        "flex_direction": "column",
-        "flex_direction_mobile": "column",
-        "width": {
-          "unit": "%",
-          "size": 100
-        },
-        "width_mobile": {
-          "unit": "%",
-          "size": 100
-        },
-        "padding": {
-          "unit": "px",
-          "top": "30",
-          "right": "40",
-          "bottom": "30",
-          "left": "40",
-          "isLinked": false
-        },
-        "padding_mobile": {
-          "unit": "px",
-          "top": "42",
-          "right": "20",
-          "bottom": "42",
-          "left": "20",
-          "isLinked": false
-        },
-        "flex_gap": {
-          "unit": "px",
-          "size": 24,
-          "column": "24",
-          "row": "24",
-          "isLinked": true
-        },
-        "flex_align_items": "stretch",
-        "css_classes": "",
-        "boxed_width": {
-          "unit": "px",
-          "size": 1240
-        },
-        "padding_tablet": {
-          "unit": "px",
-          "top": "60",
-          "right": "30",
-          "bottom": "60",
-          "left": "30",
-          "isLinked": false
-        }
-      },
-      "elements": [
-        {
-          "id": "edc82e72",
-          "elType": "container",
-          "isInner": false,
-          "settings": {
-            "content_width": "full",
-            "flex_direction": "column",
-            "flex_direction_mobile": "column",
-            "width": {
-              "unit": "%",
-              "size": 100
-            },
-            "width_mobile": {
-              "unit": "%",
-              "size": 100
-            },
-            "padding": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": true
-            },
-            "padding_mobile": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": true
-            },
-            "flex_gap": {
-              "unit": "px",
-              "size": 24,
-              "column": "24",
-              "row": "24",
-              "isLinked": true
-            },
-            "flex_align_items": "stretch",
-            "css_classes": "tb-grid tb-grid-1"
-          },
-          "elements": [
-            {
-              "id": "6ccd6c02",
-              "elType": "container",
-              "isInner": false,
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "width": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 24,
-                  "column": "24",
-                  "row": "24",
-                  "isLinked": true
-                },
-                "flex_align_items": "stretch",
-                "css_classes": "tb-content-block"
-              },
-              "elements": [
-                {
-                  "id": "ab1b1484",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "Kontakt",
-                    "header_size": "h3",
-                    "title_color": "#142b43",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Arial",
-                    "typography_font_weight": "800",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 26
-                    },
-                    "typography_font_size_tablet": {
-                      "unit": "px",
-                      "size": 26
-                    },
-                    "typography_font_size_mobile": {
-                      "unit": "px",
-                      "size": 26
-                    },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.08
-                    },
-                    "typography_letter_spacing": {
-                      "unit": "px",
-                      "size": -0.3
-                    },
-                    "__globals__": {
-                      "typography_typography": "",
-                      "title_color": ""
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": []
-                }
-              ]
-            }
-          ]
         }
       ]
     },
@@ -1286,81 +568,9 @@
               "isLinked": true
             },
             "flex_align_items": "stretch",
-            "css_classes": "tb-grid tb-grid-2"
+            "css_classes": "tb-grid tb-grid-1"
           },
           "elements": [
-            {
-              "id": "325c40a3",
-              "elType": "container",
-              "isInner": false,
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "width": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 24,
-                  "column": "24",
-                  "row": "24",
-                  "isLinked": true
-                },
-                "flex_align_items": "stretch",
-                "css_classes": "tb-content-card"
-              },
-              "elements": [
-                {
-                  "id": "3c73520b",
-                  "elType": "widget",
-                  "widgetType": "image",
-                  "settings": {
-                    "image": {
-                      "team_asset": "b1417d125703346c2a70"
-                    },
-                    "image_size": "full",
-                    "width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "align": "center",
-                    "__globals__": {},
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "_css_classes": "tb-original-image"
-                  },
-                  "elements": []
-                }
-              ]
-            },
             {
               "id": "72d7e3d8",
               "elType": "container",
@@ -1401,15 +611,23 @@
                   "isLinked": true
                 },
                 "flex_align_items": "stretch",
-                "css_classes": "tb-content-card"
+                "css_classes": "tb-content-block tb-section-heading",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                }
               },
               "elements": [
                 {
-                  "id": "56b3f915",
+                  "id": "325c40a3",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Ortsverband",
+                    "title": "<strong><h3><strong>CSU-Ortsverband Mitte</strong></h3></strong>",
                     "header_size": "h3",
                     "title_color": "#142b43",
                     "typography_typography": "custom",
@@ -1438,38 +656,6 @@
                     "__globals__": {
                       "typography_typography": "",
                       "title_color": ""
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "c4d5d92f",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "<h4><strong>Stefan Kuhn, Ortsvorsitzender<br/></strong><br/><strong>Mail</strong>: <a href=\"MaIltO:&lt;span \n                data-original-string='d6vUSUyBFAPUOcu1NRk+nA==e7enSC9vHdYpwQf3w7wuRnqpc2/bU2pB0SkPotmBf3XFGc='\n                class='apbct-email-encoder'\n                title='Dieser Kontakt wurde von Anti-Spam by CleanTalk verschlüsselt. Klicken Sie hier, um ihn zu entschlüsseln. Um die Entschlüsselung abzuschließen, stellen Sie sicher, dass JavaScript in Ihrem Browser aktiviert ist.'&gt;st&lt;span class=\">********@<span>*********</span>er.de„&gt;<span>st<span>********</span>@<span>*********</span>er.de</span></a></h4>",
-                    "text_color": "#566779",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Arial",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 16
-                    },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.75
-                    },
-                    "__globals__": {
-                      "typography_typography": "",
-                      "text_color": ""
                     },
                     "_margin": {
                       "unit": "px",
@@ -1626,43 +812,37 @@
                   "isLinked": true
                 },
                 "flex_align_items": "stretch",
-                "css_classes": "tb-content-block"
+                "css_classes": "tb-content-block",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                }
               },
               "elements": [
                 {
                   "id": "1f02a1ad",
                   "elType": "widget",
-                  "widgetType": "heading",
+                  "widgetType": "text-editor",
                   "settings": {
-                    "title": "Stadträte",
-                    "header_size": "h3",
-                    "title_color": "#142b43",
+                    "editor": "<p></p>\n<p>Das Gebiet des ersten Ortsverbandes erstreckt sich auf die sogenannte Inselstadt und wird durch die beiden Regnitzarme begrenzt.</p>\n<p>Die Bamberger Innenstadt ist das pulsierende Zentrum des Bamberger Lebens mit all seinen politischen Herausforderungen. Sie ist ein Teil des Weltkulturerbes der UNESCO und war seit dem zwölften Jahrhundert der Ort des Bamberger Marktes und ab dem 18. Jahrhundert auch Sitz der Bamberger Verwaltung. Die Harmonie von barockem Stadtbild mit den ansässigen Einzelhändlern und Gastronomen macht die einmalige Atmosphäre der Bamberger Innenstadt aus und lädt Bewohner und Besucher gleichermaßen zum Einkaufen und Erholen ein. Abgerundet wird diese besondere Atmosphäre durch das innerstädtische Naherholungsgebiet im Hain.</p>\n<p>In der Innenstadt ist auch der Schul- und Kulturmittelpunkt Bambergs. Hier befinden sich neben den geisteswissenschaftlichen Fakultäten der Otto-Friedrich-Universität und den meisten Bamberger Schulen auch das E.T.A.-Hoffmann-Theater, das Internationale Künstlerhaus Villa Concordia und die Konzert- und Kongresshalle, die Heimat der weltberühmten Bamberger Symphoniker.</p><p><strong>Traditionsreicher CSU-Ortsverband</strong></p>\n<p>Die CSU Bamberg-Mitte ist einer der ältesten Ortsverbände Bambergs. \nViele prägende Mitglieder der Bamberger CSU kommen aus der \nInnenstadt-CSU: Altbürgermeister Rudolf Grafberger, der ehemalige \nlangjährige Fraktionsvorsitzende im Stadtrat Erich Kropf, Georg Nickles,\n der erfolgreiche Unternehmer Willy Gatz, Landtagsabgeordneter a. D. Dr.\n Helmut Müller oder der bekannte Bamberger Rechtsanwalt Dr. \nFranz-Wilhelm Heller sind hier nur Beispiele für eine Vielzahl von \n“Urgesteinen” der Bamberger CSU.</p>\n<p><strong>Gemeinsam</strong></p>\n<p>Die Innenstadt CSU setzt sich zusammen mit ihren Stadträten für ein \nausgewogenes Miteinander von Bewohnern, Händlern und Gewerbetreibenden \nein. Sie versucht in ihrer politischen Arbeit die Belange der \nunterschiedlichen Interessensgruppen für das Gemeinwohl zu \nberücksichtigen.</p>",
+                    "text_color": "#566779",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
-                    "typography_font_weight": "800",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 26
-                    },
-                    "typography_font_size_tablet": {
-                      "unit": "px",
-                      "size": 26
-                    },
-                    "typography_font_size_mobile": {
-                      "unit": "px",
-                      "size": 26
+                      "size": 16
                     },
                     "typography_line_height": {
                       "unit": "em",
-                      "size": 1.08
-                    },
-                    "typography_letter_spacing": {
-                      "unit": "px",
-                      "size": -0.3
+                      "size": 1.75
                     },
                     "__globals__": {
                       "typography_typography": "",
-                      "title_color": ""
+                      "text_color": ""
                     },
                     "_margin": {
                       "unit": "px",
@@ -1682,7 +862,7 @@
       ]
     },
     {
-      "id": "571fdede",
+      "id": "f5846e32",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -1737,7 +917,7 @@
       },
       "elements": [
         {
-          "id": "fcdbcde0",
+          "id": "0c4760e2",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -1776,11 +956,11 @@
               "isLinked": true
             },
             "flex_align_items": "stretch",
-            "css_classes": "tb-grid tb-grid-3"
+            "css_classes": "tb-grid tb-grid-1"
           },
           "elements": [
             {
-              "id": "d530fe3a",
+              "id": "427bfb8c",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1819,7 +999,15 @@
                   "isLinked": true
                 },
                 "flex_align_items": "stretch",
-                "css_classes": "tb-content-card"
+                "css_classes": "tb-content-block",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                }
               },
               "elements": [
                 {
@@ -1828,7 +1016,7 @@
                   "widgetType": "image",
                   "settings": {
                     "image": {
-                      "team_asset": "0a502dcb04e9b174bb59"
+                      "team_asset": "f4fab342c51dd207e523"
                     },
                     "image_size": "full",
                     "width": {
@@ -1848,43 +1036,113 @@
                     "_css_classes": "tb-original-image"
                   },
                   "elements": []
-                },
-                {
-                  "id": "427bfb8c",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "<h4><strong>Dr. Franz-Wilhelm Heller<br/></strong><strong><span><br/></span></strong><strong>Mail:<br/></strong> <a href=\"MaIltO:&lt;span \n                data-original-string='7M1qwNSeL69RIrc8Z39IDw==e7eRUc7rjF7kAG1w7ZO6efXsDsHYXTm01JdRbg5eG8P2Vg='\n                class='apbct-email-encoder'\n                title='Dieser Kontakt wurde von Anti-Spam by CleanTalk verschlüsselt. Klicken Sie hier, um ihn zu entschlüsseln. Um die Entschlüsselung abzuschließen, stellen Sie sicher, dass JavaScript in Ihrem Browser aktiviert ist.'&gt;st&lt;span class=\">******@<span>****</span>ud.com„&gt;<span>st<span>******</span>@<span>****</span>ud.com</span></a></h4>",
-                    "text_color": "#566779",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Arial",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 16
-                    },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.75
-                    },
-                    "__globals__": {
-                      "typography_typography": "",
-                      "text_color": ""
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": []
                 }
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5fe06fd5",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "30",
+          "right": "40",
+          "bottom": "30",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "d530fe3a",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "width": {
+              "unit": "%",
+              "size": 100
             },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 24,
+              "column": "24",
+              "row": "24",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch",
+            "css_classes": "tb-grid tb-grid-1"
+          },
+          "elements": [
             {
-              "id": "5fe06fd5",
+              "id": "a210eb77",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1923,160 +1181,51 @@
                   "isLinked": true
                 },
                 "flex_align_items": "stretch",
-                "css_classes": "tb-content-card"
-              },
-              "elements": [
-                {
-                  "id": "0c4760e2",
-                  "elType": "widget",
-                  "widgetType": "image",
-                  "settings": {
-                    "image": {
-                      "team_asset": "b1417d125703346c2a70"
-                    },
-                    "image_size": "full",
-                    "width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "align": "center",
-                    "__globals__": {},
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "_css_classes": "tb-original-image"
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "f5846e32",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "<h4><strong>Stefan Kuhn<br/></strong></h4><p> </p><h4><strong><span>Mail:<br/></span></strong><a href=\"MaIltO:&lt;span \n                data-original-string='Vsu/rurz9O/rEAg6oHMcGg==e7ecGohwsnCSQEqqbCfwLT2WMLUNt0c/s/ks98oWQNCri0='\n                class='apbct-email-encoder'\n                title='Dieser Kontakt wurde von Anti-Spam by CleanTalk verschlüsselt. Klicken Sie hier, um ihn zu entschlüsseln. Um die Entschlüsselung abzuschließen, stellen Sie sicher, dass JavaScript in Ihrem Browser aktiviert ist.'&gt;st&lt;span class=\">********@<span>*********</span>er.de„&gt;<span>st<span>********</span>@<span>*********</span>er.de</span></a></h4>",
-                    "text_color": "#566779",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Arial",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 16
-                    },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.75
-                    },
-                    "__globals__": {
-                      "typography_typography": "",
-                      "text_color": ""
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": []
+                "css_classes": "tb-content-block tb-section-heading",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
                 }
-              ]
-            },
-            {
-              "id": "7d677f3e",
-              "elType": "container",
-              "isInner": false,
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "width": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 24,
-                  "column": "24",
-                  "row": "24",
-                  "isLinked": true
-                },
-                "flex_align_items": "stretch",
-                "css_classes": "tb-content-card"
               },
               "elements": [
                 {
                   "id": "dee9a803",
                   "elType": "widget",
-                  "widgetType": "image",
+                  "widgetType": "heading",
                   "settings": {
-                    "image": {
-                      "team_asset": "cb653f83510f4b0af66c"
-                    },
-                    "image_size": "full",
-                    "width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "align": "center",
-                    "__globals__": {},
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "_css_classes": "tb-original-image"
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "a210eb77",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "<h4><strong>You Xie</strong></h4><h4><br/><strong>Mail:</strong></h4><h4><span>xi<span>*******</span>@<span>***</span>oo.com</span></h4><p> </p>",
-                    "text_color": "#566779",
+                    "title": "Kontakt",
+                    "header_size": "h3",
+                    "title_color": "#142b43",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 16
+                      "size": 26
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 26
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 26
                     },
                     "typography_line_height": {
                       "unit": "em",
-                      "size": 1.75
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -0.3
                     },
                     "__globals__": {
                       "typography_typography": "",
-                      "text_color": ""
+                      "title_color": ""
                     },
                     "_margin": {
                       "unit": "px",
@@ -2190,9 +1339,89 @@
               "isLinked": true
             },
             "flex_align_items": "stretch",
-            "css_classes": "tb-grid tb-grid-1"
+            "css_classes": "tb-grid tb-grid-2"
           },
           "elements": [
+            {
+              "id": "2728e724",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": "tb-content-card",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "7d677f3e",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "team_asset": "b1417d125703346c2a70"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "align": "center",
+                    "__globals__": {},
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_css_classes": "tb-original-image"
+                  },
+                  "elements": []
+                }
+              ]
+            },
             {
               "id": "940ddf85",
               "elType": "container",
@@ -2233,11 +1462,891 @@
                   "isLinked": true
                 },
                 "flex_align_items": "stretch",
-                "css_classes": "tb-content-block"
+                "css_classes": "tb-content-card",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                }
               },
               "elements": [
                 {
-                  "id": "2728e724",
+                  "id": "fcdbcde0",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Ortsverband",
+                    "header_size": "h3",
+                    "title_color": "#142b43",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 26
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 26
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 26
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -0.3
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "571fdede",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<h4><strong>Stefan Kuhn, Ortsvorsitzender<br/></strong><br/><strong>Mail</strong>: ********@<span>*********</span>er.de„&gt;<span>st<span>********</span>@<span>*********</span>er.de</span></h4>",
+                    "text_color": "#566779",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.75
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b19690ce",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "30",
+          "right": "40",
+          "bottom": "30",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "da726223",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 24,
+              "column": "24",
+              "row": "24",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch",
+            "css_classes": "tb-grid tb-grid-1"
+          },
+          "elements": [
+            {
+              "id": "99817374",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": "tb-content-block tb-section-heading",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "578fe6e6",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Stadträte",
+                    "header_size": "h3",
+                    "title_color": "#142b43",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 26
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 26
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 26
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -0.3
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "25db7958",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "30",
+          "right": "40",
+          "bottom": "30",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "3e2696d8",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 24,
+              "column": "24",
+              "row": "24",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch",
+            "css_classes": "tb-grid tb-grid-3"
+          },
+          "elements": [
+            {
+              "id": "7218393f",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": "tb-content-card",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "9ccf60f4",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "team_asset": "0a502dcb04e9b174bb59"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "align": "center",
+                    "__globals__": {},
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_css_classes": "tb-original-image"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "3769bd69",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<h4><strong>Dr. Franz-Wilhelm Heller<br/></strong><strong><span><br/></span></strong><strong>Mail:<br/></strong> ******@<span>****</span>ud.com„&gt;<span>st<span>******</span>@<span>****</span>ud.com</span></h4>",
+                    "text_color": "#566779",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.75
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "c741a847",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": "tb-content-card",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "96e81ba3",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "team_asset": "b1417d125703346c2a70"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "align": "center",
+                    "__globals__": {},
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_css_classes": "tb-original-image"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "9771df5d",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<h4><strong>Stefan Kuhn<br/></strong></h4><p> </p><h4><strong><span>Mail:<br/></span></strong>********@<span>*********</span>er.de„&gt;<span>st<span>********</span>@<span>*********</span>er.de</span></h4>",
+                    "text_color": "#566779",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.75
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "d1f3f37a",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": "tb-content-card",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "6bfb20af",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "team_asset": "cb653f83510f4b0af66c"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "align": "center",
+                    "__globals__": {},
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_css_classes": "tb-original-image"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "41677db7",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<h4><strong>You Xie</strong></h4><h4><br/><strong>Mail:</strong></h4><h4><span>xi<span>*******</span>@<span>***</span>oo.com</span></h4><p> </p>",
+                    "text_color": "#566779",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.75
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c6c08cef",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "30",
+          "right": "40",
+          "bottom": "30",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "e9f93bcc",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 24,
+              "column": "24",
+              "row": "24",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch",
+            "css_classes": "tb-grid tb-grid-1"
+          },
+          "elements": [
+            {
+              "id": "ab4cac3c",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": "tb-content-block",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "8d1fb69d",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -2265,10 +2374,10 @@
                     },
                     "border_radius": {
                       "unit": "px",
-                      "top": "7",
-                      "right": "7",
-                      "bottom": "7",
-                      "left": "7",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
                       "isLinked": true
                     },
                     "align": "left",
@@ -2296,7 +2405,7 @@
       ]
     },
     {
-      "id": "b19690ce",
+      "id": "15cb4131",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -2335,9 +2444,9 @@
           "isLinked": true
         },
         "flex_align_items": "stretch",
-        "css_classes": "",
+        "css_classes": "tb-conversation",
         "background_background": "classic",
-        "background_color": "#e5f2f8",
+        "background_color": "#dbe6e6",
         "boxed_width": {
           "unit": "px",
           "size": 1240
@@ -2353,7 +2462,7 @@
       },
       "elements": [
         {
-          "id": "da726223",
+          "id": "08fc45b5",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -2397,7 +2506,7 @@
           },
           "elements": [
             {
-              "id": "578fe6e6",
+              "id": "e29c57fb",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -2443,7 +2552,7 @@
               "elements": []
             },
             {
-              "id": "99817374",
+              "id": "941d6f22",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -2471,10 +2580,10 @@
                 },
                 "border_radius": {
                   "unit": "px",
-                  "top": "7",
-                  "right": "7",
-                  "bottom": "7",
-                  "left": "7",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
                   "isLinked": true
                 },
                 "align": "left",
@@ -2500,7 +2609,7 @@
       ]
     },
     {
-      "id": "3769bd69",
+      "id": "b2544380",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -2555,7 +2664,7 @@
       },
       "elements": [
         {
-          "id": "9ccf60f4",
+          "id": "e577570f",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {

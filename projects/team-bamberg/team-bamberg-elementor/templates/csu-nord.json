@@ -5,7 +5,7 @@
   "page_settings": {},
   "content": [
     {
-      "id": "41677db7",
+      "id": "84ca9a1b",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -22,9 +22,9 @@
         },
         "padding": {
           "unit": "px",
-          "top": "55",
+          "top": "48",
           "right": "40",
-          "bottom": "55",
+          "bottom": "48",
           "left": "40",
           "isLinked": false
         },
@@ -46,7 +46,7 @@
         "flex_align_items": "stretch",
         "css_classes": "tb-page-title",
         "background_background": "classic",
-        "background_color": "#f3f7fa",
+        "background_color": "#e5ddce",
         "boxed_width": {
           "unit": "px",
           "size": 1240
@@ -62,134 +62,329 @@
       },
       "elements": [
         {
-          "id": "96e81ba3",
-          "elType": "widget",
-          "widgetType": "text-editor",
+          "id": "30fee5f3",
+          "elType": "container",
+          "isInner": false,
           "settings": {
-            "editor": "<p><a href=\"@@link:startseite@@\">Startseite</a> <span aria-hidden=\"true\">/</span> CSU Nord</p>",
-            "text_color": "#566779",
-            "typography_typography": "custom",
-            "typography_font_family": "Arial",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 12
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "width": {
+              "unit": "%",
+              "size": 100
             },
-            "typography_line_height": {
-              "unit": "em",
-              "size": 1.75
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
             },
-            "__globals__": {
-              "typography_typography": "",
-              "text_color": ""
-            },
-            "_margin": {
+            "padding": {
               "unit": "px",
               "top": "0",
               "right": "0",
               "bottom": "0",
               "left": "0",
               "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 65,
+              "column": "65",
+              "row": "65",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch",
+            "css_classes": ""
+          },
+          "elements": [
+            {
+              "id": "79eef109",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 62
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": "",
+                "flex_justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "b361001d",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><a href=\"@@link:startseite@@\">Startseite</a> <span aria-hidden=\"true\">/</span> CSU Nord</p>",
+                    "text_color": "#566779",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 12
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.75
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "e1c95868",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "CSU BAMBERG-STADT",
+                    "header_size": "p",
+                    "title_color": "#006da9",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -0.3
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_css_classes": "tb-eyebrow"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "e1352db8",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "CSU Nord",
+                    "header_size": "h1",
+                    "title_color": "#142b43",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 62
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 56
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 46
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -1.6
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "65e7d31c",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Zu Hause in Nord. Lernen Sie den Ortsverband, die vorgestellten Menschen und die Kontaktmöglichkeiten aus dem bisherigen Auftritt kennen.</p>",
+                    "text_color": "#566779",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.75
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "b7fd5fa1",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 38
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": ""
+              },
+              "elements": [
+                {
+                  "id": "b7b98b2f",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "team_asset": "cbf7ffae0b8536eeadd0"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "align": "center",
+                    "__globals__": {},
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_css_classes": "tb-page-photo"
+                  },
+                  "elements": []
+                }
+              ]
             }
-          },
-          "elements": []
-        },
-        {
-          "id": "9771df5d",
-          "elType": "widget",
-          "widgetType": "heading",
-          "settings": {
-            "title": "CSU BAMBERG-STADT",
-            "header_size": "p",
-            "title_color": "#006da9",
-            "typography_typography": "custom",
-            "typography_font_family": "Arial",
-            "typography_font_weight": "800",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 11
-            },
-            "typography_font_size_tablet": {
-              "unit": "px",
-              "size": 11
-            },
-            "typography_font_size_mobile": {
-              "unit": "px",
-              "size": 11
-            },
-            "typography_line_height": {
-              "unit": "em",
-              "size": 1.08
-            },
-            "typography_letter_spacing": {
-              "unit": "px",
-              "size": -0.3
-            },
-            "__globals__": {
-              "typography_typography": "",
-              "title_color": ""
-            },
-            "_margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": true
-            },
-            "_css_classes": "tb-eyebrow"
-          },
-          "elements": []
-        },
-        {
-          "id": "6bfb20af",
-          "elType": "widget",
-          "widgetType": "heading",
-          "settings": {
-            "title": "CSU Nord",
-            "header_size": "h1",
-            "title_color": "#142b43",
-            "typography_typography": "custom",
-            "typography_font_family": "Arial",
-            "typography_font_weight": "800",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 62
-            },
-            "typography_font_size_tablet": {
-              "unit": "px",
-              "size": 56
-            },
-            "typography_font_size_mobile": {
-              "unit": "px",
-              "size": 46
-            },
-            "typography_line_height": {
-              "unit": "em",
-              "size": 1.08
-            },
-            "typography_letter_spacing": {
-              "unit": "px",
-              "size": -1.6
-            },
-            "__globals__": {
-              "typography_typography": "",
-              "title_color": ""
-            },
-            "_margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": true
-            }
-          },
-          "elements": []
+          ]
         }
       ]
     },
     {
-      "id": "c741a847",
+      "id": "194b8273",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -244,7 +439,7 @@
       },
       "elements": [
         {
-          "id": "7218393f",
+          "id": "4acc6b8e",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -279,7 +474,7 @@
       ]
     },
     {
-      "id": "ab4cac3c",
+      "id": "c0447ed5",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -334,7 +529,7 @@
       },
       "elements": [
         {
-          "id": "8d1fb69d",
+          "id": "b36b8398",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -377,7 +572,7 @@
           },
           "elements": [
             {
-              "id": "25db7958",
+              "id": "182b4156",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -416,38 +611,19 @@
                   "isLinked": true
                 },
                 "flex_align_items": "stretch",
-                "css_classes": "tb-content-block"
+                "css_classes": "tb-content-block tb-section-heading",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                }
               },
               "elements": [
                 {
-                  "id": "d1f3f37a",
-                  "elType": "widget",
-                  "widgetType": "image",
-                  "settings": {
-                    "image": {
-                      "team_asset": "cbf7ffae0b8536eeadd0"
-                    },
-                    "image_size": "full",
-                    "width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "align": "center",
-                    "__globals__": {},
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "_css_classes": "tb-original-image"
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "3e2696d8",
+                  "id": "8e48a90a",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -499,7 +675,7 @@
       ]
     },
     {
-      "id": "941d6f22",
+      "id": "346d2b28",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -554,7 +730,7 @@
       },
       "elements": [
         {
-          "id": "e29c57fb",
+          "id": "748f3ebe",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -597,7 +773,7 @@
           },
           "elements": [
             {
-              "id": "c6c08cef",
+              "id": "44079809",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -636,11 +812,19 @@
                   "isLinked": true
                 },
                 "flex_align_items": "stretch",
-                "css_classes": "tb-content-block"
+                "css_classes": "tb-content-block",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                }
               },
               "elements": [
                 {
-                  "id": "e9f93bcc",
+                  "id": "a5b11013",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -678,7 +862,7 @@
       ]
     },
     {
-      "id": "b2544380",
+      "id": "1d22ac05",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -733,7 +917,7 @@
       },
       "elements": [
         {
-          "id": "e577570f",
+          "id": "2d5bde50",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -776,7 +960,7 @@
           },
           "elements": [
             {
-              "id": "15cb4131",
+              "id": "908b6a25",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -815,11 +999,19 @@
                   "isLinked": true
                 },
                 "flex_align_items": "stretch",
-                "css_classes": "tb-content-block"
+                "css_classes": "tb-content-block",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                }
               },
               "elements": [
                 {
-                  "id": "08fc45b5",
+                  "id": "de2e7c1b",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -852,7 +1044,7 @@
       ]
     },
     {
-      "id": "65e7d31c",
+      "id": "7a0e8618",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -907,7 +1099,7 @@
       },
       "elements": [
         {
-          "id": "e1352db8",
+          "id": "6af0f542",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -950,7 +1142,7 @@
           },
           "elements": [
             {
-              "id": "e1c95868",
+              "id": "3cff8166",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -989,11 +1181,19 @@
                   "isLinked": true
                 },
                 "flex_align_items": "stretch",
-                "css_classes": "tb-content-block"
+                "css_classes": "tb-content-block tb-section-heading",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                }
               },
               "elements": [
                 {
-                  "id": "b361001d",
+                  "id": "6a8d4a11",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1045,7 +1245,7 @@
       ]
     },
     {
-      "id": "b36b8398",
+      "id": "60c6a225",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -1100,7 +1300,7 @@
       },
       "elements": [
         {
-          "id": "182b4156",
+          "id": "2cb447df",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -1143,7 +1343,7 @@
           },
           "elements": [
             {
-              "id": "194b8273",
+              "id": "ae8539a5",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1182,11 +1382,19 @@
                   "isLinked": true
                 },
                 "flex_align_items": "stretch",
-                "css_classes": "tb-content-card"
+                "css_classes": "tb-content-card",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                }
               },
               "elements": [
                 {
-                  "id": "79eef109",
+                  "id": "7c17c9e9",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1232,7 +1440,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b7b98b2f",
+                  "id": "c7580978",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1264,7 +1472,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b7fd5fa1",
+                  "id": "4d768292",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1298,7 +1506,7 @@
               ]
             },
             {
-              "id": "8e48a90a",
+              "id": "6ed58b78",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1337,11 +1545,19 @@
                   "isLinked": true
                 },
                 "flex_align_items": "stretch",
-                "css_classes": "tb-content-card"
+                "css_classes": "tb-content-card",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                }
               },
               "elements": [
                 {
-                  "id": "30fee5f3",
+                  "id": "3c921fdc",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1387,7 +1603,7 @@
                   "elements": []
                 },
                 {
-                  "id": "84ca9a1b",
+                  "id": "b08197a8",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1414,7 +1630,7 @@
                   "elements": []
                 },
                 {
-                  "id": "4acc6b8e",
+                  "id": "f91089c0",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1452,7 +1668,7 @@
       ]
     },
     {
-      "id": "748f3ebe",
+      "id": "3e90f4b4",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -1507,7 +1723,7 @@
       },
       "elements": [
         {
-          "id": "44079809",
+          "id": "4f013382",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -1550,7 +1766,7 @@
           },
           "elements": [
             {
-              "id": "a5b11013",
+              "id": "bf4cd231",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1589,11 +1805,19 @@
                   "isLinked": true
                 },
                 "flex_align_items": "stretch",
-                "css_classes": "tb-content-block"
+                "css_classes": "tb-content-block",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                }
               },
               "elements": [
                 {
-                  "id": "c0447ed5",
+                  "id": "204e237a",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -1621,10 +1845,10 @@
                     },
                     "border_radius": {
                       "unit": "px",
-                      "top": "7",
-                      "right": "7",
-                      "bottom": "7",
-                      "left": "7",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
                       "isLinked": true
                     },
                     "align": "left",
@@ -1652,7 +1876,7 @@
       ]
     },
     {
-      "id": "2d5bde50",
+      "id": "669229e3",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -1691,9 +1915,9 @@
           "isLinked": true
         },
         "flex_align_items": "stretch",
-        "css_classes": "",
+        "css_classes": "tb-conversation",
         "background_background": "classic",
-        "background_color": "#e5f2f8",
+        "background_color": "#dbe6e6",
         "boxed_width": {
           "unit": "px",
           "size": 1240
@@ -1709,7 +1933,7 @@
       },
       "elements": [
         {
-          "id": "908b6a25",
+          "id": "3f05895c",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -1753,7 +1977,7 @@
           },
           "elements": [
             {
-              "id": "346d2b28",
+              "id": "b06e1320",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -1799,7 +2023,7 @@
               "elements": []
             },
             {
-              "id": "de2e7c1b",
+              "id": "a1106397",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -1827,10 +2051,10 @@
                 },
                 "border_radius": {
                   "unit": "px",
-                  "top": "7",
-                  "right": "7",
-                  "bottom": "7",
-                  "left": "7",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
                   "isLinked": true
                 },
                 "align": "left",
@@ -1856,7 +2080,7 @@
       ]
     },
     {
-      "id": "6a8d4a11",
+      "id": "c056db99",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -1911,7 +2135,7 @@
       },
       "elements": [
         {
-          "id": "1d22ac05",
+          "id": "eeea8387",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {

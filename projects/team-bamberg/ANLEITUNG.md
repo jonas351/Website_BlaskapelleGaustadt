@@ -11,6 +11,20 @@ Du brauchst nur Local, WordPress und das kostenlose Elementor. Elementor Pro ist
 
 Dein Gaustadt-Projekt bleibt gespeichert. Zwischen den Websites wechselst du links in Local.
 
+## Du hast die erste Version schon in Local?
+
+Du brauchst kein neues Projekt.
+
+1. Die neue **team-bamberg-elementor.zip** herunterladen; nicht entpacken.
+2. In deinem bestehenden **Team-Bamberg-Projekt** unter **Design → Themes → Theme hinzufügen → Theme hochladen** die ZIP auswählen.
+3. Auf **Installiertes Theme durch hochgeladenes ersetzen** klicken.
+4. Links auf **Team Bamberg**, dann auf **Neue Gestaltung übernehmen** klicken.
+5. Die Website neu laden; bei Bedarf mit **Strg + F5**.
+
+Der Knopf übernimmt die neuen Texte und Layouts aller 45 importierten Team-Bamberg-Seiten sowie Kopf- und Fußbereich. Bereits eingetragene Termine, Empfängeradresse des Kontaktwidgets und Menüeinstellungen bleiben erhalten. Andere WordPress-Seiten werden nicht verändert. Die bisherigen Elementor-Inhalte werden vorher gesichert und können mit **Bisherige Seiteninhalte wiederherstellen** zurückgeholt werden; die neue Theme-Farbgestaltung bleibt dabei bestehen.
+
+Die ergänzten Einstiege sind **Textentwürfe** für die Gestaltungsvorschau. Sie erfinden keine aktuellen Ämter, bestätigten Veranstaltungen, Bankdaten oder politischen Beschlüsse. Vor dem öffentlichen Start auch diese Texte mit dem Betreiber abstimmen.
+
 ## Die neue Website hineinladen
 
 1. In diesem neuen WordPress unter **Plugins → Plugin hinzufügen** nach **Elementor Website Builder** suchen, installieren und aktivieren. Eine Registrierung bei Elementor ist nicht erforderlich.

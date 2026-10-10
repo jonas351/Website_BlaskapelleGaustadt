@@ -10,11 +10,12 @@ import shutil
 import sys
 import urllib.parse
 
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Comment
 
 PROJECT = Path(__file__).resolve().parents[1]
 THEME = PROJECT / 'team-bamberg-elementor'
 BLUE, NAVY, PALE, INK, MUTED, WHITE, LIME = '#0080c8', '#112b4b', '#e5f2f8', '#142b43', '#566779', '#ffffff', '#a2c516'
+PAPER, SAND = '#f1ede5', '#e5ddce'
 counter = 0
 assets = {}
 missing = []
@@ -76,7 +77,7 @@ def B(text, target, bg=BLUE, color=WHITE, external=False):
     return W('button', {'text': text, 'link': {'url': target, 'is_external': external},
         'background_color': bg, 'button_text_color': color, 'typography_typography': 'custom',
         'typography_font_family': 'Arial', 'typography_font_weight': '700', 'typography_font_size': {'unit': 'px', 'size': 14},
-        'text_padding': dims(18, 25), 'border_radius': dims(7), 'align': 'left', '_element_width': 'auto'})
+        'text_padding': dims(18, 25), 'border_radius': dims(50), 'align': 'left', '_element_width': 'auto'})
 
 
 def C(children, direction='column', css='', bg=None, width=100, pad=0, gap=24, **extra):
@@ -86,6 +87,8 @@ def C(children, direction='column', css='', bg=None, width=100, pad=0, gap=24, *
          'flex_gap': {'unit': 'px', 'size': gap, 'column': str(gap), 'row': str(gap), 'isLinked': True},
          'flex_align_items': 'stretch', 'css_classes': css}
     if bg: s.update(background_background='classic', background_color=bg)
+    if any(name in css.split() for name in ('tb-person-card', 'tb-contact-form-card', 'tb-contact-addresses', 'tb-feature-card', 'tb-content-card', 'tb-content-block', 'tb-profile-link')):
+        s['border_radius'] = dims(18)
     s.update(extra)
     return {'id': uid(), 'elType': 'container', 'isInner': False, 'settings': s, 'elements': children}
 
@@ -146,6 +149,7 @@ def image_source(img, hero=False):
 def rewrite(url):
     if not url: return ''
     parsed = urllib.parse.urlsplit(url)
+    if parsed.scheme == 'mailto' and ('<' in parsed.path or '*' in parsed.path or 'data-original-string' in parsed.path): return ''
     if parsed.scheme not in {'http', 'https', 'mailto', 'tel', ''}: return ''
     if parsed.scheme == 'mailto' and '*' in url: return ''
     if parsed.hostname in {'team-bamberg.de', 'www.team-bamberg.de'}:
@@ -160,6 +164,7 @@ def rewrite(url):
 
 def sanitise(value):
     soup = BeautifulSoup(value, 'html.parser')
+    for comment in soup.find_all(string=lambda node: isinstance(node, Comment)): comment.extract()
     for bad in soup.select('script,style,iframe,form,input,button,object,embed,noscript'): bad.decompose()
     for element in list(soup.find_all(True)):
         if element.name in {'h1', 'h2'}: element.name = 'h3'
@@ -170,7 +175,7 @@ def sanitise(value):
         element.attrs = {}
         if element.name == 'a':
             target = rewrite(old.get('href', ''))
-            if old.get('href', '').startswith('mailto:') and '*' in old.get('href', ''):
+            if old.get('href', '').lower().startswith('mailto:') and not target:
                 masked.append(element.get_text('', strip=True))
             if not target:
                 element.unwrap(); continue
@@ -191,7 +196,30 @@ def heading(slug, title, description=''):
     children = [E(f'<p><a href="{link("startseite")}">Startseite</a> <span aria-hidden="true">/</span> {html.escape(title)}</p>', size=12),
                 eye('CSU BAMBERG-STADT'), H(html.escape(title), 'h1', 62)]
     if description: children.append(E(description))
-    return section(children, '#f3f7fa', css='tb-page-title', pad=55)
+    picture = page_picture(slug)
+    if picture:
+        children = [row([C(children, width=62, flex_justify_content='center'),
+                         C([I(picture, 'tb-page-photo tb-page-portrait' if slug in PROFILE_SLUGS else 'tb-page-photo')], width=38)], gap=65)]
+    return section(children, SAND, css='tb-page-title', pad=48)
+
+
+PROFILE_SLUGS = ['andeas-dechant', 'dr-franz-wilhelm-heller', 'michael-kalb', 'stefan-kuhn', 'dr-christian-lange', 'peter-neller', 'anna-niedermaier', 'dr-ursula-redler', 'anne-rudel', 'prof-dr-gerhard-seitz', 'you-xie']
+
+
+def page_picture(slug):
+    soup = BeautifulSoup((source_root / pages[slug]['file']).read_text(), 'html.parser')
+    root = soup.select_one('[data-elementor-type="wp-page"]')
+    if root:
+        for part in root.select('header,nav,footer'): part.decompose()
+        for img in root.select('img'):
+            if 'CSU_Logo' in img.get('src', ''): continue
+            url = image_source(img)
+            if media_by_url.get(url) or media_by_url.get(url_key(url)):
+                key = add_asset(url, pages[slug]['title'])
+                if slug != 'kontakt': return key
+                break  # Keep the original contact banner in the media library; show Bamberg here.
+    if slug in PROFILE_SLUGS: return None
+    return add_asset('https://team-bamberg.de/wp-content/uploads/2020/12/AdobeStock_193611934-11-scaled-1536x1025.jpg', 'Bamberg an der Regnitz')
 
 
 def note(text): return E(text, color='#75571c', size=13, css='tb-source-note')
@@ -205,6 +233,7 @@ def convert_widget(widget, slug):
         if not img or 'CSU_Logo' in img.get('src', ''): return []
         url = image_source(img)
         key = add_asset(url, img.get('alt') or pages[slug]['title'])
+        if key and key == page_picture(slug): return []  # Display once, in the page introduction.
         anchor = img.find_parent('a')
         destination = rewrite(anchor.get('href', '')) if anchor else None
         style = 'tb-banner' if 'Header' in url or 'Header' in img.get('alt', '') else 'tb-original-image'
@@ -241,6 +270,21 @@ def generic_content(slug):
     result = []
     if root is None:
         return [section([E('Die ursprüngliche Seite enthält keine öffentlichen Inhaltsangaben.')], pad=35)]
+    if slug in PROFILE_SLUGS:
+        body, aside = [], []
+        contact = False
+        for widget in root.select('.elementor-widget'):
+            if widget.find_parent(['header', 'nav', 'footer']): continue
+            for item in convert_widget(widget, slug):
+                settings = item['settings']
+                text = settings.get('editor', settings.get('title', ''))
+                if item.get('widgetType') == 'heading' and 'kontakt' in text.lower(): contact = True
+                side = contact or item.get('widgetType') == 'button' or ('href=' in text and len(text) < 1800) or ('@' in text and len(text) < 450)
+                (aside if side else body).append(item)
+        columns = []
+        if body: columns.append(C([eye('PERSÖNLICHE VORSTELLUNG')] + body, css='tb-content-block tb-profile-story', width=65, gap=22))
+        if aside: columns.append(C([eye('KONTAKT & WEITERE EINBLICKE')] + aside, css='tb-content-block tb-profile-details', width=35, gap=20))
+        return [section([row(columns, css='tb-profile-layout', gap=30)], pad=35)] if columns else []
     for original_section in root.find_all(recursive=False):
         if original_section.name in {'header', 'nav', 'footer'}: continue
         groups = {}
@@ -258,7 +302,10 @@ def generic_content(slug):
             banners = [w for w in content if w['settings'].get('_css_classes') == 'tb-banner']
             if banners: result.append(section(banners, css='tb-source-banner', pad=25))
             content = [w for w in content if w not in banners]
-            if content: children.append(C(content, css='tb-content-card' if len(groups) > 1 else 'tb-content-block'))
+            if content:
+                style = 'tb-content-card' if len(groups) > 1 else 'tb-content-block'
+                if all(w.get('widgetType') == 'heading' for w in content): style += ' tb-section-heading'
+                children.append(C(content, css=style))
         if children:
             result.append(section([C(children, css='tb-grid tb-grid-' + str(min(len(children), 4)))], pad=30))
     return result
@@ -305,7 +352,7 @@ def main():
         section([row([E('CSU BAMBERG-STADT · NÄHER AM MENSCHEN', '#d5e7f2', 10), E(f'<p><a href="{link("mandatstraeger")}">Mandatsträger</a> <span>·</span> <a href="{link("spenden")}">Spenden</a></p>', '#d5e7f2', 11)], flex_justify_content='space-between')], NAVY, 'tb-topbar', pad=8, padding_mobile=dims(8, 20)),
         section([row([C([row([C([I(logo, 'tb-logo', link('startseite'))], width=43, bg=BLUE, pad=dims(14, 16)), C([H('Bamberg', 'p', 24)], width=53)], gap=10, flex_align_items='center', flex_direction_mobile='row')], width=28, width_mobile={'unit': '%', 'size': 76}), C([W('team-bamberg-navigation', {'items': [
             {'_id': uid(), 'label': label, 'link': {'url': link(slug)}} for slug, label in [
-                ('kreisvorstand-2', 'Über uns'), ('ortsverbaende', 'Vor Ort'), ('fraktion', 'Stadtrat'), ('termine', 'Termine'), ('kontakt', 'Kontakt')]]})], width=72, width_mobile={'unit': '%', 'size': 24}, flex_align_items='flex-end')], flex_align_items='center', flex_direction_mobile='row', gap=18)], WHITE, 'tb-header-main', pad=22, padding_mobile=dims(16, 20))
+                ('kreisvorstand-2', 'Menschen'), ('ortsverbaende', 'Vor Ort'), ('fraktion', 'Stadtrat'), ('termine', 'Termine'), ('kontakt', 'Kontakt')]]})], width=72, width_mobile={'unit': '%', 'size': 24}, flex_align_items='flex-end')], flex_align_items='center', flex_direction_mobile='row', gap=18)], PAPER, 'tb-header-main', pad=22, padding_mobile=dims(16, 20))
     ])
     footer_links = [('CSU Bamberg', [('kreisvorstand-2', 'Kreisverband'), ('ortsverbaende', 'Ortsverbände'), ('fachgruppen', 'Fachgruppen'), ('asp-kreisverband', 'ASP Kreisverband')]),
                     ('Politik & Menschen', [('fraktion', 'Stadtratsfraktion'), ('mandatstraeger', 'Mandatsträger'), ('fraktionsantraege', 'Anträge & Archiv'), ('aktuelles-2', 'Archiv & Transparenz'), ('termine', 'Termine')]),
@@ -328,33 +375,61 @@ def main():
         district_cards.append(C([I(key, 'tb-district-image', link(slug)), row([H(label, 'h3', 19), B('→', link(slug), WHITE, BLUE)], gap=8, flex_align_items='center', flex_justify_content='space-between', flex_direction_mobile='row')], css='tb-district-card', gap=18))
     home_original = original_text('startseite')
     about = next(w for w in home_original if 'Bamberg ist eine besondere Stadt' in w.get_text())
-    home = [section([row([
-        C([eye('CSU BAMBERG-STADT'), H('Bamberg.<br><span style="color:#0080c8">gestalten.</span>', 'h1', 86), E('Unsere Stadt. Unsere Menschen. Unser gemeinsames Morgen.', size=19),
-           row([B('Unser Team kennenlernen →', link('kreisvorstand-2')), B('Vor Ort entdecken →', link('ortsverbaende'), PALE, NAVY)], gap=12), E('WELTKULTURERBE. HEIMAT. ZUKUNFT.', size=10, css='tb-hero-foot')], width=45, flex_justify_content='center', gap=25),
-        C([I(hero, 'tb-hero-image'), row([E('Näher am Menschen.', INK, 13), E('BAMBERG-STADT', BLUE, 10)], css='tb-photo-caption', flex_justify_content='space-between', flex_direction_mobile='row')], width=55, gap=15)], gap=65)], '#f8fafc', 'tb-hero', pad=65),
-        section([C([C([eye(num), H(title, 'h3', 23), E(text, size=14), B('Entdecken →', link(slug), WHITE, BLUE)], css='tb-quick-card', gap=15) for num, title, text, slug in [
-            ('01 · MENSCHEN', 'Ein Team für Bamberg.', 'Kreisverband, Fachgruppen und Ansprechpartner.', 'kreisvorstand-2'),
-            ('02 · STADTTEILE', 'Ganz nah. Vor Ort.', 'Acht Ortsverbände in unserer Stadt.', 'ortsverbaende'),
-            ('03 · STADTRAT', 'Politik zum Nachlesen.', 'Fraktion, Anträge und Dokumente im Überblick.', 'fraktionsantraege')]], css='tb-grid tb-grid-3')], WHITE, pad=40),
-        section([row([C([I(city, 'tb-about-image')], width=45), C([eye('UNSER BAMBERG'), H('Besondere Stadt.<br>Gemeinsames Morgen.'), E(sanitise((about.select_one('.elementor-widget-container') or about).decode_contents())), B('Die CSU Bamberg kennenlernen →', link('kreisvorstand-2'))], width=55, flex_justify_content='center')], gap=70)], pad=85),
-        section([row([C([eye('IN IHREM STADTTEIL'), H('Bamberg hat viele Gesichter.')], width=72), C([B('Alle Ortsverbände →', link('ortsverbaende'), WHITE, BLUE)], width=28, flex_justify_content='flex-end')]), C(district_cards, css='tb-grid tb-grid-4')], '#f3f7fa', pad=75),
-        section([row([C([eye('IM BAMBERGER STADTRAT', '#b9def4'), H('Menschen hinter<br>der Stadtpolitik.', 'h2', 46, WHITE), E('Die politische Arbeit der CSU-Fraktion im Bamberger Stadtrat.', '#d5e7f2'), row([B('Zur Stadtratsfraktion →', link('fraktion'), WHITE, NAVY), B('Mandatsträger →', link('mandatstraeger'), '#234864', WHITE)], gap=15)], width=60), C([eye('NACHLESEN STATT SUCHEN', '#b9def4'), H('Anträge.<br>Dokumente.<br>Einblicke.', 'h3', 33, WHITE), B('Zum Antragsarchiv →', link('fraktionsantraege'), LIME, NAVY)], width=40, css='tb-politics-side')], gap=70)], NAVY, pad=70),
-        section([row([C([eye('BEGEGNEN & AUSTAUSCHEN'), H('Termine im Überblick.')], width=55), C([W('team-bamberg-events', {'source': 'shared', 'single': 'yes', 'empty_title': 'Neue Termine folgen.', 'empty_text': 'Bestätigte kommende Veranstaltungen werden hier veröffentlicht.'}), B('Zur Terminübersicht →', link('termine'), PALE, NAVY)], width=45)], gap=80)], pad=75),
-        section([row([C([eye('MITMACHEN', WHITE), H('Mitmachen.<br>Mitgestalten.', 'h2', 48, WHITE), E('Die CSU Bamberg kennenlernen und sich einbringen.', '#e5f2f8')], width=65), C([B('Mitglied werden →', link('mitglied-werden'), WHITE, NAVY), B('Kontakt aufnehmen →', link('kontakt'), NAVY, WHITE)], width=35, flex_justify_content='center')], gap=45)], BLUE, pad=60)]
+    featured = ['anna-niedermaier', 'dr-christian-lange', 'anne-rudel', 'you-xie']
+    people_cards = [C([I(page_picture(p), 'tb-person-image', link(p)), C([
+        H(pages[p]['title'], 'h3', 23), B('Persönlich kennenlernen →', link(p), PAPER, NAVY)], css='tb-person-caption', gap=14)], css='tb-person-card', gap=0) for p in featured]
+    home = [section([I(hero, 'tb-hero-backdrop'), C([
+        eye('HIER SIND WIR ZU HAUSE.', '#dcebb3'),
+        H('Für Bamberg.<br>Mit Menschen.', 'h1', 82, WHITE),
+        E('Zwischen Regnitz und Michaelsberg, in unseren Stadtteilen und mitten im Alltag: Lernen Sie die CSU Bamberg und die Menschen dahinter kennen.', '#e6e9e6', 19),
+        row([B('Die Menschen kennenlernen →', link('kreisvorstand-2'), LIME, NAVY), B('In Ihrem Stadtteil →', link('ortsverbaende'), '#254361', WHITE)], gap=12),
+        E('CSU BAMBERG-STADT · NÄHER AM MENSCHEN', '#dae3e8', 10, 'tb-hero-foot')
+    ], css='tb-hero-copy', width=62, gap=28), E('Bamberg an der Regnitz · Altes Rathaus', '#e3e8eb', 11, 'tb-hero-caption')], NAVY, 'tb-hero', pad=78),
+        section([row([C([eye('UNSERE STADT. UNSER MITEINANDER.'), H('Bamberg ist mehr<br>als eine Adresse.'),
+            E(sanitise((about.select_one('.elementor-widget-container') or about).decode_contents())),
+            B('Unseren Kreisverband entdecken →', link('kreisvorstand-2'), NAVY, WHITE)], width=55, flex_justify_content='center'),
+            C([I(city, 'tb-about-image'), E('Vertraute Orte. Unterschiedliche Perspektiven. Ein gemeinsames Bamberg.', '#4c5d60', 13)], width=45)], gap=65)], PAPER, 'tb-home-about', pad=68),
+        section([row([C([eye('PERSÖNLICH KENNENLERNEN'), H('Politik hat Gesichter.'), E('Wer steckt hinter den Namen? Entdecken Sie die Porträts und persönlichen Vorstellungen aus dem Team-Bamberg-Auftritt.')], width=72),
+                     C([B('Zum ganzen Team →', link('fraktion'), NAVY, WHITE)], width=28, flex_justify_content='center')], gap=35),
+                 C(people_cards, css='tb-grid tb-grid-4'), E('Porträts aus der bisherigen Website. Aktuelle Funktionen werden vor Veröffentlichung abgeglichen.', '#5b625d', 12)], SAND, 'tb-people-section', pad=65),
+        section([row([C([eye('ACHT ORTSVERBÄNDE', '#c5dfef'), H('Ihr Stadtteil.<br>Ihr Bamberg.', 'h2', 49, WHITE),
+            E('Vom Berggebiet bis zur Gartenstadt, von Gaustadt bis zur Wunderburg: Hier finden Sie den Ortsverband in Ihrer Nähe.', '#d8e4e9')], width=72),
+            C([B('Alle Ortsverbände →', link('ortsverbaende'), LIME, NAVY)], width=28, flex_justify_content='center')], gap=35), C(district_cards, css='tb-grid tb-grid-4')], NAVY, 'tb-district-section', pad=65),
+        section([row([C([eye('WAS PASSIERT IM STADTRAT?'), H('Stadtpolitik.<br>Zum Nachlesen.'), E('Welche Themen wurden eingebracht? Wer gehört zum vorgestellten Team? Die Fraktionsseiten und das Antragsarchiv machen die bisherige Arbeit zugänglich.'), B('Zur Stadtratsfraktion →', link('fraktion'), NAVY, WHITE)], width=52),
+            C([C([eye('ANTRÄGE & DOKUMENTE'), H('Ein Thema suchen.<br>Mehr erfahren.', 'h3', 31), E('Originalanträge mit Datum, Dokumenten und einer Suche nach Thema und Jahr.'), B('Im Archiv stöbern →', link('fraktionsantraege'))], css='tb-feature-card', bg=SAND, pad=34),
+               C([H('Im Gespräch bleiben.', 'h3', 24), E('Eine Frage, eine Idee oder ein Anliegen aus Ihrem Stadtteil? Hier geht es zum Kontakt.'), B('Kontakt aufnehmen →', link('kontakt'), PAPER, NAVY)], css='tb-feature-card', bg='#dae5df', pad=30)], width=48)], gap=65)], PAPER, pad=65),
+        section([row([C([eye('BEGEGNEN & AUSTAUSCHEN'), H('Manches bespricht<br>sich besser persönlich.'), E('Hier finden Sie bestätigte kommende Veranstaltungen. Bis dahin können Sie über die Kontaktseite den Austausch suchen.')], width=55), C([W('team-bamberg-events', {'source': 'shared', 'single': 'yes', 'empty_title': 'Wann sehen wir uns?', 'empty_text': 'Neue bestätigte Termine finden Sie hier, sobald sie feststehen.'}), B('Zur Terminübersicht →', link('termine'), NAVY, WHITE)], width=45)], gap=65)], '#dbe6e6', pad=60),
+        section([row([C([eye('LUST, BAMBERG MITZUGESTALTEN?', '#dcebb3'), H('Gute Gespräche.<br>Neue Begegnungen.', 'h2', 48, WHITE), E('Ob Sie erst einmal eine Frage stellen oder sich über eine Mitgliedschaft informieren möchten: Finden Sie Ihren Einstieg.', '#d5e7f2')], width=65), C([B('Mitgliedschaft kennenlernen →', link('mitglied-werden'), LIME, NAVY), B('Sagen Sie Hallo →', link('kontakt'), '#254361', WHITE)], width=35, flex_justify_content='center')], gap=45)], NAVY, 'tb-join-section', pad=60)]
     save('startseite', 'Startseite', home)
 
-    descriptions = {'kreisvorstand-2': 'Kreisvorstand, Ansprechpartner und die Organisation der CSU Bamberg.',
-                    'ortsverbaende': 'Acht Ortsverbände. Die CSU in den Bamberger Stadtteilen.',
-                    'fraktion': 'Menschen und Arbeit der CSU-Stadtratsfraktion.',
-                    'mandatstraeger': 'Die auf der bisherigen Website vorgestellten Mandatsträger.',
-                    'fachgruppen': 'Thematische Fachgruppen der Bamberger CSU.',
-                    'kontakt': 'Geschäftsstelle, Stadtratsfraktion und Ihre Nachricht.',
-                    'fraktionsantraege': 'Dokumente und Anträge aus der bisherigen Website – mit ihren ursprünglichen Daten.'}
-    profile_slugs = ['andeas-dechant', 'dr-franz-wilhelm-heller', 'michael-kalb', 'stefan-kuhn', 'dr-christian-lange', 'peter-neller', 'anna-niedermaier', 'dr-ursula-redler', 'anne-rudel', 'prof-dr-gerhard-seitz', 'you-xie']
+    descriptions = {
+        'kreisvorstand-2': 'Eine Stadt, viele Menschen. Hier lernen Sie den Kreisverband, seine Organisation und die auf der bisherigen Website vorgestellten Ansprechpartner kennen.',
+        'ortsverbaende': 'Bamberg beginnt vor der eigenen Haustür. Entdecken Sie unsere acht Ortsverbände und die Menschen in Ihrem Stadtteil.',
+        'fraktion': 'Vom persönlichen Anliegen bis zum Stadtratsantrag: Hier finden Sie das vorgestellte Team der Fraktion, Kontaktmöglichkeiten und dokumentierte politische Arbeit.',
+        'mandatstraeger': 'Politik wird von Menschen gemacht. Lernen Sie die auf Team Bamberg vorgestellten Mandatsträger und ihre Aufgaben kennen.',
+        'fachgruppen': 'Menschen zusammenbringen, Erfahrungen teilen, Themen vertiefen. Ein Überblick über die Fachgruppen und Arbeitsgemeinschaften der CSU Bamberg.',
+        'kontakt': 'Eine Frage, eine Idee oder ein Anliegen aus Ihrem Stadtteil? Finden Sie den passenden Kontakt und bereiten Sie Ihre Nachricht vor.',
+        'fraktionsantraege': 'Was wurde eingebracht, wann und zu welchem Thema? Stöbern Sie in den Originalanträgen oder suchen Sie gezielt nach einem Stichwort.',
+        'antraege': 'Eine Auswahl aus der dokumentierten Stadtratsarbeit. Die Originaltexte und Dokumente laden dazu ein, einzelne Themen genauer kennenzulernen.',
+        'termine': 'Sich begegnen, zuhören und ins Gespräch kommen. Hier ist Platz für bestätigte Veranstaltungen und die bisherigen Terminangaben.',
+        'mitglied-werden': 'Sie möchten die CSU kennenlernen oder sich einbringen? Hier finden Sie Informationen zur Mitgliedschaft und die weiterführenden Originalunterlagen.',
+        'spenden': 'Die Arbeit vor Ort unterstützen: Hier sind die bisherigen Angaben zu Spenden und Ansprechpartnern zusammengefasst. Bankdaten bitte vor einer Überweisung bestätigen lassen.',
+        'impressum': 'Wer steht hinter dieser Website? Hier finden Sie die übernommenen Angaben zur Verantwortung und zum Kontakt.',
+        'datenschutz': 'Ein transparenter Umgang mit Daten gehört zu einer guten Website. Hier finden Sie den bisherigen Datenschutztext als Grundlage für die Aktualisierung.',
+        'asp-kreisverband': 'Sicherheitspolitik im Austausch. Lernen Sie den Arbeitskreis Außen- und Sicherheitspolitik und die Informationen aus dem bisherigen Auftritt kennen.',
+        'asp-bezirk': 'Ein Blick zurück auf die dokumentierte Arbeit des ASP-Bezirksverbands. Die ursprünglichen Inhalte und Zeitangaben bleiben erhalten.',
+        'aktuelles-2': 'Ein Ort zum Nachlesen: weitere Originalseiten, historische Inhalte und Transparenzangaben zu politischen Anzeigen.',
+    }
+    district_labels = {slug: label for slug, label, _ in district_names}
+    for slug, label in district_labels.items():
+        descriptions[slug] = f'Zu Hause in {label}. Lernen Sie den Ortsverband, die vorgestellten Menschen und die Kontaktmöglichkeiten aus dem bisherigen Auftritt kennen.'
+    profile_slugs = PROFILE_SLUGS
+    for slug in profile_slugs:
+        descriptions[slug] = 'Ein persönlicher Blick auf den Menschen hinter dem Namen: die Vorstellung, Schwerpunkte und Kontaktangaben aus dem bisherigen Team-Bamberg-Auftritt.'
     for slug, record in pages.items():
         if slug == 'startseite': continue
         title = 'Anträge & Archiv' if slug == 'fraktionsantraege' else record['title']
-        content = [heading(slug, title, descriptions.get(slug, ''))]
+        content = [heading(slug, title, descriptions.get(slug, 'Originalunterlagen und Transparenzangaben zum Nachlesen. Diese Archivseite bewahrt die veröffentlichten Informationen und ihre ursprünglichen Zeiträume.'))]
         if slug in {'kreisvorstand-2', 'fraktion', 'mandatstraeger'} or slug in profile_slugs or slug.startswith('csu-'):
             content.append(section([note('Personen, Funktionen und Kontaktdaten wurden aus der bisherigen Website übernommen. Die aktuelle Besetzung muss vor Veröffentlichung bestätigt werden.')], pad=20))
         if slug in {'impressum', 'datenschutz'}:
@@ -372,7 +447,7 @@ def main():
                 if date: cards.append(C(converted, css='tb-document tb-year-' + date.group(1)))
                 elif converted: content.append(section(converted, pad=20))
             content.append(section([W('team-bamberg-archive-filter'), C(cards, css='tb-archive-list'), E('Externe Dokumente bleiben mit ihrer veröffentlichten Originaladresse verlinkt.', size=12)], pad=40))
-        else: content.extend(generic_content(slug))
+        elif slug != 'kontakt': content.extend(generic_content(slug))
         if slug == 'aktuelles-2':
             entries = [('antraege', 'Ausgewählte Stadtratsanträge'), ('asp-bezirk', 'ASP Bezirk – historisches Archiv'),
                        ('city-lights-weihnachten', 'City Lights Weihnachten'), ('stroer_drei', 'Ströer – drei Motive'),
@@ -386,13 +461,23 @@ def main():
         if slug == 'asp-bezirk' or slug in {'city-lights-weihnachten', 'stroer_drei', 'wesselmann', 'matino', 'city-lights-huml-februar', 'stroeer-kuhn-rudel', 'city-lights-huml-maerz', '2026-2', 'wesselmann-stichwahl'}:
             content.insert(1, section([note('Archivinhalt der bisherigen Website. Ursprüngliche Daten, Zeiträume und Verantwortliche sind erhalten; diese Seite beschreibt keine neu geschaltete Anzeige oder aktuell bestätigte Veranstaltung.')], pad=20))
         if slug == 'fraktion':
-            content.append(section([eye('DIE VORGESTELLTEN PERSONEN'), H('Gesichter der Fraktion.'), C([C([H(pages[p]['title'], 'h3', 22), B('Profil ansehen →', link(p), PALE, NAVY)], css='tb-profile-link') for p in profile_slugs], css='tb-grid tb-grid-3')], '#f3f7fa', pad=60))
+            content.append(section([eye('DIE VORGESTELLTEN PERSONEN'), H('Gesichter der Fraktion.'), C([C(([I(page_picture(p), 'tb-person-image', link(p))] if page_picture(p) else []) + [C([H(pages[p]['title'], 'h3', 22), B('Profil kennenlernen →', link(p), PAPER, NAVY)], css='tb-person-caption')], css='tb-person-card') for p in profile_slugs], css='tb-grid tb-grid-3')], '#f3f7fa', pad=60))
         if slug == 'kreisvorstand-2':
             content.append(section([row([B('Fachgruppen kennenlernen →', link('fachgruppen')), B('ASP Kreisverband →', link('asp-kreisverband'), PALE, NAVY)], gap=15)], pad=35))
         if slug == 'kontakt':
-            content.append(section([H('Ihre Nachricht vorbereiten'), W('team-bamberg-inquiry', {'email': '', 'privacy_link': {'url': link('datenschutz')}})], '#f3f7fa', pad=55))
+            original_contacts = [E(sanitise((w.select_one('.elementor-widget-container') or w).decode_contents()), INK, 16) for w in original_text(slug)]
+            content.append(section([row([
+                C([eye('DER DIREKTE DRAHT'), H('Sagen Sie Hallo.', 'h2', 36),
+                   E('Manchmal beginnt ein gutes Gespräch mit einer einfachen Frage. Hier finden Sie die veröffentlichten Kontaktwege.'),
+                   C(original_contacts, css='tb-contact-addresses', bg=SAND, pad=28),
+                   note('Kontaktangaben aus dem bisherigen Auftritt. Die aktuelle Erreichbarkeit wird vor Veröffentlichung bestätigt.')], width=38, gap=22),
+                C([eye('IHRE NACHRICHT'), H('Was liegt Ihnen<br>am Herzen?', 'h2', 36),
+                   W('team-bamberg-inquiry', {'email': '', 'button_text': 'Nachricht vorbereiten →', 'privacy_link': {'url': link('datenschutz')}})], width=62, css='tb-contact-form-card', bg='#f8f5ee', pad=35)
+            ], gap=55)], PAPER, 'tb-contact-section', pad=48))
+        if slug == 'termine':
+            content.append(section([row([C([eye('NOCH KEIN PASSENDER TERMIN?'), H('Der erste Schritt:<br>ein Gespräch.', 'h2', 35), E('Eine Frage zur Arbeit vor Ort oder zur Mitgliedschaft? Die Kontaktseite hilft Ihnen weiter.')], width=65), C([B('Zum Kontakt →', link('kontakt'), NAVY, WHITE)], width=35, flex_justify_content='center')], gap=35)], SAND, pad=40))
         if slug not in {'impressum', 'datenschutz', 'kontakt', 'termine', 'spenden'}:
-            content.append(section([row([H('Im Gespräch bleiben.', 'h2', 32), B('Kontakt aufnehmen →', link('kontakt'))], gap=30, flex_align_items='center', flex_justify_content='space-between')], PALE, pad=35))
+            content.append(section([row([H('Im Gespräch bleiben.', 'h2', 32), B('Kontakt aufnehmen →', link('kontakt'))], gap=30, flex_align_items='center', flex_justify_content='space-between')], '#dbe6e6', css='tb-conversation', pad=35))
         content.append(section([E(f'<p>Originalinhalte: <a href="{html.escape(record["url"])}" target="_blank" rel="noopener noreferrer">team-bamberg.de</a> · Übernommen am 10.10.2026.</p>', size=11)], pad=20))
         save(slug, title, content)
 
