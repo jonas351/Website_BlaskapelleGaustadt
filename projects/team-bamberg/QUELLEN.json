@@ -8,27 +8,17 @@
       "http://team-bamberg.de/wp-content/uploads/2021/01/Andreas_Dechant_q.jpg"
     ],
     "masked_email_addresses": [
-      "",
-      "*************@*mx.de„>me*************@*mx.de",
       "********@*********er.de„>st********@*********er.de",
-      "******@****ud.com„>st******@****ud.com",
-      "Be*****************@*mx.de",
       "Ne**********@*********rg.de",
       "an**************@*****ok.de",
       "an*************@********el.de",
       "asp-bezirk-oberfranken-a-T-web.de",
       "bamberg@csu-bayern.de",
-      "be*****************@*mx.de",
-      "c.********@*eb.de",
       "ch*******@***********rg.de",
       "cs*@*********rg.de",
       "da*********************@********rn.de",
       "dr*******@******ne.de",
-      "familie.dotterweich(at)t-online.de",
       "ge**************@*********rg.de",
-      "ge*****@*****et.de",
-      "info@dieter-backert.de",
-      "mi***@*********rg.de",
       "mo**************@*******pa.eu",
       "ob*********@**************er.de",
       "po********@********rn.de",
@@ -228,5 +218,10 @@
     "Datenschutzerklärung Stand Mai 2018: an neuen Betrieb anpassen.",
     "Terminangabe ohne Jahr: nicht als zukünftiges Ereignis übernommen.",
     "Originalfoto Andreas Dechant nicht abrufbar; kein Ersatzporträt erfunden."
-  ]
+  ],
+  "source_link_corrections": {
+    "unavailable_membership_pdf": "https://www.csu.de/common/csu/content/csu/hauptnavigation/dialog/mitmachen/SP-494_CSU_BL_Mitgliedsantrag_6-seiter_210x100_quer_01_2020_RO_150_2_innen.pdf",
+    "replacement": "https://www.csu.de/jetzt-mitmachen/",
+    "malformed_privacy_links": "Entfernt den versehentlichen CSU-URL-Präfix vor zwei Google-Adressen; Rechtstext bleibt zur Prüfung markiert."
+  }
 }

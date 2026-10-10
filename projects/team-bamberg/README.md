@@ -10,6 +10,8 @@ Eigenständige Neugestaltung von https://team-bamberg.de/ in CSU-Farben. Das Gau
 - Version 1.1: großes Bamberg-Foto über die volle Breite, dunkle Bildüberlagerung, warme Sand- und Cremetöne sowie echte Originalporträts direkt auf der Startseite.
 - Bildgestützte Einstiege und ergänzte Textentwürfe auf allen Unterseiten, persönliche Profilkarten und neu gestaltete Kontaktseite mit separaten Kontaktwegen und Formular.
 - Expliziter Update-Knopf für vorhandene Installationen: ersetzt die importierten Elementor-Vorlagen nach Sicherung, erhält Termine, Empfänger und Menü, schützt fremde Seiten und erlaubt die Wiederherstellung der bisherigen Inhalte. Ein normaler Import überschreibt weiterhin keine Bearbeitungen.
+- Version 1.2: acht eigenständige Stadtteilseiten mit individuellen, quellenbasierten Einstiegen, Stadtteilbildern, vollständiger Originalvorstellung und identifizierbaren Kontaktkarten. Ortsverbandsübersicht verlinkt alle acht internen Seiten.
+- Local-Vorschau direkt vor der Seitentabelle; Update bietet eine ausdrücklich beschriftete Checkbox zum Freigeben der Projektentwürfe und Aktivieren der Startseite. Normale Importe bleiben als Entwürfe erhalten, öffentliche Installationen bekommen keine Local-Freigabe.
 - Offizielle CSU-Farben anhand von `https://www.csu.de/assets/css/csu.min.css`: Blau `#0080c8`, Dunkelblau `#112b4b`, Hellblau `#e5f2f8`, Grün `#a2c516`.
 - 45 öffentliche Originalseiten aus Navigation und Seiten-Sitemap, darunter acht Ortsverbände, Kreisverband, Fachgruppen, ASP, Mandatsträger, Fraktion, elf Personenprofile, Mitgliedschaft, Spenden, Kontakt und Rechtstexte.
 - Zusätzliches Archiv mit bestehenden Transparenzangaben zu politischen Anzeigen.
@@ -36,7 +38,7 @@ python3 projects/team-bamberg/tools/start-test-environment.py
 
 Der Helfer verwendet verifizierte offizielle Docker-Images und Elementor Free 4.3.0 mit SHA-256-Prüfung. Die Testcontainer `team-bamberg-test-wp` und `team-bamberg-test-db` sind vom Gaustadt-Testprojekt getrennt. Sie verwenden Port 8089 und private Testdateien unter `/workspace/team-bamberg-wp-test`. Passwörter, Cookies, Datenbankdateien und WordPress-Core sind nicht im Theme. Bei einer frischen Datenbank den normalen Import im WordPress-Backend ausführen. Keine bestehenden fremden Container oder Benutzerinhalte überschreiben.
 
-Geprüft mit WordPress 7.1.3, Elementor Free 4.3.0 und PHP 8.3.35: echter Backendimport und Fortsetzung, Schutz vorhandener Elementor-Daten, echte Bearbeitung/Veröffentlichung einer Überschrift, Startseitenaktivierung, alle 45 Seiten bei 1440/390/320 Pixeln, Archivfilter, lokales Original-PDF, WordPress-Suche, Formularvalidierung und Kopieren, mobiles Menü und Escape, geladene Originalbilder, eigene 404 und deaktivierte Formularfelder ohne JavaScript. Version 1.1 zusätzlich geprüft: echter Update-Knopf, 47 gesicherte Elementor-Dokumente, exakte Wiederherstellung, Schutz vor erneutem Überschreiben der Sicherung, Erhalt der Funktionswidget-Einstellungen und fremder Seiten. Token-Auflösung verwendet einen pro Request vorbereiteten URL-Index, damit das gesamte Update innerhalb der PHP-Laufzeitgrenze fertig wird. Keine Fehler im Frontend-JavaScript. team-bamberg.de wurde nicht verändert.
+Geprüft mit WordPress 7.1.3, Elementor Free 4.3.0 und PHP 8.3.35: echter Backendimport und Fortsetzung, Schutz vorhandener Elementor-Daten, echte Bearbeitung/Veröffentlichung einer Überschrift, Startseitenaktivierung, alle 45 Seiten bei 1440/768/390/320 Pixeln, Archivfilter, lokales Original-PDF, WordPress-Suche, Formularvalidierung und Kopieren, mobiles Menü und Escape, geladene Originalbilder, eigene 404 und deaktivierte Formularfelder ohne JavaScript. Version 1.1 zusätzlich geprüft: echter Update-Knopf, 47 gesicherte Elementor-Dokumente, exakte Wiederherstellung, Schutz vor erneutem Überschreiben der Sicherung, Erhalt der Funktionswidget-Einstellungen und fremder Seiten. Token-Auflösung verwendet einen pro Request vorbereiteten URL-Index, damit das gesamte Update innerhalb der PHP-Laufzeitgrenze fertig wird. Keine Fehler im Frontend-JavaScript. team-bamberg.de wurde nicht verändert.
 
 Originalquellen neu erfassen:
 
@@ -55,3 +57,5 @@ python3 projects/team-bamberg/tools/package-theme.py
 ```
 
 Der Build schreibt Vorlagendateien; im normalen Cloud-Setup nur Paketprüfung und Testumgebung starten. Der ZIP-Helfer prüft die SHA-256-Werte der Originalmedien und enthält ausschließlich das Theme. Neue Cloud-Wiederherstellung und der tatsächliche Vereinsserver wurden nicht unabhängig getestet.
+
+Aktuelle Prüfungen und Grenzen stehen in [PRUEFBERICHT.md](PRUEFBERICHT.md).

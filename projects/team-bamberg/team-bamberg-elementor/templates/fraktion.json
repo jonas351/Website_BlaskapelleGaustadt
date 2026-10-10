@@ -5,7 +5,7 @@
   "page_settings": {},
   "content": [
     {
-      "id": "ff6e813b",
+      "id": "65535af5",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -62,7 +62,7 @@
       },
       "elements": [
         {
-          "id": "848df354",
+          "id": "0587be1a",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -105,7 +105,7 @@
           },
           "elements": [
             {
-              "id": "9dee6fae",
+              "id": "a8325d3e",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -149,7 +149,7 @@
               },
               "elements": [
                 {
-                  "id": "09cfcc2d",
+                  "id": "27478893",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -181,7 +181,7 @@
                   "elements": []
                 },
                 {
-                  "id": "724fa621",
+                  "id": "d3b9979c",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -228,7 +228,7 @@
                   "elements": []
                 },
                 {
-                  "id": "f82c4c72",
+                  "id": "767f367b",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -274,7 +274,7 @@
                   "elements": []
                 },
                 {
-                  "id": "e02b93ac",
+                  "id": "c7463ca4",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -308,7 +308,7 @@
               ]
             },
             {
-              "id": "2eb6fdb5",
+              "id": "c724bb7a",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -351,7 +351,7 @@
               },
               "elements": [
                 {
-                  "id": "14e35d31",
+                  "id": "27478416",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -384,7 +384,7 @@
       ]
     },
     {
-      "id": "5dc51b1c",
+      "id": "df603f3a",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -439,7 +439,7 @@
       },
       "elements": [
         {
-          "id": "c2678b7f",
+          "id": "41aad8a4",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -474,7 +474,7 @@
       ]
     },
     {
-      "id": "43945ac9",
+      "id": "473f05c2",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -529,7 +529,7 @@
       },
       "elements": [
         {
-          "id": "ebc5d38f",
+          "id": "70c57fb5",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -572,7 +572,7 @@
           },
           "elements": [
             {
-              "id": "d7a9ad59",
+              "id": "12f3b90b",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -623,7 +623,7 @@
               },
               "elements": [
                 {
-                  "id": "0012373d",
+                  "id": "5f77b15b",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -675,7 +675,7 @@
       ]
     },
     {
-      "id": "03ec5681",
+      "id": "5d72348c",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -730,7 +730,7 @@
       },
       "elements": [
         {
-          "id": "df757c54",
+          "id": "8837db4b",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -773,7 +773,7 @@
           },
           "elements": [
             {
-              "id": "0f5b6f84",
+              "id": "65820649",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -824,7 +824,7 @@
               },
               "elements": [
                 {
-                  "id": "9ae0a238",
+                  "id": "23697179",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -858,7 +858,7 @@
               ]
             },
             {
-              "id": "517cae08",
+              "id": "87cf3839",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -909,11 +909,11 @@
               },
               "elements": [
                 {
-                  "id": "103bcb0d",
+                  "id": "b97416f0",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<h3>Kontakt zur CSU-Stadtratsfraktion</h3> <h5><strong>CSU-Stadtratsfraktion</strong><br/>Grüner Markt 7<br/>96047 Bamberg<br/>Telefon: (0951) 20 33 11<br/>Fax: (0951) 20 47 13</h5><h5><span>cs<span>*</span>@<span>*********</span>rg.de</span></h5>",
+                    "editor": "<h3>Kontakt zur CSU-Stadtratsfraktion</h3> <h5><strong>CSU-Stadtratsfraktion</strong><br/>Grüner Markt 7<br/>96047 Bamberg<br/>Telefon: (0951) 20 33 11<br/>Fax: (0951) 20 47 13</h5><h5>E-Mail-Adresse wird noch bestätigt. Kontakt über die Geschäftsstelle.</h5>",
                     "text_color": "#566779",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
@@ -947,7 +947,7 @@
       ]
     },
     {
-      "id": "3ed98565",
+      "id": "6cf31bdc",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -1004,7 +1004,7 @@
       },
       "elements": [
         {
-          "id": "d3bd321c",
+          "id": "e35be335",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -1051,7 +1051,7 @@
           "elements": []
         },
         {
-          "id": "bd3a8e89",
+          "id": "a2dfa365",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
@@ -1097,7 +1097,7 @@
           "elements": []
         },
         {
-          "id": "80392104",
+          "id": "9cc30af8",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -1140,7 +1140,7 @@
           },
           "elements": [
             {
-              "id": "7192f2bb",
+              "id": "5c990cc4",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1191,7 +1191,7 @@
               },
               "elements": [
                 {
-                  "id": "ba90576a",
+                  "id": "ca082f28",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -1234,7 +1234,7 @@
                   },
                   "elements": [
                     {
-                      "id": "4d83be9b",
+                      "id": "f1eab00e",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -1280,7 +1280,7 @@
                       "elements": []
                     },
                     {
-                      "id": "de778ead",
+                      "id": "96f80336",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -1337,7 +1337,7 @@
               ]
             },
             {
-              "id": "8ff5b68f",
+              "id": "8aef6fdd",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1388,7 +1388,7 @@
               },
               "elements": [
                 {
-                  "id": "3141cd26",
+                  "id": "c3e4b045",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1419,7 +1419,7 @@
                   "elements": []
                 },
                 {
-                  "id": "4519d2a9",
+                  "id": "9a1a139e",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -1462,7 +1462,7 @@
                   },
                   "elements": [
                     {
-                      "id": "16ad5082",
+                      "id": "fc715bbc",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -1508,7 +1508,7 @@
                       "elements": []
                     },
                     {
-                      "id": "a170ae46",
+                      "id": "b1bda1bc",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -1565,7 +1565,7 @@
               ]
             },
             {
-              "id": "8ed8993c",
+              "id": "a42f239a",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1616,7 +1616,7 @@
               },
               "elements": [
                 {
-                  "id": "39b95e09",
+                  "id": "a5e4bc05",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1647,7 +1647,7 @@
                   "elements": []
                 },
                 {
-                  "id": "7b675fc1",
+                  "id": "87e09188",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -1690,7 +1690,7 @@
                   },
                   "elements": [
                     {
-                      "id": "48699d7e",
+                      "id": "fdfb36c2",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -1736,7 +1736,7 @@
                       "elements": []
                     },
                     {
-                      "id": "0c56a525",
+                      "id": "ffd5bad7",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -1793,7 +1793,7 @@
               ]
             },
             {
-              "id": "28a02d28",
+              "id": "7c1e66f8",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1844,7 +1844,7 @@
               },
               "elements": [
                 {
-                  "id": "19b3dc7a",
+                  "id": "8d5098ac",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1875,7 +1875,7 @@
                   "elements": []
                 },
                 {
-                  "id": "81320939",
+                  "id": "2253ac41",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -1918,7 +1918,7 @@
                   },
                   "elements": [
                     {
-                      "id": "2e3ac133",
+                      "id": "f0984196",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -1964,7 +1964,7 @@
                       "elements": []
                     },
                     {
-                      "id": "009d098d",
+                      "id": "6a64bf92",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -2021,7 +2021,7 @@
               ]
             },
             {
-              "id": "31b1e74f",
+              "id": "e7d65e03",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2072,7 +2072,7 @@
               },
               "elements": [
                 {
-                  "id": "3883c782",
+                  "id": "9d34abfd",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -2103,7 +2103,7 @@
                   "elements": []
                 },
                 {
-                  "id": "02bbaa2f",
+                  "id": "4318f7f7",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -2146,7 +2146,7 @@
                   },
                   "elements": [
                     {
-                      "id": "fbe9679a",
+                      "id": "1659f07a",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -2192,7 +2192,7 @@
                       "elements": []
                     },
                     {
-                      "id": "870a866f",
+                      "id": "e9d5fcd9",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -2249,7 +2249,7 @@
               ]
             },
             {
-              "id": "105d2cf4",
+              "id": "dd2325e7",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2300,7 +2300,7 @@
               },
               "elements": [
                 {
-                  "id": "be65d2bd",
+                  "id": "4a92fa68",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -2331,7 +2331,7 @@
                   "elements": []
                 },
                 {
-                  "id": "b5d2b3d4",
+                  "id": "a7d93ec0",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -2374,7 +2374,7 @@
                   },
                   "elements": [
                     {
-                      "id": "0563f00e",
+                      "id": "4bc32713",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -2420,7 +2420,7 @@
                       "elements": []
                     },
                     {
-                      "id": "daa124e5",
+                      "id": "0a367830",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -2477,7 +2477,7 @@
               ]
             },
             {
-              "id": "318c22b5",
+              "id": "d6d0c3c2",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2528,7 +2528,7 @@
               },
               "elements": [
                 {
-                  "id": "48be2c6b",
+                  "id": "9e24dcd8",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -2559,7 +2559,7 @@
                   "elements": []
                 },
                 {
-                  "id": "30a7dd8d",
+                  "id": "5207773e",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -2602,7 +2602,7 @@
                   },
                   "elements": [
                     {
-                      "id": "31cb115b",
+                      "id": "cbf8fe35",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -2648,7 +2648,7 @@
                       "elements": []
                     },
                     {
-                      "id": "fc94ab52",
+                      "id": "0e75a4f3",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -2705,7 +2705,7 @@
               ]
             },
             {
-              "id": "f4980d86",
+              "id": "33b520d1",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2756,7 +2756,7 @@
               },
               "elements": [
                 {
-                  "id": "55feb98c",
+                  "id": "cae19b5e",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -2787,7 +2787,7 @@
                   "elements": []
                 },
                 {
-                  "id": "78b9084b",
+                  "id": "3f2f07e9",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -2830,7 +2830,7 @@
                   },
                   "elements": [
                     {
-                      "id": "3a86c8a8",
+                      "id": "54ef297f",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -2876,7 +2876,7 @@
                       "elements": []
                     },
                     {
-                      "id": "6b9c171c",
+                      "id": "8aade4a5",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -2933,7 +2933,7 @@
               ]
             },
             {
-              "id": "22c3642d",
+              "id": "1be304a9",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2984,7 +2984,7 @@
               },
               "elements": [
                 {
-                  "id": "2540fc04",
+                  "id": "8fc7db12",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -3015,7 +3015,7 @@
                   "elements": []
                 },
                 {
-                  "id": "5fedbd61",
+                  "id": "2464997c",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -3058,7 +3058,7 @@
                   },
                   "elements": [
                     {
-                      "id": "af942e91",
+                      "id": "e4e80e81",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -3104,7 +3104,7 @@
                       "elements": []
                     },
                     {
-                      "id": "3eb5ffce",
+                      "id": "8a83a63a",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -3161,7 +3161,7 @@
               ]
             },
             {
-              "id": "00fe6b22",
+              "id": "d0759d4a",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -3212,7 +3212,7 @@
               },
               "elements": [
                 {
-                  "id": "eb2efbfe",
+                  "id": "dd8a30b7",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -3243,7 +3243,7 @@
                   "elements": []
                 },
                 {
-                  "id": "63fc79e7",
+                  "id": "4ba3984c",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -3286,7 +3286,7 @@
                   },
                   "elements": [
                     {
-                      "id": "e9b5b2c5",
+                      "id": "e0e59120",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -3332,7 +3332,7 @@
                       "elements": []
                     },
                     {
-                      "id": "a3f1fd74",
+                      "id": "ff724b51",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -3389,7 +3389,7 @@
               ]
             },
             {
-              "id": "3d118c73",
+              "id": "ad469884",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -3440,7 +3440,7 @@
               },
               "elements": [
                 {
-                  "id": "7fca1c4c",
+                  "id": "ac91e673",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -3471,7 +3471,7 @@
                   "elements": []
                 },
                 {
-                  "id": "8a82772b",
+                  "id": "962fb368",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -3514,7 +3514,7 @@
                   },
                   "elements": [
                     {
-                      "id": "1c233e09",
+                      "id": "caf8273a",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -3560,7 +3560,7 @@
                       "elements": []
                     },
                     {
-                      "id": "fb1f1531",
+                      "id": "262847ff",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -3621,7 +3621,7 @@
       ]
     },
     {
-      "id": "5e294555",
+      "id": "08d2cc00",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -3678,7 +3678,7 @@
       },
       "elements": [
         {
-          "id": "d6c7f25c",
+          "id": "fefa4767",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -3722,7 +3722,7 @@
           },
           "elements": [
             {
-              "id": "bdc86ef0",
+              "id": "bbbcaa17",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -3768,7 +3768,7 @@
               "elements": []
             },
             {
-              "id": "6157b47a",
+              "id": "02aef9ea",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -3825,7 +3825,7 @@
       ]
     },
     {
-      "id": "a5cd366f",
+      "id": "e457acf4",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -3880,7 +3880,7 @@
       },
       "elements": [
         {
-          "id": "b3701149",
+          "id": "bf028ee9",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {

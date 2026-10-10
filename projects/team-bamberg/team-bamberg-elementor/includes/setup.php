@@ -39,11 +39,19 @@ function team_bamberg_setup_screen() {
     if (!empty($state['pages'])) {
         if (($state['design_version'] ?? '') !== TEAM_BAMBERG_THEME_VERSION) {
             echo '<h2>Neue, persönlichere Gestaltung</h2><p>Übernimmt die neuen Vorlagen für alle importierten Team-Bamberg-Seiten sowie Kopf- und Fußbereich. <strong>Ersetzt dabei die bisherigen Elementor-Texte und Layouts.</strong> Diese Inhalte werden vorher gesichert und können unten wiederhergestellt werden. Eingetragene Termine, Kontakt-Empfängeradresse und Menü bleiben erhalten. Andere WordPress-Seiten bleiben unverändert.</p><form method="post" action="' . esc_url(admin_url('admin-post.php')) . '"><input type="hidden" name="action" value="team_bamberg_redesign">';
+            if (team_bamberg_is_local_test()) {
+                echo '<p><label><input type="checkbox" name="local_preview" value="1" checked> Alle Projektseiten für die Local-Vorschau freigeben und die Startseite aktivieren.</label></p>';
+            }
             wp_nonce_field('team_bamberg_redesign'); submit_button('Neue Gestaltung übernehmen', 'primary', 'submit', false); echo '</form>';
         } else { echo '<p><strong>Die neue Gestaltung ist eingerichtet.</strong> Alle Inhalte können weiterhin direkt in Elementor bearbeitet werden.</p>'; }
         if (get_option('team_bamberg_design_backup')) {
             echo '<form style="margin-top:12px" method="post" action="' . esc_url(admin_url('admin-post.php')) . '"><input type="hidden" name="action" value="team_bamberg_restore_design">';
             wp_nonce_field('team_bamberg_restore_design'); submit_button('Bisherige Seiteninhalte wiederherstellen', 'secondary', 'submit', false); echo '</form>';
+        }
+        if (team_bamberg_is_local_test()) {
+            $drafts = count(array_filter($state['pages'], function ($id) { return get_post_status($id) === 'draft'; }));
+            echo '<h2>Vollständige Local-Vorschau</h2><p>' . (int) $drafts . ' Projektseiten sind noch Entwürfe. Für eine komplette Vorschau müssen sie in Local freigegeben sein; sonst führen ihre Links zu einer nicht gefundenen Seite.</p><form method="post" action="' . esc_url(admin_url('admin-post.php')) . '"><input type="hidden" name="action" value="team_bamberg_preview_local">';
+            wp_nonce_field('team_bamberg_preview_local'); submit_button('Alle Seiten in Local anschauen', 'primary', 'submit', false); echo '</form><p><a class="button" href="' . esc_url(home_url('/')) . '" target="_blank" rel="noopener noreferrer">Website öffnen</a></p>';
         }
         echo '<h2>Seiten bearbeiten</h2><table class="widefat striped"><thead><tr><th>Seite</th><th>Status</th><th>Bearbeiten</th></tr></thead><tbody>';
         foreach ($manifest['pages'] as $slug => $page) {
@@ -268,6 +276,40 @@ add_action('admin_post_team_bamberg_redesign', function () {
     check_admin_referer('team_bamberg_redesign');
     $result = team_bamberg_apply_redesign();
     if (is_wp_error($result)) { wp_die(esc_html($result->get_error_message())); }
+    if (!empty($_POST['local_preview']) && team_bamberg_is_local_test()) {
+        $preview = team_bamberg_prepare_local_preview();
+        if (is_wp_error($preview)) { wp_die(esc_html($preview->get_error_message())); }
+    }
+    wp_safe_redirect(admin_url('admin.php?page=team-bamberg')); exit;
+});
+
+function team_bamberg_prepare_local_preview() {
+    if (!team_bamberg_is_local_test()) { return new WP_Error('local', 'Diese Vorschau ist nur in einer lokalen Testinstallation verfügbar.'); }
+    $state = get_option('team_bamberg_setup_state', array());
+    $manifest = team_bamberg_manifest(); if (is_wp_error($manifest)) { return $manifest; }
+    foreach ($manifest['pages'] as $slug => $page) {
+        $id = (int) ($state['pages'][$slug] ?? 0);
+        if (!$id || !get_post($id) || get_post_status($id) === 'trash' || get_post_meta($id, '_team_bamberg_pending', true)) {
+            return new WP_Error('import', 'Bitte zuerst den Website-Import abschließen.');
+        }
+    }
+    foreach ($state['pages'] as $id) {
+        if (get_post_status($id) === 'draft') { wp_update_post(array('ID' => (int) $id, 'post_status' => 'publish')); }
+        delete_post_meta($id, '_elementor_element_cache'); delete_post_meta($id, '_elementor_css');
+    }
+    if (!isset($state['previous_homepage'])) {
+        $state['previous_homepage'] = array('show_on_front' => get_option('show_on_front'), 'page_on_front' => get_option('page_on_front'));
+        update_option('team_bamberg_setup_state', $state, false);
+    }
+    update_option('show_on_front', 'page'); update_option('page_on_front', (int) $state['pages']['startseite']);
+    if (did_action('elementor/loaded')) { \Elementor\Plugin::instance()->files_manager->clear_cache(); }
+    return true;
+}
+add_action('admin_post_team_bamberg_preview_local', function () {
+    if (!current_user_can('manage_options')) { wp_die('Keine Berechtigung.', '', array('response' => 403)); }
+    check_admin_referer('team_bamberg_preview_local');
+    $result = team_bamberg_prepare_local_preview();
+    if (is_wp_error($result)) { wp_die(esc_html($result->get_error_message()), '', array('response' => 400)); }
     wp_safe_redirect(admin_url('admin.php?page=team-bamberg')); exit;
 });
 add_action('admin_post_team_bamberg_restore_design', function () {

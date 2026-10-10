@@ -983,7 +983,7 @@
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p><span>an<span>**************</span>@<span>*****</span>ok.de</span></p>",
+                    "editor": "<p>E-Mail-Adresse wird noch bestätigt. Kontakt über die Geschäftsstelle.</p>",
                     "text_color": "#566779",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",

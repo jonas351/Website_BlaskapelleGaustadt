@@ -1,6 +1,6 @@
 <?php
 if (!defined('ABSPATH')) { exit; }
-define('TEAM_BAMBERG_THEME_VERSION', '1.1.0');
+define('TEAM_BAMBERG_THEME_VERSION', '1.2.0');
 add_filter('elementor/frontend/print_google_fonts', '__return_false');
 add_action('after_setup_theme', function () {
     add_theme_support('title-tag');

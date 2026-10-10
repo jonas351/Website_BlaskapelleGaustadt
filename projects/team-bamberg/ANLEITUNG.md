@@ -18,7 +18,7 @@ Du brauchst kein neues Projekt.
 1. Die neue **team-bamberg-elementor.zip** herunterladen; nicht entpacken.
 2. In deinem bestehenden **Team-Bamberg-Projekt** unter **Design → Themes → Theme hinzufügen → Theme hochladen** die ZIP auswählen.
 3. Auf **Installiertes Theme durch hochgeladenes ersetzen** klicken.
-4. Links auf **Team Bamberg**, dann auf **Neue Gestaltung übernehmen** klicken.
+4. Links auf **Team Bamberg**, dann auf **Neue Gestaltung übernehmen** klicken. Das Häkchen **Alle Projektseiten für die Local-Vorschau freigeben und die Startseite aktivieren** angehakt lassen. Dadurch funktionieren auch die Links zu allen Unterseiten.
 5. Die Website neu laden; bei Bedarf mit **Strg + F5**.
 
 Der Knopf übernimmt die neuen Texte und Layouts aller 45 importierten Team-Bamberg-Seiten sowie Kopf- und Fußbereich. Bereits eingetragene Termine, Empfängeradresse des Kontaktwidgets und Menüeinstellungen bleiben erhalten. Andere WordPress-Seiten werden nicht verändert. Die bisherigen Elementor-Inhalte werden vorher gesichert und können mit **Bisherige Seiteninhalte wiederherstellen** zurückgeholt werden; die neue Theme-Farbgestaltung bleibt dabei bestehen.
@@ -44,7 +44,7 @@ Falls WordPress beim Hochladen meldet, dass die ZIP zu groß ist: In Local **Go 
 2. Einen Text oder ein Bild anklicken. Links kannst du ihn verändern.
 3. Mit **Veröffentlichen** oder **Aktualisieren** speichern.
 
-Für eine vollständige Vorführung unter **Team Bamberg** auf **Alle Team-Bamberg-Seiten lokal veröffentlichen** klicken. Dieser Knopf wird nur in einer lokalen Testumgebung angeboten. Anschließend auf **Team Bamberg als Startseite aktivieren** klicken und die Website über **Open Site** in Local öffnen. In deiner lokalen Installation sind diese Seiten nur auf deinem PC erreichbar, solange du sie nicht über eine zusätzliche Freigabe wie Local Live Links teilst.
+Für eine vollständige Vorführung unter **Team Bamberg** auf **Alle Seiten in Local anschauen** klicken. Dieser Knopf wird nur in einer lokalen Testumgebung angeboten, gibt die Projekt-Entwürfe frei und aktiviert die Startseite. Danach die Website über **Open Site** in Local öffnen. In deiner lokalen Installation sind diese Seiten nur auf deinem PC erreichbar, solange du sie nicht über eine zusätzliche Freigabe wie Local Live Links teilst.
 
 ## Die häufigsten Änderungen
 
@@ -59,7 +59,7 @@ Für eine vollständige Vorführung unter **Team Bamberg** auf **Alle Team-Bambe
 
 ## Welche Originalinhalte übernommen wurden
 
-Die öffentlichen Originalseiten wurden am **10. Oktober 2026** erfasst. Übernommen sind Kreisverband, Fachgruppen, ASP, acht Ortsverbände, Mandatsträger, Fraktion, elf Personenprofile, Termine, Mitgliedschaft, Spenden, Kontakt, Impressum, Datenschutz das Antragsarchiv, zusätzliche Archivseiten und Transparenzangaben zu politischen Anzeigen. Bildvarianten derselben Aufnahme werden für die neue Darstellung passend ausgewählt; die Originaldateien bleiben inhaltlich unverändert. Externe Dokumente, Mitgliedschafts-PDFs, Facebook-Seiten und das YouTube-Video bleiben über die veröffentlichten Originaladressen erreichbar.
+Die öffentlichen Originalseiten wurden am **10. Oktober 2026** erfasst. Übernommen sind Kreisverband, Fachgruppen, ASP, acht Ortsverbände, Mandatsträger, Fraktion, elf Personenprofile, Termine, Mitgliedschaft, Spenden, Kontakt, Impressum, Datenschutz, das Antragsarchiv, zusätzliche Archivseiten und Transparenzangaben zu politischen Anzeigen. Bildvarianten derselben Aufnahme werden für die neue Darstellung passend ausgewählt; die Originaldateien bleiben inhaltlich unverändert. Externe Dokumente, Facebook-Seiten und das YouTube-Video bleiben über die veröffentlichten Originaladressen verlinkt. Der defekte Mitgliedsantrag-Link wurde durch die offizielle Mitgliedschaftsseite ersetzt. Die Grenzen der Linkprüfung stehen im [Prüfbericht](PRUEFBERICHT.md).
 
 ## Vor einer öffentlichen Veröffentlichung
 

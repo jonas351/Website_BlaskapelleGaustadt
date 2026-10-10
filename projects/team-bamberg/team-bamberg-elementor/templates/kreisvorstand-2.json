@@ -5,7 +5,7 @@
   "page_settings": {},
   "content": [
     {
-      "id": "ca082f28",
+      "id": "443df173",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -62,7 +62,7 @@
       },
       "elements": [
         {
-          "id": "96f80336",
+          "id": "987dd1e1",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -105,7 +105,7 @@
           },
           "elements": [
             {
-              "id": "e35be335",
+              "id": "9bc419bf",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -149,7 +149,7 @@
               },
               "elements": [
                 {
-                  "id": "65820649",
+                  "id": "41899936",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -181,7 +181,7 @@
                   "elements": []
                 },
                 {
-                  "id": "87cf3839",
+                  "id": "851b7595",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -228,7 +228,7 @@
                   "elements": []
                 },
                 {
-                  "id": "8837db4b",
+                  "id": "acf85ae1",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -274,7 +274,7 @@
                   "elements": []
                 },
                 {
-                  "id": "5d72348c",
+                  "id": "c213ea48",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -308,7 +308,7 @@
               ]
             },
             {
-              "id": "f1eab00e",
+              "id": "62942c5d",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -351,7 +351,7 @@
               },
               "elements": [
                 {
-                  "id": "a2dfa365",
+                  "id": "4b838468",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -384,7 +384,7 @@
       ]
     },
     {
-      "id": "c3e4b045",
+      "id": "77a94abd",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -439,7 +439,7 @@
       },
       "elements": [
         {
-          "id": "5c990cc4",
+          "id": "e4d7894b",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -474,7 +474,7 @@
       ]
     },
     {
-      "id": "8aef6fdd",
+      "id": "b31dc3d1",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -529,7 +529,7 @@
       },
       "elements": [
         {
-          "id": "9a1a139e",
+          "id": "71bf0e30",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -572,7 +572,7 @@
           },
           "elements": [
             {
-              "id": "b1bda1bc",
+              "id": "66241db0",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -623,7 +623,7 @@
               },
               "elements": [
                 {
-                  "id": "fc715bbc",
+                  "id": "b613e1d1",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -675,7 +675,7 @@
       ]
     },
     {
-      "id": "a42f239a",
+      "id": "269bbe35",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -730,7 +730,7 @@
       },
       "elements": [
         {
-          "id": "87e09188",
+          "id": "81d5fd40",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -773,7 +773,7 @@
           },
           "elements": [
             {
-              "id": "ffd5bad7",
+              "id": "aab0b47e",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -824,7 +824,7 @@
               },
               "elements": [
                 {
-                  "id": "a5e4bc05",
+                  "id": "f1c3bec7",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -851,7 +851,7 @@
                   "elements": []
                 },
                 {
-                  "id": "fdfb36c2",
+                  "id": "608783a7",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -889,7 +889,7 @@
       ]
     },
     {
-      "id": "cbf8fe35",
+      "id": "72bd4741",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -944,7 +944,7 @@
       },
       "elements": [
         {
-          "id": "9e24dcd8",
+          "id": "4d88033a",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -987,7 +987,7 @@
           },
           "elements": [
             {
-              "id": "4a92fa68",
+              "id": "e574d7bd",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1038,7 +1038,7 @@
               },
               "elements": [
                 {
-                  "id": "8d5098ac",
+                  "id": "db1bbf48",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1065,11 +1065,11 @@
                   "elements": []
                 },
                 {
-                  "id": "f0984196",
+                  "id": "14887d1d",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "<b>Markus Huml<br/></b>stellv. Kreisvorsitzender",
+                    "title": "Markus Huml stellv. Kreisvorsitzender",
                     "header_size": "h3",
                     "title_color": "#142b43",
                     "typography_typography": "custom",
@@ -1113,7 +1113,7 @@
               ]
             },
             {
-              "id": "4bc32713",
+              "id": "28a89c23",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1164,7 +1164,7 @@
               },
               "elements": [
                 {
-                  "id": "6a64bf92",
+                  "id": "2f689a57",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1191,11 +1191,11 @@
                   "elements": []
                 },
                 {
-                  "id": "2253ac41",
+                  "id": "9eaf5d2e",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "<b>Daniela Kicker <br/></b>stellv. Kreisvorsitzende",
+                    "title": "Daniela Kicker stellv. Kreisvorsitzende",
                     "header_size": "h3",
                     "title_color": "#142b43",
                     "typography_typography": "custom",
@@ -1239,7 +1239,7 @@
               ]
             },
             {
-              "id": "0a367830",
+              "id": "fb9a4bfd",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1290,7 +1290,7 @@
               },
               "elements": [
                 {
-                  "id": "7c1e66f8",
+                  "id": "8b556932",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1317,11 +1317,11 @@
                   "elements": []
                 },
                 {
-                  "id": "9d34abfd",
+                  "id": "927d4ef2",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "<b>Oliver Leuteritz<br/></b>stellv. Kreisvorsitzender",
+                    "title": "Oliver Leuteritz stellv. Kreisvorsitzender",
                     "header_size": "h3",
                     "title_color": "#142b43",
                     "typography_typography": "custom",
@@ -1365,7 +1365,7 @@
               ]
             },
             {
-              "id": "a7d93ec0",
+              "id": "797326af",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1416,7 +1416,7 @@
               },
               "elements": [
                 {
-                  "id": "1659f07a",
+                  "id": "dc7c1d7e",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1443,11 +1443,11 @@
                   "elements": []
                 },
                 {
-                  "id": "e9d5fcd9",
+                  "id": "98ee70b8",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "<b>Daniela Utzmann<br/></b>stellv. Kreisvorsitzende",
+                    "title": "Daniela Utzmann stellv. Kreisvorsitzende",
                     "header_size": "h3",
                     "title_color": "#142b43",
                     "typography_typography": "custom",
@@ -1491,7 +1491,7 @@
               ]
             },
             {
-              "id": "dd2325e7",
+              "id": "bb1567b1",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1542,7 +1542,7 @@
               },
               "elements": [
                 {
-                  "id": "4318f7f7",
+                  "id": "ee4ad112",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1569,11 +1569,11 @@
                   "elements": []
                 },
                 {
-                  "id": "e7d65e03",
+                  "id": "46b76f73",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "<b>Stefan Dotterweich<br/></b>stellv. Kreisvorsitzender",
+                    "title": "Stefan Dotterweich stellv. Kreisvorsitzender",
                     "header_size": "h3",
                     "title_color": "#142b43",
                     "typography_typography": "custom",
@@ -1621,7 +1621,7 @@
       ]
     },
     {
-      "id": "dd8a30b7",
+      "id": "8ccd3aa3",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -1676,7 +1676,7 @@
       },
       "elements": [
         {
-          "id": "1be304a9",
+          "id": "12dec077",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -1719,7 +1719,7 @@
           },
           "elements": [
             {
-              "id": "8fc7db12",
+              "id": "8cc1635d",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1770,7 +1770,7 @@
               },
               "elements": [
                 {
-                  "id": "0e75a4f3",
+                  "id": "af05380b",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1797,7 +1797,7 @@
                   "elements": []
                 },
                 {
-                  "id": "5207773e",
+                  "id": "88fb6488",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1831,7 +1831,7 @@
               ]
             },
             {
-              "id": "e4e80e81",
+              "id": "809fe11d",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1882,7 +1882,7 @@
               },
               "elements": [
                 {
-                  "id": "d6d0c3c2",
+                  "id": "fa9b59d5",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1909,7 +1909,7 @@
                   "elements": []
                 },
                 {
-                  "id": "cae19b5e",
+                  "id": "cd59779b",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1943,7 +1943,7 @@
               ]
             },
             {
-              "id": "8a83a63a",
+              "id": "0ee87377",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1994,7 +1994,7 @@
               },
               "elements": [
                 {
-                  "id": "54ef297f",
+                  "id": "7c798360",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -2021,7 +2021,7 @@
                   "elements": []
                 },
                 {
-                  "id": "8aade4a5",
+                  "id": "3cb4c881",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -2055,7 +2055,7 @@
               ]
             },
             {
-              "id": "2464997c",
+              "id": "e7929990",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2106,7 +2106,7 @@
               },
               "elements": [
                 {
-                  "id": "3f2f07e9",
+                  "id": "0daaf767",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -2133,7 +2133,7 @@
                   "elements": []
                 },
                 {
-                  "id": "33b520d1",
+                  "id": "732f2e9a",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -2171,7 +2171,7 @@
       ]
     },
     {
-      "id": "d0759d4a",
+      "id": "20e2fe98",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -2226,7 +2226,7 @@
       },
       "elements": [
         {
-          "id": "4ba3984c",
+          "id": "579491ed",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -2269,7 +2269,7 @@
           },
           "elements": [
             {
-              "id": "ff724b51",
+              "id": "6267491a",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2320,7 +2320,7 @@
               },
               "elements": [
                 {
-                  "id": "e0e59120",
+                  "id": "bc04bde5",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -2358,7 +2358,7 @@
       ]
     },
     {
-      "id": "962fb368",
+      "id": "139cda57",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -2413,7 +2413,7 @@
       },
       "elements": [
         {
-          "id": "262847ff",
+          "id": "a17b787d",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -2456,7 +2456,7 @@
           },
           "elements": [
             {
-              "id": "caf8273a",
+              "id": "b72640fd",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2507,7 +2507,7 @@
               },
               "elements": [
                 {
-                  "id": "ac91e673",
+                  "id": "1197e307",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -2545,7 +2545,7 @@
       ]
     },
     {
-      "id": "bbbcaa17",
+      "id": "7da6c6a3",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -2600,7 +2600,7 @@
       },
       "elements": [
         {
-          "id": "6cf31bdc",
+          "id": "4141b4d8",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -2643,7 +2643,7 @@
           },
           "elements": [
             {
-              "id": "9cc30af8",
+              "id": "9dbe32f3",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2694,7 +2694,7 @@
               },
               "elements": [
                 {
-                  "id": "ad469884",
+                  "id": "ae6bdf66",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -2732,7 +2732,7 @@
       ]
     },
     {
-      "id": "bf028ee9",
+      "id": "b194c15c",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -2787,7 +2787,7 @@
       },
       "elements": [
         {
-          "id": "08d2cc00",
+          "id": "cfc832d4",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -2830,7 +2830,7 @@
           },
           "elements": [
             {
-              "id": "fefa4767",
+              "id": "3050f393",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2881,7 +2881,7 @@
               },
               "elements": [
                 {
-                  "id": "02aef9ea",
+                  "id": "73fc21b8",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -2919,7 +2919,7 @@
       ]
     },
     {
-      "id": "56dbbcc2",
+      "id": "db7e12ed",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -2974,7 +2974,7 @@
       },
       "elements": [
         {
-          "id": "5287315c",
+          "id": "1705779a",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -3017,7 +3017,7 @@
           },
           "elements": [
             {
-              "id": "e457acf4",
+              "id": "9d3f9e34",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -3070,7 +3070,7 @@
               "elements": []
             },
             {
-              "id": "ff226613",
+              "id": "6c42e465",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -3127,7 +3127,7 @@
       ]
     },
     {
-      "id": "c45707dc",
+      "id": "ad98e25a",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -3184,7 +3184,7 @@
       },
       "elements": [
         {
-          "id": "83b53c8b",
+          "id": "9573d563",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -3228,7 +3228,7 @@
           },
           "elements": [
             {
-              "id": "24c35f0a",
+              "id": "62e3206a",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -3274,7 +3274,7 @@
               "elements": []
             },
             {
-              "id": "0b349555",
+              "id": "3519b539",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -3331,7 +3331,7 @@
       ]
     },
     {
-      "id": "d5d692fd",
+      "id": "93b6ae0e",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -3386,7 +3386,7 @@
       },
       "elements": [
         {
-          "id": "2b075a69",
+          "id": "9e29231f",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {

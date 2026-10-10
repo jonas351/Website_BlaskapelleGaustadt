@@ -5,7 +5,7 @@
   "page_settings": {},
   "content": [
     {
-      "id": "13b78d2f",
+      "id": "f4ab4af9",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -62,7 +62,7 @@
       },
       "elements": [
         {
-          "id": "8b3405c7",
+          "id": "bb83d85a",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -105,7 +105,7 @@
           },
           "elements": [
             {
-              "id": "d99e5b15",
+              "id": "2a6e69cd",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -149,7 +149,7 @@
               },
               "elements": [
                 {
-                  "id": "0b9eb962",
+                  "id": "6adf565b",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -181,7 +181,7 @@
                   "elements": []
                 },
                 {
-                  "id": "acad0fb8",
+                  "id": "c9342fc3",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -228,7 +228,7 @@
                   "elements": []
                 },
                 {
-                  "id": "c5b05449",
+                  "id": "3d709d94",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -274,7 +274,7 @@
                   "elements": []
                 },
                 {
-                  "id": "cdd33a71",
+                  "id": "2d6a7625",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -308,7 +308,7 @@
               ]
             },
             {
-              "id": "0c28a2ce",
+              "id": "9469567a",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -351,7 +351,7 @@
               },
               "elements": [
                 {
-                  "id": "56963e58",
+                  "id": "b9c651c3",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -384,7 +384,7 @@
       ]
     },
     {
-      "id": "6043b8c8",
+      "id": "ec5aeab2",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -439,7 +439,7 @@
       },
       "elements": [
         {
-          "id": "9823d87c",
+          "id": "bb06dbfd",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -474,7 +474,7 @@
       ]
     },
     {
-      "id": "07607ce3",
+      "id": "52a16e7c",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -529,7 +529,7 @@
       },
       "elements": [
         {
-          "id": "94c51c18",
+          "id": "2a950fe8",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -572,7 +572,7 @@
           },
           "elements": [
             {
-              "id": "8e7b04af",
+              "id": "2964ee65",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -623,11 +623,11 @@
               },
               "elements": [
                 {
-                  "id": "df2f0bb7",
+                  "id": "578fcf50",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<h3><span><strong>Transparenzbekanntmachung gemäß Verordnung (EU) 2024/900</strong></span></h3>\n\n<h3><span><strong>1. Angaben zum Sponsor (Auftraggeber der politischen Werbung)</strong></span></h3>\n<p><span><strong>Name / Organisation:</strong></span><br/><span>CSU Kreisverband Bamberg-Stadt</span></p>\n<p><span><strong>Rechtsform:</strong></span><br/><span>e.V.</span></p>\n<p><span><strong>Adresse:</strong></span><br/><span>Luitpoldstraße 55, 96052 Bamberg</span></p>\n<p><span><strong>E-Mail:</strong></span><br/><span><span>in<span>**</span>@<span>*********</span>rg.de</span></span></p>\n<p><span><strong>Telefon:</strong></span><br/><span>0951 28264</span></p>\n\n<h3><span><strong>2. Verantwortliche Person(en) für die politische Anzeige</strong></span></h3>\n<p><span><strong>Name:</strong></span><br/><span>Stefan Dotterweich</span></p>\n<p><span><strong>Funktion / Rolle:</strong></span><br/><span>Stellv. CSU-Kreisvorsitzender</span></p>\n<p><span><strong>Kontakt:</strong></span><br/><span><span>in<span>**</span>@<span>*********</span>rg.de</span></span></p>\n\n<h3><span><strong>3. Beschreibung der politischen Werbung</strong></span></h3>\n<p><span><strong>Titel der Kampagne:<br/></strong></span><span>City Lights Melanie Huml</span></p>\n<p><span><strong>Zweck / Inhalt der Anzeige:</strong></span><br/><span>City Lights Melanie Huml</span></p>\n<p><span><strong>Bezug zu Wahl oder Gesetzgebungsverfahren:</strong></span><br/><span>Kommunalwahl 2026</span></p>\n\n<h3><span><strong>4. Zeitraum und Orte der Veröffentlichung</strong></span></h3>\n<p><span><strong>Geplanter Veröffentlichungszeitraum:</strong></span><br/><span>13.02.–23.02.</span></p>\n<p><span><strong>Verwendete Werbeträger:</strong></span><br/><span>City-Light-Poster</span></p>\n<p><span><strong>Region(en) / Städte:</strong></span><br/><span>Bamberg</span></p>\n\n<h3><span><strong>5. Finanzierung der politischen Werbung</strong></span></h3>\n<p><span><strong>Gesamtkosten der Kampagne:</strong></span><br/><span>5.604,77 Euro Netto</span></p>\n<p><span><strong>Quelle der Mittel:</strong></span><br/><span>Parteimittel</span></p>\n\n<h3><span><strong>6. Verantwortlichkeit der Angaben</strong></span></h3>\n<h3><span><strong>Erklärung gemäß Artikel 7 Absatz 1 Verordnung (EU) 2024/900</strong></span></h3>\n<p><span>Hiermit erkläre ich/wir als Sponsor wahrheitsgemäß:</span></p>\n<ul>\n<li>\n<p><span>Die beauftragte Werbedienstleistung stellt politische Werbung im Sinne des Artikels 3 Nr. 5 der Verordnung (EU) 2024/900 dar.</span></p>\n</li>\n</ul>\n<p><span>Weiter erkläre ich/wir:</span></p>\n<ul>\n<li>\n<p><span>Ich/wir erfüllen die Anforderungen des Artikels 5 Absatz 2 der Verordnung (EU) 2024/900, d. h. der Sponsor ist:</span><br/><span>a) ein Unionsbürger oder</span><br/><span>b) ein Drittstaatsangehöriger mit ständigem Wohnsitz in der Union, der gemäß deutschem Recht das aktive Wahlrecht bei der betroffenen Wahl oder dem Referendum hat, oder</span><br/><span>c) eine in der Union niedergelassene juristische Person, die letztendlich nicht im Eigentum oder unter Kontrolle eines Drittstaatsangehörigen (mit Ausnahme von Fall b) oder einer in einem Drittstaat ansässigen juristischen Person steht.</span></p>\n</li>\n</ul>\n<h3><span><strong>Haftung und Richtigkeitserklärung</strong></span></h3>\n<p><span>Ich/wir bestätigen, dass die vorstehenden Angaben vollständig und wahrheitsgemäß sind.</span><br/><span>Mir/uns ist bekannt, dass ich/wir gemäß Artikel 7 Absatz 1 der Verordnung (EU) 2024/900 für die Richtigkeit dieser Erklärung verantwortlich sind.</span></p>\n<p><span><strong>Name der verantwortlichen Person:</strong></span><br/>Stefan Dotterweich</p>\n<p><span><strong>Datum:</strong></span><br/><span>Bamberg, 1.2.2026</span></p>",
+                    "editor": "<h3><span><strong>Transparenzbekanntmachung gemäß Verordnung (EU) 2024/900</strong></span></h3>\n<h3><span><strong>1. Angaben zum Sponsor (Auftraggeber der politischen Werbung)</strong></span></h3>\n<p><span><strong>Name / Organisation:</strong></span><br/><span>CSU Kreisverband Bamberg-Stadt</span></p>\n<p><span><strong>Rechtsform:</strong></span><br/><span>e.V.</span></p>\n<p><span><strong>Adresse:</strong></span><br/><span>Luitpoldstraße 55, 96052 Bamberg</span></p>\n<p>E-Mail-Adresse wird noch bestätigt. Kontakt über die Geschäftsstelle.</p>\n<p><span><strong>Telefon:</strong></span><br/><span>0951 28264</span></p>\n<h3><span><strong>2. Verantwortliche Person(en) für die politische Anzeige</strong></span></h3>\n<p><span><strong>Name:</strong></span><br/><span>Stefan Dotterweich</span></p>\n<p><span><strong>Funktion / Rolle:</strong></span><br/><span>Stellv. CSU-Kreisvorsitzender</span></p>\n<p>E-Mail-Adresse wird noch bestätigt. Kontakt über die Geschäftsstelle.</p>\n<h3><span><strong>3. Beschreibung der politischen Werbung</strong></span></h3>\n<p><span><strong>Titel der Kampagne:<br/></strong></span><span>City Lights Melanie Huml</span></p>\n<p><span><strong>Zweck / Inhalt der Anzeige:</strong></span><br/><span>City Lights Melanie Huml</span></p>\n<p><span><strong>Bezug zu Wahl oder Gesetzgebungsverfahren:</strong></span><br/><span>Kommunalwahl 2026</span></p>\n<h3><span><strong>4. Zeitraum und Orte der Veröffentlichung</strong></span></h3>\n<p><span><strong>Geplanter Veröffentlichungszeitraum:</strong></span><br/><span>13.02.–23.02.</span></p>\n<p><span><strong>Verwendete Werbeträger:</strong></span><br/><span>City-Light-Poster</span></p>\n<p><span><strong>Region(en) / Städte:</strong></span><br/><span>Bamberg</span></p>\n<h3><span><strong>5. Finanzierung der politischen Werbung</strong></span></h3>\n<p><span><strong>Gesamtkosten der Kampagne:</strong></span><br/><span>5.604,77 Euro Netto</span></p>\n<p><span><strong>Quelle der Mittel:</strong></span><br/><span>Parteimittel</span></p>\n<h3><span><strong>6. Verantwortlichkeit der Angaben</strong></span></h3>\n<h3><span><strong>Erklärung gemäß Artikel 7 Absatz 1 Verordnung (EU) 2024/900</strong></span></h3>\n<p><span>Hiermit erkläre ich/wir als Sponsor wahrheitsgemäß:</span></p>\n<ul>\n<li>\n<p><span>Die beauftragte Werbedienstleistung stellt politische Werbung im Sinne des Artikels 3 Nr. 5 der Verordnung (EU) 2024/900 dar.</span></p>\n</li>\n</ul>\n<p><span>Weiter erkläre ich/wir:</span></p>\n<ul>\n<li>\n<p><span>Ich/wir erfüllen die Anforderungen des Artikels 5 Absatz 2 der Verordnung (EU) 2024/900, d. h. der Sponsor ist:</span><br/><span>a) ein Unionsbürger oder</span><br/><span>b) ein Drittstaatsangehöriger mit ständigem Wohnsitz in der Union, der gemäß deutschem Recht das aktive Wahlrecht bei der betroffenen Wahl oder dem Referendum hat, oder</span><br/><span>c) eine in der Union niedergelassene juristische Person, die letztendlich nicht im Eigentum oder unter Kontrolle eines Drittstaatsangehörigen (mit Ausnahme von Fall b) oder einer in einem Drittstaat ansässigen juristischen Person steht.</span></p>\n</li>\n</ul>\n<h3><span><strong>Haftung und Richtigkeitserklärung</strong></span></h3>\n<p><span>Ich/wir bestätigen, dass die vorstehenden Angaben vollständig und wahrheitsgemäß sind.</span><br/><span>Mir/uns ist bekannt, dass ich/wir gemäß Artikel 7 Absatz 1 der Verordnung (EU) 2024/900 für die Richtigkeit dieser Erklärung verantwortlich sind.</span></p>\n<p><span><strong>Name der verantwortlichen Person:</strong></span><br/>Stefan Dotterweich</p>\n<p><span><strong>Datum:</strong></span><br/><span>Bamberg, 1.2.2026</span></p>",
                     "text_color": "#566779",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
@@ -661,7 +661,7 @@
       ]
     },
     {
-      "id": "1ef22c66",
+      "id": "2ae58fa1",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -718,7 +718,7 @@
       },
       "elements": [
         {
-          "id": "d94e1e8b",
+          "id": "e5db6e94",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -762,7 +762,7 @@
           },
           "elements": [
             {
-              "id": "8d3d348e",
+              "id": "bd7a54ae",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -808,7 +808,7 @@
               "elements": []
             },
             {
-              "id": "6b0416a2",
+              "id": "bc37cfe4",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -865,7 +865,7 @@
       ]
     },
     {
-      "id": "fb7f2448",
+      "id": "003ca21f",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -920,7 +920,7 @@
       },
       "elements": [
         {
-          "id": "7fd8488c",
+          "id": "c57b0642",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {

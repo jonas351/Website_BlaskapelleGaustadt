@@ -5,7 +5,7 @@
   "page_settings": {},
   "content": [
     {
-      "id": "8cc1635d",
+      "id": "feeef097",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -62,7 +62,7 @@
       },
       "elements": [
         {
-          "id": "732f2e9a",
+          "id": "c68f569f",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -105,7 +105,7 @@
           },
           "elements": [
             {
-              "id": "7c798360",
+              "id": "8d1b47e8",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -149,7 +149,7 @@
               },
               "elements": [
                 {
-                  "id": "af05380b",
+                  "id": "1fd20f5d",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -181,7 +181,7 @@
                   "elements": []
                 },
                 {
-                  "id": "88fb6488",
+                  "id": "2aa10a60",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -228,7 +228,7 @@
                   "elements": []
                 },
                 {
-                  "id": "fa9b59d5",
+                  "id": "0049c1aa",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -274,7 +274,7 @@
                   "elements": []
                 },
                 {
-                  "id": "cd59779b",
+                  "id": "99efbd06",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -308,7 +308,7 @@
               ]
             },
             {
-              "id": "0daaf767",
+              "id": "eb70b58a",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -351,7 +351,7 @@
               },
               "elements": [
                 {
-                  "id": "3cb4c881",
+                  "id": "4a8faccf",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -384,7 +384,7 @@
       ]
     },
     {
-      "id": "12dec077",
+      "id": "3a23e04c",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -439,7 +439,7 @@
       },
       "elements": [
         {
-          "id": "e7929990",
+          "id": "fee3a095",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -482,7 +482,7 @@
           },
           "elements": [
             {
-              "id": "0ee87377",
+              "id": "331fe446",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -533,7 +533,7 @@
               },
               "elements": [
                 {
-                  "id": "809fe11d",
+                  "id": "c0b447e0",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -585,7 +585,7 @@
       ]
     },
     {
-      "id": "579491ed",
+      "id": "e21d8067",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -640,7 +640,7 @@
       },
       "elements": [
         {
-          "id": "6267491a",
+          "id": "e0e3b6c7",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -683,7 +683,7 @@
           },
           "elements": [
             {
-              "id": "bc04bde5",
+              "id": "d3bd7eb8",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -734,11 +734,11 @@
               },
               "elements": [
                 {
-                  "id": "8ccd3aa3",
+                  "id": "8ad30932",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<h3><strong>Mitmachen</strong></h3><p>Die Kraft zu notwendigen Veränderungen hat eine Partei umso eher, je stärker sie in ihrer Heimat verankert ist. Wir sind Bayerns Volkspartei. Die große Mitgliederzahl der CSU war und ist das Fundament unserer Politik. Sie schafft uns den nötigen Rückhalt in der Bevölkerung. Die CSU-Verbände mit ihrer breiten Verwurzelung an der Basis ermöglichen Politik aus einem Guss und auf allen politischen Ebenen: in den Gemeinden, Landkreisen und Bezirken ebenso wie in den Parlamenten in München, Berlin und Brüssel.</p><p>Die CSU steht gut da! Jetzt müssen wir die Grundlage für den Erfolg von morgen schaffen. Wir möchten unser Fundament weiter stärken. Wir sind die Mitmachpartei. Wir möchten viele neue Mitstreiter und gezielt auch junge Leute für uns gewinnen, die unsere politische Arbeit durch ihr Engagement, ihre Ideen und ihre Stimme unterstützen.</p><p>Auch die aktuellen Erfolge, die unsere Politik im Bund, in Bayern und für jeden Einzelnen erzielt hat, sprechen für sich. Die CSU hat Bayern in den letzten Jahrzehnten geprägt und die Politik in Deutschland maßgeblich mitgestaltet.</p><h3>Jetzt online Mitglied werden: Mitgliedsantrag</h3> <ul><li><a href=\"https://csu.de/jetzt-mitmachen\" rel=\"noopener noreferrer\" target=\"_blank\">Hier geht’s zum Online-Mitgliedsantrag</a></li></ul><ul><li><a href=\"https://www.csu.de/common/csu/content/csu/hauptnavigation/dialog/mitmachen/SP-494_CSU_BL_Mitgliedsantrag_6-seiter_210x100_quer_01_2020_RO_150_2_innen.pdf\" rel=\"noopener noreferrer\" target=\"_blank\"><span>Mitgliedsantrag als PDF</span></a></li></ul><ul><li><a href=\"https://www.csu.de/common/csu/content/csu/hauptnavigation/dialog/mitmachen/Antrag_auf_CSU-Probemitgliedschaft_1_.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Antrag auf Probemitgliedschaft </a></li></ul>",
+                    "editor": "<h3><strong>Mitmachen</strong></h3><p>Die Kraft zu notwendigen Veränderungen hat eine Partei umso eher, je stärker sie in ihrer Heimat verankert ist. Wir sind Bayerns Volkspartei. Die große Mitgliederzahl der CSU war und ist das Fundament unserer Politik. Sie schafft uns den nötigen Rückhalt in der Bevölkerung. Die CSU-Verbände mit ihrer breiten Verwurzelung an der Basis ermöglichen Politik aus einem Guss und auf allen politischen Ebenen: in den Gemeinden, Landkreisen und Bezirken ebenso wie in den Parlamenten in München, Berlin und Brüssel.</p><p>Die CSU steht gut da! Jetzt müssen wir die Grundlage für den Erfolg von morgen schaffen. Wir möchten unser Fundament weiter stärken. Wir sind die Mitmachpartei. Wir möchten viele neue Mitstreiter und gezielt auch junge Leute für uns gewinnen, die unsere politische Arbeit durch ihr Engagement, ihre Ideen und ihre Stimme unterstützen.</p><p>Auch die aktuellen Erfolge, die unsere Politik im Bund, in Bayern und für jeden Einzelnen erzielt hat, sprechen für sich. Die CSU hat Bayern in den letzten Jahrzehnten geprägt und die Politik in Deutschland maßgeblich mitgestaltet.</p><h3>Jetzt online Mitglied werden: Mitgliedsantrag</h3> <ul><li><a href=\"https://csu.de/jetzt-mitmachen\" rel=\"noopener noreferrer\" target=\"_blank\">Hier geht’s zum Online-Mitgliedsantrag</a></li></ul><ul><li><a href=\"https://www.csu.de/jetzt-mitmachen/\" rel=\"noopener noreferrer\" target=\"_blank\">Mitgliedschaft auf der CSU-Website</a></li></ul><ul><li><a href=\"https://www.csu.de/common/csu/content/csu/hauptnavigation/dialog/mitmachen/Antrag_auf_CSU-Probemitgliedschaft_1_.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Antrag auf Probemitgliedschaft </a></li></ul>",
                     "text_color": "#566779",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
@@ -772,7 +772,7 @@
       ]
     },
     {
-      "id": "a17b787d",
+      "id": "2599f921",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -829,7 +829,7 @@
       },
       "elements": [
         {
-          "id": "b72640fd",
+          "id": "262248db",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -873,7 +873,7 @@
           },
           "elements": [
             {
-              "id": "20e2fe98",
+              "id": "5a539b9e",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -919,7 +919,7 @@
               "elements": []
             },
             {
-              "id": "1197e307",
+              "id": "0878b738",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -976,7 +976,7 @@
       ]
     },
     {
-      "id": "ae6bdf66",
+      "id": "2c3d3f02",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -1031,7 +1031,7 @@
       },
       "elements": [
         {
-          "id": "139cda57",
+          "id": "2257759b",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {

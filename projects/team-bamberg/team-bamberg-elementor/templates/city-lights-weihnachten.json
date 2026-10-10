@@ -5,7 +5,7 @@
   "page_settings": {},
   "content": [
     {
-      "id": "2880bce9",
+      "id": "dea0ec53",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -62,7 +62,7 @@
       },
       "elements": [
         {
-          "id": "cc9d79d7",
+          "id": "7454bb0d",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -105,7 +105,7 @@
           },
           "elements": [
             {
-              "id": "7cc7a717",
+              "id": "47f78ebf",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -149,7 +149,7 @@
               },
               "elements": [
                 {
-                  "id": "5ffb6cbb",
+                  "id": "7688f66f",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -181,7 +181,7 @@
                   "elements": []
                 },
                 {
-                  "id": "11beff96",
+                  "id": "3d55c903",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -228,7 +228,7 @@
                   "elements": []
                 },
                 {
-                  "id": "d6e6928f",
+                  "id": "00f2019a",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -274,7 +274,7 @@
                   "elements": []
                 },
                 {
-                  "id": "14d1efa6",
+                  "id": "bb894e02",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -308,7 +308,7 @@
               ]
             },
             {
-              "id": "be3df223",
+              "id": "acd9f012",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -351,7 +351,7 @@
               },
               "elements": [
                 {
-                  "id": "ecfc578e",
+                  "id": "dc08a5f7",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -384,7 +384,7 @@
       ]
     },
     {
-      "id": "2118172d",
+      "id": "45d5e6f6",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -439,7 +439,7 @@
       },
       "elements": [
         {
-          "id": "3e6ec740",
+          "id": "ed6bfd61",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -474,7 +474,7 @@
       ]
     },
     {
-      "id": "3f18d1ed",
+      "id": "cfa81006",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -529,7 +529,7 @@
       },
       "elements": [
         {
-          "id": "e9a7b18c",
+          "id": "bca106e8",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -572,7 +572,7 @@
           },
           "elements": [
             {
-              "id": "d03fb716",
+              "id": "03d221b3",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -623,11 +623,11 @@
               },
               "elements": [
                 {
-                  "id": "f5061f47",
+                  "id": "24a0718c",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<h3><span><strong>Transparenzbekanntmachung gemäß Verordnung (EU) 2024/900</strong></span></h3>\n\n<h3><span><strong>1. Angaben zum Sponsor (Auftraggeber der politischen Werbung)</strong></span></h3>\n<p><span><strong>Name / Organisation:</strong></span><br/><span>CSU Kreisverband Bamberg-Stadt</span></p>\n<p><span><strong>Rechtsform:</strong></span><br/><span>e.V.</span></p>\n<p><span><strong>Adresse:</strong></span><br/><span>Luitpoldstraße 55, 96052 Bamberg</span></p>\n<p><span><strong>E-Mail:</strong></span><br/><span><span>in<span>**</span>@<span>*********</span>rg.de</span></span></p>\n<p><span><strong>Telefon:</strong></span><br/><span>0951 28264</span></p>\n\n<h3><span><strong>2. Verantwortliche Person(en) für die politische Anzeige</strong></span></h3>\n<p><span><strong>Name:</strong></span><br/><span>Prof. Dr. Gerhard Seitz</span></p>\n<p><span><strong>Funktion / Rolle:</strong></span><br/><span>CSU-Kreisvorsitzender</span></p>\n<p><span><strong>Kontakt:</strong></span><br/><span><span>in<span>**</span>@<span>*********</span>rg.de</span></span></p>\n\n<h3><span><strong>3. Beschreibung der politischen Werbung</strong></span></h3>\n<p><span><strong>Titel der Kampagne:</strong></span><br/><span>Weihnachtsgrüße &amp; Neujahrswünsche Melanie Huml</span></p>\n<p><span><strong>Zweck / Inhalt der Anzeige:</strong></span><br/><span>Weihnachts- und Neujahrsbotschaft von Melanie Huml</span></p>\n<p><span><strong>Bezug zu Wahl oder Gesetzgebungsverfahren:</strong></span><br/><span>Kommunalwahl 2026</span></p>\n\n<h3><span><strong>4. Zeitraum und Orte der Veröffentlichung</strong></span></h3>\n<p><span><strong>Geplanter Veröffentlichungszeitraum:</strong></span><br/><span>23.12.–29.12.</span></p>\n<p><span><strong>Verwendete Werbeträger:</strong></span><br/><span>City-Light-Poster</span></p>\n<p><span><strong>Region(en) / Städte:</strong></span><br/><span>Bamberg</span></p>\n\n<h3><span><strong>5. Finanzierung der politischen Werbung</strong></span></h3>\n<p><span><strong>Gesamtkosten der Kampagne:</strong></span><br/><span>4.923,39 Euro Netto</span></p>\n<p><span><strong>Quelle der Mittel:</strong></span><br/><span>Parteimittel</span></p>\n\n<h3><span><strong>6. Verantwortlichkeit der Angaben</strong></span></h3>\n<h3><span><strong>Erklärung gemäß Artikel 7 Absatz 1 Verordnung (EU) 2024/900</strong></span></h3>\n<p><span>Hiermit erkläre ich/wir als Sponsor wahrheitsgemäß:</span></p>\n<ul>\n<li>\n<p><span>Die beauftragte Werbedienstleistung stellt politische Werbung im Sinne des Artikels 3 Nr. 5 der Verordnung (EU) 2024/900 dar.</span></p>\n</li>\n</ul>\n<p><span>Weiter erkläre ich/wir:</span></p>\n<ul>\n<li>\n<p><span>Ich/wir erfüllen die Anforderungen des Artikels 5 Absatz 2 der Verordnung (EU) 2024/900, d. h. der Sponsor ist:</span><br/><span>a) ein Unionsbürger oder</span><br/><span>b) ein Drittstaatsangehöriger mit ständigem Wohnsitz in der Union, der gemäß deutschem Recht das aktive Wahlrecht bei der betroffenen Wahl oder dem Referendum hat, oder</span><br/><span>c) eine in der Union niedergelassene juristische Person, die letztendlich nicht im Eigentum oder unter Kontrolle eines Drittstaatsangehörigen (mit Ausnahme von Fall b) oder einer in einem Drittstaat ansässigen juristischen Person steht.</span></p>\n</li>\n</ul>\n<h3><span><strong>Haftung und Richtigkeitserklärung</strong></span></h3>\n<p><span>Ich/wir bestätigen, dass die vorstehenden Angaben vollständig und wahrheitsgemäß sind.</span><br/><span>Mir/uns ist bekannt, dass ich/wir gemäß Artikel 7 Absatz 1 der Verordnung (EU) 2024/900 für die Richtigkeit dieser Erklärung verantwortlich sind.</span></p>\n<p><span><strong>Name der verantwortlichen Person:</strong></span><br/><span>Prof. Dr. Gerhard Seitz</span></p>\n<p><span><strong>Datum:</strong></span><br/><span>Bamberg, 1.12.2025</span></p>",
+                    "editor": "<h3><span><strong>Transparenzbekanntmachung gemäß Verordnung (EU) 2024/900</strong></span></h3>\n<h3><span><strong>1. Angaben zum Sponsor (Auftraggeber der politischen Werbung)</strong></span></h3>\n<p><span><strong>Name / Organisation:</strong></span><br/><span>CSU Kreisverband Bamberg-Stadt</span></p>\n<p><span><strong>Rechtsform:</strong></span><br/><span>e.V.</span></p>\n<p><span><strong>Adresse:</strong></span><br/><span>Luitpoldstraße 55, 96052 Bamberg</span></p>\n<p>E-Mail-Adresse wird noch bestätigt. Kontakt über die Geschäftsstelle.</p>\n<p><span><strong>Telefon:</strong></span><br/><span>0951 28264</span></p>\n<h3><span><strong>2. Verantwortliche Person(en) für die politische Anzeige</strong></span></h3>\n<p><span><strong>Name:</strong></span><br/><span>Prof. Dr. Gerhard Seitz</span></p>\n<p><span><strong>Funktion / Rolle:</strong></span><br/><span>CSU-Kreisvorsitzender</span></p>\n<p>E-Mail-Adresse wird noch bestätigt. Kontakt über die Geschäftsstelle.</p>\n<h3><span><strong>3. Beschreibung der politischen Werbung</strong></span></h3>\n<p><span><strong>Titel der Kampagne:</strong></span><br/><span>Weihnachtsgrüße &amp; Neujahrswünsche Melanie Huml</span></p>\n<p><span><strong>Zweck / Inhalt der Anzeige:</strong></span><br/><span>Weihnachts- und Neujahrsbotschaft von Melanie Huml</span></p>\n<p><span><strong>Bezug zu Wahl oder Gesetzgebungsverfahren:</strong></span><br/><span>Kommunalwahl 2026</span></p>\n<h3><span><strong>4. Zeitraum und Orte der Veröffentlichung</strong></span></h3>\n<p><span><strong>Geplanter Veröffentlichungszeitraum:</strong></span><br/><span>23.12.–29.12.</span></p>\n<p><span><strong>Verwendete Werbeträger:</strong></span><br/><span>City-Light-Poster</span></p>\n<p><span><strong>Region(en) / Städte:</strong></span><br/><span>Bamberg</span></p>\n<h3><span><strong>5. Finanzierung der politischen Werbung</strong></span></h3>\n<p><span><strong>Gesamtkosten der Kampagne:</strong></span><br/><span>4.923,39 Euro Netto</span></p>\n<p><span><strong>Quelle der Mittel:</strong></span><br/><span>Parteimittel</span></p>\n<h3><span><strong>6. Verantwortlichkeit der Angaben</strong></span></h3>\n<h3><span><strong>Erklärung gemäß Artikel 7 Absatz 1 Verordnung (EU) 2024/900</strong></span></h3>\n<p><span>Hiermit erkläre ich/wir als Sponsor wahrheitsgemäß:</span></p>\n<ul>\n<li>\n<p><span>Die beauftragte Werbedienstleistung stellt politische Werbung im Sinne des Artikels 3 Nr. 5 der Verordnung (EU) 2024/900 dar.</span></p>\n</li>\n</ul>\n<p><span>Weiter erkläre ich/wir:</span></p>\n<ul>\n<li>\n<p><span>Ich/wir erfüllen die Anforderungen des Artikels 5 Absatz 2 der Verordnung (EU) 2024/900, d. h. der Sponsor ist:</span><br/><span>a) ein Unionsbürger oder</span><br/><span>b) ein Drittstaatsangehöriger mit ständigem Wohnsitz in der Union, der gemäß deutschem Recht das aktive Wahlrecht bei der betroffenen Wahl oder dem Referendum hat, oder</span><br/><span>c) eine in der Union niedergelassene juristische Person, die letztendlich nicht im Eigentum oder unter Kontrolle eines Drittstaatsangehörigen (mit Ausnahme von Fall b) oder einer in einem Drittstaat ansässigen juristischen Person steht.</span></p>\n</li>\n</ul>\n<h3><span><strong>Haftung und Richtigkeitserklärung</strong></span></h3>\n<p><span>Ich/wir bestätigen, dass die vorstehenden Angaben vollständig und wahrheitsgemäß sind.</span><br/><span>Mir/uns ist bekannt, dass ich/wir gemäß Artikel 7 Absatz 1 der Verordnung (EU) 2024/900 für die Richtigkeit dieser Erklärung verantwortlich sind.</span></p>\n<p><span><strong>Name der verantwortlichen Person:</strong></span><br/><span>Prof. Dr. Gerhard Seitz</span></p>\n<p><span><strong>Datum:</strong></span><br/><span>Bamberg, 1.12.2025</span></p>",
                     "text_color": "#566779",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
@@ -661,7 +661,7 @@
       ]
     },
     {
-      "id": "d3a9e935",
+      "id": "bad33479",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -718,7 +718,7 @@
       },
       "elements": [
         {
-          "id": "35b05572",
+          "id": "004ba78b",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -762,7 +762,7 @@
           },
           "elements": [
             {
-              "id": "59e047f1",
+              "id": "341bfd7f",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -808,7 +808,7 @@
               "elements": []
             },
             {
-              "id": "4b026649",
+              "id": "2964c89d",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -865,7 +865,7 @@
       ]
     },
     {
-      "id": "6adf565b",
+      "id": "8a7647b3",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -920,7 +920,7 @@
       },
       "elements": [
         {
-          "id": "903cba74",
+          "id": "2cc6231a",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {

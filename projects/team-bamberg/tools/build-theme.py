@@ -23,6 +23,8 @@ masked = []
 source_root = None
 media_by_url = {}
 pages = {}
+DISTRICTS = json.loads(Path(__file__).with_name('districts.json').read_text())
+DEAD_MEMBERSHIP_PDF = 'https://www.csu.de/common/csu/content/csu/hauptnavigation/dialog/mitmachen/SP-494_CSU_BL_Mitgliedsantrag_6-seiter_210x100_quer_01_2020_RO_150_2_innen.pdf'
 
 
 def uid():
@@ -148,6 +150,9 @@ def image_source(img, hero=False):
 
 def rewrite(url):
     if not url: return ''
+    if url == DEAD_MEMBERSHIP_PDF: return 'https://www.csu.de/jetzt-mitmachen/'
+    malformed = re.match(r'^https?://(?:www\.)csu\.de/\((https?://.+)$', url)
+    if malformed: url = malformed.group(1).rstrip(')')
     parsed = urllib.parse.urlsplit(url)
     if parsed.scheme == 'mailto' and ('<' in parsed.path or '*' in parsed.path or 'data-original-string' in parsed.path): return ''
     if parsed.scheme not in {'http', 'https', 'mailto', 'tel', ''}: return ''
@@ -175,6 +180,8 @@ def sanitise(value):
         element.attrs = {}
         if element.name == 'a':
             target = rewrite(old.get('href', ''))
+            if old.get('href') == DEAD_MEMBERSHIP_PDF:
+                element.clear(); element.append('Mitgliedschaft auf der CSU-Website')
             if old.get('href', '').lower().startswith('mailto:') and not target:
                 masked.append(element.get_text('', strip=True))
             if not target:
@@ -248,10 +255,20 @@ def convert_widget(widget, slug):
         return out
     if kind == 'heading':
         title = body.select_one('.elementor-heading-title') or body
-        text = sanitise(title.decode_contents())
+        text = html.escape(title.get_text(' ', strip=True))
         return [H(text, 'h3', 26)] if title.get_text(strip=True) else []
     if kind == 'text-editor':
         text = sanitise(body.decode_contents())
+        clean = BeautifulSoup(text, 'html.parser')
+        for block in clean.find_all(['p', 'h3', 'h4', 'h5', 'h6']):
+            if block.find(['p', 'h3', 'h4', 'h5', 'h6']): continue
+            raw = block.get_text(' ', strip=True)
+            if len(raw) < 400 and '*' in raw and '@' in raw:
+                prefix = re.split(r'(?:E-Mail|Mail)\s*:', raw, maxsplit=1)[0] if re.search(r'(?:E-Mail|Mail)\s*:', raw) else ''
+                block.clear()
+                if prefix: block.append(prefix); block.append(clean.new_tag('br'))
+                block.append('E-Mail-Adresse wird noch bestätigt. Kontakt über die Geschäftsstelle.')
+        text = str(clean)
         return [E(text)] if body.get_text(strip=True) else []
     if kind == 'button':
         a = body.find('a')
@@ -311,6 +328,63 @@ def generic_content(slug):
     return result
 
 
+def district_content(slug):
+    """Build a district article and identifiable contact cards, instead of copying empty rows."""
+    info = DISTRICTS[slug]
+    soup = BeautifulSoup((source_root / pages[slug]['file']).read_text(), 'html.parser')
+    root = soup.select_one('[data-elementor-type="wp-page"]')
+    for part in root.select('header,nav,footer'): part.decompose()
+    widgets = root.select('.elementor-widget')
+    story = [w for w in widgets if w.get('data-widget_type') == 'text-editor.default' and len(w.get_text(' ', strip=True)) > 500]
+    assert story, 'District story missing: ' + slug
+    photographs = []
+    for w in widgets:
+        if w.get('data-widget_type') == 'heading.default' and w.get_text(' ', strip=True) == 'Kontakt': break
+        if w.get('data-widget_type') == 'image.default':
+            img = w.select_one('img'); key = add_asset(image_source(img), 'Bamberg – ' + info['label'])
+            if key and key != page_picture(slug): photographs.append(key)
+    contact_cards = []
+    for name in info['people']:
+        matches = [w for w in widgets if w.get('data-widget_type') == 'text-editor.default' and name in w.get_text(' ', strip=True) and len(w.get_text(' ', strip=True)) < 500]
+        assert matches, 'District contact missing: ' + slug + ': ' + name
+        widget = matches[0]; column = widget.find_parent(class_='elementor-column')
+        texts = [w for w in column.select('.elementor-widget-text-editor') if len(w.get_text(' ', strip=True)) < 500]
+        raw = ' '.join(w.get_text(' ', strip=True) for w in texts)
+        plain = ' '.join(w.get_text('', strip=True) for w in texts)
+        role = 'ORTSVERBAND' if 'vorsitz' in raw.lower() else 'STADTRAT IM ORIGINALAUFTRITT'
+        details = raw.replace(name, '', 1).strip(' ,')
+        details = re.sub(r'^(?:Ortsvorsitzender|Vorsitzender)\s*', '', details)
+        details = re.split(r'(?:E-Mail|Mail)\s*:', details, maxsplit=1)[0].strip()
+        details = html.escape(details).replace('Tel.:', '<br>Telefon:')
+        email = re.search(r'[\w.+-]+@[\w.-]+\.[a-zA-Z]{2,}', plain.replace('(at)', '@')) if '*' not in plain else None
+        photo = next((w.select_one('img') for w in column.select('.elementor-widget-image') if w.select_one('img')), None)
+        if photo is None:
+            # Some original layouts put the portrait in a separate column before the name.
+            for preceding in reversed(widgets[:widgets.index(widget)]):
+                kind = preceding.get('data-widget_type')
+                if kind == 'heading.default' and preceding.get_text(' ', strip=True) == 'Kontakt': break
+                if kind == 'text-editor.default': break
+                if kind == 'image.default': photo = preceding.select_one('img'); break
+        key = add_asset(image_source(photo), name) if photo else None
+        portrait = I(key, 'tb-district-person-photo') if key else H(''.join(word[0] for word in name.split() if word[0].isupper())[:2], 'p', 28, NAVY, 'tb-person-initials')
+        items = [row([C([portrait], width=27), C([eye(role), H(name, 'h3', 24)], width=73, flex_justify_content='center')], gap=18, flex_direction_mobile='row')]
+        if details: items.append(E('<p>' + details + '</p>', INK, 15))
+        if email: items.append(B('E-Mail schreiben →', 'mailto:' + email.group(), PAPER, NAVY))
+        else: items.append(B('Kontakt über die Geschäftsstelle →', link('kontakt') + '?anliegen=' + slug, PAPER, NAVY))
+        profile = next((p for p in PROFILE_SLUGS if pages[p]['title'] == name), None)
+        if profile: items.append(B('Persönliches Profil →', link(profile), PAPER, NAVY))
+        contact_cards.append(C(items, css='tb-content-card tb-district-contact', gap=18))
+    result = [section([row([B('Unser Stadtteil ↓', '#stadtteil', NAVY, WHITE), B('Ansprechpartner ↓', '#ansprechpartner', PAPER, NAVY), B('Alle Ortsverbände →', link('ortsverbaende'), PAPER, NAVY)], gap=12)], PAPER, 'tb-district-shortcuts', pad=24),
+              section([row([C([eye('DAS MACHT UNSEREN STADTTEIL AUS'), H(info['label'] + '.<br>Ein Stück Bamberg.', 'h2', 43), E(story[0].get_text(' ', strip=True).split('. ', 1)[0].rstrip('.') + '.', INK, 18)], width=60),
+                                  C([eye('IM ÜBERBLICK')] + [H(place, 'p', 23) for place in info['places']], css='tb-district-facts', bg=SAND, width=40, pad=30)], gap=45)], PAPER, _element_id='stadtteil', pad=40)]
+    if photographs:
+        result.append(section([I(photographs[0], 'tb-district-panorama'), E('Ansicht aus der ursprünglichen Vorstellung des Ortsverbands ' + info['label'] + '.', size=12)], PAPER, pad=18))
+    result.append(section([C([eye('STADTTEIL & GESCHICHTE'), H('Die Originalvorstellung.', 'h2', 35), E('Die folgenden Texte dokumentieren den bisherigen Auftritt. Zeitgebundene Aussagen sind keine neu bestätigten Beschlüsse.', size=13)] + [E(sanitise((w.select_one('.elementor-widget-container') or w).decode_contents()), INK, 17) for w in story], css='tb-content-block tb-district-story', gap=22)], PAPER, pad=30))
+    result.append(section([eye('MENSCHEN VOR ORT'), H('Ihre Ansprechpartner.'), E('Diese Personen werden auf der bisherigen Ortsverbandsseite vorgestellt. Die aktuelle Besetzung wird vor Veröffentlichung abgeglichen.'),
+                           C(contact_cards, css='tb-grid tb-grid-' + str(min(len(contact_cards), 2)))], SAND, _element_id='ansprechpartner', pad=50))
+    return result
+
+
 def original_text(slug):
     soup = BeautifulSoup((source_root / pages[slug]['file']).read_text(), 'html.parser')
     return [w for w in soup.select('[data-elementor-type="wp-page"] .elementor-widget')
@@ -344,6 +418,10 @@ def main():
         raise SystemExit('Essential source pages are missing; review the inventory before rebuilding.')
     THEME.joinpath('assets/media').mkdir(parents=True, exist_ok=True)
     THEME.joinpath('templates').mkdir(parents=True, exist_ok=True)
+    previous_manifest = THEME / 'manifest.json'
+    if previous_manifest.exists():
+        for asset in json.loads(previous_manifest.read_text())['media'].values():
+            add_asset(asset['source_url'], asset['alt'])
     logo_url = 'https://team-bamberg.de/wp-content/uploads/2020/11/CSU_Logo_1c_neg-300x69.png'
     logo = add_asset(logo_url, 'CSU – Christlich-Soziale Union')
     hero = add_asset('https://team-bamberg.de/wp-content/uploads/2020/11/AdobeStock_97121734-11-2048x1041.jpg', 'Altes Rathaus in Bamberg an der Regnitz')
@@ -422,7 +500,7 @@ def main():
     }
     district_labels = {slug: label for slug, label, _ in district_names}
     for slug, label in district_labels.items():
-        descriptions[slug] = f'Zu Hause in {label}. Lernen Sie den Ortsverband, die vorgestellten Menschen und die Kontaktmöglichkeiten aus dem bisherigen Auftritt kennen.'
+        descriptions[slug] = DISTRICTS[slug]['intro']
     profile_slugs = PROFILE_SLUGS
     for slug in profile_slugs:
         descriptions[slug] = 'Ein persönlicher Blick auf den Menschen hinter dem Namen: die Vorstellung, Schwerpunkte und Kontaktangaben aus dem bisherigen Team-Bamberg-Auftritt.'
@@ -430,7 +508,7 @@ def main():
         if slug == 'startseite': continue
         title = 'Anträge & Archiv' if slug == 'fraktionsantraege' else record['title']
         content = [heading(slug, title, descriptions.get(slug, 'Originalunterlagen und Transparenzangaben zum Nachlesen. Diese Archivseite bewahrt die veröffentlichten Informationen und ihre ursprünglichen Zeiträume.'))]
-        if slug in {'kreisvorstand-2', 'fraktion', 'mandatstraeger'} or slug in profile_slugs or slug.startswith('csu-'):
+        if slug in {'kreisvorstand-2', 'fraktion', 'mandatstraeger'} or slug in profile_slugs:
             content.append(section([note('Personen, Funktionen und Kontaktdaten wurden aus der bisherigen Website übernommen. Die aktuelle Besetzung muss vor Veröffentlichung bestätigt werden.')], pad=20))
         if slug in {'impressum', 'datenschutz'}:
             content.append(section([note('Übernommener Rechtstext der bisherigen Website. Die enthaltene Datenschutzerklärung trägt den Stand Mai 2018. Verantwortliche, Kontaktdaten und tatsächliche Dienste müssen für die neue Website aktualisiert werden.')], pad=20))
@@ -447,6 +525,10 @@ def main():
                 if date: cards.append(C(converted, css='tb-document tb-year-' + date.group(1)))
                 elif converted: content.append(section(converted, pad=20))
             content.append(section([W('team-bamberg-archive-filter'), C(cards, css='tb-archive-list'), E('Externe Dokumente bleiben mit ihrer veröffentlichten Originaladresse verlinkt.', size=12)], pad=40))
+        elif slug in DISTRICTS:
+            content.extend(district_content(slug))
+        elif slug == 'ortsverbaende':
+            content.append(section([eye('ACHT ORTSVERBÄNDE. EINE STADT.'), H('Wo sind Sie zu Hause?'), E('Jeder Ortsverband hat eine eigene Seite mit Stadtteilvorstellung, Originalbildern, Geschichte und Ansprechpartnern.'), C(district_cards, css='tb-grid tb-grid-2 tb-district-index')], PAPER, pad=45))
         elif slug != 'kontakt': content.extend(generic_content(slug))
         if slug == 'aktuelles-2':
             entries = [('antraege', 'Ausgewählte Stadtratsanträge'), ('asp-bezirk', 'ASP Bezirk – historisches Archiv'),
@@ -488,6 +570,7 @@ def main():
             'external_documents': inventory['external_media'], 'source_capture_errors': inventory['errors'],
             'sitemap_review': inventory.get('sitemap_review', {})},
         'review_notes': ['Personen und Funktionen bestätigen.', 'Veröffentlichte E-Mail-Adressen sind teilweise verschleiert; nicht erraten.', 'IBAN ohne Länderkennung auf der Originalseite: vor Verwendung bestätigen.', 'Datenschutzerklärung Stand Mai 2018: an neuen Betrieb anpassen.', 'Terminangabe ohne Jahr: nicht als zukünftiges Ereignis übernommen.', 'Originalfoto Andreas Dechant nicht abrufbar; kein Ersatzporträt erfunden.']}
+    manifest['source_link_corrections'] = {'unavailable_membership_pdf': DEAD_MEMBERSHIP_PDF, 'replacement': 'https://www.csu.de/jetzt-mitmachen/', 'malformed_privacy_links': 'Entfernt den versehentlichen CSU-URL-Präfix vor zwei Google-Adressen; Rechtstext bleibt zur Prüfung markiert.'}
     (THEME / 'manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
     (PROJECT / 'QUELLEN.json').write_text(json.dumps({k: v for k, v in manifest.items() if k not in {'media', 'pages', 'parts'}}, ensure_ascii=False, indent=2) + '\n')
     print(f'Built {len(pages)} native Elementor pages, 2 shared sections and {len(assets)} original media files.')

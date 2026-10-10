@@ -5,7 +5,7 @@
   "page_settings": {},
   "content": [
     {
-      "id": "a2e82221",
+      "id": "ea59ac12",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -62,7 +62,7 @@
       },
       "elements": [
         {
-          "id": "79b777c6",
+          "id": "ff0ac140",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -105,7 +105,7 @@
           },
           "elements": [
             {
-              "id": "9216a62f",
+              "id": "81d48411",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -149,7 +149,7 @@
               },
               "elements": [
                 {
-                  "id": "ec11c460",
+                  "id": "f417f58b",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -181,7 +181,7 @@
                   "elements": []
                 },
                 {
-                  "id": "352c5c2a",
+                  "id": "42cc66b2",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -228,7 +228,7 @@
                   "elements": []
                 },
                 {
-                  "id": "d900cdc9",
+                  "id": "5b1b81e6",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -274,7 +274,7 @@
                   "elements": []
                 },
                 {
-                  "id": "c38bdd62",
+                  "id": "9443a509",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -308,7 +308,7 @@
               ]
             },
             {
-              "id": "f7ce9169",
+              "id": "f7a411cf",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -351,7 +351,7 @@
               },
               "elements": [
                 {
-                  "id": "306f3ac3",
+                  "id": "490ad9ed",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -384,7 +384,7 @@
       ]
     },
     {
-      "id": "119b5368",
+      "id": "5838d6d3",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -439,7 +439,7 @@
       },
       "elements": [
         {
-          "id": "a5cf0ced",
+          "id": "c719cd68",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -474,7 +474,7 @@
       ]
     },
     {
-      "id": "b522e476",
+      "id": "ea10a11d",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -529,7 +529,7 @@
       },
       "elements": [
         {
-          "id": "ce51efdb",
+          "id": "f40d0e40",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -572,7 +572,7 @@
           },
           "elements": [
             {
-              "id": "47066d63",
+              "id": "ac09b39c",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -623,7 +623,7 @@
               },
               "elements": [
                 {
-                  "id": "5bbe490d",
+                  "id": "6e7a9019",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -675,7 +675,7 @@
       ]
     },
     {
-      "id": "6bacfaa7",
+      "id": "076e736a",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -730,7 +730,7 @@
       },
       "elements": [
         {
-          "id": "b07d55ee",
+          "id": "898faf31",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -773,7 +773,7 @@
           },
           "elements": [
             {
-              "id": "2909f42e",
+              "id": "1f4cd71d",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -824,7 +824,7 @@
               },
               "elements": [
                 {
-                  "id": "4bfbe8ce",
+                  "id": "6a74cf17",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -851,7 +851,7 @@
                   "elements": []
                 },
                 {
-                  "id": "11ff7c54",
+                  "id": "e5328869",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -897,7 +897,7 @@
                   "elements": []
                 },
                 {
-                  "id": "4f4483bf",
+                  "id": "029e2398",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -929,11 +929,11 @@
                   "elements": []
                 },
                 {
-                  "id": "ffb5e245",
+                  "id": "0a0322be",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p><strong>Melanie Huml</strong></p><ul><li><ul><li>Mitglied des Bayerischen Landtags, Abgeordnete für den Stimmkreis Bamberg-Stadt</li></ul></li></ul><p><strong>Abgeordnetenbüro<br/></strong>Luitpoldstraße 55<strong><br/></strong>96052 Bamberg<br/>Tel: 0951 / 96 43 97 43<br/>Fax: 0951 / 96 43 97 40<br/>E-Mail: <span>md<span>*</span>@<span>**********</span>ml.de</span></p><p>Mit Anliegen, die den Stimmkreis BAMBERG-Stadt betreffen, wenden Sie sich bitte an das Abgeordnetenbüro.<br/>E-Mail: <span>md<span>*</span>@<span>**********</span>ml.de</span></p><p>Zum Stimmkreis gehören die Stadt Bamberg, die Stadt Hallstadt sowie die Gemeinden Bischberg, Gundelsheim, Lisberg, Oberhaid, Priesendorf, Stegaurach, Viereth-Trunstadt und Walsdorf.</p><p>Im Abgeordnetenbüro sind Stefanie Kaiser und Claudia Bachmann für Ihre Anliegen i.d.R. von Montag bis Freitag in der Zeit von 8:30 bis 17:00 Uhr für Sie erreichbar.</p><p><a href=\"http://www.melanie-huml.de\" rel=\"noopener noreferrer\" target=\"_blank\">www.melanie-huml.de</a></p>",
+                    "editor": "<p><strong>Melanie Huml</strong></p><ul><li><ul><li>Mitglied des Bayerischen Landtags, Abgeordnete für den Stimmkreis Bamberg-Stadt</li></ul></li></ul><p>Abgeordnetenbüro Luitpoldstraße 55 96052 Bamberg Tel: 0951 / 96 43 97 43 Fax: 0951 / 96 43 97 40 <br/>E-Mail-Adresse wird noch bestätigt. Kontakt über die Geschäftsstelle.</p><p>Mit Anliegen, die den Stimmkreis BAMBERG-Stadt betreffen, wenden Sie sich bitte an das Abgeordnetenbüro. <br/>E-Mail-Adresse wird noch bestätigt. Kontakt über die Geschäftsstelle.</p><p>Zum Stimmkreis gehören die Stadt Bamberg, die Stadt Hallstadt sowie die Gemeinden Bischberg, Gundelsheim, Lisberg, Oberhaid, Priesendorf, Stegaurach, Viereth-Trunstadt und Walsdorf.</p><p>Im Abgeordnetenbüro sind Stefanie Kaiser und Claudia Bachmann für Ihre Anliegen i.d.R. von Montag bis Freitag in der Zeit von 8:30 bis 17:00 Uhr für Sie erreichbar.</p><p><a href=\"http://www.melanie-huml.de\" rel=\"noopener noreferrer\" target=\"_blank\">www.melanie-huml.de</a></p>",
                     "text_color": "#566779",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
@@ -967,7 +967,7 @@
       ]
     },
     {
-      "id": "8b218151",
+      "id": "34a954a0",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -1022,7 +1022,7 @@
       },
       "elements": [
         {
-          "id": "3b93e8ad",
+          "id": "0a22f419",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -1065,7 +1065,7 @@
           },
           "elements": [
             {
-              "id": "383a5ef3",
+              "id": "d769e5c1",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1116,7 +1116,7 @@
               },
               "elements": [
                 {
-                  "id": "356ec9b3",
+                  "id": "4c8919be",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1143,7 +1143,7 @@
                   "elements": []
                 },
                 {
-                  "id": "879f1950",
+                  "id": "31e9f9cc",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1189,7 +1189,7 @@
                   "elements": []
                 },
                 {
-                  "id": "c93aca7d",
+                  "id": "234ee8c6",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1221,11 +1221,11 @@
                   "elements": []
                 },
                 {
-                  "id": "485117eb",
+                  "id": "f90a8a06",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<h3>Persönliches</h3><p><strong>Geboren</strong>                   am 12. November 1968 in Kemmern</p><p><strong>Familie </strong>                    verheiratet, 2 Söhne</p><p><strong>Beruf</strong>                        Rechtsanwalt (Tätigkeit ruhend)</p><h3>Ausbildung und beruflicher Werdegang</h3><p><strong>1987     –     1992</strong>     Jura-Studium in Erlangen, München und Bayreuth</p><p><strong>1992</strong>                         Erstes Juristisches Staatsexamen</p><p><strong>1992     –     1994</strong>     Rechtsreferendar in Bamberg, Bayreuth, Paris und Brüssel</p><p><strong>1993     –     1994</strong>     Wiss. Mitarbeiter am Lehrstuhl für Öffentliches Recht mit<br/>                                 Schwerpunkt Europarecht der Universität Bamberg</p><p><strong>1994</strong>                         Zweites Juristisches Staatsexamen</p><p><strong>1994     –     2000</strong>     Wiss. Assistent am Lehrstuhl für Öffentliches Recht,<br/>                                 insbesondere Völker- und Europarecht der Universität<br/>                                 Bayreuth</p><h3>Politische Funktionen</h3><p><strong>1998     –     2002</strong>      Mitglied im Bundesvorstand der JU Deutschlands</p><p><strong>seit 2002</strong>                   Mitglied des Kreistages Bamberg</p><p><strong>seit 2002</strong>                   Mitglied des Deutschen Bundestages</p><p><strong>seit 2005</strong>                   Stellvertretender Bezirksvorsitzender der CSU Oberfranken</p><p><strong>2005     –     2013</strong>      Sprecher der CSU-Landesgruppe im Deutschen Bundestag <br/>                                  für Auswärtiges, Verteidigung, Angelegenheiten der EU,<br/>                                  wirtschaftliche Zusammenarbeit und Entwicklung,<br/>                                  Menschenrechte und humanitäre Hilfe</p><p><strong>seit 2009</strong>                   Kreisvorsitzender der CSU Bamberg-Land</p><p><strong>2009  </strong>                        Obmann der CDU/CSU-Fraktion im Rechtsausschuss<br/>                                  des Deutschen Bundestages</p><p><strong>2014     –     2015      </strong>Stellvertretender Vorsitzender der<br/>                                  CDU/CSU-Bundestagsfraktion für Innen, Recht<br/>                                  und Verbraucherschutz</p><p><strong>2014     –     2018</strong>      Parlamentarischer Staatssekretär<br/>                                  beim Bundesminister für wirtschaftliche<br/>                                  Zusammenarbeit und Entwicklung</p><p><strong>2018</strong>      <strong>–      2021</strong>    Parlamentarischer Staatssekretär<br/>                                  bei der Bundesministerin der Verteidigung</p><p>                                  Mitglied im CSU-Parteivorstand</p><p><strong>2021      –      2025    </strong>Sprecher der CDU/CSU-Bundestagsfraktion für transatlantische Beziehungen</p><p><strong>seit 2025                  Justiziar der CDU/CSU-Bundestagsfraktion </strong></p><h3> </h3><h3>Kontakt</h3><p>Bürgerbüro Bamberg<br/>Luitpoldstraße 55<br/>96052 Bamberg<br/>Tel.: 0951 / 509 82 17<br/>Fax: 0951 / 509 82 13<br/>E-Mail:<br/><span>th<span>******************</span>@<span>*******</span>ag.de</span></p><p>Büro Thomas Silberhorn MdB<br/>Platz der Republik 1<br/>11011 Berlin<br/>Tel.: 030 / 227 – 7 10 28<br/>Fax: 030 / 227 – 7 60 19</p><p><a href=\"https://www.thomas-silberhorn.de/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.thomas-silberhorn.de/</a></p>",
+                    "editor": "<h3>Persönliches</h3><p><strong>Geboren</strong>                   am 12. November 1968 in Kemmern</p><p><strong>Familie </strong>                    verheiratet, 2 Söhne</p><p><strong>Beruf</strong>                        Rechtsanwalt (Tätigkeit ruhend)</p><h3>Ausbildung und beruflicher Werdegang</h3><p><strong>1987     –     1992</strong>     Jura-Studium in Erlangen, München und Bayreuth</p><p><strong>1992</strong>                         Erstes Juristisches Staatsexamen</p><p><strong>1992     –     1994</strong>     Rechtsreferendar in Bamberg, Bayreuth, Paris und Brüssel</p><p><strong>1993     –     1994</strong>     Wiss. Mitarbeiter am Lehrstuhl für Öffentliches Recht mit<br/>                                 Schwerpunkt Europarecht der Universität Bamberg</p><p><strong>1994</strong>                         Zweites Juristisches Staatsexamen</p><p><strong>1994     –     2000</strong>     Wiss. Assistent am Lehrstuhl für Öffentliches Recht,<br/>                                 insbesondere Völker- und Europarecht der Universität<br/>                                 Bayreuth</p><h3>Politische Funktionen</h3><p><strong>1998     –     2002</strong>      Mitglied im Bundesvorstand der JU Deutschlands</p><p><strong>seit 2002</strong>                   Mitglied des Kreistages Bamberg</p><p><strong>seit 2002</strong>                   Mitglied des Deutschen Bundestages</p><p><strong>seit 2005</strong>                   Stellvertretender Bezirksvorsitzender der CSU Oberfranken</p><p><strong>2005     –     2013</strong>      Sprecher der CSU-Landesgruppe im Deutschen Bundestag <br/>                                  für Auswärtiges, Verteidigung, Angelegenheiten der EU,<br/>                                  wirtschaftliche Zusammenarbeit und Entwicklung,<br/>                                  Menschenrechte und humanitäre Hilfe</p><p><strong>seit 2009</strong>                   Kreisvorsitzender der CSU Bamberg-Land</p><p><strong>2009  </strong>                        Obmann der CDU/CSU-Fraktion im Rechtsausschuss<br/>                                  des Deutschen Bundestages</p><p><strong>2014     –     2015      </strong>Stellvertretender Vorsitzender der<br/>                                  CDU/CSU-Bundestagsfraktion für Innen, Recht<br/>                                  und Verbraucherschutz</p><p><strong>2014     –     2018</strong>      Parlamentarischer Staatssekretär<br/>                                  beim Bundesminister für wirtschaftliche<br/>                                  Zusammenarbeit und Entwicklung</p><p><strong>2018</strong>      <strong>–      2021</strong>    Parlamentarischer Staatssekretär<br/>                                  bei der Bundesministerin der Verteidigung</p><p>                                  Mitglied im CSU-Parteivorstand</p><p><strong>2021      –      2025    </strong>Sprecher der CDU/CSU-Bundestagsfraktion für transatlantische Beziehungen</p><p><strong>seit 2025                  Justiziar der CDU/CSU-Bundestagsfraktion </strong></p><h3> </h3><h3>Kontakt</h3><p>Bürgerbüro Bamberg Luitpoldstraße 55 96052 Bamberg Tel.: 0951 / 509 82 17 Fax: 0951 / 509 82 13 <br/>E-Mail-Adresse wird noch bestätigt. Kontakt über die Geschäftsstelle.</p><p>Büro Thomas Silberhorn MdB<br/>Platz der Republik 1<br/>11011 Berlin<br/>Tel.: 030 / 227 – 7 10 28<br/>Fax: 030 / 227 – 7 60 19</p><p><a href=\"https://www.thomas-silberhorn.de/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.thomas-silberhorn.de/</a></p>",
                     "text_color": "#566779",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
@@ -1259,7 +1259,7 @@
       ]
     },
     {
-      "id": "4b03b320",
+      "id": "11da6cab",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -1314,7 +1314,7 @@
       },
       "elements": [
         {
-          "id": "2c35cb6e",
+          "id": "509fc432",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -1357,7 +1357,7 @@
           },
           "elements": [
             {
-              "id": "5f45176e",
+              "id": "3fb67805",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1408,7 +1408,7 @@
               },
               "elements": [
                 {
-                  "id": "f458d08c",
+                  "id": "a39e4168",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1435,7 +1435,7 @@
                   "elements": []
                 },
                 {
-                  "id": "d4f53af9",
+                  "id": "05e65362",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1481,7 +1481,7 @@
                   "elements": []
                 },
                 {
-                  "id": "33760e52",
+                  "id": "80dd2b3a",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1513,7 +1513,7 @@
                   "elements": []
                 },
                 {
-                  "id": "03478a9e",
+                  "id": "d7cab016",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1551,7 +1551,7 @@
       ]
     },
     {
-      "id": "acf85ae1",
+      "id": "125f39eb",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -1606,7 +1606,7 @@
       },
       "elements": [
         {
-          "id": "851b7595",
+          "id": "0301e3be",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -1649,7 +1649,7 @@
           },
           "elements": [
             {
-              "id": "41899936",
+              "id": "80ba99e9",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1700,7 +1700,7 @@
               },
               "elements": [
                 {
-                  "id": "7f64b902",
+                  "id": "d431479a",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1727,7 +1727,7 @@
                   "elements": []
                 },
                 {
-                  "id": "daefc51a",
+                  "id": "ae232df8",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1773,7 +1773,7 @@
                   "elements": []
                 },
                 {
-                  "id": "cc8e9e08",
+                  "id": "139bc0cc",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1805,11 +1805,11 @@
                   "elements": []
                 },
                 {
-                  "id": "cc44bf1f",
+                  "id": "e5eea7d0",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p><strong>Thomas Söder</strong></p><p>Ellerweg 3<br/>D-96103 Hallstadt</p><p>Telefon: +49 (0) 9 51 – 7 42 35</p><p>E-Mail: <span>th<span>*******</span>@<span>*</span>ol.com</span></p>",
+                    "editor": "<p><strong>Thomas Söder</strong></p><p>Ellerweg 3<br/>D-96103 Hallstadt</p><p>Telefon: +49 (0) 9 51 – 7 42 35</p><p>E-Mail-Adresse wird noch bestätigt. Kontakt über die Geschäftsstelle.</p>",
                     "text_color": "#566779",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
@@ -1843,7 +1843,7 @@
       ]
     },
     {
-      "id": "62942c5d",
+      "id": "88200e32",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -1900,7 +1900,7 @@
       },
       "elements": [
         {
-          "id": "4b838468",
+          "id": "7019d7f5",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -1944,7 +1944,7 @@
           },
           "elements": [
             {
-              "id": "c213ea48",
+              "id": "7bbbc395",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -1990,7 +1990,7 @@
               "elements": []
             },
             {
-              "id": "9bc419bf",
+              "id": "3413ecf8",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -2047,7 +2047,7 @@
       ]
     },
     {
-      "id": "443df173",
+      "id": "60bf1e02",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -2102,7 +2102,7 @@
       },
       "elements": [
         {
-          "id": "987dd1e1",
+          "id": "b824035f",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
