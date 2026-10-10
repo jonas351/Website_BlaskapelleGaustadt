@@ -1,0 +1,1199 @@
+{
+  "version": "0.4",
+  "title": "Dr. Christian Lange",
+  "type": "page",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "555d6e1c",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "55",
+          "right": "40",
+          "bottom": "55",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "tb-page-title",
+        "background_background": "classic",
+        "background_color": "#f3f7fa",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "0647d1b7",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p><a href=\"@@link:startseite@@\">Startseite</a> <span aria-hidden=\"true\">/</span> Dr. Christian Lange</p>",
+            "text_color": "#566779",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.75
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "7c89056f",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "CSU BAMBERG-STADT",
+            "header_size": "p",
+            "title_color": "#006da9",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_weight": "800",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.08
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": -0.3
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "_css_classes": "tb-eyebrow"
+          },
+          "elements": []
+        },
+        {
+          "id": "f3edc2b5",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Dr. Christian Lange",
+            "header_size": "h1",
+            "title_color": "#142b43",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_weight": "800",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 62
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 56
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 46
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.08
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": -1.6
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "d68010f0",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "40",
+          "bottom": "20",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "f88a09fa",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Personen, Funktionen und Kontaktdaten wurden aus der bisherigen Website übernommen. Die aktuelle Besetzung muss vor Veröffentlichung bestätigt werden.</p>",
+            "text_color": "#75571c",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 13
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.75
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "_css_classes": "tb-source-note"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "b81e4765",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "30",
+          "right": "40",
+          "bottom": "30",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "372719ee",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 24,
+              "column": "24",
+              "row": "24",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch",
+            "css_classes": "tb-grid tb-grid-1"
+          },
+          "elements": [
+            {
+              "id": "d8765091",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": "tb-content-block"
+              },
+              "elements": [
+                {
+                  "id": "6518623d",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Stadtrat Dr. Christian Lange",
+                    "header_size": "h3",
+                    "title_color": "#142b43",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 26
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 26
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 26
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -0.3
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "9f6a5510",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "team_asset": "7258db95d9b64e1ca45c"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "align": "center",
+                    "__globals__": {},
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_css_classes": "tb-original-image"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2e9ad91e",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "30",
+          "right": "40",
+          "bottom": "30",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "c77c8faa",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 24,
+              "column": "24",
+              "row": "24",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch",
+            "css_classes": "tb-grid tb-grid-1"
+          },
+          "elements": [
+            {
+              "id": "c32d33b4",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": "tb-content-block"
+              },
+              "elements": [
+                {
+                  "id": "38a6c256",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<h4>Bamberg ist eine Stadt, die in ihrer 1000-jährigen Geschichte von christlichen Werten geprägt worden ist. Diese möchte ich wieder sichtbarer machen. In einem Bamberg, in dem Familien wieder finanzierbaren Wohnraum und einen Betreuungsplatz für ihre Kinder finden, in dem unsere Schülerinnen und Schüler in sanierten Schulhäusern lernen können, in dem wir neue Impulse im Umwelt- und Klimaschutz setzen und neue Wege in der Mobilität einschlagen. Kurzum: Ein Bamberg, in dem es wieder ein bisschen wärmer wird.</h4>",
+                    "text_color": "#566779",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.75
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "27fa1e12",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "30",
+          "right": "40",
+          "bottom": "30",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "feb5d552",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 24,
+              "column": "24",
+              "row": "24",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch",
+            "css_classes": "tb-grid tb-grid-1"
+          },
+          "elements": [
+            {
+              "id": "df54fc50",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": "tb-content-block"
+              },
+              "elements": [
+                {
+                  "id": "39fb0b2e",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Kontakt: Dr. Christian Lange",
+                    "header_size": "h3",
+                    "title_color": "#142b43",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 26
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 26
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 26
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -0.3
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "be082f5b",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><span>ch<span>*******</span>@<span>***********</span>rg.de</span></p>",
+                    "text_color": "#566779",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.75
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "afc0f473",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "35",
+          "right": "40",
+          "bottom": "35",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "background_background": "classic",
+        "background_color": "#e5f2f8",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "3fc7414a",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 30,
+              "column": "30",
+              "row": "30",
+              "isLinked": true
+            },
+            "flex_align_items": "center",
+            "css_classes": "",
+            "flex_justify_content": "space-between"
+          },
+          "elements": [
+            {
+              "id": "7fd0a05e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Im Gespräch bleiben.",
+                "header_size": "h2",
+                "title_color": "#142b43",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_weight": "800",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 30
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.08
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -0.3
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "title_color": ""
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "1e95195d",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Kontakt aufnehmen →",
+                "link": {
+                  "url": "@@link:kontakt@@",
+                  "is_external": false
+                },
+                "background_color": "#006da9",
+                "button_text_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "text_padding": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "25",
+                  "bottom": "18",
+                  "left": "25",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "7",
+                  "right": "7",
+                  "bottom": "7",
+                  "left": "7",
+                  "isLinked": true
+                },
+                "align": "left",
+                "_element_width": "auto",
+                "__globals__": {
+                  "typography_typography": "",
+                  "background_color": "",
+                  "button_text_color": ""
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9a6aef51",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "40",
+          "bottom": "20",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "6ce6bd42",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Originalinhalte: <a href=\"https://team-bamberg.de/dr-christian-lange/\" target=\"_blank\" rel=\"noopener noreferrer\">team-bamberg.de</a> · Übernommen am 10.10.2026.</p>",
+            "text_color": "#566779",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.75
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}

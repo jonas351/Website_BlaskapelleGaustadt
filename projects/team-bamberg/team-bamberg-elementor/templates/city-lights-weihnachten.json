@@ -1,0 +1,754 @@
+{
+  "version": "0.4",
+  "title": "City Lights Weihnachten",
+  "type": "page",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "3e14f667",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "55",
+          "right": "40",
+          "bottom": "55",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "tb-page-title",
+        "background_background": "classic",
+        "background_color": "#f3f7fa",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "3191ba1b",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p><a href=\"@@link:startseite@@\">Startseite</a> <span aria-hidden=\"true\">/</span> City Lights Weihnachten</p>",
+            "text_color": "#566779",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.75
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "0778aaae",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "CSU BAMBERG-STADT",
+            "header_size": "p",
+            "title_color": "#006da9",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_weight": "800",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.08
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": -0.3
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "_css_classes": "tb-eyebrow"
+          },
+          "elements": []
+        },
+        {
+          "id": "3ab190a6",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "City Lights Weihnachten",
+            "header_size": "h1",
+            "title_color": "#142b43",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_weight": "800",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 62
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 56
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 46
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.08
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": -1.6
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "7a908742",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "40",
+          "bottom": "20",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "88324fb7",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Archivinhalt der bisherigen Website. Ursprüngliche Daten, Zeiträume und Verantwortliche sind erhalten; diese Seite beschreibt keine neu geschaltete Anzeige oder aktuell bestätigte Veranstaltung.</p>",
+            "text_color": "#75571c",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 13
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.75
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "_css_classes": "tb-source-note"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "a258315f",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "30",
+          "right": "40",
+          "bottom": "30",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "235f2e3c",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 24,
+              "column": "24",
+              "row": "24",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch",
+            "css_classes": "tb-grid tb-grid-1"
+          },
+          "elements": [
+            {
+              "id": "b4f47b40",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": "tb-content-block"
+              },
+              "elements": [
+                {
+                  "id": "647c981e",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<h3><span><strong>Transparenzbekanntmachung gemäß Verordnung (EU) 2024/900</strong></span></h3>\n\n<h3><span><strong>1. Angaben zum Sponsor (Auftraggeber der politischen Werbung)</strong></span></h3>\n<p><span><strong>Name / Organisation:</strong></span><br/><span>CSU Kreisverband Bamberg-Stadt</span></p>\n<p><span><strong>Rechtsform:</strong></span><br/><span>e.V.</span></p>\n<p><span><strong>Adresse:</strong></span><br/><span>Luitpoldstraße 55, 96052 Bamberg</span></p>\n<p><span><strong>E-Mail:</strong></span><br/><span><span>in<span>**</span>@<span>*********</span>rg.de</span></span></p>\n<p><span><strong>Telefon:</strong></span><br/><span>0951 28264</span></p>\n\n<h3><span><strong>2. Verantwortliche Person(en) für die politische Anzeige</strong></span></h3>\n<p><span><strong>Name:</strong></span><br/><span>Prof. Dr. Gerhard Seitz</span></p>\n<p><span><strong>Funktion / Rolle:</strong></span><br/><span>CSU-Kreisvorsitzender</span></p>\n<p><span><strong>Kontakt:</strong></span><br/><span><span>in<span>**</span>@<span>*********</span>rg.de</span></span></p>\n\n<h3><span><strong>3. Beschreibung der politischen Werbung</strong></span></h3>\n<p><span><strong>Titel der Kampagne:</strong></span><br/><span>Weihnachtsgrüße &amp; Neujahrswünsche Melanie Huml</span></p>\n<p><span><strong>Zweck / Inhalt der Anzeige:</strong></span><br/><span>Weihnachts- und Neujahrsbotschaft von Melanie Huml</span></p>\n<p><span><strong>Bezug zu Wahl oder Gesetzgebungsverfahren:</strong></span><br/><span>Kommunalwahl 2026</span></p>\n\n<h3><span><strong>4. Zeitraum und Orte der Veröffentlichung</strong></span></h3>\n<p><span><strong>Geplanter Veröffentlichungszeitraum:</strong></span><br/><span>23.12.–29.12.</span></p>\n<p><span><strong>Verwendete Werbeträger:</strong></span><br/><span>City-Light-Poster</span></p>\n<p><span><strong>Region(en) / Städte:</strong></span><br/><span>Bamberg</span></p>\n\n<h3><span><strong>5. Finanzierung der politischen Werbung</strong></span></h3>\n<p><span><strong>Gesamtkosten der Kampagne:</strong></span><br/><span>4.923,39 Euro Netto</span></p>\n<p><span><strong>Quelle der Mittel:</strong></span><br/><span>Parteimittel</span></p>\n\n<h3><span><strong>6. Verantwortlichkeit der Angaben</strong></span></h3>\n<h3><span><strong>Erklärung gemäß Artikel 7 Absatz 1 Verordnung (EU) 2024/900</strong></span></h3>\n<p><span>Hiermit erkläre ich/wir als Sponsor wahrheitsgemäß:</span></p>\n<ul>\n<li>\n<p><span>Die beauftragte Werbedienstleistung stellt politische Werbung im Sinne des Artikels 3 Nr. 5 der Verordnung (EU) 2024/900 dar.</span></p>\n</li>\n</ul>\n<p><span>Weiter erkläre ich/wir:</span></p>\n<ul>\n<li>\n<p><span>Ich/wir erfüllen die Anforderungen des Artikels 5 Absatz 2 der Verordnung (EU) 2024/900, d. h. der Sponsor ist:</span><br/><span>a) ein Unionsbürger oder</span><br/><span>b) ein Drittstaatsangehöriger mit ständigem Wohnsitz in der Union, der gemäß deutschem Recht das aktive Wahlrecht bei der betroffenen Wahl oder dem Referendum hat, oder</span><br/><span>c) eine in der Union niedergelassene juristische Person, die letztendlich nicht im Eigentum oder unter Kontrolle eines Drittstaatsangehörigen (mit Ausnahme von Fall b) oder einer in einem Drittstaat ansässigen juristischen Person steht.</span></p>\n</li>\n</ul>\n<h3><span><strong>Haftung und Richtigkeitserklärung</strong></span></h3>\n<p><span>Ich/wir bestätigen, dass die vorstehenden Angaben vollständig und wahrheitsgemäß sind.</span><br/><span>Mir/uns ist bekannt, dass ich/wir gemäß Artikel 7 Absatz 1 der Verordnung (EU) 2024/900 für die Richtigkeit dieser Erklärung verantwortlich sind.</span></p>\n<p><span><strong>Name der verantwortlichen Person:</strong></span><br/><span>Prof. Dr. Gerhard Seitz</span></p>\n<p><span><strong>Datum:</strong></span><br/><span>Bamberg, 1.12.2025</span></p>",
+                    "text_color": "#566779",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.75
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "67f7eb65",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "35",
+          "right": "40",
+          "bottom": "35",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "background_background": "classic",
+        "background_color": "#e5f2f8",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "a271b093",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 30,
+              "column": "30",
+              "row": "30",
+              "isLinked": true
+            },
+            "flex_align_items": "center",
+            "css_classes": "",
+            "flex_justify_content": "space-between"
+          },
+          "elements": [
+            {
+              "id": "17435729",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Im Gespräch bleiben.",
+                "header_size": "h2",
+                "title_color": "#142b43",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_weight": "800",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 30
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.08
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -0.3
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "title_color": ""
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "feb5b6b8",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Kontakt aufnehmen →",
+                "link": {
+                  "url": "@@link:kontakt@@",
+                  "is_external": false
+                },
+                "background_color": "#006da9",
+                "button_text_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "text_padding": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "25",
+                  "bottom": "18",
+                  "left": "25",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "7",
+                  "right": "7",
+                  "bottom": "7",
+                  "left": "7",
+                  "isLinked": true
+                },
+                "align": "left",
+                "_element_width": "auto",
+                "__globals__": {
+                  "typography_typography": "",
+                  "background_color": "",
+                  "button_text_color": ""
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b62dd0c3",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "40",
+          "bottom": "20",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "60e41ff3",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Originalinhalte: <a href=\"https://team-bamberg.de/city-lights-weihnachten/\" target=\"_blank\" rel=\"noopener noreferrer\">team-bamberg.de</a> · Übernommen am 10.10.2026.</p>",
+            "text_color": "#566779",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.75
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "version": 1,
+  "captured_at_utc": "2026-10-10T14:03:08.804220+00:00",
+  "palette_source": "https://www.csu.de/assets/css/csu.min.css",
+  "source_exceptions": {
+    "unavailable_images": [
+      "http://team-bamberg.de/wp-content/uploads/2021/01/Andreas_Dechant.png",
+      "http://team-bamberg.de/wp-content/uploads/2021/01/Andreas_Dechant_q.jpg"
+    ],
+    "masked_email_addresses": [
+      "",
+      "Be*****************@*mx.de",
+      "Ne**********@*********rg.de",
+      "an**************@*****ok.de",
+      "an*************@********el.de",
+      "asp-bezirk-oberfranken-a-T-web.de",
+      "bamberg@csu-bayern.de",
+      "be*****************@*mx.de",
+      "c.********@*eb.de",
+      "ch*******@***********rg.de",
+      "cs*@*********rg.de",
+      "da*********************@********rn.de",
+      "dr*******@******ne.de",
+      "familie.dotterweich(at)t-online.de",
+      "ge**************@*********rg.de",
+      "ge*****@*****et.de",
+      "info@dieter-backert.de",
+      "mi***@*********rg.de",
+      "mo**************@*******pa.eu",
+      "ob*********@**************er.de",
+      "po********@********rn.de",
+      "st******@****ud.com",
+      "th******************@*******ag.de",
+      "th*******@*ol.com",
+      "xi*******@***oo.com"
+    ],
+    "external_documents": [
+      {
+        "url": "https://www.stadt.bamberg.de/media/custom/3267_2161_1.PDF?1619438463=&NavID=2730.521&La=1",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/fraktionsantraege/"
+        ]
+      },
+      {
+        "url": "https://www.stadt.bamberg.de/media/custom/3267_2193_1.PDF?1620375543=&NavID=2730.521&La=1",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/fraktionsantraege/"
+        ]
+      },
+      {
+        "url": "https://www.stadt.bamberg.de/media/custom/3267_2192_1.PDF?1620375504=&NavID=2730.521&La=1",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/fraktionsantraege/"
+        ]
+      },
+      {
+        "url": "https://www.stadt.bamberg.de/media/custom/3267_1980_1.PDF?1610540690=&NavID=2730.521&La=1",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/fraktionsantraege/"
+        ]
+      },
+      {
+        "url": "https://www.stadt.bamberg.de/media/custom/3267_1558_1.PDF?1588251189=&NavID=2730.521&La=1",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/fraktionsantraege/"
+        ]
+      },
+      {
+        "url": "https://www.stadt.bamberg.de/media/custom/3267_1922_1.PDF?1605861066=&NavID=2730.521&La=1",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/fraktionsantraege/"
+        ]
+      },
+      {
+        "url": "https://www.stadt.bamberg.de/media/custom/3267_1934_1.PDF?1606303090=&NavID=2730.521&La=1",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/fraktionsantraege/"
+        ]
+      },
+      {
+        "url": "https://www.stadt.bamberg.de/media/custom/3267_1899_1.PDF?1605090759=&NavID=2730.521&La=1",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/fraktionsantraege/"
+        ]
+      },
+      {
+        "url": "https://www.stadt.bamberg.de/buergerinformationssystem/___tmp/tmp/45081036914419978/914419978/00186929/29.pdf",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/fraktionsantraege/"
+        ]
+      },
+      {
+        "url": "https://www.stadt.bamberg.de/media/custom/3267_1906_1.PDF?1605177121=&NavID=2730.521&La=1",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/fraktionsantraege/"
+        ]
+      },
+      {
+        "url": "https://www.stadt.bamberg.de/buergerinformationssystem/___tmp/tmp/45081036914419929/914419929/00181523/23.pdf",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/fraktionsantraege/"
+        ]
+      },
+      {
+        "url": "https://www.stadt.bamberg.de/buergerinformationssystem/___tmp/tmp/45081036914419929/914419929/00183750/50.pdf",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/fraktionsantraege/"
+        ]
+      },
+      {
+        "url": "https://www.stadt.bamberg.de/media/custom/3267_1722_1.PDF?1596186380=&NavID=2730.521&La=1",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/fraktionsantraege/"
+        ]
+      },
+      {
+        "url": "https://www.stadt.bamberg.de/media/custom/3267_1719_1.PDF?1595856195=&NavID=2730.521&La=1",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/fraktionsantraege/"
+        ]
+      },
+      {
+        "url": "https://www.stadt.bamberg.de/media/custom/3267_1844_1.PDF?1602055180=&NavID=2730.521&La=1",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/fraktionsantraege/"
+        ]
+      },
+      {
+        "url": "https://www.stadt.bamberg.de/media/custom/3267_1699_1.PDF?1595580568=&NavID=2730.521&La=1",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/fraktionsantraege/"
+        ]
+      },
+      {
+        "url": "https://www.stadt.bamberg.de/media/custom/3267_1690_1.PDF?1595230258=&NavID=2730.521&La=1",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/fraktionsantraege/"
+        ]
+      },
+      {
+        "url": "https://www.stadt.bamberg.de/media/custom/3267_1688_1.PDF?1595228775=&NavID=2730.521&La=1",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/fraktionsantraege/"
+        ]
+      },
+      {
+        "url": "https://www.stadt.bamberg.de/media/custom/3267_1697_1.PDF?1595232691=&NavID=2730.521&La=1",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/fraktionsantraege/"
+        ]
+      },
+      {
+        "url": "https://www.stadt.bamberg.de/buergerinformationssystem/___tmp/tmp/45081036914419929/914419929/00185937/37.pdf",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/fraktionsantraege/"
+        ]
+      },
+      {
+        "url": "https://www.stadt.bamberg.de/media/custom/3267_1693_1.PDF?1595231171=&NavID=2730.521&La=1",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/fraktionsantraege/"
+        ]
+      },
+      {
+        "url": "https://www.csu.de/common/csu/content/csu/hauptnavigation/dialog/mitmachen/SP-494_CSU_BL_Mitgliedsantrag_6-seiter_210x100_quer_01_2020_RO_150_2_innen.pdf",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/mitglied-werden/",
+          "https://team-bamberg.de/mitglied-werden/"
+        ]
+      },
+      {
+        "url": "https://www.csu.de/common/csu/content/csu/hauptnavigation/dialog/mitmachen/Antrag_auf_CSU-Probemitgliedschaft_1_.pdf",
+        "alt_as_published": "",
+        "source_pages": [
+          "http://team-bamberg.de/mitglied-werden/",
+          "https://team-bamberg.de/mitglied-werden/"
+        ]
+      }
+    ],
+    "source_capture_errors": [
+      {
+        "url": "http://team-bamberg.de/wp-content/uploads/2021/01/Andreas_Dechant.png",
+        "stage": "media",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "http://team-bamberg.de/wp-content/uploads/2021/01/Andreas_Dechant_q.jpg",
+        "stage": "media",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "sitemap_review": {
+      "public_page_count": 45,
+      "public_post_url_count": 267,
+      "excluded_post_reason": "Fachfremde Beiträge, darunter Casino-Werbung. Zwei öffentliche Beispiele inhaltlich geprüft; keine pauschale Bestätigung eines Angriffs. Betreiberprüfung erforderlich.",
+      "posts_imported": false
+    }
+  },
+  "review_notes": [
+    "Personen und Funktionen bestätigen.",
+    "Veröffentlichte E-Mail-Adressen sind teilweise verschleiert; nicht erraten.",
+    "IBAN ohne Länderkennung auf der Originalseite: vor Verwendung bestätigen.",
+    "Datenschutzerklärung Stand Mai 2018: an neuen Betrieb anpassen.",
+    "Terminangabe ohne Jahr: nicht als zukünftiges Ereignis übernommen.",
+    "Originalfoto Andreas Dechant nicht abrufbar; kein Ersatzporträt erfunden."
+  ]
+}
