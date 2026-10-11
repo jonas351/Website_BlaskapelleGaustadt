@@ -25,7 +25,7 @@ def main():
             if not path.is_file(): continue
             if path.suffix not in {'.php', '.css', '.js', '.json', '.png', '.jpg', '.jpeg', '.webp', '.pdf'}:
                 raise SystemExit('Unexpected package file: ' + str(path))
-            info = zipfile.ZipInfo('team-bamberg-elementor/' + str(path.relative_to(THEME)), date_time=(2026, 10, 10, 0, 0, 0))
+            info = zipfile.ZipInfo('team-bamberg-elementor/' + str(path.relative_to(THEME)), date_time=(2026, 10, 11, 0, 0, 0))
             info.compress_type = zipfile.ZIP_DEFLATED
             info.create_system = 3
             info.external_attr = 0o100644 << 16

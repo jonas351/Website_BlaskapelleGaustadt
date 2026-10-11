@@ -5,7 +5,7 @@
   "page_settings": {},
   "content": [
     {
-      "id": "ff2d0304",
+      "id": "1943266c",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -22,9 +22,9 @@
         },
         "padding": {
           "unit": "px",
-          "top": "48",
+          "top": "65",
           "right": "40",
-          "bottom": "48",
+          "bottom": "65",
           "left": "40",
           "isLinked": false
         },
@@ -44,9 +44,9 @@
           "isLinked": true
         },
         "flex_align_items": "stretch",
-        "css_classes": "tb-page-title",
+        "css_classes": "tb-hero tb-local-hero",
         "background_background": "classic",
-        "background_color": "#e5ddce",
+        "background_color": "#112b4b",
         "boxed_width": {
           "unit": "px",
           "size": 1240
@@ -62,16 +62,43 @@
       },
       "elements": [
         {
-          "id": "45706cb0",
+          "id": "d7367b8b",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+            "image": {
+              "team_asset": "e4f5eafe98e11bf7e511"
+            },
+            "image_size": "full",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "align": "center",
+            "__globals__": {},
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "_css_classes": "tb-hero-backdrop"
+          },
+          "elements": []
+        },
+        {
+          "id": "94b5c31c",
           "elType": "container",
           "isInner": false,
           "settings": {
             "content_width": "full",
-            "flex_direction": "row",
+            "flex_direction": "column",
             "flex_direction_mobile": "column",
             "width": {
               "unit": "%",
-              "size": 100
+              "size": 67
             },
             "width_mobile": {
               "unit": "%",
@@ -95,235 +122,83 @@
             },
             "flex_gap": {
               "unit": "px",
-              "size": 65,
-              "column": "65",
-              "row": "65",
+              "size": 24,
+              "column": "24",
+              "row": "24",
               "isLinked": true
             },
             "flex_align_items": "stretch",
-            "css_classes": ""
+            "css_classes": "tb-hero-copy"
           },
           "elements": [
             {
-              "id": "57c9753a",
-              "elType": "container",
-              "isInner": false,
+              "id": "25965099",
+              "elType": "widget",
+              "widgetType": "text-editor",
               "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "width": {
-                  "unit": "%",
-                  "size": 62
+                "editor": "<p><a href=\"@@link:ortsverbaende@@\">← Alle Ortsverbände</a></p>",
+                "text_color": "#d5e7f2",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 13
                 },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75
                 },
-                "padding": {
+                "__globals__": {
+                  "typography_typography": "",
+                  "text_color": ""
+                },
+                "_margin": {
                   "unit": "px",
                   "top": "0",
                   "right": "0",
                   "bottom": "0",
                   "left": "0",
                   "isLinked": true
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 24,
-                  "column": "24",
-                  "row": "24",
-                  "isLinked": true
-                },
-                "flex_align_items": "stretch",
-                "css_classes": "",
-                "flex_justify_content": "center"
-              },
-              "elements": [
-                {
-                  "id": "9341795c",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "<p><a href=\"@@link:startseite@@\">Startseite</a> <span aria-hidden=\"true\">/</span> CSU Berg</p>",
-                    "text_color": "#566779",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Arial",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 12
-                    },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.75
-                    },
-                    "__globals__": {
-                      "typography_typography": "",
-                      "text_color": ""
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "9c54a89b",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "CSU BAMBERG-STADT",
-                    "header_size": "p",
-                    "title_color": "#006da9",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Arial",
-                    "typography_font_weight": "800",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 11
-                    },
-                    "typography_font_size_tablet": {
-                      "unit": "px",
-                      "size": 11
-                    },
-                    "typography_font_size_mobile": {
-                      "unit": "px",
-                      "size": 11
-                    },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.08
-                    },
-                    "typography_letter_spacing": {
-                      "unit": "px",
-                      "size": -0.3
-                    },
-                    "__globals__": {
-                      "typography_typography": "",
-                      "title_color": ""
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "_css_classes": "tb-eyebrow"
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "80b4c492",
-                  "elType": "widget",
-                  "widgetType": "heading",
-                  "settings": {
-                    "title": "CSU Berg",
-                    "header_size": "h1",
-                    "title_color": "#142b43",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Arial",
-                    "typography_font_weight": "800",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 62
-                    },
-                    "typography_font_size_tablet": {
-                      "unit": "px",
-                      "size": 56
-                    },
-                    "typography_font_size_mobile": {
-                      "unit": "px",
-                      "size": 46
-                    },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.08
-                    },
-                    "typography_letter_spacing": {
-                      "unit": "px",
-                      "size": -1.6
-                    },
-                    "__globals__": {
-                      "typography_typography": "",
-                      "title_color": ""
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "6b6e68de",
-                  "elType": "widget",
-                  "widgetType": "text-editor",
-                  "settings": {
-                    "editor": "<p>Kaulberg, Stephansberg, die Siedlungen unterhalb der Altenburg sowie Bug und Wildensorg: Das Gebiet des Ortsverbands Berg vereint unterschiedliche Teile Bambergs und ihre Geschichten.</p>",
-                    "text_color": "#566779",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Arial",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 16
-                    },
-                    "typography_line_height": {
-                      "unit": "em",
-                      "size": 1.75
-                    },
-                    "__globals__": {
-                      "typography_typography": "",
-                      "text_color": ""
-                    },
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    }
-                  },
-                  "elements": []
                 }
-              ]
+              },
+              "elements": []
             },
             {
-              "id": "2afb0dc8",
-              "elType": "container",
-              "isInner": false,
+              "id": "4af34a39",
+              "elType": "widget",
+              "widgetType": "heading",
               "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "width": {
-                  "unit": "%",
-                  "size": 38
+                "title": "CSU BAMBERG-STADT · VOR ORT",
+                "header_size": "p",
+                "title_color": "#dcebb3",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_weight": "800",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
                 },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 11
                 },
-                "padding": {
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.08
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -0.3
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "title_color": ""
+                },
+                "_margin": {
                   "unit": "px",
                   "top": "0",
                   "right": "0",
@@ -331,60 +206,147 @@
                   "left": "0",
                   "isLinked": true
                 },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 24,
-                  "column": "24",
-                  "row": "24",
-                  "isLinked": true
-                },
-                "flex_align_items": "stretch",
-                "css_classes": ""
+                "_css_classes": "tb-eyebrow"
               },
-              "elements": [
-                {
-                  "id": "6b4960b8",
-                  "elType": "widget",
-                  "widgetType": "image",
-                  "settings": {
-                    "image": {
-                      "team_asset": "e4f5eafe98e11bf7e511"
-                    },
-                    "image_size": "full",
-                    "width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "align": "center",
-                    "__globals__": {},
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "_css_classes": "tb-page-photo"
-                  },
-                  "elements": []
+              "elements": []
+            },
+            {
+              "id": "3077478f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "CSU Berg.",
+                "header_size": "h1",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_weight": "800",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 72
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 56
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 46
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.08
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -1.6
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "title_color": ""
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
                 }
-              ]
+              },
+              "elements": []
+            },
+            {
+              "id": "5dd6cac7",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Kaulberg, Stephansberg, die Siedlungen unterhalb der Altenburg sowie Bug und Wildensorg: Das Gebiet des Ortsverbands Berg vereint unterschiedliche Teile Bambergs und ihre Geschichten.</p>",
+                "text_color": "#e6e9e6",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 19
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "text_color": ""
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "06d26382",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Unser Ortsverband ↓",
+                "link": {
+                  "url": "#ortsverband",
+                  "is_external": false
+                },
+                "background_color": "#a2c516",
+                "button_text_color": "#112b4b",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "text_padding": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "25",
+                  "bottom": "18",
+                  "left": "25",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "align": "left",
+                "_element_width": "auto",
+                "__globals__": {
+                  "typography_typography": "",
+                  "background_color": "",
+                  "button_text_color": ""
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": []
             }
           ]
         }
       ]
     },
     {
-      "id": "06d26382",
+      "id": "19fb3c82",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -401,9 +363,9 @@
         },
         "padding": {
           "unit": "px",
-          "top": "24",
+          "top": "20",
           "right": "40",
-          "bottom": "24",
+          "bottom": "20",
           "left": "40",
           "isLinked": false
         },
@@ -441,7 +403,7 @@
       },
       "elements": [
         {
-          "id": "5dd6cac7",
+          "id": "7c5d64d2",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -484,17 +446,17 @@
           },
           "elements": [
             {
-              "id": "25965099",
+              "id": "46d401f4",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
-                "text": "Unser Stadtteil ↓",
+                "text": "Unser Ortsverband ↓",
                 "link": {
-                  "url": "#stadtteil",
+                  "url": "#ortsverband",
                   "is_external": false
                 },
-                "background_color": "#112b4b",
-                "button_text_color": "#ffffff",
+                "background_color": "#f1ede5",
+                "button_text_color": "#112b4b",
                 "typography_typography": "custom",
                 "typography_font_family": "Arial",
                 "typography_font_weight": "700",
@@ -537,11 +499,170 @@
               "elements": []
             },
             {
-              "id": "4af34a39",
+              "id": "4a9777dd",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
-                "text": "Ansprechpartner ↓",
+                "text": "Gesprächsfelder ↓",
+                "link": {
+                  "url": "#themen-vor-ort",
+                  "is_external": false
+                },
+                "background_color": "#f1ede5",
+                "button_text_color": "#112b4b",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "text_padding": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "25",
+                  "bottom": "18",
+                  "left": "25",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "align": "left",
+                "_element_width": "auto",
+                "__globals__": {
+                  "typography_typography": "",
+                  "background_color": "",
+                  "button_text_color": ""
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "b1ac27eb",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Meldungen ↓",
+                "link": {
+                  "url": "#meldungen",
+                  "is_external": false
+                },
+                "background_color": "#f1ede5",
+                "button_text_color": "#112b4b",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "text_padding": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "25",
+                  "bottom": "18",
+                  "left": "25",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "align": "left",
+                "_element_width": "auto",
+                "__globals__": {
+                  "typography_typography": "",
+                  "background_color": "",
+                  "button_text_color": ""
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "b91a0a5f",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Termine ↓",
+                "link": {
+                  "url": "#veranstaltungen",
+                  "is_external": false
+                },
+                "background_color": "#f1ede5",
+                "button_text_color": "#112b4b",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "text_padding": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "25",
+                  "bottom": "18",
+                  "left": "25",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "align": "left",
+                "_element_width": "auto",
+                "__globals__": {
+                  "typography_typography": "",
+                  "background_color": "",
+                  "button_text_color": ""
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "04f0d181",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Kontakt ↓",
                 "link": {
                   "url": "#ansprechpartner",
                   "is_external": false
@@ -588,66 +709,13 @@
                 }
               },
               "elements": []
-            },
-            {
-              "id": "3077478f",
-              "elType": "widget",
-              "widgetType": "button",
-              "settings": {
-                "text": "Alle Ortsverbände →",
-                "link": {
-                  "url": "@@link:ortsverbaende@@",
-                  "is_external": false
-                },
-                "background_color": "#f1ede5",
-                "button_text_color": "#112b4b",
-                "typography_typography": "custom",
-                "typography_font_family": "Arial",
-                "typography_font_weight": "700",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 14
-                },
-                "text_padding": {
-                  "unit": "px",
-                  "top": "18",
-                  "right": "25",
-                  "bottom": "18",
-                  "left": "25",
-                  "isLinked": false
-                },
-                "border_radius": {
-                  "unit": "px",
-                  "top": "50",
-                  "right": "50",
-                  "bottom": "50",
-                  "left": "50",
-                  "isLinked": true
-                },
-                "align": "left",
-                "_element_width": "auto",
-                "__globals__": {
-                  "typography_typography": "",
-                  "background_color": "",
-                  "button_text_color": ""
-                },
-                "_margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                }
-              },
-              "elements": []
             }
           ]
         }
       ]
     },
     {
-      "id": "27fa6456",
+      "id": "31292817",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -664,11 +732,11 @@
         },
         "padding": {
           "unit": "px",
-          "top": "40",
+          "top": "58",
           "right": "40",
-          "bottom": "40",
+          "bottom": "58",
           "left": "40",
-          "isLinked": true
+          "isLinked": false
         },
         "padding_mobile": {
           "unit": "px",
@@ -701,11 +769,11 @@
           "left": "30",
           "isLinked": false
         },
-        "_element_id": "stadtteil"
+        "_element_id": "ortsverband"
       },
       "elements": [
         {
-          "id": "22d86918",
+          "id": "69482a8b",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -738,9 +806,9 @@
             },
             "flex_gap": {
               "unit": "px",
-              "size": 45,
-              "column": "45",
-              "row": "45",
+              "size": 55,
+              "column": "55",
+              "row": "55",
               "isLinked": true
             },
             "flex_align_items": "stretch",
@@ -748,7 +816,7 @@
           },
           "elements": [
             {
-              "id": "f2b913cb",
+              "id": "16ea494b",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -791,11 +859,11 @@
               },
               "elements": [
                 {
-                  "id": "94b5c31c",
+                  "id": "4a7c5197",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "DAS MACHT UNSEREN STADTTEIL AUS",
+                    "title": "MITTEN IN BERG",
                     "header_size": "p",
                     "title_color": "#006da9",
                     "typography_typography": "custom",
@@ -838,11 +906,11 @@
                   "elements": []
                 },
                 {
-                  "id": "1943266c",
+                  "id": "7dc0758b",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "Berg.<br>Ein Stück Bamberg.",
+                    "title": "Ein Ortsverband.<br>Viele Perspektiven.",
                     "header_size": "h2",
                     "title_color": "#142b43",
                     "typography_typography": "custom",
@@ -850,11 +918,11 @@
                     "typography_font_weight": "800",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 43
+                      "size": 46
                     },
                     "typography_font_size_tablet": {
                       "unit": "px",
-                      "size": 43
+                      "size": 46
                     },
                     "typography_font_size_mobile": {
                       "unit": "px",
@@ -884,17 +952,17 @@
                   "elements": []
                 },
                 {
-                  "id": "3a433aa2",
+                  "id": "55d20fca",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p>Das Bamberger Berggebiet ist so vielschichtig wie die Menschen, die in ihm leben.</p>",
+                    "editor": "<p>Kaulberg, Stephansberg, die Siedlungen unterhalb der Altenburg sowie Bug und Wildensorg: Das Gebiet des Ortsverbands Berg vereint unterschiedliche Teile Bambergs und ihre Geschichten.</p>",
                     "text_color": "#142b43",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 18
+                      "size": 19
                     },
                     "typography_line_height": {
                       "unit": "em",
@@ -914,11 +982,96 @@
                     }
                   },
                   "elements": []
+                },
+                {
+                  "id": "1e7dada7",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Hier finden Sie Informationen zum Stadtteil, persönliche Kontaktwege und Platz für die nächsten Meldungen und Veranstaltungen des Ortsverbands.</p>",
+                    "text_color": "#566779",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.75
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "4dba34a4",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Kontakt zum Ortsverband →",
+                    "link": {
+                      "url": "#ansprechpartner",
+                      "is_external": false
+                    },
+                    "background_color": "#112b4b",
+                    "button_text_color": "#ffffff",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "25",
+                      "bottom": "18",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "align": "left",
+                    "_element_width": "auto",
+                    "__globals__": {
+                      "typography_typography": "",
+                      "background_color": "",
+                      "button_text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
                 }
               ]
             },
             {
-              "id": "9e264c0d",
+              "id": "e35fbfe2",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -935,10 +1088,10 @@
                 },
                 "padding": {
                   "unit": "px",
-                  "top": "30",
-                  "right": "30",
-                  "bottom": "30",
-                  "left": "30",
+                  "top": "32",
+                  "right": "32",
+                  "bottom": "32",
+                  "left": "32",
                   "isLinked": true
                 },
                 "padding_mobile": {
@@ -963,11 +1116,11 @@
               },
               "elements": [
                 {
-                  "id": "765e7786",
+                  "id": "a23bdfef",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "IM ÜBERBLICK",
+                    "title": "DAS GEHÖRT ZU UNS",
                     "header_size": "p",
                     "title_color": "#006da9",
                     "typography_typography": "custom",
@@ -1010,7 +1163,7 @@
                   "elements": []
                 },
                 {
-                  "id": "0dac94c9",
+                  "id": "119e1ac4",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1022,15 +1175,15 @@
                     "typography_font_weight": "800",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 23
+                      "size": 24
                     },
                     "typography_font_size_tablet": {
                       "unit": "px",
-                      "size": 23
+                      "size": 24
                     },
                     "typography_font_size_mobile": {
                       "unit": "px",
-                      "size": 23
+                      "size": 24
                     },
                     "typography_line_height": {
                       "unit": "em",
@@ -1056,7 +1209,7 @@
                   "elements": []
                 },
                 {
-                  "id": "643b4fde",
+                  "id": "43988ba4",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1068,15 +1221,15 @@
                     "typography_font_weight": "800",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 23
+                      "size": 24
                     },
                     "typography_font_size_tablet": {
                       "unit": "px",
-                      "size": 23
+                      "size": 24
                     },
                     "typography_font_size_mobile": {
                       "unit": "px",
-                      "size": 23
+                      "size": 24
                     },
                     "typography_line_height": {
                       "unit": "em",
@@ -1102,7 +1255,7 @@
                   "elements": []
                 },
                 {
-                  "id": "736123a2",
+                  "id": "b31824d2",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1114,15 +1267,15 @@
                     "typography_font_weight": "800",
                     "typography_font_size": {
                       "unit": "px",
-                      "size": 23
+                      "size": 24
                     },
                     "typography_font_size_tablet": {
                       "unit": "px",
-                      "size": 23
+                      "size": 24
                     },
                     "typography_font_size_mobile": {
                       "unit": "px",
-                      "size": 23
+                      "size": 24
                     },
                     "typography_line_height": {
                       "unit": "em",
@@ -1154,7 +1307,7 @@
       ]
     },
     {
-      "id": "c0b9d850",
+      "id": "107941c1",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -1171,396 +1324,9 @@
         },
         "padding": {
           "unit": "px",
-          "top": "18",
+          "top": "55",
           "right": "40",
-          "bottom": "18",
-          "left": "40",
-          "isLinked": false
-        },
-        "padding_mobile": {
-          "unit": "px",
-          "top": "42",
-          "right": "20",
-          "bottom": "42",
-          "left": "20",
-          "isLinked": false
-        },
-        "flex_gap": {
-          "unit": "px",
-          "size": 24,
-          "column": "24",
-          "row": "24",
-          "isLinked": true
-        },
-        "flex_align_items": "stretch",
-        "css_classes": "",
-        "background_background": "classic",
-        "background_color": "#f1ede5",
-        "boxed_width": {
-          "unit": "px",
-          "size": 1240
-        },
-        "padding_tablet": {
-          "unit": "px",
-          "top": "60",
-          "right": "30",
-          "bottom": "60",
-          "left": "30",
-          "isLinked": false
-        }
-      },
-      "elements": [
-        {
-          "id": "19c5bf07",
-          "elType": "widget",
-          "widgetType": "image",
-          "settings": {
-            "image": {
-              "team_asset": "a93d8bc20c60c51b668a"
-            },
-            "image_size": "full",
-            "width": {
-              "unit": "%",
-              "size": 100
-            },
-            "align": "center",
-            "__globals__": {},
-            "_margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": true
-            },
-            "_css_classes": "tb-district-panorama"
-          },
-          "elements": []
-        },
-        {
-          "id": "b968c060",
-          "elType": "widget",
-          "widgetType": "text-editor",
-          "settings": {
-            "editor": "<p>Ansicht aus der ursprünglichen Vorstellung des Ortsverbands Berg.</p>",
-            "text_color": "#566779",
-            "typography_typography": "custom",
-            "typography_font_family": "Arial",
-            "typography_font_size": {
-              "unit": "px",
-              "size": 12
-            },
-            "typography_line_height": {
-              "unit": "em",
-              "size": 1.75
-            },
-            "__globals__": {
-              "typography_typography": "",
-              "text_color": ""
-            },
-            "_margin": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": true
-            }
-          },
-          "elements": []
-        }
-      ]
-    },
-    {
-      "id": "5bfdc41d",
-      "elType": "container",
-      "isInner": false,
-      "settings": {
-        "content_width": "boxed",
-        "flex_direction": "column",
-        "flex_direction_mobile": "column",
-        "width": {
-          "unit": "%",
-          "size": 100
-        },
-        "width_mobile": {
-          "unit": "%",
-          "size": 100
-        },
-        "padding": {
-          "unit": "px",
-          "top": "30",
-          "right": "40",
-          "bottom": "30",
-          "left": "40",
-          "isLinked": false
-        },
-        "padding_mobile": {
-          "unit": "px",
-          "top": "42",
-          "right": "20",
-          "bottom": "42",
-          "left": "20",
-          "isLinked": false
-        },
-        "flex_gap": {
-          "unit": "px",
-          "size": 24,
-          "column": "24",
-          "row": "24",
-          "isLinked": true
-        },
-        "flex_align_items": "stretch",
-        "css_classes": "",
-        "background_background": "classic",
-        "background_color": "#f1ede5",
-        "boxed_width": {
-          "unit": "px",
-          "size": 1240
-        },
-        "padding_tablet": {
-          "unit": "px",
-          "top": "60",
-          "right": "30",
-          "bottom": "60",
-          "left": "30",
-          "isLinked": false
-        }
-      },
-      "elements": [
-        {
-          "id": "a5bd8a1f",
-          "elType": "container",
-          "isInner": false,
-          "settings": {
-            "content_width": "full",
-            "flex_direction": "column",
-            "flex_direction_mobile": "column",
-            "width": {
-              "unit": "%",
-              "size": 100
-            },
-            "width_mobile": {
-              "unit": "%",
-              "size": 100
-            },
-            "padding": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": true
-            },
-            "padding_mobile": {
-              "unit": "px",
-              "top": "0",
-              "right": "0",
-              "bottom": "0",
-              "left": "0",
-              "isLinked": true
-            },
-            "flex_gap": {
-              "unit": "px",
-              "size": 22,
-              "column": "22",
-              "row": "22",
-              "isLinked": true
-            },
-            "flex_align_items": "stretch",
-            "css_classes": "tb-content-block tb-district-story",
-            "border_radius": {
-              "unit": "px",
-              "top": "18",
-              "right": "18",
-              "bottom": "18",
-              "left": "18",
-              "isLinked": true
-            }
-          },
-          "elements": [
-            {
-              "id": "ada94b8d",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "STADTTEIL &amp; GESCHICHTE",
-                "header_size": "p",
-                "title_color": "#006da9",
-                "typography_typography": "custom",
-                "typography_font_family": "Arial",
-                "typography_font_weight": "800",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 11
-                },
-                "typography_font_size_tablet": {
-                  "unit": "px",
-                  "size": 11
-                },
-                "typography_font_size_mobile": {
-                  "unit": "px",
-                  "size": 11
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.08
-                },
-                "typography_letter_spacing": {
-                  "unit": "px",
-                  "size": -0.3
-                },
-                "__globals__": {
-                  "typography_typography": "",
-                  "title_color": ""
-                },
-                "_margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "_css_classes": "tb-eyebrow"
-              },
-              "elements": []
-            },
-            {
-              "id": "a0f08d8e",
-              "elType": "widget",
-              "widgetType": "heading",
-              "settings": {
-                "title": "Die Originalvorstellung.",
-                "header_size": "h2",
-                "title_color": "#142b43",
-                "typography_typography": "custom",
-                "typography_font_family": "Arial",
-                "typography_font_weight": "800",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 35
-                },
-                "typography_font_size_tablet": {
-                  "unit": "px",
-                  "size": 35
-                },
-                "typography_font_size_mobile": {
-                  "unit": "px",
-                  "size": 30
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.08
-                },
-                "typography_letter_spacing": {
-                  "unit": "px",
-                  "size": -0.3
-                },
-                "__globals__": {
-                  "typography_typography": "",
-                  "title_color": ""
-                },
-                "_margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "a27732b8",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<p>Die folgenden Texte dokumentieren den bisherigen Auftritt. Zeitgebundene Aussagen sind keine neu bestätigten Beschlüsse.</p>",
-                "text_color": "#566779",
-                "typography_typography": "custom",
-                "typography_font_family": "Arial",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 13
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.75
-                },
-                "__globals__": {
-                  "typography_typography": "",
-                  "text_color": ""
-                },
-                "_margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                }
-              },
-              "elements": []
-            },
-            {
-              "id": "e61d4a88",
-              "elType": "widget",
-              "widgetType": "text-editor",
-              "settings": {
-                "editor": "<p>Das Bamberger Berggebiet ist so vielschichtig wie die Menschen, die in ihm leben. Auf der einen Seite ist das Gebiet von der alten Handelsstraße Pfahlplätzchen, Kaulberg, Stephansberg geprägt. Auf der anderen Seite hat sich in den 1970er Jahren unterhalb der Altenburg die neue Siedlung „Südwest“ gebildet. Angrenzend ist als letztes, neues, das Wohngebiet „Im Rosengarten“ entstanden. Schließlich gehören seit der Gebietsreform 1972 auch die ehemaligen selbständigen Gemeinden Bug und Wildensorg zum Gebiet des Ortsverbandes “Berg”. Diese breite regionale Ausdehnung macht verständlich, dass die CSU Berg im dritten und vierten Stadtdistrikt von Beginn an eine wichtige Rolle in der Geschichte der Bamberger CSU gespielt hat. Auch heute ist der dritte Ortsverband der bei Weitem mitgliederstärkste Verband in der Domstadt. Ortsvorsitzender ist Thomas Lehmann, im Ortsverband ist auch der stv. Kreisvorsitzende Wolfgang Heim aktiv.</p>\n<p>Mit Dr. Theodor Mathieu, Paul Röhner und Herbert Lauer kamen drei Oberbürgermeister der Stadt aus dem Berggebiet. Gustav Matschl hat als Kreisvorsitzender und als Zweiter Bürgermeister ebenso die Geschicke des Weltkulturerbes geprägt wie Paul Rettig als langjähriger Vorsitzender der Stadtratsfraktion. Heute gehören zum Ortsverband die Stadträte Dr. Christian Lange, der ebenfalls lange als Bürgermeister und als CSU-Kreisvorsitzender aktiv war, Anne Rudel und Prof. Dr. Gerhard Seitz. Auch die Vorsitzenden der Bürgervereine, der Ehrenvorsitzende der CSU Berg Manfred Drescher aus Bug, Gerhard Metzner vom Kaulberg und Monika Hoh aus Wildensorg, stehen mit ihrer Mitarbeit im Vorstand für eine enge Verzahnung von Lokalpolitik mit den Interessen der Bürger vor Ort.</p>\n<p>Viele wichtige Forderungen in der Stadtpolitik der letzten Jahrzehnte konnten von der CSU und deren Oberbürgermeister verwirklicht werden. So entstand der vielbefahrene und nicht mehr wegzudenkende „Münchner Ring“ als Entlastungsstraße des Kaulbergs und der Neubau des Bamberger Klinikums am Bruderwald. Neu ausgewiesene Baugebiete – zum Teil mit familienfreundlicher Förderung der Stadt – geben der Stadt wichtige Impulse zur Weiterentwicklung. Besonders wichtig erachtet der Ortsverband auch die zweite Klinikzufahrt über die Waizendorfer Straße, für die StR Prof. Gerhard Seitz seit 2008 kämpft und den lange fälligen Neubau der Buger Brücke, für die sich Manfred Drescher seit 19 Jahren einsetzt, die bereits genehmigt war und durch Corona einen jähen Abbruch erfahren musste.</p>\n<p>Neben zahlreichen Kirchen und Kapellen sind im Besonderen die Katholische Pfarrkirche „Unsere Liebe Frau“, die Obere Pfarre, mit der von dort ausgehenden großen Bamberger Marienprozession, und eine der beiden evangelischen Hauptkirchen in der Domstadt, St. Stephan am Stephansberg, zu nennen. Zahlreiche traditionelle Vereine und Bamberger Institutionen finden sich in einer reichen Kulturlandschaft wieder. Der Altenburgverein sorgt auf der Burg für ein reichhaltiges Veranstaltungsprogramm und kümmert sich um die Erhaltung der Burg, die großen Schwimmvereine in Bug stehen für Erholung und Freizeit auf dem Stadtgebiet.</p>\n<p>Die bekannten und allseits geschätzten Bamberger Bierkeller sind hier ebenso zu finden wie drei bekannte Bamberger Brauereien. Die CSU-Berg ist daher stets darum bemüht, den einzigartigen Charakter des Viertels und seine Wohn- und Aufenthaltsqualität zu erhalten und weiter zu entwickeln.</p>",
-                "text_color": "#142b43",
-                "typography_typography": "custom",
-                "typography_font_family": "Arial",
-                "typography_font_size": {
-                  "unit": "px",
-                  "size": 17
-                },
-                "typography_line_height": {
-                  "unit": "em",
-                  "size": 1.75
-                },
-                "__globals__": {
-                  "typography_typography": "",
-                  "text_color": ""
-                },
-                "_margin": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                }
-              },
-              "elements": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "28fcad79",
-      "elType": "container",
-      "isInner": false,
-      "settings": {
-        "content_width": "boxed",
-        "flex_direction": "column",
-        "flex_direction_mobile": "column",
-        "width": {
-          "unit": "%",
-          "size": 100
-        },
-        "width_mobile": {
-          "unit": "%",
-          "size": 100
-        },
-        "padding": {
-          "unit": "px",
-          "top": "50",
-          "right": "40",
-          "bottom": "50",
+          "bottom": "55",
           "left": "40",
           "isLinked": false
         },
@@ -1595,15 +1361,15 @@
           "left": "30",
           "isLinked": false
         },
-        "_element_id": "ansprechpartner"
+        "_element_id": "themen-vor-ort"
       },
       "elements": [
         {
-          "id": "ddd3fb0e",
+          "id": "8733cfc9",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "MENSCHEN VOR ORT",
+            "title": "FRAGEN AUS DEM STADTTEIL",
             "header_size": "p",
             "title_color": "#006da9",
             "typography_typography": "custom",
@@ -1646,11 +1412,11 @@
           "elements": []
         },
         {
-          "id": "beaa9f49",
+          "id": "286f952b",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "Ihre Ansprechpartner.",
+            "title": "Was bewegt Berg?",
             "header_size": "h2",
             "title_color": "#142b43",
             "typography_typography": "custom",
@@ -1692,11 +1458,11 @@
           "elements": []
         },
         {
-          "id": "d9e70cdb",
+          "id": "d60b5836",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "<p>Diese Personen werden auf der bisherigen Ortsverbandsseite vorgestellt. Die aktuelle Besetzung wird vor Veröffentlichung abgeglichen.</p>",
+            "editor": "<p>Gesprächsfelder als redaktioneller Entwurf. Konkrete Positionen und Vorhaben werden vom Ortsverband ergänzt.</p>",
             "text_color": "#566779",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
@@ -1724,7 +1490,1702 @@
           "elements": []
         },
         {
-          "id": "8ab26e4f",
+          "id": "17726286",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 24,
+              "column": "24",
+              "row": "24",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch",
+            "css_classes": "tb-grid tb-grid-3"
+          },
+          "elements": [
+            {
+              "id": "38bda7a4",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "30",
+                  "right": "30",
+                  "bottom": "30",
+                  "left": "30",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": "tb-local-topic",
+                "background_background": "classic",
+                "background_color": "#f8f5ee"
+              },
+              "elements": [
+                {
+                  "id": "4be53f35",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "01",
+                    "header_size": "p",
+                    "title_color": "#006da9",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -0.3
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_css_classes": "tb-eyebrow"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "cb2bacb5",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Leben auf den Hügeln",
+                    "header_size": "h3",
+                    "title_color": "#142b43",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 27
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 27
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 27
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -0.3
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "da5d031c",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Welche Fragen stellen sich im Alltag am Kaulberg, Stephansberg und unterhalb der Altenburg?</p>",
+                    "text_color": "#566779",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.75
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "8bca57fb",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Dazu ins Gespräch kommen →",
+                    "link": {
+                      "url": "@@link:kontakt@@?anliegen=csu-berg",
+                      "is_external": false
+                    },
+                    "background_color": "#f1ede5",
+                    "button_text_color": "#112b4b",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "25",
+                      "bottom": "18",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "align": "left",
+                    "_element_width": "auto",
+                    "__globals__": {
+                      "typography_typography": "",
+                      "background_color": "",
+                      "button_text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "331eb605",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "30",
+                  "right": "30",
+                  "bottom": "30",
+                  "left": "30",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": "tb-local-topic",
+                "background_background": "classic",
+                "background_color": "#f8f5ee"
+              },
+              "elements": [
+                {
+                  "id": "d2b30f73",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "02",
+                    "header_size": "p",
+                    "title_color": "#006da9",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -0.3
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_css_classes": "tb-eyebrow"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "1ab4b5b8",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Bug & Wildensorg",
+                    "header_size": "h3",
+                    "title_color": "#142b43",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 27
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 27
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 27
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -0.3
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "c4f0a6ed",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Wie unterscheiden sich die Anliegen der einzelnen Viertel des Ortsverbands?</p>",
+                    "text_color": "#566779",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.75
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "9d055835",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Dazu ins Gespräch kommen →",
+                    "link": {
+                      "url": "@@link:kontakt@@?anliegen=csu-berg",
+                      "is_external": false
+                    },
+                    "background_color": "#f1ede5",
+                    "button_text_color": "#112b4b",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "25",
+                      "bottom": "18",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "align": "left",
+                    "_element_width": "auto",
+                    "__globals__": {
+                      "typography_typography": "",
+                      "background_color": "",
+                      "button_text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "188785a4",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "30",
+                  "right": "30",
+                  "bottom": "30",
+                  "left": "30",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": "tb-local-topic",
+                "background_background": "classic",
+                "background_color": "#f8f5ee"
+              },
+              "elements": [
+                {
+                  "id": "edf60d1e",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "03",
+                    "header_size": "p",
+                    "title_color": "#006da9",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -0.3
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_css_classes": "tb-eyebrow"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b95361c2",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Wege & Freiräume",
+                    "header_size": "h3",
+                    "title_color": "#142b43",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 27
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 27
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 27
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -0.3
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "176555f4",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Welche Verbindungen, Grünflächen und Treffpunkte sind vor Ort besonders wichtig?</p>",
+                    "text_color": "#566779",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.75
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "85a8540f",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Dazu ins Gespräch kommen →",
+                    "link": {
+                      "url": "@@link:kontakt@@?anliegen=csu-berg",
+                      "is_external": false
+                    },
+                    "background_color": "#f1ede5",
+                    "button_text_color": "#112b4b",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "25",
+                      "bottom": "18",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "align": "left",
+                    "_element_width": "auto",
+                    "__globals__": {
+                      "typography_typography": "",
+                      "background_color": "",
+                      "button_text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1348761b",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "55",
+          "right": "40",
+          "bottom": "55",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "background_background": "classic",
+        "background_color": "#f1ede5",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        },
+        "_element_id": "meldungen"
+      },
+      "elements": [
+        {
+          "id": "8b1dd404",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 30,
+              "column": "30",
+              "row": "30",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch",
+            "css_classes": ""
+          },
+          "elements": [
+            {
+              "id": "e85381dd",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 70
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": ""
+              },
+              "elements": [
+                {
+                  "id": "f8b9b938",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "NEUIGKEITEN VOR ORT",
+                    "header_size": "p",
+                    "title_color": "#006da9",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -0.3
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_css_classes": "tb-eyebrow"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "8556502d",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Aus Berg.",
+                    "header_size": "h2",
+                    "title_color": "#142b43",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 44
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 44
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 30
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -1.6
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "6461129f",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Veröffentlichte Meldungen dieses Ortsverbands erscheinen hier automatisch.</p>",
+                    "text_color": "#566779",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.75
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "70e792b1",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 30
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": "",
+                "flex_justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "13622288",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Alle Meldungen →",
+                    "link": {
+                      "url": "@@link:aktuelles@@?ort=csu-berg",
+                      "is_external": false
+                    },
+                    "background_color": "#f1ede5",
+                    "button_text_color": "#112b4b",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "25",
+                      "bottom": "18",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "align": "left",
+                    "_element_width": "auto",
+                    "__globals__": {
+                      "typography_typography": "",
+                      "background_color": "",
+                      "button_text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "eab563e0",
+          "elType": "widget",
+          "widgetType": "team-bamberg-news",
+          "settings": {
+            "area": "csu-berg",
+            "limit": 3,
+            "empty_title": "Die nächsten Einblicke folgen.",
+            "empty_text": "Hier ist Platz für Nachrichten aus dem Ortsverband. Für ein persönliches Anliegen können Sie sich schon jetzt an die Geschäftsstelle wenden.",
+            "__globals__": {},
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "a58982b4",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "55",
+          "right": "40",
+          "bottom": "55",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "background_background": "classic",
+        "background_color": "#112b4b",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        },
+        "_element_id": "veranstaltungen"
+      },
+      "elements": [
+        {
+          "id": "8a9d929a",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 50,
+              "column": "50",
+              "row": "50",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch",
+            "css_classes": ""
+          },
+          "elements": [
+            {
+              "id": "ee2e096b",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": ""
+              },
+              "elements": [
+                {
+                  "id": "6d1d0738",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "BEGEGNEN &amp; AUSTAUSCHEN",
+                    "header_size": "p",
+                    "title_color": "#c5dfef",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -0.3
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_css_classes": "tb-eyebrow"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "65f61b36",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Wir sehen uns<br>in Berg.",
+                    "header_size": "h2",
+                    "title_color": "#ffffff",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 42
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 42
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 30
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -1.6
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "a7e66753",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Ob Stadtteilgespräch oder Veranstaltung: Hier erscheinen bestätigte Termine des Ortsverbands.</p>",
+                    "text_color": "#d8e4e9",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.75
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "bcf2573c",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Alle Termine →",
+                    "link": {
+                      "url": "@@link:termine@@",
+                      "is_external": false
+                    },
+                    "background_color": "#a2c516",
+                    "button_text_color": "#112b4b",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "25",
+                      "bottom": "18",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "align": "left",
+                    "_element_width": "auto",
+                    "__globals__": {
+                      "typography_typography": "",
+                      "background_color": "",
+                      "button_text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "fb408e75",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": ""
+              },
+              "elements": [
+                {
+                  "id": "eb717c79",
+                  "elType": "widget",
+                  "widgetType": "team-bamberg-events",
+                  "settings": {
+                    "source": "shared",
+                    "area": "csu-berg",
+                    "show_past": "",
+                    "empty_title": "Neue Termine werden angekündigt.",
+                    "empty_text": "Datum und Ort finden Sie hier, sobald eine Veranstaltung feststeht.",
+                    "__globals__": {},
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "47779b37",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "55",
+          "right": "40",
+          "bottom": "55",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "background_background": "classic",
+        "background_color": "#f1ede5",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        },
+        "_element_id": "ansprechpartner"
+      },
+      "elements": [
+        {
+          "id": "734cd744",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "DER PERSÖNLICHE KONTAKT",
+            "header_size": "p",
+            "title_color": "#006da9",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_weight": "800",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.08
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": -0.3
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "_css_classes": "tb-eyebrow"
+          },
+          "elements": []
+        },
+        {
+          "id": "3a9ac528",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Menschen in Berg.",
+            "header_size": "h2",
+            "title_color": "#142b43",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_weight": "800",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 44
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 44
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 30
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.08
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": -1.6
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "96ecf88c",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Kontaktangaben aus dem bisherigen Auftritt. Aktuelle Funktionen und Erreichbarkeit werden vor Veröffentlichung bestätigt.</p>",
+            "text_color": "#566779",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 14
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.75
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "ed885ef8",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -1767,7 +3228,7 @@
           },
           "elements": [
             {
-              "id": "237dad8f",
+              "id": "22d86918",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1818,7 +3279,7 @@
               },
               "elements": [
                 {
-                  "id": "d5351db3",
+                  "id": "736123a2",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -1861,7 +3322,7 @@
                   },
                   "elements": [
                     {
-                      "id": "01c8dd8c",
+                      "id": "f2b913cb",
                       "elType": "container",
                       "isInner": false,
                       "settings": {
@@ -1904,7 +3365,7 @@
                       },
                       "elements": [
                         {
-                          "id": "190de7a9",
+                          "id": "3a433aa2",
                           "elType": "widget",
                           "widgetType": "image",
                           "settings": {
@@ -1933,7 +3394,7 @@
                       ]
                     },
                     {
-                      "id": "2c8c82e7",
+                      "id": "643b4fde",
                       "elType": "container",
                       "isInner": false,
                       "settings": {
@@ -1977,11 +3438,11 @@
                       },
                       "elements": [
                         {
-                          "id": "e7b6e2b3",
+                          "id": "765e7786",
                           "elType": "widget",
                           "widgetType": "heading",
                           "settings": {
-                            "title": "ORTSVERBAND",
+                            "title": "ORTSVERBAND · BISHERIGER AUFTRITT",
                             "header_size": "p",
                             "title_color": "#006da9",
                             "typography_typography": "custom",
@@ -2024,7 +3485,7 @@
                           "elements": []
                         },
                         {
-                          "id": "e61f2e6f",
+                          "id": "0dac94c9",
                           "elType": "widget",
                           "widgetType": "heading",
                           "settings": {
@@ -2074,7 +3535,7 @@
                   ]
                 },
                 {
-                  "id": "89257439",
+                  "id": "9e264c0d",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -2129,7 +3590,7 @@
               ]
             },
             {
-              "id": "bae8b320",
+              "id": "a5bd8a1f",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2180,7 +3641,7 @@
               },
               "elements": [
                 {
-                  "id": "ae45871e",
+                  "id": "a0f08d8e",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -2223,7 +3684,7 @@
                   },
                   "elements": [
                     {
-                      "id": "3a1cc39e",
+                      "id": "19c5bf07",
                       "elType": "container",
                       "isInner": false,
                       "settings": {
@@ -2266,7 +3727,7 @@
                       },
                       "elements": [
                         {
-                          "id": "0780aab4",
+                          "id": "27fa6456",
                           "elType": "widget",
                           "widgetType": "image",
                           "settings": {
@@ -2295,7 +3756,7 @@
                       ]
                     },
                     {
-                      "id": "b6539412",
+                      "id": "ada94b8d",
                       "elType": "container",
                       "isInner": false,
                       "settings": {
@@ -2339,11 +3800,11 @@
                       },
                       "elements": [
                         {
-                          "id": "07987259",
+                          "id": "b968c060",
                           "elType": "widget",
                           "widgetType": "heading",
                           "settings": {
-                            "title": "STADTRAT IM ORIGINALAUFTRITT",
+                            "title": "PERSÖNLICHE VORSTELLUNG",
                             "header_size": "p",
                             "title_color": "#006da9",
                             "typography_typography": "custom",
@@ -2386,7 +3847,7 @@
                           "elements": []
                         },
                         {
-                          "id": "a110a98d",
+                          "id": "c0b9d850",
                           "elType": "widget",
                           "widgetType": "heading",
                           "settings": {
@@ -2436,7 +3897,7 @@
                   ]
                 },
                 {
-                  "id": "aa1a501d",
+                  "id": "a27732b8",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -2489,7 +3950,7 @@
                   "elements": []
                 },
                 {
-                  "id": "71caa7c2",
+                  "id": "e61d4a88",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -2544,7 +4005,7 @@
               ]
             },
             {
-              "id": "7d9c4934",
+              "id": "4e5c392b",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2595,7 +4056,7 @@
               },
               "elements": [
                 {
-                  "id": "249e350a",
+                  "id": "28fcad79",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -2638,7 +4099,7 @@
                   },
                   "elements": [
                     {
-                      "id": "fca9f2f2",
+                      "id": "ddd3fb0e",
                       "elType": "container",
                       "isInner": false,
                       "settings": {
@@ -2681,7 +4142,7 @@
                       },
                       "elements": [
                         {
-                          "id": "ed8a8706",
+                          "id": "5bfdc41d",
                           "elType": "widget",
                           "widgetType": "image",
                           "settings": {
@@ -2710,7 +4171,7 @@
                       ]
                     },
                     {
-                      "id": "3a54730a",
+                      "id": "8ab26e4f",
                       "elType": "container",
                       "isInner": false,
                       "settings": {
@@ -2754,11 +4215,11 @@
                       },
                       "elements": [
                         {
-                          "id": "1f1e87e6",
+                          "id": "beaa9f49",
                           "elType": "widget",
                           "widgetType": "heading",
                           "settings": {
-                            "title": "STADTRAT IM ORIGINALAUFTRITT",
+                            "title": "PERSÖNLICHE VORSTELLUNG",
                             "header_size": "p",
                             "title_color": "#006da9",
                             "typography_typography": "custom",
@@ -2801,7 +4262,7 @@
                           "elements": []
                         },
                         {
-                          "id": "2b840848",
+                          "id": "d9e70cdb",
                           "elType": "widget",
                           "widgetType": "heading",
                           "settings": {
@@ -2851,7 +4312,7 @@
                   ]
                 },
                 {
-                  "id": "ee43ecca",
+                  "id": "6e973a72",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -2904,7 +4365,7 @@
                   "elements": []
                 },
                 {
-                  "id": "3d2d9d67",
+                  "id": "199b250b",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -2959,7 +4420,7 @@
               ]
             },
             {
-              "id": "d7367b8b",
+              "id": "f97b144d",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -3010,7 +4471,7 @@
               },
               "elements": [
                 {
-                  "id": "a9d197f5",
+                  "id": "5954468f",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -3053,7 +4514,7 @@
                   },
                   "elements": [
                     {
-                      "id": "b9a4befa",
+                      "id": "2a419072",
                       "elType": "container",
                       "isInner": false,
                       "settings": {
@@ -3096,7 +4557,7 @@
                       },
                       "elements": [
                         {
-                          "id": "3ceeaea8",
+                          "id": "b7e1ffec",
                           "elType": "widget",
                           "widgetType": "image",
                           "settings": {
@@ -3125,7 +4586,7 @@
                       ]
                     },
                     {
-                      "id": "c33cf4d6",
+                      "id": "5b9a1e0e",
                       "elType": "container",
                       "isInner": false,
                       "settings": {
@@ -3169,11 +4630,11 @@
                       },
                       "elements": [
                         {
-                          "id": "d1bad379",
+                          "id": "d406e705",
                           "elType": "widget",
                           "widgetType": "heading",
                           "settings": {
-                            "title": "STADTRAT IM ORIGINALAUFTRITT",
+                            "title": "PERSÖNLICHE VORSTELLUNG",
                             "header_size": "p",
                             "title_color": "#006da9",
                             "typography_typography": "custom",
@@ -3216,7 +4677,7 @@
                           "elements": []
                         },
                         {
-                          "id": "fab93f12",
+                          "id": "5a3410dd",
                           "elType": "widget",
                           "widgetType": "heading",
                           "settings": {
@@ -3266,7 +4727,7 @@
                   ]
                 },
                 {
-                  "id": "0e1a9f41",
+                  "id": "51d72d2c",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -3319,7 +4780,7 @@
                   "elements": []
                 },
                 {
-                  "id": "366ced5f",
+                  "id": "d73d9547",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -3378,7 +4839,363 @@
       ]
     },
     {
-      "id": "b7e1ffec",
+      "id": "782c665c",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "15",
+          "right": "40",
+          "bottom": "15",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "background_background": "classic",
+        "background_color": "#f1ede5",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "acd19a02",
+          "elType": "widget",
+          "widgetType": "image",
+          "settings": {
+            "image": {
+              "team_asset": "a93d8bc20c60c51b668a"
+            },
+            "image_size": "full",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "align": "center",
+            "__globals__": {},
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "_css_classes": "tb-district-panorama"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "11a00e24",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "45",
+          "right": "40",
+          "bottom": "45",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "background_background": "classic",
+        "background_color": "#e5ddce",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        },
+        "_element_id": "stadtteil"
+      },
+      "elements": [
+        {
+          "id": "0d4554b7",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 22,
+              "column": "22",
+              "row": "22",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch",
+            "css_classes": "tb-content-block tb-district-story",
+            "border_radius": {
+              "unit": "px",
+              "top": "18",
+              "right": "18",
+              "bottom": "18",
+              "left": "18",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "3fe284ae",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "UNSER STADTTEIL HAT GESCHICHTE",
+                "header_size": "p",
+                "title_color": "#006da9",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_weight": "800",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.08
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -0.3
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "title_color": ""
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "_css_classes": "tb-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "68d82a9b",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Wie Berg geworden ist.",
+                "header_size": "h2",
+                "title_color": "#142b43",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_weight": "800",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 35
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 35
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 30
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.08
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -0.3
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "title_color": ""
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "605debff",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<details class=\"tb-history\"><summary>Die vollständige Stadtteilgeschichte lesen →</summary><div><p>Das Bamberger Berggebiet ist so vielschichtig wie die Menschen, die in ihm leben. Auf der einen Seite ist das Gebiet von der alten Handelsstraße Pfahlplätzchen, Kaulberg, Stephansberg geprägt. Auf der anderen Seite hat sich in den 1970er Jahren unterhalb der Altenburg die neue Siedlung „Südwest“ gebildet. Angrenzend ist als letztes, neues, das Wohngebiet „Im Rosengarten“ entstanden. Schließlich gehören seit der Gebietsreform 1972 auch die ehemaligen selbständigen Gemeinden Bug und Wildensorg zum Gebiet des Ortsverbandes “Berg”. Diese breite regionale Ausdehnung macht verständlich, dass die CSU Berg im dritten und vierten Stadtdistrikt von Beginn an eine wichtige Rolle in der Geschichte der Bamberger CSU gespielt hat. Auch heute ist der dritte Ortsverband der bei Weitem mitgliederstärkste Verband in der Domstadt. Ortsvorsitzender ist Thomas Lehmann, im Ortsverband ist auch der stv. Kreisvorsitzende Wolfgang Heim aktiv.</p>\n<p>Mit Dr. Theodor Mathieu, Paul Röhner und Herbert Lauer kamen drei Oberbürgermeister der Stadt aus dem Berggebiet. Gustav Matschl hat als Kreisvorsitzender und als Zweiter Bürgermeister ebenso die Geschicke des Weltkulturerbes geprägt wie Paul Rettig als langjähriger Vorsitzender der Stadtratsfraktion. Heute gehören zum Ortsverband die Stadträte Dr. Christian Lange, der ebenfalls lange als Bürgermeister und als CSU-Kreisvorsitzender aktiv war, Anne Rudel und Prof. Dr. Gerhard Seitz. Auch die Vorsitzenden der Bürgervereine, der Ehrenvorsitzende der CSU Berg Manfred Drescher aus Bug, Gerhard Metzner vom Kaulberg und Monika Hoh aus Wildensorg, stehen mit ihrer Mitarbeit im Vorstand für eine enge Verzahnung von Lokalpolitik mit den Interessen der Bürger vor Ort.</p>\n<p>Viele wichtige Forderungen in der Stadtpolitik der letzten Jahrzehnte konnten von der CSU und deren Oberbürgermeister verwirklicht werden. So entstand der vielbefahrene und nicht mehr wegzudenkende „Münchner Ring“ als Entlastungsstraße des Kaulbergs und der Neubau des Bamberger Klinikums am Bruderwald. Neu ausgewiesene Baugebiete – zum Teil mit familienfreundlicher Förderung der Stadt – geben der Stadt wichtige Impulse zur Weiterentwicklung. Besonders wichtig erachtet der Ortsverband auch die zweite Klinikzufahrt über die Waizendorfer Straße, für die StR Prof. Gerhard Seitz seit 2008 kämpft und den lange fälligen Neubau der Buger Brücke, für die sich Manfred Drescher seit 19 Jahren einsetzt, die bereits genehmigt war und durch Corona einen jähen Abbruch erfahren musste.</p>\n<p>Neben zahlreichen Kirchen und Kapellen sind im Besonderen die Katholische Pfarrkirche „Unsere Liebe Frau“, die Obere Pfarre, mit der von dort ausgehenden großen Bamberger Marienprozession, und eine der beiden evangelischen Hauptkirchen in der Domstadt, St. Stephan am Stephansberg, zu nennen. Zahlreiche traditionelle Vereine und Bamberger Institutionen finden sich in einer reichen Kulturlandschaft wieder. Der Altenburgverein sorgt auf der Burg für ein reichhaltiges Veranstaltungsprogramm und kümmert sich um die Erhaltung der Burg, die großen Schwimmvereine in Bug stehen für Erholung und Freizeit auf dem Stadtgebiet.</p>\n<p>Die bekannten und allseits geschätzten Bamberger Bierkeller sind hier ebenso zu finden wie drei bekannte Bamberger Brauereien. Die CSU-Berg ist daher stets darum bemüht, den einzigartigen Charakter des Viertels und seine Wohn- und Aufenthaltsqualität zu erhalten und weiter zu entwickeln.</p></div></details>",
+                "text_color": "#566779",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "text_color": ""
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "2cd5694a",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Historische Vorstellung aus der bisherigen Website. Zeitgebundene Aussagen bleiben als Originaltext dokumentiert.</p>",
+                "text_color": "#566779",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.75
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "text_color": ""
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1cfeda46",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -3435,7 +5252,7 @@
       },
       "elements": [
         {
-          "id": "4e5c392b",
+          "id": "e40f983a",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -3479,7 +5296,7 @@
           },
           "elements": [
             {
-              "id": "6e973a72",
+              "id": "7fe7a3f0",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -3525,7 +5342,7 @@
               "elements": []
             },
             {
-              "id": "199b250b",
+              "id": "6f96aa5b",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -3582,7 +5399,7 @@
       ]
     },
     {
-      "id": "d406e705",
+      "id": "878055d3",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -3637,7 +5454,7 @@
       },
       "elements": [
         {
-          "id": "2a419072",
+          "id": "d8c1272c",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {

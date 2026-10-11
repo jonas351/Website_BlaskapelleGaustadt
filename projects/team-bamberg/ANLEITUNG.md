@@ -18,10 +18,10 @@ Du brauchst kein neues Projekt.
 1. Die neue **team-bamberg-elementor.zip** herunterladen; nicht entpacken.
 2. In deinem bestehenden **Team-Bamberg-Projekt** unter **Design → Themes → Theme hinzufügen → Theme hochladen** die ZIP auswählen.
 3. Auf **Installiertes Theme durch hochgeladenes ersetzen** klicken.
-4. Links auf **Team Bamberg**, dann auf **Neue Gestaltung übernehmen** klicken. Das Häkchen **Alle Projektseiten für die Local-Vorschau freigeben und die Startseite aktivieren** angehakt lassen. Dadurch funktionieren auch die Links zu allen Unterseiten.
+4. Links auf **Team Bamberg** und zuerst auf **Import fortsetzen / fehlende Seiten ergänzen** klicken. Warten, bis Aktuelles und Themen ergänzt sind. Danach **Neue Gestaltung übernehmen** klicken. Das Häkchen **Alle Projektseiten für die Local-Vorschau freigeben und die Startseite aktivieren** angehakt lassen. Dadurch funktionieren auch die Links zu allen Unterseiten.
 5. Die Website neu laden; bei Bedarf mit **Strg + F5**.
 
-Der Knopf übernimmt die neuen Texte und Layouts aller 45 importierten Team-Bamberg-Seiten sowie Kopf- und Fußbereich. Bereits eingetragene Termine, Empfängeradresse des Kontaktwidgets und Menüeinstellungen bleiben erhalten. Andere WordPress-Seiten werden nicht verändert. Die bisherigen Elementor-Inhalte werden vorher gesichert und können mit **Bisherige Seiteninhalte wiederherstellen** zurückgeholt werden; die neue Theme-Farbgestaltung bleibt dabei bestehen.
+Der Knopf übernimmt die neuen Texte und Layouts aller 47 importierten Team-Bamberg-Seiten sowie Kopf- und Fußbereich. Bereits eingetragene Termine und die Empfängeradresse des Kontaktwidgets bleiben erhalten. Das unveränderte bisherige Standardmenü wird auf das neue Menü mit Unterseiten umgestellt; selbst bearbeitete Menüs bleiben erhalten. Andere WordPress-Seiten werden nicht verändert. Die bisherigen Elementor-Inhalte werden vorher gesichert und können mit **Bisherige Seiteninhalte wiederherstellen** zurückgeholt werden; die neue Theme-Farbgestaltung bleibt dabei bestehen.
 
 Die ergänzten Einstiege sind **Textentwürfe** für die Gestaltungsvorschau. Sie erfinden keine aktuellen Ämter, bestätigten Veranstaltungen, Bankdaten oder politischen Beschlüsse. Vor dem öffentlichen Start auch diese Texte mit dem Betreiber abstimmen.
 
@@ -34,7 +34,7 @@ Die ergänzten Einstiege sind **Textentwürfe** für die Gestaltungsvorschau. Si
 5. Links auf **Team Bamberg** klicken und **Website-Seiten anlegen** auswählen.
 6. Warten, bis Bilder, Dokumente und Seiten importiert sind. Das Fenster dabei geöffnet lassen. Bei einem Abbruch denselben Knopf erneut anklicken; bereits importierte Inhalte bleiben erhalten.
 
-Die 45 Seiten starten als **Entwürfe**. Auf einer öffentlichen WordPress-Website erst eine separate Testinstallation verwenden, weil die Theme-Aktivierung das Layout verändert.
+Die 47 Seiten starten als **Entwürfe**. Auf einer öffentlichen WordPress-Website erst eine separate Testinstallation verwenden, weil die Theme-Aktivierung das Layout verändert.
 
 Falls WordPress beim Hochladen meldet, dass die ZIP zu groß ist: In Local **Go to site folder** öffnen und dort den Ordner `app/public/wp-content/themes` öffnen. Die ZIP entpacken und den darin enthaltenen Ordner `team-bamberg-elementor` hier hineinkopieren. Danach unter **Design → Themes** aktivieren. Das Paket enthält die Originalfotos und PDF-Dokumente und ist deshalb größer als das Gaustadt-Paket.
 
@@ -51,13 +51,36 @@ Für eine vollständige Vorführung unter **Team Bamberg** auf **Alle Seiten in 
 - **Text:** Text anklicken und links ersetzen.
 - **Foto:** Bild anklicken → Bild auswählen → eigenes Bild hochladen. Die übernommenen Bilder sind echte Dateien in der WordPress-Mediathek.
 - **Farben:** Element anklicken → **Stil**. Das CSU-Blau ist `#0080c8`, Dunkelblau `#112b4b`, Hellblau `#e5f2f8` und der grüne Akzent `#a2c516`, anhand der offiziellen CSU-Website ausgewählt.
-- **Menü:** Unter **Team Bamberg → Kopfbereich & Navigation bearbeiten** das Widget **Team Bamberg Menü** anklicken und Menüpunkte bearbeiten.
+- **Menü:** Unter **Team Bamberg → Kopfbereich & Navigation bearbeiten** das Widget **Team Bamberg Menü** anklicken und Menüpunkte bearbeiten. Unter **Untermenü von** die Beschriftung des Hauptpunkts eintragen; leer bedeutet Hauptnavigation.
 - **Fußbereich:** Unter **Team Bamberg → Fußbereich bearbeiten**. Eine Änderung gilt auf allen Seiten.
-- **Neue Termine:** Die Seite **Termine** öffnen, das Widget **Team Bamberg Termine** anklicken und einen Termin mit vollständigem Datum hinzufügen. Nach dem Veröffentlichen erscheint der nächste kommende Termin automatisch auf der Startseite. Vergangene Termine werden getrennt angezeigt.
+- **Neue Termine:** Die Seite **Termine** öffnen, das Widget **Team Bamberg Termine** anklicken und einen Termin mit vollständigem Datum hinzufügen und den Ortsverband auswählen. Nach dem Veröffentlichen erscheint der nächste kommende Termin automatisch auf der Startseite; Ortsverbandstermine erscheinen zusätzlich auf der passenden Seite. Vergangene Termine werden getrennt angezeigt.
 - **Anträge:** Auf **Anträge & Archiv** können die einzelnen Textkarten und PDF-Links direkt in Elementor bearbeitet oder dupliziert werden. Für neue Jahresfilter in **Erweitert → CSS-Klassen** beispielsweise `tb-document tb-year-2026` eintragen. Die Archivsuche erkennt die Jahre automatisch.
 - **Kontakt-E-Mail:** Auf **Kontakt** das Widget **Team Bamberg Anfrage** anklicken und die bestätigte Empfängeradresse eintragen. Die Anfragehilfe stellt eine Nachricht zum Kopieren oder Öffnen im E-Mail-Programm zusammen; sie versendet nicht automatisch.
 
-## Welche Originalinhalte übernommen wurden
+## Neue Meldungen veröffentlichen
+
+1. Links **Beiträge → Erstellen** öffnen. Titel und Text eintragen; die Nachricht kann auch mit Elementor gestaltet werden. In der Nachricht Überschriften ab H2 verwenden, weil das Theme den Beitragstitel als H1 anzeigt.
+2. Ein **Beitragsbild** auswählen.
+3. Unter **CSU-Meldungen** den passenden Ortsverband oder **Bamberg-Stadt** ankreuzen.
+4. **Veröffentlichen**. Die Meldung erscheint automatisch auf Aktuelles und der Startseite; bei einem Ortsverband außerdem auf dessen eigener Seite. Entwürfe, zukünftige Beiträge und Beiträge ohne CSU-Zuordnung werden nicht als aktuelle Meldungen gezeigt.
+
+Auf **Aktuelles** können Besucher nach Ortsverband filtern und durch mehrere Seiten blättern. Neue Meldungen werden einmal geschrieben und nicht mehrfach kopiert. Um die Anzeige in Elementor anzupassen, den Meldungsbereich doppelt anklicken; links erscheinen Bereich, Anzahl und Texte für eine leere Übersicht.
+
+## Später einen Drohnenfilm einsetzen
+
+Die Startseite mit Elementor öffnen und im Struktur-/Navigator-Fenster das Element **CSU Bamberg Foto / Drohnenfilm** auswählen. Unter **Eigenes Video** einen eigenen MP4- oder WebM-Film aus der Mediathek wählen. Das Foto bleibt als Vorschau und als Alternative erhalten. Auf Wunsch stummes automatisches Abspielen aktivieren; Besucher können pausieren. Bei reduzierter Bewegung oder Datensparmodus startet es nicht automatisch.
+
+Aktuell ist kein Film enthalten. Es wurden keine Aufnahmen anderer Parteien übernommen.
+
+## Personen und Gesprächsfelder
+
+Alle acht Ortsverbände haben eine eigene Seite mit Foto, Vorstellung, Gesprächsfeldern, Meldungen, Terminen, Ansprechpartnern und aufklappbarer Stadtteilgeschichte. Gaustadt ist außerdem auf der Startseite und im oberen Menü besonders verlinkt. Alle statischen Überschriften, Texte und Bilder bleiben in Elementor bearbeitbar.
+
+Die fünf genannten Fraktionsaustritte sind in der Fraktionsübersicht berücksichtigt. Eine vollständige aktuelle Fraktionsliste liegt noch nicht bestätigt vor. Fraktionsaustritt bedeutet nicht automatisch Parteiaustritt. Einzelne ältere Personenprofile bleiben als ausdrücklich markierte Originalvorstellungen erhalten. Quellen und noch zu bestätigende Angaben stehen in [Inhalte und Quellen](INHALTE-UND-QUELLEN.md).
+
+Die lokalen Gesprächsfelder sind Textentwürfe und keine erfundenen CSU-Beschlüsse. Vor Veröffentlichung durch die Ortsverbände bestätigen beziehungsweise durch konkrete eigene Inhalte ersetzen.
+
+## Übernommene Originalinhalte
 
 Die öffentlichen Originalseiten wurden am **10. Oktober 2026** erfasst. Übernommen sind Kreisverband, Fachgruppen, ASP, acht Ortsverbände, Mandatsträger, Fraktion, elf Personenprofile, Termine, Mitgliedschaft, Spenden, Kontakt, Impressum, Datenschutz, das Antragsarchiv, zusätzliche Archivseiten und Transparenzangaben zu politischen Anzeigen. Bildvarianten derselben Aufnahme werden für die neue Darstellung passend ausgewählt; die Originaldateien bleiben inhaltlich unverändert. Externe Dokumente, Facebook-Seiten und das YouTube-Video bleiben über die veröffentlichten Originaladressen verlinkt. Der defekte Mitgliedsantrag-Link wurde durch die offizielle Mitgliedschaftsseite ersetzt. Die Grenzen der Linkprüfung stehen im [Prüfbericht](PRUEFBERICHT.md).
 

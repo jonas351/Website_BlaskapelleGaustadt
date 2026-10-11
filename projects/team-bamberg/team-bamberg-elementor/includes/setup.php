@@ -38,7 +38,7 @@ function team_bamberg_setup_screen() {
     echo '<button type="button" class="button button-primary" id="team-bamberg-import" data-url="' . esc_url(admin_url('admin-ajax.php')) . '" data-nonce="' . esc_attr(wp_create_nonce('team_bamberg_import')) . '">' . ($state ? 'Import fortsetzen / fehlende Seiten ergänzen' : 'Website-Seiten anlegen') . '</button><p id="team-bamberg-progress" role="status" aria-live="polite"></p><noscript><p>Für den Import JavaScript aktivieren.</p></noscript>';
     if (!empty($state['pages'])) {
         if (($state['design_version'] ?? '') !== TEAM_BAMBERG_THEME_VERSION) {
-            echo '<h2>Neue, persönlichere Gestaltung</h2><p>Übernimmt die neuen Vorlagen für alle importierten Team-Bamberg-Seiten sowie Kopf- und Fußbereich. <strong>Ersetzt dabei die bisherigen Elementor-Texte und Layouts.</strong> Diese Inhalte werden vorher gesichert und können unten wiederhergestellt werden. Eingetragene Termine, Kontakt-Empfängeradresse und Menü bleiben erhalten. Andere WordPress-Seiten bleiben unverändert.</p><form method="post" action="' . esc_url(admin_url('admin-post.php')) . '"><input type="hidden" name="action" value="team_bamberg_redesign">';
+            echo '<h2>CSU Bamberg als Gesamtauftritt</h2><p>Zuerst oben <strong>Import fortsetzen / fehlende Seiten ergänzen</strong> anklicken, damit Aktuelles und Themen vorhanden sind. Danach übernimmt der folgende Knopf die neuen Vorlagen für alle Projektseiten sowie Kopf- und Fußbereich. <strong>Ersetzt dabei bisherige Elementor-Texte und Layouts.</strong> Vorher wird eine wiederherstellbare Sicherung angelegt. Termine und Kontakt-Empfänger bleiben erhalten. Das unveränderte Standardmenü wird durch das neue Menü mit Unterseiten ersetzt; individuell bearbeitete Menüs bleiben erhalten. Andere WordPress-Seiten bleiben unverändert.</p><form method="post" action="' . esc_url(admin_url('admin-post.php')) . '"><input type="hidden" name="action" value="team_bamberg_redesign">';
             if (team_bamberg_is_local_test()) {
                 echo '<p><label><input type="checkbox" name="local_preview" value="1" checked> Alle Projektseiten für die Local-Vorschau freigeben und die Startseite aktivieren.</label></p>';
             }
@@ -79,7 +79,7 @@ function team_bamberg_setup_screen() {
     }
     echo '<h2>Vor dem öffentlichen Start prüfen</h2><ul style="list-style:disc;padding-left:22px">';
     foreach ($manifest['review_notes'] as $note) { echo '<li>' . esc_html($note) . '</li>'; }
-    echo '</ul><p><strong>Kontakt:</strong> Die Anfragehilfe bereitet Text zum Kopieren oder für das E-Mail-Programm vor. Kein automatischer Versand. Die bestätigte Empfängeradresse im Widget „Team Bamberg Anfrage“ auf der Kontaktseite eintragen.</p><p><strong>Neue Termine:</strong> Auf der Termineseite im Widget „Team Bamberg Termine“ eintragen. Die Startseite übernimmt bestätigte kommende Termine automatisch. Alte Originalangaben stehen getrennt darunter.</p><p><strong>Bilder:</strong> Originaldateien und vorhandene Bildnutzungsrechte vor Veröffentlichung mit dem bisherigen Betreiber abgleichen.</p></div>';
+    echo '</ul><p><strong>Kontakt:</strong> Die Anfragehilfe bereitet Text zum Kopieren oder für das E-Mail-Programm vor. Kein automatischer Versand. Die bestätigte Empfängeradresse im Widget „Team Bamberg Anfrage“ auf der Kontaktseite eintragen.</p><p><strong>Neue Meldungen:</strong> Unter Beiträge → Erstellen anlegen, Bild auswählen und unter CSU-Meldungen den Ortsverband oder Bamberg-Stadt ankreuzen. Nach Veröffentlichung erscheinen sie automatisch auf Startseite, Aktuelles und der passenden Ortsverbandsseite.</p><p><strong>Neue Termine:</strong> Auf der Termineseite im Widget „Team Bamberg Termine“ eintragen. Den Ortsverband auswählen; die passenden Seiten übernehmen bestätigte Termine automatisch. Alte Originalangaben stehen getrennt darunter.</p><p><strong>Bilder:</strong> Originaldateien und vorhandene Bildnutzungsrechte vor Veröffentlichung mit dem bisherigen Betreiber abgleichen.</p></div>';
 }
 function team_bamberg_resolve($value, $state) {
     static $cache = array();
@@ -110,6 +110,7 @@ function team_bamberg_resolve_value($value, $state, $urls) {
 }
 function team_bamberg_import_step() {
     if (!did_action('elementor/loaded')) { return new WP_Error('elementor', 'Elementor zuerst aktivieren.'); }
+    team_bamberg_news_areas_setup();
     $manifest = team_bamberg_manifest(); if (is_wp_error($manifest)) { return $manifest; }
     $state = get_option('team_bamberg_setup_state', array());
     if (!$state) { $state['design_version'] = TEAM_BAMBERG_THEME_VERSION; }
@@ -237,8 +238,20 @@ function team_bamberg_apply_redesign() {
             $old = get_post_meta($id, '_elementor_data', true);
             $backup[$id] = array('data' => $old, 'page_settings' => get_post_meta($id, '_elementor_page_settings', true));
             $preserve = array();
+            $hero_settings = team_bamberg_find_widget(json_decode($old, true) ?? array(), 'team-bamberg-hero-media');
+            if ($hero_settings !== null) { $preserve['team-bamberg-hero-media'] = $hero_settings; }
             foreach (array('team-bamberg-events', 'team-bamberg-inquiry', 'team-bamberg-navigation') as $type) {
                 $settings = team_bamberg_find_widget(json_decode($old, true) ?? array(), $type);
+                // Replace the previous stock menu; keep individually edited menus.
+                if ($type === 'team-bamberg-navigation' && $settings !== null) {
+                    $stock = array('kreisvorstand-2' => 'Menschen', 'ortsverbaende' => 'Vor Ort', 'fraktion' => 'Stadtrat', 'termine' => 'Termine', 'kontakt' => 'Kontakt');
+                    $items = array_values($settings['items'] ?? array()); $standard = count($items) === count($stock); $index = 0;
+                    foreach ($stock as $target => $label) {
+                        $item = $items[$index++] ?? array();
+                        if (($item['label'] ?? '') !== $label || ($item['link']['url'] ?? '') !== get_permalink((int) ($state['pages'][$target] ?? 0)) || !empty($item['parent']) || !empty($item['link']['is_external'])) { $standard = false; }
+                    }
+                    if ($standard) { unset($settings['items']); }
+                }
                 if ($settings !== null) { $preserve[$type] = $settings; }
             }
             $replacement[$id] = team_bamberg_preserve_widget_settings(team_bamberg_resolve($template['content'], $state), $preserve);

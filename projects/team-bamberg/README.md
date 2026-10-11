@@ -7,6 +7,13 @@ Eigenständige Neugestaltung von https://team-bamberg.de/ in CSU-Farben. Das Gau
 
 ## Gestaltung und Inhalte
 
+- Version 1.3: Gesamtauftritt für CSU Bamberg-Stadt mit 47 eigenen Elementor-Seiten. Menü mit Unterseiten für Kreisverband, Stadtrat und alle acht Ortsverbände; Gaustadt zusätzlich als eigener Einstieg auf der Startseite.
+- Jeder Ortsverband besitzt Foto-Einstieg, Vorstellung, ausdrücklich als Entwurf markierte lokale Gesprächsfelder, automatisch zugeordnete Meldungen und Termine, Kontakte und aufklappbare Originalgeschichte.
+- Neue Redaktion über normale WordPress-Beiträge und die Zuordnung CSU-Meldungen: Startseite, Aktuelles und Ortsverbandsseite übernehmen veröffentlichte Nachrichten. Ortsverbandsfilter, Blättern und eigene Beitragsansicht. Entwürfe, zukünftige und fremde Beiträge werden nicht angezeigt.
+- Optionales eigenes MP4-/WebM-Video im Elementor-Einstieg, mit Fotofallback, Play/Pause und Berücksichtigung reduzierter Bewegung sowie Datensparmodus. Noch kein Drohnenfilm enthalten.
+- Die fünf gemeldeten Fraktionsaustritte werden nach Nutzerangabe berücksichtigt; die vollständige aktuelle Fraktionsliste bleibt zu bestätigen. Parteiaustritte werden nicht daraus abgeleitet. Quellenstand und Abrufgrenzen: [INHALTE-UND-QUELLEN.md](INHALTE-UND-QUELLEN.md).
+- Die Anfragehilfe bleibt ausdrücklich beim Kopieren beziehungsweise Vorbereiten im E-Mail-Programm und übernimmt den gewählten Ortsverband. Kein automatischer Versand.
+
 - Version 1.1: großes Bamberg-Foto über die volle Breite, dunkle Bildüberlagerung, warme Sand- und Cremetöne sowie echte Originalporträts direkt auf der Startseite.
 - Bildgestützte Einstiege und ergänzte Textentwürfe auf allen Unterseiten, persönliche Profilkarten und neu gestaltete Kontaktseite mit separaten Kontaktwegen und Formular.
 - Expliziter Update-Knopf für vorhandene Installationen: ersetzt die importierten Elementor-Vorlagen nach Sicherung, erhält Termine, Empfänger und Menü, schützt fremde Seiten und erlaubt die Wiederherstellung der bisherigen Inhalte. Ein normaler Import überschreibt weiterhin keine Bearbeitungen.
@@ -38,7 +45,7 @@ python3 projects/team-bamberg/tools/start-test-environment.py
 
 Der Helfer verwendet verifizierte offizielle Docker-Images und Elementor Free 4.3.0 mit SHA-256-Prüfung. Die Testcontainer `team-bamberg-test-wp` und `team-bamberg-test-db` sind vom Gaustadt-Testprojekt getrennt. Sie verwenden Port 8089 und private Testdateien unter `/workspace/team-bamberg-wp-test`. Passwörter, Cookies, Datenbankdateien und WordPress-Core sind nicht im Theme. Bei einer frischen Datenbank den normalen Import im WordPress-Backend ausführen. Keine bestehenden fremden Container oder Benutzerinhalte überschreiben.
 
-Geprüft mit WordPress 7.1.3, Elementor Free 4.3.0 und PHP 8.3.35: echter Backendimport und Fortsetzung, Schutz vorhandener Elementor-Daten, echte Bearbeitung/Veröffentlichung einer Überschrift, Startseitenaktivierung, alle 45 Seiten bei 1440/768/390/320 Pixeln, Archivfilter, lokales Original-PDF, WordPress-Suche, Formularvalidierung und Kopieren, mobiles Menü und Escape, geladene Originalbilder, eigene 404 und deaktivierte Formularfelder ohne JavaScript. Version 1.1 zusätzlich geprüft: echter Update-Knopf, 47 gesicherte Elementor-Dokumente, exakte Wiederherstellung, Schutz vor erneutem Überschreiben der Sicherung, Erhalt der Funktionswidget-Einstellungen und fremder Seiten. Token-Auflösung verwendet einen pro Request vorbereiteten URL-Index, damit das gesamte Update innerhalb der PHP-Laufzeitgrenze fertig wird. Keine Fehler im Frontend-JavaScript. team-bamberg.de wurde nicht verändert.
+Die Ausgangsversion wurde mit WordPress 7.1.3, Elementor Free 4.3.0 und PHP 8.3.35 geprüft: echter Backendimport und Fortsetzung, Schutz vorhandener Elementor-Daten, echte Bearbeitung/Veröffentlichung einer Überschrift, Startseitenaktivierung, alle 45 Seiten bei 1440/768/390/320 Pixeln, Archivfilter, lokales Original-PDF, WordPress-Suche, Formularvalidierung und Kopieren, mobiles Menü und Escape, geladene Originalbilder, eigene 404 und deaktivierte Formularfelder ohne JavaScript. Version 1.1 zusätzlich geprüft: echter Update-Knopf, 47 gesicherte Elementor-Dokumente, exakte Wiederherstellung, Schutz vor erneutem Überschreiben der Sicherung, Erhalt der Funktionswidget-Einstellungen und fremder Seiten. Token-Auflösung verwendet einen pro Request vorbereiteten URL-Index, damit das gesamte Update innerhalb der PHP-Laufzeitgrenze fertig wird. Keine Fehler im Frontend-JavaScript. team-bamberg.de wurde nicht verändert.
 
 Originalquellen neu erfassen:
 

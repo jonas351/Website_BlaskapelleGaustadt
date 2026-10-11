@@ -5,7 +5,7 @@
   "page_settings": {},
   "content": [
     {
-      "id": "463ddc8c",
+      "id": "f99be0e2",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -62,7 +62,7 @@
       },
       "elements": [
         {
-          "id": "c8731614",
+          "id": "a7a512b0",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -106,11 +106,11 @@
           },
           "elements": [
             {
-              "id": "a0572b67",
+              "id": "d6aa6810",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>CSU BAMBERG-STADT · NÄHER AM MENSCHEN</p>",
+                "editor": "<p>CSU BAMBERG-STADT · IN ACHT ORTSVERBÄNDEN ZU HAUSE</p>",
                 "text_color": "#d5e7f2",
                 "typography_typography": "custom",
                 "typography_font_family": "Arial",
@@ -138,11 +138,11 @@
               "elements": []
             },
             {
-              "id": "7425c2f3",
+              "id": "ec92a189",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p><a href=\"@@link:mandatstraeger@@\">Mandatsträger</a> <span>·</span> <a href=\"@@link:spenden@@\">Spenden</a></p>",
+                "editor": "<p><a href=\"@@link:csu-gaustadt@@\">CSU Gaustadt</a> <span>·</span> <a href=\"@@link:mitglied-werden@@\">Mitmachen</a></p>",
                 "text_color": "#d5e7f2",
                 "typography_typography": "custom",
                 "typography_font_family": "Arial",
@@ -174,7 +174,7 @@
       ]
     },
     {
-      "id": "9d4d5a24",
+      "id": "2c431f0b",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -191,9 +191,9 @@
         },
         "padding": {
           "unit": "px",
-          "top": "22",
+          "top": "20",
           "right": "40",
-          "bottom": "22",
+          "bottom": "20",
           "left": "40",
           "isLinked": false
         },
@@ -231,7 +231,7 @@
       },
       "elements": [
         {
-          "id": "5feaf096",
+          "id": "59141d05",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -274,7 +274,7 @@
           },
           "elements": [
             {
-              "id": "3d9ca3f9",
+              "id": "eb50313b",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -283,7 +283,7 @@
                 "flex_direction_mobile": "column",
                 "width": {
                   "unit": "%",
-                  "size": 28
+                  "size": 26
                 },
                 "width_mobile": {
                   "unit": "%",
@@ -313,11 +313,11 @@
                   "isLinked": true
                 },
                 "flex_align_items": "stretch",
-                "css_classes": ""
+                "css_classes": "tb-header-brand"
               },
               "elements": [
                 {
-                  "id": "82de9d36",
+                  "id": "5a2db62e",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -350,17 +350,17 @@
                     },
                     "flex_gap": {
                       "unit": "px",
-                      "size": 10,
-                      "column": "10",
-                      "row": "10",
+                      "size": 12,
+                      "column": "12",
+                      "row": "12",
                       "isLinked": true
                     },
                     "flex_align_items": "center",
-                    "css_classes": ""
+                    "css_classes": "tb-brand-lockup"
                   },
                   "elements": [
                     {
-                      "id": "51857071",
+                      "id": "02a0931f",
                       "elType": "container",
                       "isInner": false,
                       "settings": {
@@ -369,7 +369,7 @@
                         "flex_direction_mobile": "column",
                         "width": {
                           "unit": "%",
-                          "size": 43
+                          "size": 35
                         },
                         "width_mobile": {
                           "unit": "%",
@@ -399,13 +399,13 @@
                           "isLinked": true
                         },
                         "flex_align_items": "stretch",
-                        "css_classes": "",
+                        "css_classes": "tb-brand-mark",
                         "background_background": "classic",
                         "background_color": "#0080c8"
                       },
                       "elements": [
                         {
-                          "id": "77a48a29",
+                          "id": "3b991615",
                           "elType": "widget",
                           "widgetType": "image",
                           "settings": {
@@ -438,7 +438,7 @@
                       ]
                     },
                     {
-                      "id": "e9e2f5f0",
+                      "id": "711bc4f7",
                       "elType": "container",
                       "isInner": false,
                       "settings": {
@@ -447,7 +447,7 @@
                         "flex_direction_mobile": "column",
                         "width": {
                           "unit": "%",
-                          "size": 53
+                          "size": 65
                         },
                         "width_mobile": {
                           "unit": "%",
@@ -477,15 +477,15 @@
                           "isLinked": true
                         },
                         "flex_align_items": "stretch",
-                        "css_classes": ""
+                        "css_classes": "tb-brand-label"
                       },
                       "elements": [
                         {
-                          "id": "daab9b71",
+                          "id": "cd4f101e",
                           "elType": "widget",
                           "widgetType": "heading",
                           "settings": {
-                            "title": "Bamberg",
+                            "title": "Bamberg-Stadt",
                             "header_size": "p",
                             "title_color": "#142b43",
                             "typography_typography": "custom",
@@ -493,15 +493,15 @@
                             "typography_font_weight": "800",
                             "typography_font_size": {
                               "unit": "px",
-                              "size": 24
+                              "size": 20
                             },
                             "typography_font_size_tablet": {
                               "unit": "px",
-                              "size": 24
+                              "size": 20
                             },
                             "typography_font_size_mobile": {
                               "unit": "px",
-                              "size": 24
+                              "size": 20
                             },
                             "typography_line_height": {
                               "unit": "em",
@@ -533,7 +533,7 @@
               ]
             },
             {
-              "id": "13682556",
+              "id": "f7c86dbd",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -542,7 +542,7 @@
                 "flex_direction_mobile": "column",
                 "width": {
                   "unit": "%",
-                  "size": 72
+                  "size": 74
                 },
                 "width_mobile": {
                   "unit": "%",
@@ -572,49 +572,190 @@
                   "isLinked": true
                 },
                 "flex_align_items": "flex-end",
-                "css_classes": ""
+                "css_classes": "tb-header-navigation"
               },
               "elements": [
                 {
-                  "id": "59ff7ab0",
+                  "id": "35dcb12d",
                   "elType": "widget",
                   "widgetType": "team-bamberg-navigation",
                   "settings": {
                     "items": [
                       {
-                        "_id": "fbc2d321",
-                        "label": "Menschen",
+                        "_id": "a0572b67",
+                        "label": "CSU Bamberg",
                         "link": {
                           "url": "@@link:kreisvorstand-2@@"
-                        }
+                        },
+                        "parent": ""
                       },
                       {
-                        "_id": "bf9363b3",
+                        "_id": "7425c2f3",
                         "label": "Vor Ort",
                         "link": {
                           "url": "@@link:ortsverbaende@@"
-                        }
+                        },
+                        "parent": ""
                       },
                       {
-                        "_id": "402f0eb4",
+                        "_id": "c8731614",
                         "label": "Stadtrat",
                         "link": {
                           "url": "@@link:fraktion@@"
-                        }
+                        },
+                        "parent": ""
                       },
                       {
-                        "_id": "5d78ee76",
+                        "_id": "463ddc8c",
+                        "label": "Aktuelles",
+                        "link": {
+                          "url": "@@link:aktuelles@@"
+                        },
+                        "parent": ""
+                      },
+                      {
+                        "_id": "77a48a29",
                         "label": "Termine",
                         "link": {
                           "url": "@@link:termine@@"
-                        }
+                        },
+                        "parent": ""
                       },
                       {
-                        "_id": "5e82a207",
+                        "_id": "51857071",
                         "label": "Kontakt",
                         "link": {
                           "url": "@@link:kontakt@@"
-                        }
+                        },
+                        "parent": ""
+                      },
+                      {
+                        "_id": "daab9b71",
+                        "label": "Kreisverband",
+                        "link": {
+                          "url": "@@link:kreisvorstand-2@@"
+                        },
+                        "parent": "CSU Bamberg"
+                      },
+                      {
+                        "_id": "e9e2f5f0",
+                        "label": "Mandatsträger",
+                        "link": {
+                          "url": "@@link:mandatstraeger@@"
+                        },
+                        "parent": "CSU Bamberg"
+                      },
+                      {
+                        "_id": "82de9d36",
+                        "label": "Fachgruppen",
+                        "link": {
+                          "url": "@@link:fachgruppen@@"
+                        },
+                        "parent": "CSU Bamberg"
+                      },
+                      {
+                        "_id": "3d9ca3f9",
+                        "label": "Außen- & Sicherheitspolitik",
+                        "link": {
+                          "url": "@@link:asp-kreisverband@@"
+                        },
+                        "parent": "CSU Bamberg"
+                      },
+                      {
+                        "_id": "fbc2d321",
+                        "label": "Mitglied werden",
+                        "link": {
+                          "url": "@@link:mitglied-werden@@"
+                        },
+                        "parent": "CSU Bamberg"
+                      },
+                      {
+                        "_id": "bf9363b3",
+                        "label": "Unterstützen",
+                        "link": {
+                          "url": "@@link:spenden@@"
+                        },
+                        "parent": "CSU Bamberg"
+                      },
+                      {
+                        "_id": "402f0eb4",
+                        "label": "Themen für Bamberg",
+                        "link": {
+                          "url": "@@link:themen@@"
+                        },
+                        "parent": "Stadtrat"
+                      },
+                      {
+                        "_id": "5d78ee76",
+                        "label": "Anträge & Dokumente",
+                        "link": {
+                          "url": "@@link:fraktionsantraege@@"
+                        },
+                        "parent": "Stadtrat"
+                      },
+                      {
+                        "_id": "5e82a207",
+                        "label": "CSU Mitte",
+                        "link": {
+                          "url": "@@link:csu-mitte@@"
+                        },
+                        "parent": "Vor Ort"
+                      },
+                      {
+                        "_id": "59ff7ab0",
+                        "label": "CSU Gangolf",
+                        "link": {
+                          "url": "@@link:csu-gangolf@@"
+                        },
+                        "parent": "Vor Ort"
+                      },
+                      {
+                        "_id": "13682556",
+                        "label": "CSU Berg",
+                        "link": {
+                          "url": "@@link:csu-berg@@"
+                        },
+                        "parent": "Vor Ort"
+                      },
+                      {
+                        "_id": "5feaf096",
+                        "label": "CSU Wunderburg / Gereuth",
+                        "link": {
+                          "url": "@@link:csu-wunderburg@@"
+                        },
+                        "parent": "Vor Ort"
+                      },
+                      {
+                        "_id": "9d4d5a24",
+                        "label": "CSU Nord",
+                        "link": {
+                          "url": "@@link:csu-nord@@"
+                        },
+                        "parent": "Vor Ort"
+                      },
+                      {
+                        "_id": "0511e790",
+                        "label": "CSU Ost",
+                        "link": {
+                          "url": "@@link:csu-ost@@"
+                        },
+                        "parent": "Vor Ort"
+                      },
+                      {
+                        "_id": "9ca220f8",
+                        "label": "CSU Gartenstadt",
+                        "link": {
+                          "url": "@@link:csu-gartenstadt@@"
+                        },
+                        "parent": "Vor Ort"
+                      },
+                      {
+                        "_id": "d0d41b58",
+                        "label": "CSU Gaustadt",
+                        "link": {
+                          "url": "@@link:csu-gaustadt@@"
+                        },
+                        "parent": "Vor Ort"
                       }
                     ],
                     "__globals__": {},

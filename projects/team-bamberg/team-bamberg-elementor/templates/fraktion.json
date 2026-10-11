@@ -5,7 +5,7 @@
   "page_settings": {},
   "content": [
     {
-      "id": "65535af5",
+      "id": "80a4abab",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -62,7 +62,7 @@
       },
       "elements": [
         {
-          "id": "0587be1a",
+          "id": "ad8b737f",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -105,7 +105,7 @@
           },
           "elements": [
             {
-              "id": "a8325d3e",
+              "id": "2bea5742",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -149,7 +149,7 @@
               },
               "elements": [
                 {
-                  "id": "27478893",
+                  "id": "32e8ad10",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -181,7 +181,7 @@
                   "elements": []
                 },
                 {
-                  "id": "d3b9979c",
+                  "id": "98bec3df",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -228,7 +228,7 @@
                   "elements": []
                 },
                 {
-                  "id": "767f367b",
+                  "id": "b358bd49",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -274,11 +274,11 @@
                   "elements": []
                 },
                 {
-                  "id": "c7463ca4",
+                  "id": "3dbea376",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p>Vom persönlichen Anliegen bis zum Stadtratsantrag: Hier finden Sie das vorgestellte Team der Fraktion, Kontaktmöglichkeiten und dokumentierte politische Arbeit.</p>",
+                    "editor": "<p>Stadtpolitik nachvollziehbar machen: Ansprechpartner, Anträge und dokumentierte Arbeit im Bamberger Stadtrat.</p>",
                     "text_color": "#566779",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
@@ -308,7 +308,7 @@
               ]
             },
             {
-              "id": "c724bb7a",
+              "id": "dd851120",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -351,7 +351,7 @@
               },
               "elements": [
                 {
-                  "id": "27478416",
+                  "id": "6559175c",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -384,7 +384,7 @@
       ]
     },
     {
-      "id": "df603f3a",
+      "id": "737357e5",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -439,7 +439,7 @@
       },
       "elements": [
         {
-          "id": "41aad8a4",
+          "id": "cd60352e",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -474,7 +474,7 @@
       ]
     },
     {
-      "id": "473f05c2",
+      "id": "6f7d87f9",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -529,7 +529,7 @@
       },
       "elements": [
         {
-          "id": "70c57fb5",
+          "id": "9177ae71",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -572,7 +572,7 @@
           },
           "elements": [
             {
-              "id": "12f3b90b",
+              "id": "3aff8e70",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -623,7 +623,7 @@
               },
               "elements": [
                 {
-                  "id": "5f77b15b",
+                  "id": "aade9c36",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -675,7 +675,7 @@
       ]
     },
     {
-      "id": "5d72348c",
+      "id": "b10c46b2",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -730,7 +730,7 @@
       },
       "elements": [
         {
-          "id": "8837db4b",
+          "id": "0d32eba2",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -773,7 +773,7 @@
           },
           "elements": [
             {
-              "id": "65820649",
+              "id": "d15eeab4",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -824,7 +824,7 @@
               },
               "elements": [
                 {
-                  "id": "23697179",
+                  "id": "2b530491",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -858,7 +858,7 @@
               ]
             },
             {
-              "id": "87cf3839",
+              "id": "33a55a11",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -909,7 +909,7 @@
               },
               "elements": [
                 {
-                  "id": "b97416f0",
+                  "id": "29a474a6",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -947,7 +947,97 @@
       ]
     },
     {
-      "id": "6cf31bdc",
+      "id": "4f49968c",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "40",
+          "bottom": "20",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "1ac1043c",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Die vollständige aktuelle Fraktionsliste wird vor Veröffentlichung ergänzt. Die folgenden Porträts stammen aus dem bisherigen Auftritt und bestätigen keine aktuelle Fraktionszugehörigkeit.</p>",
+            "text_color": "#75571c",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 13
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.75
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "_css_classes": "tb-source-note"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "79e30280",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -988,7 +1078,7 @@
         "flex_align_items": "stretch",
         "css_classes": "",
         "background_background": "classic",
-        "background_color": "#f3f7fa",
+        "background_color": "#f1ede5",
         "boxed_width": {
           "unit": "px",
           "size": 1240
@@ -1004,11 +1094,11 @@
       },
       "elements": [
         {
-          "id": "e35be335",
+          "id": "ff30bcfc",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "DIE VORGESTELLTEN PERSONEN",
+            "title": "PORTRÄTS AUS DEM BISHERIGEN AUFTRITT",
             "header_size": "p",
             "title_color": "#006da9",
             "typography_typography": "custom",
@@ -1051,11 +1141,11 @@
           "elements": []
         },
         {
-          "id": "a2dfa365",
+          "id": "917ac9ce",
           "elType": "widget",
           "widgetType": "heading",
           "settings": {
-            "title": "Gesichter der Fraktion.",
+            "title": "Persönliche Vorstellungen.",
             "header_size": "h2",
             "title_color": "#142b43",
             "typography_typography": "custom",
@@ -1097,7 +1187,7 @@
           "elements": []
         },
         {
-          "id": "9cc30af8",
+          "id": "171b2120",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -1140,7 +1230,7 @@
           },
           "elements": [
             {
-              "id": "5c990cc4",
+              "id": "380bddd8",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1191,7 +1281,7 @@
               },
               "elements": [
                 {
-                  "id": "ca082f28",
+                  "id": "51fb0a0f",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -1234,7 +1324,7 @@
                   },
                   "elements": [
                     {
-                      "id": "f1eab00e",
+                      "id": "7a834b77",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -1280,7 +1370,7 @@
                       "elements": []
                     },
                     {
-                      "id": "96f80336",
+                      "id": "128fdb89",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -1337,7 +1427,7 @@
               ]
             },
             {
-              "id": "8aef6fdd",
+              "id": "d841d15b",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1388,7 +1478,7 @@
               },
               "elements": [
                 {
-                  "id": "c3e4b045",
+                  "id": "0ad11692",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1419,7 +1509,7 @@
                   "elements": []
                 },
                 {
-                  "id": "9a1a139e",
+                  "id": "f817ec3d",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -1462,7 +1552,7 @@
                   },
                   "elements": [
                     {
-                      "id": "fc715bbc",
+                      "id": "b9309bf7",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -1508,7 +1598,7 @@
                       "elements": []
                     },
                     {
-                      "id": "b1bda1bc",
+                      "id": "198644e3",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -1565,7 +1655,7 @@
               ]
             },
             {
-              "id": "a42f239a",
+              "id": "996782f2",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1616,463 +1706,7 @@
               },
               "elements": [
                 {
-                  "id": "a5e4bc05",
-                  "elType": "widget",
-                  "widgetType": "image",
-                  "settings": {
-                    "image": {
-                      "team_asset": "9220a0f8fa97d3ff8a82"
-                    },
-                    "image_size": "full",
-                    "width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "align": "center",
-                    "link_to": "custom",
-                    "link": {
-                      "url": "@@link:michael-kalb@@"
-                    },
-                    "__globals__": {},
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "_css_classes": "tb-person-image"
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "87e09188",
-                  "elType": "container",
-                  "isInner": false,
-                  "settings": {
-                    "content_width": "full",
-                    "flex_direction": "column",
-                    "flex_direction_mobile": "column",
-                    "width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "width_mobile": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "padding": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "padding_mobile": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "flex_gap": {
-                      "unit": "px",
-                      "size": 24,
-                      "column": "24",
-                      "row": "24",
-                      "isLinked": true
-                    },
-                    "flex_align_items": "stretch",
-                    "css_classes": "tb-person-caption"
-                  },
-                  "elements": [
-                    {
-                      "id": "fdfb36c2",
-                      "elType": "widget",
-                      "widgetType": "heading",
-                      "settings": {
-                        "title": "Michael Kalb",
-                        "header_size": "h3",
-                        "title_color": "#142b43",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Arial",
-                        "typography_font_weight": "800",
-                        "typography_font_size": {
-                          "unit": "px",
-                          "size": 22
-                        },
-                        "typography_font_size_tablet": {
-                          "unit": "px",
-                          "size": 22
-                        },
-                        "typography_font_size_mobile": {
-                          "unit": "px",
-                          "size": 22
-                        },
-                        "typography_line_height": {
-                          "unit": "em",
-                          "size": 1.08
-                        },
-                        "typography_letter_spacing": {
-                          "unit": "px",
-                          "size": -0.3
-                        },
-                        "__globals__": {
-                          "typography_typography": "",
-                          "title_color": ""
-                        },
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "0",
-                          "left": "0",
-                          "isLinked": true
-                        }
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "ffd5bad7",
-                      "elType": "widget",
-                      "widgetType": "button",
-                      "settings": {
-                        "text": "Profil kennenlernen →",
-                        "link": {
-                          "url": "@@link:michael-kalb@@",
-                          "is_external": false
-                        },
-                        "background_color": "#f1ede5",
-                        "button_text_color": "#112b4b",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Arial",
-                        "typography_font_weight": "700",
-                        "typography_font_size": {
-                          "unit": "px",
-                          "size": 14
-                        },
-                        "text_padding": {
-                          "unit": "px",
-                          "top": "18",
-                          "right": "25",
-                          "bottom": "18",
-                          "left": "25",
-                          "isLinked": false
-                        },
-                        "border_radius": {
-                          "unit": "px",
-                          "top": "50",
-                          "right": "50",
-                          "bottom": "50",
-                          "left": "50",
-                          "isLinked": true
-                        },
-                        "align": "left",
-                        "_element_width": "auto",
-                        "__globals__": {
-                          "typography_typography": "",
-                          "background_color": "",
-                          "button_text_color": ""
-                        },
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "0",
-                          "left": "0",
-                          "isLinked": true
-                        }
-                      },
-                      "elements": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "7c1e66f8",
-              "elType": "container",
-              "isInner": false,
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "width": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 24,
-                  "column": "24",
-                  "row": "24",
-                  "isLinked": true
-                },
-                "flex_align_items": "stretch",
-                "css_classes": "tb-person-card",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "18",
-                  "right": "18",
-                  "bottom": "18",
-                  "left": "18",
-                  "isLinked": true
-                }
-              },
-              "elements": [
-                {
-                  "id": "8d5098ac",
-                  "elType": "widget",
-                  "widgetType": "image",
-                  "settings": {
-                    "image": {
-                      "team_asset": "0b332f90f051b4823f92"
-                    },
-                    "image_size": "full",
-                    "width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "align": "center",
-                    "link_to": "custom",
-                    "link": {
-                      "url": "@@link:stefan-kuhn@@"
-                    },
-                    "__globals__": {},
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "_css_classes": "tb-person-image"
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "2253ac41",
-                  "elType": "container",
-                  "isInner": false,
-                  "settings": {
-                    "content_width": "full",
-                    "flex_direction": "column",
-                    "flex_direction_mobile": "column",
-                    "width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "width_mobile": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "padding": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "padding_mobile": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "flex_gap": {
-                      "unit": "px",
-                      "size": 24,
-                      "column": "24",
-                      "row": "24",
-                      "isLinked": true
-                    },
-                    "flex_align_items": "stretch",
-                    "css_classes": "tb-person-caption"
-                  },
-                  "elements": [
-                    {
-                      "id": "f0984196",
-                      "elType": "widget",
-                      "widgetType": "heading",
-                      "settings": {
-                        "title": "Stefan Kuhn",
-                        "header_size": "h3",
-                        "title_color": "#142b43",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Arial",
-                        "typography_font_weight": "800",
-                        "typography_font_size": {
-                          "unit": "px",
-                          "size": 22
-                        },
-                        "typography_font_size_tablet": {
-                          "unit": "px",
-                          "size": 22
-                        },
-                        "typography_font_size_mobile": {
-                          "unit": "px",
-                          "size": 22
-                        },
-                        "typography_line_height": {
-                          "unit": "em",
-                          "size": 1.08
-                        },
-                        "typography_letter_spacing": {
-                          "unit": "px",
-                          "size": -0.3
-                        },
-                        "__globals__": {
-                          "typography_typography": "",
-                          "title_color": ""
-                        },
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "0",
-                          "left": "0",
-                          "isLinked": true
-                        }
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "6a64bf92",
-                      "elType": "widget",
-                      "widgetType": "button",
-                      "settings": {
-                        "text": "Profil kennenlernen →",
-                        "link": {
-                          "url": "@@link:stefan-kuhn@@",
-                          "is_external": false
-                        },
-                        "background_color": "#f1ede5",
-                        "button_text_color": "#112b4b",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Arial",
-                        "typography_font_weight": "700",
-                        "typography_font_size": {
-                          "unit": "px",
-                          "size": 14
-                        },
-                        "text_padding": {
-                          "unit": "px",
-                          "top": "18",
-                          "right": "25",
-                          "bottom": "18",
-                          "left": "25",
-                          "isLinked": false
-                        },
-                        "border_radius": {
-                          "unit": "px",
-                          "top": "50",
-                          "right": "50",
-                          "bottom": "50",
-                          "left": "50",
-                          "isLinked": true
-                        },
-                        "align": "left",
-                        "_element_width": "auto",
-                        "__globals__": {
-                          "typography_typography": "",
-                          "background_color": "",
-                          "button_text_color": ""
-                        },
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "0",
-                          "left": "0",
-                          "isLinked": true
-                        }
-                      },
-                      "elements": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "e7d65e03",
-              "elType": "container",
-              "isInner": false,
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "width": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 24,
-                  "column": "24",
-                  "row": "24",
-                  "isLinked": true
-                },
-                "flex_align_items": "stretch",
-                "css_classes": "tb-person-card",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "18",
-                  "right": "18",
-                  "bottom": "18",
-                  "left": "18",
-                  "isLinked": true
-                }
-              },
-              "elements": [
-                {
-                  "id": "9d34abfd",
+                  "id": "fc9c0755",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -2103,7 +1737,7 @@
                   "elements": []
                 },
                 {
-                  "id": "4318f7f7",
+                  "id": "b563dae7",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -2146,7 +1780,7 @@
                   },
                   "elements": [
                     {
-                      "id": "1659f07a",
+                      "id": "6905647a",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -2192,7 +1826,7 @@
                       "elements": []
                     },
                     {
-                      "id": "e9d5fcd9",
+                      "id": "639ff526",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -2249,7 +1883,7 @@
               ]
             },
             {
-              "id": "dd2325e7",
+              "id": "1badc425",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2300,463 +1934,7 @@
               },
               "elements": [
                 {
-                  "id": "4a92fa68",
-                  "elType": "widget",
-                  "widgetType": "image",
-                  "settings": {
-                    "image": {
-                      "team_asset": "b622227a5dbdf4fcc76c"
-                    },
-                    "image_size": "full",
-                    "width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "align": "center",
-                    "link_to": "custom",
-                    "link": {
-                      "url": "@@link:peter-neller@@"
-                    },
-                    "__globals__": {},
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "_css_classes": "tb-person-image"
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "a7d93ec0",
-                  "elType": "container",
-                  "isInner": false,
-                  "settings": {
-                    "content_width": "full",
-                    "flex_direction": "column",
-                    "flex_direction_mobile": "column",
-                    "width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "width_mobile": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "padding": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "padding_mobile": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "flex_gap": {
-                      "unit": "px",
-                      "size": 24,
-                      "column": "24",
-                      "row": "24",
-                      "isLinked": true
-                    },
-                    "flex_align_items": "stretch",
-                    "css_classes": "tb-person-caption"
-                  },
-                  "elements": [
-                    {
-                      "id": "4bc32713",
-                      "elType": "widget",
-                      "widgetType": "heading",
-                      "settings": {
-                        "title": "Peter Neller",
-                        "header_size": "h3",
-                        "title_color": "#142b43",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Arial",
-                        "typography_font_weight": "800",
-                        "typography_font_size": {
-                          "unit": "px",
-                          "size": 22
-                        },
-                        "typography_font_size_tablet": {
-                          "unit": "px",
-                          "size": 22
-                        },
-                        "typography_font_size_mobile": {
-                          "unit": "px",
-                          "size": 22
-                        },
-                        "typography_line_height": {
-                          "unit": "em",
-                          "size": 1.08
-                        },
-                        "typography_letter_spacing": {
-                          "unit": "px",
-                          "size": -0.3
-                        },
-                        "__globals__": {
-                          "typography_typography": "",
-                          "title_color": ""
-                        },
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "0",
-                          "left": "0",
-                          "isLinked": true
-                        }
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "0a367830",
-                      "elType": "widget",
-                      "widgetType": "button",
-                      "settings": {
-                        "text": "Profil kennenlernen →",
-                        "link": {
-                          "url": "@@link:peter-neller@@",
-                          "is_external": false
-                        },
-                        "background_color": "#f1ede5",
-                        "button_text_color": "#112b4b",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Arial",
-                        "typography_font_weight": "700",
-                        "typography_font_size": {
-                          "unit": "px",
-                          "size": 14
-                        },
-                        "text_padding": {
-                          "unit": "px",
-                          "top": "18",
-                          "right": "25",
-                          "bottom": "18",
-                          "left": "25",
-                          "isLinked": false
-                        },
-                        "border_radius": {
-                          "unit": "px",
-                          "top": "50",
-                          "right": "50",
-                          "bottom": "50",
-                          "left": "50",
-                          "isLinked": true
-                        },
-                        "align": "left",
-                        "_element_width": "auto",
-                        "__globals__": {
-                          "typography_typography": "",
-                          "background_color": "",
-                          "button_text_color": ""
-                        },
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "0",
-                          "left": "0",
-                          "isLinked": true
-                        }
-                      },
-                      "elements": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "d6d0c3c2",
-              "elType": "container",
-              "isInner": false,
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "width": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 24,
-                  "column": "24",
-                  "row": "24",
-                  "isLinked": true
-                },
-                "flex_align_items": "stretch",
-                "css_classes": "tb-person-card",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "18",
-                  "right": "18",
-                  "bottom": "18",
-                  "left": "18",
-                  "isLinked": true
-                }
-              },
-              "elements": [
-                {
-                  "id": "9e24dcd8",
-                  "elType": "widget",
-                  "widgetType": "image",
-                  "settings": {
-                    "image": {
-                      "team_asset": "19b0c9c29414732106b9"
-                    },
-                    "image_size": "full",
-                    "width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "align": "center",
-                    "link_to": "custom",
-                    "link": {
-                      "url": "@@link:anna-niedermaier@@"
-                    },
-                    "__globals__": {},
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "_css_classes": "tb-person-image"
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "5207773e",
-                  "elType": "container",
-                  "isInner": false,
-                  "settings": {
-                    "content_width": "full",
-                    "flex_direction": "column",
-                    "flex_direction_mobile": "column",
-                    "width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "width_mobile": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "padding": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "padding_mobile": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "flex_gap": {
-                      "unit": "px",
-                      "size": 24,
-                      "column": "24",
-                      "row": "24",
-                      "isLinked": true
-                    },
-                    "flex_align_items": "stretch",
-                    "css_classes": "tb-person-caption"
-                  },
-                  "elements": [
-                    {
-                      "id": "cbf8fe35",
-                      "elType": "widget",
-                      "widgetType": "heading",
-                      "settings": {
-                        "title": "Anna Niedermaier",
-                        "header_size": "h3",
-                        "title_color": "#142b43",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Arial",
-                        "typography_font_weight": "800",
-                        "typography_font_size": {
-                          "unit": "px",
-                          "size": 22
-                        },
-                        "typography_font_size_tablet": {
-                          "unit": "px",
-                          "size": 22
-                        },
-                        "typography_font_size_mobile": {
-                          "unit": "px",
-                          "size": 22
-                        },
-                        "typography_line_height": {
-                          "unit": "em",
-                          "size": 1.08
-                        },
-                        "typography_letter_spacing": {
-                          "unit": "px",
-                          "size": -0.3
-                        },
-                        "__globals__": {
-                          "typography_typography": "",
-                          "title_color": ""
-                        },
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "0",
-                          "left": "0",
-                          "isLinked": true
-                        }
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "0e75a4f3",
-                      "elType": "widget",
-                      "widgetType": "button",
-                      "settings": {
-                        "text": "Profil kennenlernen →",
-                        "link": {
-                          "url": "@@link:anna-niedermaier@@",
-                          "is_external": false
-                        },
-                        "background_color": "#f1ede5",
-                        "button_text_color": "#112b4b",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Arial",
-                        "typography_font_weight": "700",
-                        "typography_font_size": {
-                          "unit": "px",
-                          "size": 14
-                        },
-                        "text_padding": {
-                          "unit": "px",
-                          "top": "18",
-                          "right": "25",
-                          "bottom": "18",
-                          "left": "25",
-                          "isLinked": false
-                        },
-                        "border_radius": {
-                          "unit": "px",
-                          "top": "50",
-                          "right": "50",
-                          "bottom": "50",
-                          "left": "50",
-                          "isLinked": true
-                        },
-                        "align": "left",
-                        "_element_width": "auto",
-                        "__globals__": {
-                          "typography_typography": "",
-                          "background_color": "",
-                          "button_text_color": ""
-                        },
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "0",
-                          "left": "0",
-                          "isLinked": true
-                        }
-                      },
-                      "elements": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "33b520d1",
-              "elType": "container",
-              "isInner": false,
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "width": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 24,
-                  "column": "24",
-                  "row": "24",
-                  "isLinked": true
-                },
-                "flex_align_items": "stretch",
-                "css_classes": "tb-person-card",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "18",
-                  "right": "18",
-                  "bottom": "18",
-                  "left": "18",
-                  "isLinked": true
-                }
-              },
-              "elements": [
-                {
-                  "id": "cae19b5e",
+                  "id": "3c63d0cc",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -2787,7 +1965,7 @@
                   "elements": []
                 },
                 {
-                  "id": "3f2f07e9",
+                  "id": "19435041",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -2830,7 +2008,7 @@
                   },
                   "elements": [
                     {
-                      "id": "54ef297f",
+                      "id": "49294a2f",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -2876,7 +2054,7 @@
                       "elements": []
                     },
                     {
-                      "id": "8aade4a5",
+                      "id": "b96c141f",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -2933,7 +2111,7 @@
               ]
             },
             {
-              "id": "1be304a9",
+              "id": "05cc8b31",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2984,235 +2162,7 @@
               },
               "elements": [
                 {
-                  "id": "8fc7db12",
-                  "elType": "widget",
-                  "widgetType": "image",
-                  "settings": {
-                    "image": {
-                      "team_asset": "3857c366517707202776"
-                    },
-                    "image_size": "full",
-                    "width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "align": "center",
-                    "link_to": "custom",
-                    "link": {
-                      "url": "@@link:anne-rudel@@"
-                    },
-                    "__globals__": {},
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "_css_classes": "tb-person-image"
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "2464997c",
-                  "elType": "container",
-                  "isInner": false,
-                  "settings": {
-                    "content_width": "full",
-                    "flex_direction": "column",
-                    "flex_direction_mobile": "column",
-                    "width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "width_mobile": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "padding": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "padding_mobile": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "flex_gap": {
-                      "unit": "px",
-                      "size": 24,
-                      "column": "24",
-                      "row": "24",
-                      "isLinked": true
-                    },
-                    "flex_align_items": "stretch",
-                    "css_classes": "tb-person-caption"
-                  },
-                  "elements": [
-                    {
-                      "id": "e4e80e81",
-                      "elType": "widget",
-                      "widgetType": "heading",
-                      "settings": {
-                        "title": "Anne Rudel",
-                        "header_size": "h3",
-                        "title_color": "#142b43",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Arial",
-                        "typography_font_weight": "800",
-                        "typography_font_size": {
-                          "unit": "px",
-                          "size": 22
-                        },
-                        "typography_font_size_tablet": {
-                          "unit": "px",
-                          "size": 22
-                        },
-                        "typography_font_size_mobile": {
-                          "unit": "px",
-                          "size": 22
-                        },
-                        "typography_line_height": {
-                          "unit": "em",
-                          "size": 1.08
-                        },
-                        "typography_letter_spacing": {
-                          "unit": "px",
-                          "size": -0.3
-                        },
-                        "__globals__": {
-                          "typography_typography": "",
-                          "title_color": ""
-                        },
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "0",
-                          "left": "0",
-                          "isLinked": true
-                        }
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "8a83a63a",
-                      "elType": "widget",
-                      "widgetType": "button",
-                      "settings": {
-                        "text": "Profil kennenlernen →",
-                        "link": {
-                          "url": "@@link:anne-rudel@@",
-                          "is_external": false
-                        },
-                        "background_color": "#f1ede5",
-                        "button_text_color": "#112b4b",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Arial",
-                        "typography_font_weight": "700",
-                        "typography_font_size": {
-                          "unit": "px",
-                          "size": 14
-                        },
-                        "text_padding": {
-                          "unit": "px",
-                          "top": "18",
-                          "right": "25",
-                          "bottom": "18",
-                          "left": "25",
-                          "isLinked": false
-                        },
-                        "border_radius": {
-                          "unit": "px",
-                          "top": "50",
-                          "right": "50",
-                          "bottom": "50",
-                          "left": "50",
-                          "isLinked": true
-                        },
-                        "align": "left",
-                        "_element_width": "auto",
-                        "__globals__": {
-                          "typography_typography": "",
-                          "background_color": "",
-                          "button_text_color": ""
-                        },
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "0",
-                          "left": "0",
-                          "isLinked": true
-                        }
-                      },
-                      "elements": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "d0759d4a",
-              "elType": "container",
-              "isInner": false,
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "width": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 24,
-                  "column": "24",
-                  "row": "24",
-                  "isLinked": true
-                },
-                "flex_align_items": "stretch",
-                "css_classes": "tb-person-card",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "18",
-                  "right": "18",
-                  "bottom": "18",
-                  "left": "18",
-                  "isLinked": true
-                }
-              },
-              "elements": [
-                {
-                  "id": "dd8a30b7",
+                  "id": "0cb14992",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -3243,7 +2193,7 @@
                   "elements": []
                 },
                 {
-                  "id": "4ba3984c",
+                  "id": "5388f08b",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -3286,7 +2236,7 @@
                   },
                   "elements": [
                     {
-                      "id": "e0e59120",
+                      "id": "46816757",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -3332,7 +2282,7 @@
                       "elements": []
                     },
                     {
-                      "id": "ff724b51",
+                      "id": "c21009c0",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -3389,7 +2339,7 @@
               ]
             },
             {
-              "id": "ad469884",
+              "id": "5effc0ba",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -3440,7 +2390,7 @@
               },
               "elements": [
                 {
-                  "id": "ac91e673",
+                  "id": "87dc0de3",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -3471,7 +2421,7 @@
                   "elements": []
                 },
                 {
-                  "id": "962fb368",
+                  "id": "7a699a93",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -3514,7 +2464,7 @@
                   },
                   "elements": [
                     {
-                      "id": "caf8273a",
+                      "id": "8674016c",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -3560,7 +2510,7 @@
                       "elements": []
                     },
                     {
-                      "id": "262847ff",
+                      "id": "3508a23e",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -3621,7 +2571,7 @@
       ]
     },
     {
-      "id": "08d2cc00",
+      "id": "157eb952",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -3678,7 +2628,7 @@
       },
       "elements": [
         {
-          "id": "fefa4767",
+          "id": "4f84927d",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -3722,7 +2672,7 @@
           },
           "elements": [
             {
-              "id": "bbbcaa17",
+              "id": "d6c9f3cf",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -3768,7 +2718,7 @@
               "elements": []
             },
             {
-              "id": "02aef9ea",
+              "id": "c811d5fb",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -3825,7 +2775,7 @@
       ]
     },
     {
-      "id": "e457acf4",
+      "id": "98261c9c",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -3880,7 +2830,7 @@
       },
       "elements": [
         {
-          "id": "bf028ee9",
+          "id": "7698a944",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {

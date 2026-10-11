@@ -1,6 +1,6 @@
 <?php
 if (!defined('ABSPATH')) { exit; }
-define('TEAM_BAMBERG_THEME_VERSION', '1.2.0');
+define('TEAM_BAMBERG_THEME_VERSION', '1.3.0');
 add_filter('elementor/frontend/print_google_fonts', '__return_false');
 add_action('after_setup_theme', function () {
     add_theme_support('title-tag');
@@ -51,11 +51,15 @@ add_action('elementor/document/after_save', function ($document) {
     if ((int) $document->get_main_id() !== (int) ($state['pages']['termine'] ?? 0)) { return; }
     foreach (array_merge($state['pages'] ?? array(), $state['parts'] ?? array()) as $id) { delete_post_meta((int) $id, '_elementor_element_cache'); }
 });
+require_once get_theme_file_path('/includes/news.php');
 require_once get_theme_file_path('/includes/setup.php');
 add_action('elementor/widgets/register', function ($manager) {
     require_once get_theme_file_path('/includes/widgets.php');
+    require_once get_theme_file_path('/includes/media-widgets.php');
     $manager->register(new TeamBamberg_Navigation_Widget());
     $manager->register(new TeamBamberg_Events_Widget());
     $manager->register(new TeamBamberg_Inquiry_Widget());
     $manager->register(new TeamBamberg_Archive_Filter_Widget());
+    $manager->register(new TeamBamberg_News_Widget());
+    $manager->register(new TeamBamberg_Hero_Media_Widget());
 });

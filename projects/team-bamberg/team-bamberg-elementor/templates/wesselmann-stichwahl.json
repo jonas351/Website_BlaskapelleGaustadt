@@ -5,7 +5,7 @@
   "page_settings": {},
   "content": [
     {
-      "id": "ed9a8632",
+      "id": "06ba7e07",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -62,7 +62,7 @@
       },
       "elements": [
         {
-          "id": "811d60a2",
+          "id": "ba5dd790",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -105,7 +105,7 @@
           },
           "elements": [
             {
-              "id": "54c5e505",
+              "id": "4d68c12c",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -149,7 +149,7 @@
               },
               "elements": [
                 {
-                  "id": "4a1dbab1",
+                  "id": "d9a79d51",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -181,7 +181,7 @@
                   "elements": []
                 },
                 {
-                  "id": "c0e6d82d",
+                  "id": "df310609",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -228,7 +228,7 @@
                   "elements": []
                 },
                 {
-                  "id": "0c226d80",
+                  "id": "231ec486",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -274,7 +274,7 @@
                   "elements": []
                 },
                 {
-                  "id": "4b55087a",
+                  "id": "0bb7cde0",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -308,7 +308,7 @@
               ]
             },
             {
-              "id": "14fe197e",
+              "id": "b72268ae",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -351,7 +351,7 @@
               },
               "elements": [
                 {
-                  "id": "03c215e6",
+                  "id": "28307f06",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -384,7 +384,7 @@
       ]
     },
     {
-      "id": "c55e1cb4",
+      "id": "ce22b95c",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -439,7 +439,7 @@
       },
       "elements": [
         {
-          "id": "fc7455ee",
+          "id": "f86afb40",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -474,7 +474,7 @@
       ]
     },
     {
-      "id": "ff76b91f",
+      "id": "61f1cc08",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -529,7 +529,7 @@
       },
       "elements": [
         {
-          "id": "68d4d801",
+          "id": "9a9de134",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -563,7 +563,7 @@
       ]
     },
     {
-      "id": "bb6424b6",
+      "id": "9c44c421",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -620,7 +620,7 @@
       },
       "elements": [
         {
-          "id": "62c5c922",
+          "id": "66cbc817",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -664,7 +664,7 @@
           },
           "elements": [
             {
-              "id": "4742f908",
+              "id": "8ee00e84",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -710,7 +710,7 @@
               "elements": []
             },
             {
-              "id": "4514a5a1",
+              "id": "fb654684",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -767,7 +767,7 @@
       ]
     },
     {
-      "id": "e8d2dbf0",
+      "id": "02118c94",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -822,7 +822,7 @@
       },
       "elements": [
         {
-          "id": "87b0e1fb",
+          "id": "464fdd74",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {

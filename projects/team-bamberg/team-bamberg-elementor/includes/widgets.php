@@ -12,6 +12,7 @@ class TeamBamberg_Navigation_Widget extends \Elementor\Widget_Base {
         $repeater = new \Elementor\Repeater();
         $repeater->add_control('label', array('label' => 'Beschriftung', 'type' => \Elementor\Controls_Manager::TEXT, 'default' => 'Seite'));
         $repeater->add_control('link', array('label' => 'Link', 'type' => \Elementor\Controls_Manager::URL));
+        $repeater->add_control('parent', array('label' => 'Untermenü von', 'type' => \Elementor\Controls_Manager::TEXT, 'description' => 'Leer lassen für einen Hauptpunkt. Für eine Unterseite exakt die Beschriftung ihres Hauptpunkts eintragen.'));
         $this->add_control('items', array('type' => \Elementor\Controls_Manager::REPEATER, 'fields' => $repeater->get_controls(), 'title_field' => '{{{ label }}}', 'default' => array()));
         $this->add_control('mobile_label', array('label' => 'Mobile Beschriftung', 'type' => \Elementor\Controls_Manager::TEXT, 'default' => 'Menü'));
         $this->add_control('show_search', array('label' => 'Website-Suche anzeigen', 'type' => \Elementor\Controls_Manager::SWITCHER, 'default' => 'yes'));
@@ -24,17 +25,33 @@ class TeamBamberg_Navigation_Widget extends \Elementor\Widget_Base {
         $s = $this->get_settings_for_display();
         $id = 'tb-menu-' . $this->get_id();
         echo '<nav class="tb-nav" data-tb-nav aria-label="Hauptnavigation"><button class="tb-nav-toggle" aria-expanded="false" aria-controls="' . esc_attr($id) . '">' . esc_html($s['mobile_label']) . ' <span aria-hidden="true">☰</span></button><div id="' . esc_attr($id) . '" class="tb-nav-links">';
-        $current = get_permalink(get_queried_object_id());
-        foreach ((array) $s['items'] as $item) {
-            $url = $item['link']['url'] ?? '';
-            $active = $current && url_to_postid($url) === get_queried_object_id();
-            $external = !empty($item['link']['is_external']);
-            echo '<a href="' . esc_url($url) . '"' . ($active ? ' aria-current="page"' : '') . ($external ? ' target="_blank" rel="noopener noreferrer"' : '') . '>' . esc_html($item['label'] ?? '') . ($external ? '<span class="tb-sr"> (öffnet in einem neuen Tab)</span>' : '') . '</a>';
+        $items = (array) ($s['items'] ?? array());
+        $parents = array_column(array_filter($items, function ($item) { return empty($item['parent']); }), 'label');
+        foreach ($items as $item) {
+            if (!empty($item['parent']) && in_array($item['parent'], $parents, true)) { continue; }
+            $children = array_filter($items, function ($child) use ($item) { return !empty($child['parent']) && $child['parent'] === ($item['label'] ?? ''); });
+            if (!$children) { $this->item_link($item); continue; }
+            $active = false;
+            foreach (array_merge(array($item), $children) as $child) {
+                if (get_queried_object_id() && url_to_postid($child['link']['url'] ?? '') === get_queried_object_id()) { $active = true; }
+            }
+            echo '<details class="tb-nav-group' . ($active ? ' is-current' : '') . '"><summary>' . esc_html($item['label'] ?? '') . '<span class="tb-nav-chevron" aria-hidden="true">+</span></summary><div class="tb-submenu"><p class="tb-submenu-label">' . esc_html($item['label'] ?? '') . '</p>';
+            $overview = $item; $overview['label'] = 'Überblick: ' . ($item['label'] ?? '');
+            $this->item_link($overview);
+            foreach ($children as $child) { $this->item_link($child); }
+            echo '</div></details>';
         }
         if (($s['show_search'] ?? '') === 'yes') {
             echo '<details class="tb-search"><summary aria-label="Website durchsuchen">⌕</summary><form role="search" method="get" action="' . esc_url(home_url('/')) . '"><label class="tb-sr" for="' . esc_attr($id) . '-search">Suchbegriff</label><input type="search" id="' . esc_attr($id) . '-search" name="s" placeholder="Website durchsuchen …" required><button type="submit">Suchen</button></form></details>';
         }
         echo '</div></nav>';
+    }
+    private function item_link($item) {
+        $url = $item['link']['url'] ?? '';
+        if (!$url) { return; }
+        $active = get_queried_object_id() && url_to_postid($url) === get_queried_object_id();
+        $external = !empty($item['link']['is_external']);
+        echo '<a href="' . esc_url($url) . '"' . ($active ? ' aria-current="page"' : '') . ($external ? ' target="_blank" rel="noopener noreferrer"' : '') . '>' . esc_html($item['label'] ?? '') . ($external ? '<span class="tb-sr"> (öffnet in einem neuen Tab)</span>' : '') . '</a>';
     }
 }
 
@@ -54,8 +71,10 @@ class TeamBamberg_Events_Widget extends \Elementor\Widget_Base {
         $repeater->add_control('place', array('label' => 'Ort', 'type' => \Elementor\Controls_Manager::TEXT));
         $repeater->add_control('description', array('label' => 'Weitere Informationen', 'type' => \Elementor\Controls_Manager::TEXTAREA));
         $repeater->add_control('link', array('label' => 'Veranstaltung oder Tickets (optional)', 'type' => \Elementor\Controls_Manager::URL));
+        $repeater->add_control('area', array('label' => 'Ortsverband', 'type' => \Elementor\Controls_Manager::SELECT, 'default' => 'all', 'options' => array('all' => 'Bamberg-Stadt / übergreifend') + team_bamberg_areas()));
         $this->add_control('events', array('type' => \Elementor\Controls_Manager::REPEATER, 'fields' => $repeater->get_controls(), 'title_field' => '{{{ title }}}', 'default' => array(), 'condition' => array('source' => 'this')));
         $this->add_control('single', array('label' => 'Nur nächsten Termin anzeigen', 'type' => \Elementor\Controls_Manager::SWITCHER, 'default' => ''));
+        $this->add_control('area', array('label' => 'Nur diesen Ortsverband anzeigen', 'type' => \Elementor\Controls_Manager::SELECT, 'default' => 'all', 'options' => array('all' => 'Alle') + team_bamberg_areas(), 'condition' => array('source' => 'shared')));
         $this->add_control('show_past', array('label' => 'Vergangene Veranstaltungen anzeigen', 'type' => \Elementor\Controls_Manager::SWITCHER, 'default' => 'yes', 'condition' => array('single!' => 'yes')));
         $this->add_control('empty_title', array('label' => 'Überschrift ohne Termine', 'type' => \Elementor\Controls_Manager::TEXT, 'default' => 'Neue Termine folgen.'));
         $this->add_control('empty_text', array('label' => 'Text ohne Termine', 'type' => \Elementor\Controls_Manager::TEXTAREA, 'default' => 'Bestätigte kommende Veranstaltungen werden hier veröffentlicht.'));
@@ -78,6 +97,7 @@ class TeamBamberg_Events_Widget extends \Elementor\Widget_Base {
         $source = ($s['source'] ?? 'this') === 'shared' ? team_bamberg_page_widget_settings('termine', 'team-bamberg-events') : $s;
         $upcoming = array(); $past = array(); $today = current_time('Y-m-d');
         foreach ((array) ($source['events'] ?? array()) as $event) {
+            if (($s['source'] ?? '') === 'shared' && ($s['area'] ?? 'all') !== 'all' && ($event['area'] ?? 'all') !== $s['area']) { continue; }
             $raw = substr($event['date'] ?? '', 0, 10);
             $date = \DateTimeImmutable::createFromFormat('!Y-m-d', $raw, wp_timezone());
             if (!$date || $date->format('Y-m-d') !== $raw || empty($event['title'])) { continue; }
@@ -131,6 +151,7 @@ class TeamBamberg_Inquiry_Widget extends \Elementor\Widget_Base {
             <form><fieldset disabled>
                 <div class="tb-form-row"><label for="<?php echo esc_attr($id); ?>-name">Ihr Name *<input id="<?php echo esc_attr($id); ?>-name" name="name" autocomplete="name" required maxlength="120" placeholder="Vor- und Nachname"></label><label for="<?php echo esc_attr($id); ?>-email">Ihre E-Mail *<input id="<?php echo esc_attr($id); ?>-email" name="email" type="email" autocomplete="email" required maxlength="254" placeholder="name@beispiel.de"></label></div>
                 <label for="<?php echo esc_attr($id); ?>-subject">Worum geht’s? *<select id="<?php echo esc_attr($id); ?>-subject" name="subject" required><option value="Allgemeine Anfrage">Eine allgemeine Frage</option><option value="Stadtpolitik">Eine Frage zur Stadtpolitik</option><option value="Mitmachen">Mitglied werden</option><option value="Unterstützung">Die CSU Bamberg unterstützen</option></select></label>
+                <label for="<?php echo esc_attr($id); ?>-area">Ihr Ortsverband<select id="<?php echo esc_attr($id); ?>-area" name="area"><option value="">Bamberg-Stadt / allgemeines Anliegen</option><?php foreach (team_bamberg_areas() as $slug => $label) { ?><option value="<?php echo esc_attr($slug); ?>"><?php echo esc_html($label); ?></option><?php } ?></select></label>
                 <label for="<?php echo esc_attr($id); ?>-message">Ihre Nachricht *<textarea id="<?php echo esc_attr($id); ?>-message" name="message" rows="6" required minlength="10" maxlength="5000" placeholder="Was beschäftigt Sie? Erzählen Sie uns von Ihrer Frage oder Idee …"></textarea></label>
                 <p class="tb-inquiry-note">Ihre Angaben werden hier nur vorbereitet. Es wird nichts automatisch gesendet. <?php if ($privacy) { ?><a href="<?php echo esc_url($privacy); ?>">Datenschutz</a><?php } ?></p>
                 <div class="tb-form-foot"><button class="tb-button" type="submit"><?php echo esc_html($s['button_text']); ?></button><p class="tb-inquiry-note">* Pflichtfelder</p></div>

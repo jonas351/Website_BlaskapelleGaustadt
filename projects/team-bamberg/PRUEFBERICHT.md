@@ -1,4 +1,23 @@
-# Prüfung der Version 1.2
+# Prüfung der Version 1.3
+
+Geprüft am 11. Oktober 2026 in derselben isolierten WordPress-Installation. Der öffentliche CSU-Auftritt und die Local-Installation des Nutzers wurden nicht verändert.
+
+- Alle 47 Seiten bei 1440, 768, 390 und 320 Pixeln: HTTP 200, eine Hauptüberschrift, kein horizontaler Überlauf. Je Ortsverband drei Gesprächsfelder, sechs funktionierende Sprungziele, Ansprechpartner und vollständig aufklappbare Originalgeschichte.
+- Alle acht Ortsverbände über tatsächliche Untermenü-Klicks bei 1440, 390 und 320 Pixeln erreicht: 24 geprüfte Navigationswege. Tastatur/Escape, mobiles Menü und Navigation ohne JavaScript geprüft.
+- 129 unterschiedliche interne Ziele und 83 verwendete Bildadressen geprüft. Original-PDFs enthalten gültige PDF-Daten. Anonyme Desktop- und Handyvorschauen mit vollständig geladenen Bildern gespeichert.
+- Tatsächlicher ergänzender Backendimport legt Aktuelles und Themen an und erhält die 45 bisherigen Seiten sowie alle Medien. Tatsächliches Update richtet die vollständige Local-Vorschau ein. Individuell bearbeitete Navigation bleibt erhalten; unverändertes altes Standardmenü wird auf die Hierarchie umgestellt. Ungültige Update-Nonce wird abgewiesen.
+- Alle 49 Elementor-Dokumente und ihre Seiteneinstellungen über den tatsächlichen Wiederherstellungsknopf exakt zurückgeholt. Wiederholtes Update verändert die Sicherung nicht.
+- Gaustadt-Überschrift direkt in Elementor bearbeitet, veröffentlicht, im Frontend geprüft und wiederhergestellt. Bereichszuordnung des neuen Meldungswidgets ebenfalls über die tatsächliche Elementor-Oberfläche geändert, gespeichert und wiederhergestellt.
+- Meldungen mit ausschließlich lokalen Testbeiträgen geprüft: Zuordnung zum richtigen Ortsverband, echte Filterbedienung, Blättern auf die zweite Seite, eigene Beitragsansicht und Erhalt einfacher WordPress-Page-IDs. Entwürfe, zukünftige und nicht zugeordnete Beiträge ausgeschlossen.
+- Ortsverbandstermine erscheinen auf der richtigen Seite und der nächste kommende Termin auf der Startseite. Unpassende Ortsverbandstermine werden dort nicht angezeigt.
+- Kontaktseite übernimmt Gaustadt in die vorbereitete Nachricht, validiert Pflichtfelder und sendet nichts automatisch. Ohne JavaScript sind die vorbereitenden Formularfelder deaktiviert.
+- Optionales lokales Video mit einer temporären technischen Testdatei geprüft: bei reduzierter Bewegung kein automatischer Abruf/Start, manuelles Abspielen und Pausieren. Alle Testbeiträge, Testtermine und die Testvideodatei anschließend entfernt; kein Film wird ausgeliefert.
+- Fünf genannte Personen fehlen auf der Fraktionsübersicht; die obsolete Fraktionsvorsitz-Zeile wurde entfernt. Das bestätigt keine vollständige aktuelle Mitgliederliste. Inhaltlicher Quellenstand steht in [Inhalte und Quellen](INHALTE-UND-QUELLEN.md).
+- In der anonymen Layoutprüfung keine JavaScript-Fehler, Besucher-Cookies oder externen Ressourcenhosts festgestellt. PHP-/JavaScript-Syntax und tatsächliche Installation des Upload-ZIPs mit dem WordPress-Theme-Upgrader geprüft. Alle 151 Originalmedien bleiben unverändert.
+
+Die folgenden früheren Prüfergebnisse dokumentieren die Ausgangsversion. Für die ausgelieferte Version gelten die oben genannten Zahlen und die Quellenhinweise vom 11. Oktober 2026.
+
+## Frühere Prüfung der Version 1.2
 
 Geprüft am 10. Oktober 2026 in der isolierten WordPress-Testinstallation mit WordPress 7.1.3, Elementor Free 4.3.0 und PHP 8.3.35. Die bestehende Website team-bamberg.de und die private Local-Installation des Nutzers wurden nicht verändert.
 

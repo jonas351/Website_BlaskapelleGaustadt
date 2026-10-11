@@ -5,7 +5,7 @@
   "page_settings": {},
   "content": [
     {
-      "id": "83417d36",
+      "id": "e4ef4588",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -62,7 +62,7 @@
       },
       "elements": [
         {
-          "id": "35dcb12d",
+          "id": "2bf6c06b",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -105,7 +105,7 @@
           },
           "elements": [
             {
-              "id": "d6aa6810",
+              "id": "b0f9d956",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -148,7 +148,7 @@
               },
               "elements": [
                 {
-                  "id": "0511e790",
+                  "id": "83417d36",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -179,7 +179,7 @@
                   "elements": []
                 },
                 {
-                  "id": "9ca220f8",
+                  "id": "fcbeae7c",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -225,7 +225,7 @@
                   "elements": []
                 },
                 {
-                  "id": "d0d41b58",
+                  "id": "053d4a39",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -259,7 +259,7 @@
               ]
             },
             {
-              "id": "f99be0e2",
+              "id": "dd65a705",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -302,7 +302,7 @@
               },
               "elements": [
                 {
-                  "id": "ec92a189",
+                  "id": "ca83ac5c",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -349,7 +349,7 @@
                   "elements": []
                 },
                 {
-                  "id": "a7a512b0",
+                  "id": "83554b08",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -383,7 +383,7 @@
               ]
             },
             {
-              "id": "cd4f101e",
+              "id": "689e6842",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -426,7 +426,7 @@
               },
               "elements": [
                 {
-                  "id": "3b991615",
+                  "id": "b4a76edd",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -473,11 +473,11 @@
                   "elements": []
                 },
                 {
-                  "id": "02a0931f",
+                  "id": "86f43fbf",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p><a href=\"@@link:fraktion@@\">Stadtratsfraktion</a></p><p><a href=\"@@link:mandatstraeger@@\">Mandatsträger</a></p><p><a href=\"@@link:fraktionsantraege@@\">Anträge & Archiv</a></p><p><a href=\"@@link:aktuelles-2@@\">Archiv & Transparenz</a></p><p><a href=\"@@link:termine@@\">Termine</a></p>",
+                    "editor": "<p><a href=\"@@link:fraktion@@\">Stadtratsfraktion</a></p><p><a href=\"@@link:mandatstraeger@@\">Mandatsträger</a></p><p><a href=\"@@link:fraktionsantraege@@\">Anträge & Archiv</a></p><p><a href=\"@@link:aktuelles@@\">Aktuelles</a></p><p><a href=\"@@link:themen@@\">Themen</a></p><p><a href=\"@@link:aktuelles-2@@\">Transparenz</a></p><p><a href=\"@@link:termine@@\">Termine</a></p>",
                     "text_color": "#ffffff",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
@@ -507,7 +507,7 @@
               ]
             },
             {
-              "id": "eb50313b",
+              "id": "e3c80cee",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -550,7 +550,7 @@
               },
               "elements": [
                 {
-                  "id": "711bc4f7",
+                  "id": "ab16dc71",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -597,7 +597,7 @@
                   "elements": []
                 },
                 {
-                  "id": "5a2db62e",
+                  "id": "cce6544c",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -633,7 +633,7 @@
           ]
         },
         {
-          "id": "2c431f0b",
+          "id": "d9db021a",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -676,11 +676,11 @@
           },
           "elements": [
             {
-              "id": "f7c86dbd",
+              "id": "6ce296bc",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Gestaltungsentwurf · Inhalte aus team-bamberg.de · Übernahme: 10.10.2026</p>",
+                "editor": "<p>CSU Bamberg-Stadt · Gestaltungsentwurf · Stand 11.10.2026</p>",
                 "text_color": "#adc1d4",
                 "typography_typography": "custom",
                 "typography_font_family": "Arial",
@@ -708,7 +708,7 @@
               "elements": []
             },
             {
-              "id": "59141d05",
+              "id": "d0fb5991",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {

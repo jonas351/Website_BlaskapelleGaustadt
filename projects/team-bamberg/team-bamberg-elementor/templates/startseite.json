@@ -5,7 +5,7 @@
   "page_settings": {},
   "content": [
     {
-      "id": "cd0fa4f8",
+      "id": "deca3557",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -62,19 +62,14 @@
       },
       "elements": [
         {
-          "id": "92c36de1",
+          "id": "8837c703",
           "elType": "widget",
-          "widgetType": "image",
+          "widgetType": "team-bamberg-hero-media",
           "settings": {
-            "image": {
+            "poster": {
               "team_asset": "130a11ebeb93688723a3"
             },
-            "image_size": "full",
-            "width": {
-              "unit": "%",
-              "size": 100
-            },
-            "align": "center",
+            "autoplay": "",
             "__globals__": {},
             "_margin": {
               "unit": "px",
@@ -89,7 +84,7 @@
           "elements": []
         },
         {
-          "id": "7912e638",
+          "id": "5d39fcb9",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -132,7 +127,7 @@
           },
           "elements": [
             {
-              "id": "055d6597",
+              "id": "7b1a0867",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -179,11 +174,11 @@
               "elements": []
             },
             {
-              "id": "05bd2f03",
+              "id": "d3a06757",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "Für Bamberg.<br>Mit Menschen.",
+                "title": "Bamberg.<br>Unsere Stadt.<br>Unser Miteinander.",
                 "header_size": "h1",
                 "title_color": "#ffffff",
                 "typography_typography": "custom",
@@ -191,7 +186,7 @@
                 "typography_font_weight": "800",
                 "typography_font_size": {
                   "unit": "px",
-                  "size": 82
+                  "size": 77
                 },
                 "typography_font_size_tablet": {
                   "unit": "px",
@@ -225,11 +220,11 @@
               "elements": []
             },
             {
-              "id": "3ad5dd54",
+              "id": "5514c18e",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>Zwischen Regnitz und Michaelsberg, in unseren Stadtteilen und mitten im Alltag: Lernen Sie die CSU Bamberg und die Menschen dahinter kennen.</p>",
+                "editor": "<p>CSU Bamberg-Stadt. Acht Ortsverbände, persönliche Begegnungen und ein gemeinsamer Blick auf unsere Stadt.</p>",
                 "text_color": "#e6e9e6",
                 "typography_typography": "custom",
                 "typography_font_family": "Arial",
@@ -257,7 +252,7 @@
               "elements": []
             },
             {
-              "id": "491fed6e",
+              "id": "8fe37c77",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -300,11 +295,11 @@
               },
               "elements": [
                 {
-                  "id": "0962157b",
+                  "id": "24757faf",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
-                    "text": "Die Menschen kennenlernen →",
+                    "text": "Die CSU Bamberg kennenlernen →",
                     "link": {
                       "url": "@@link:kreisvorstand-2@@",
                       "is_external": false
@@ -353,7 +348,7 @@
                   "elements": []
                 },
                 {
-                  "id": "2ee436e5",
+                  "id": "c8b86a16",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -408,7 +403,7 @@
               ]
             },
             {
-              "id": "2172bf4e",
+              "id": "256cc644",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
@@ -443,7 +438,7 @@
           ]
         },
         {
-          "id": "1961f2a2",
+          "id": "19960b4a",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -478,7 +473,369 @@
       ]
     },
     {
-      "id": "5514c18e",
+      "id": "93818615",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "58",
+          "right": "40",
+          "bottom": "58",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "tb-home-news",
+        "background_background": "classic",
+        "background_color": "#f1ede5",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "f4b8e05a",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 30,
+              "column": "30",
+              "row": "30",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch",
+            "css_classes": ""
+          },
+          "elements": [
+            {
+              "id": "3fae0ccd",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 70
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": ""
+              },
+              "elements": [
+                {
+                  "id": "54a7f483",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "NAH DRAN. GUT ORIENTIERT.",
+                    "header_size": "p",
+                    "title_color": "#006da9",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -0.3
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_css_classes": "tb-eyebrow"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b415641e",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Was gibt es Neues?",
+                    "header_size": "h2",
+                    "title_color": "#142b43",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 43
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 43
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 30
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -1.6
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "1c0ca12c",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 30
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": "",
+                "flex_justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "a3c020b3",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Alle Meldungen →",
+                    "link": {
+                      "url": "@@link:aktuelles@@",
+                      "is_external": false
+                    },
+                    "background_color": "#f1ede5",
+                    "button_text_color": "#112b4b",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "25",
+                      "bottom": "18",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "align": "left",
+                    "_element_width": "auto",
+                    "__globals__": {
+                      "typography_typography": "",
+                      "background_color": "",
+                      "button_text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a1b7b41f",
+          "elType": "widget",
+          "widgetType": "team-bamberg-news",
+          "settings": {
+            "area": "all",
+            "limit": 3,
+            "empty_title": "Bamberg bleibt im Gespräch.",
+            "empty_text": "Neue Meldungen aus dem Kreisverband und den Ortsverbänden erscheinen hier nach Veröffentlichung. Stadtteilinformationen und das Antragsarchiv finden Sie bereits im Menü.",
+            "__globals__": {},
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "c90dc082",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -535,7 +892,7 @@
       },
       "elements": [
         {
-          "id": "d3a06757",
+          "id": "625cfd17",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -578,7 +935,7 @@
           },
           "elements": [
             {
-              "id": "f10c6f30",
+              "id": "9cd9867c",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -622,7 +979,7 @@
               },
               "elements": [
                 {
-                  "id": "1b19fb95",
+                  "id": "a4efa0b2",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -669,7 +1026,7 @@
                   "elements": []
                 },
                 {
-                  "id": "0c721938",
+                  "id": "fa8c7192",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -715,7 +1072,7 @@
                   "elements": []
                 },
                 {
-                  "id": "a89b11c6",
+                  "id": "1792b404",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -747,7 +1104,7 @@
                   "elements": []
                 },
                 {
-                  "id": "8aa9d81c",
+                  "id": "a3c0e79f",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -802,7 +1159,7 @@
               ]
             },
             {
-              "id": "7b1a0867",
+              "id": "2e09c6ce",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -845,7 +1202,7 @@
               },
               "elements": [
                 {
-                  "id": "cec4d932",
+                  "id": "ce8a2c4e",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -872,7 +1229,7 @@
                   "elements": []
                 },
                 {
-                  "id": "8837c703",
+                  "id": "646b79d6",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -910,7 +1267,7 @@
       ]
     },
     {
-      "id": "1792b404",
+      "id": "365228d9",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -967,7 +1324,7 @@
       },
       "elements": [
         {
-          "id": "deca3557",
+          "id": "52557910",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -1010,7 +1367,7 @@
           },
           "elements": [
             {
-              "id": "256cc644",
+              "id": "2faa49e1",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1053,7 +1410,7 @@
               },
               "elements": [
                 {
-                  "id": "24757faf",
+                  "id": "0a091130",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1100,7 +1457,7 @@
                   "elements": []
                 },
                 {
-                  "id": "c8b86a16",
+                  "id": "a559324d",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1146,11 +1503,11 @@
                   "elements": []
                 },
                 {
-                  "id": "8fe37c77",
+                  "id": "f7a7d92d",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p>Wer steckt hinter den Namen? Entdecken Sie die Porträts und persönlichen Vorstellungen aus dem Team-Bamberg-Auftritt.</p>",
+                    "editor": "<p>Persönliche Vorstellungen aus Bamberg: Entdecken Sie Menschen und ihren Blick auf die Stadt.</p>",
                     "text_color": "#566779",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
@@ -1180,7 +1537,7 @@
               ]
             },
             {
-              "id": "19960b4a",
+              "id": "fe822200",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1224,13 +1581,13 @@
               },
               "elements": [
                 {
-                  "id": "5d39fcb9",
+                  "id": "60764285",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
-                    "text": "Zum ganzen Team →",
+                    "text": "Zum Kreisverband →",
                     "link": {
-                      "url": "@@link:fraktion@@",
+                      "url": "@@link:kreisvorstand-2@@",
                       "is_external": false
                     },
                     "background_color": "#112b4b",
@@ -1281,7 +1638,7 @@
           ]
         },
         {
-          "id": "a4efa0b2",
+          "id": "0acfa733",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -1324,7 +1681,7 @@
           },
           "elements": [
             {
-              "id": "23baa67d",
+              "id": "055d6597",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1375,235 +1732,7 @@
               },
               "elements": [
                 {
-                  "id": "26aa3831",
-                  "elType": "widget",
-                  "widgetType": "image",
-                  "settings": {
-                    "image": {
-                      "team_asset": "19b0c9c29414732106b9"
-                    },
-                    "image_size": "full",
-                    "width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "align": "center",
-                    "link_to": "custom",
-                    "link": {
-                      "url": "@@link:anna-niedermaier@@"
-                    },
-                    "__globals__": {},
-                    "_margin": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "_css_classes": "tb-person-image"
-                  },
-                  "elements": []
-                },
-                {
-                  "id": "98befff7",
-                  "elType": "container",
-                  "isInner": false,
-                  "settings": {
-                    "content_width": "full",
-                    "flex_direction": "column",
-                    "flex_direction_mobile": "column",
-                    "width": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "width_mobile": {
-                      "unit": "%",
-                      "size": 100
-                    },
-                    "padding": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "padding_mobile": {
-                      "unit": "px",
-                      "top": "0",
-                      "right": "0",
-                      "bottom": "0",
-                      "left": "0",
-                      "isLinked": true
-                    },
-                    "flex_gap": {
-                      "unit": "px",
-                      "size": 14,
-                      "column": "14",
-                      "row": "14",
-                      "isLinked": true
-                    },
-                    "flex_align_items": "stretch",
-                    "css_classes": "tb-person-caption"
-                  },
-                  "elements": [
-                    {
-                      "id": "e4d36c7e",
-                      "elType": "widget",
-                      "widgetType": "heading",
-                      "settings": {
-                        "title": "Anna Niedermaier",
-                        "header_size": "h3",
-                        "title_color": "#142b43",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Arial",
-                        "typography_font_weight": "800",
-                        "typography_font_size": {
-                          "unit": "px",
-                          "size": 23
-                        },
-                        "typography_font_size_tablet": {
-                          "unit": "px",
-                          "size": 23
-                        },
-                        "typography_font_size_mobile": {
-                          "unit": "px",
-                          "size": 23
-                        },
-                        "typography_line_height": {
-                          "unit": "em",
-                          "size": 1.08
-                        },
-                        "typography_letter_spacing": {
-                          "unit": "px",
-                          "size": -0.3
-                        },
-                        "__globals__": {
-                          "typography_typography": "",
-                          "title_color": ""
-                        },
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "0",
-                          "left": "0",
-                          "isLinked": true
-                        }
-                      },
-                      "elements": []
-                    },
-                    {
-                      "id": "e5c320fd",
-                      "elType": "widget",
-                      "widgetType": "button",
-                      "settings": {
-                        "text": "Persönlich kennenlernen →",
-                        "link": {
-                          "url": "@@link:anna-niedermaier@@",
-                          "is_external": false
-                        },
-                        "background_color": "#f1ede5",
-                        "button_text_color": "#112b4b",
-                        "typography_typography": "custom",
-                        "typography_font_family": "Arial",
-                        "typography_font_weight": "700",
-                        "typography_font_size": {
-                          "unit": "px",
-                          "size": 14
-                        },
-                        "text_padding": {
-                          "unit": "px",
-                          "top": "18",
-                          "right": "25",
-                          "bottom": "18",
-                          "left": "25",
-                          "isLinked": false
-                        },
-                        "border_radius": {
-                          "unit": "px",
-                          "top": "50",
-                          "right": "50",
-                          "bottom": "50",
-                          "left": "50",
-                          "isLinked": true
-                        },
-                        "align": "left",
-                        "_element_width": "auto",
-                        "__globals__": {
-                          "typography_typography": "",
-                          "background_color": "",
-                          "button_text_color": ""
-                        },
-                        "_margin": {
-                          "unit": "px",
-                          "top": "0",
-                          "right": "0",
-                          "bottom": "0",
-                          "left": "0",
-                          "isLinked": true
-                        }
-                      },
-                      "elements": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "ecccf359",
-              "elType": "container",
-              "isInner": false,
-              "settings": {
-                "content_width": "full",
-                "flex_direction": "column",
-                "flex_direction_mobile": "column",
-                "width": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "width_mobile": {
-                  "unit": "%",
-                  "size": 100
-                },
-                "padding": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "padding_mobile": {
-                  "unit": "px",
-                  "top": "0",
-                  "right": "0",
-                  "bottom": "0",
-                  "left": "0",
-                  "isLinked": true
-                },
-                "flex_gap": {
-                  "unit": "px",
-                  "size": 0,
-                  "column": "0",
-                  "row": "0",
-                  "isLinked": true
-                },
-                "flex_align_items": "stretch",
-                "css_classes": "tb-person-card",
-                "border_radius": {
-                  "unit": "px",
-                  "top": "18",
-                  "right": "18",
-                  "bottom": "18",
-                  "left": "18",
-                  "isLinked": true
-                }
-              },
-              "elements": [
-                {
-                  "id": "95329417",
+                  "id": "1f968c46",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1634,7 +1763,7 @@
                   "elements": []
                 },
                 {
-                  "id": "fc2b13b3",
+                  "id": "92c36de1",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -1677,7 +1806,7 @@
                   },
                   "elements": [
                     {
-                      "id": "2f3ddd30",
+                      "id": "f540554f",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -1723,7 +1852,7 @@
                       "elements": []
                     },
                     {
-                      "id": "272b4c3e",
+                      "id": "b0b81ae0",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -1780,7 +1909,7 @@
               ]
             },
             {
-              "id": "65adfd3d",
+              "id": "491fed6e",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1831,12 +1960,12 @@
               },
               "elements": [
                 {
-                  "id": "c263ae3a",
+                  "id": "05bd2f03",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
                     "image": {
-                      "team_asset": "3857c366517707202776"
+                      "team_asset": "847759d0b41d7e97f12c"
                     },
                     "image_size": "full",
                     "width": {
@@ -1846,7 +1975,7 @@
                     "align": "center",
                     "link_to": "custom",
                     "link": {
-                      "url": "@@link:anne-rudel@@"
+                      "url": "@@link:prof-dr-gerhard-seitz@@"
                     },
                     "__globals__": {},
                     "_margin": {
@@ -1862,7 +1991,7 @@
                   "elements": []
                 },
                 {
-                  "id": "ab9ac9fa",
+                  "id": "2ee436e5",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -1905,11 +2034,11 @@
                   },
                   "elements": [
                     {
-                      "id": "6f338be1",
+                      "id": "3ad5dd54",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
-                        "title": "Anne Rudel",
+                        "title": "Prof. Dr. Gerhard Seitz",
                         "header_size": "h3",
                         "title_color": "#142b43",
                         "typography_typography": "custom",
@@ -1951,13 +2080,13 @@
                       "elements": []
                     },
                     {
-                      "id": "5b0ba97f",
+                      "id": "0962157b",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
                         "text": "Persönlich kennenlernen →",
                         "link": {
-                          "url": "@@link:anne-rudel@@",
+                          "url": "@@link:prof-dr-gerhard-seitz@@",
                           "is_external": false
                         },
                         "background_color": "#f1ede5",
@@ -2008,7 +2137,7 @@
               ]
             },
             {
-              "id": "b0b81ae0",
+              "id": "1b19fb95",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2059,12 +2188,12 @@
               },
               "elements": [
                 {
-                  "id": "90cf3c85",
+                  "id": "2172bf4e",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
                     "image": {
-                      "team_asset": "75f6a9abfbd2c9a1203e"
+                      "team_asset": "3fbf510cdc815190d34d"
                     },
                     "image_size": "full",
                     "width": {
@@ -2074,7 +2203,7 @@
                     "align": "center",
                     "link_to": "custom",
                     "link": {
-                      "url": "@@link:you-xie@@"
+                      "url": "@@link:dr-ursula-redler@@"
                     },
                     "__globals__": {},
                     "_margin": {
@@ -2090,7 +2219,7 @@
                   "elements": []
                 },
                 {
-                  "id": "f540554f",
+                  "id": "cd0fa4f8",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -2133,7 +2262,235 @@
                   },
                   "elements": [
                     {
-                      "id": "90cf6838",
+                      "id": "7912e638",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Dr. Ursula Redler",
+                        "header_size": "h3",
+                        "title_color": "#142b43",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Arial",
+                        "typography_font_weight": "800",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_size_tablet": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_font_size_mobile": {
+                          "unit": "px",
+                          "size": 23
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.08
+                        },
+                        "typography_letter_spacing": {
+                          "unit": "px",
+                          "size": -0.3
+                        },
+                        "__globals__": {
+                          "typography_typography": "",
+                          "title_color": ""
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "1961f2a2",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Persönlich kennenlernen →",
+                        "link": {
+                          "url": "@@link:dr-ursula-redler@@",
+                          "is_external": false
+                        },
+                        "background_color": "#f1ede5",
+                        "button_text_color": "#112b4b",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Arial",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 14
+                        },
+                        "text_padding": {
+                          "unit": "px",
+                          "top": "18",
+                          "right": "25",
+                          "bottom": "18",
+                          "left": "25",
+                          "isLinked": false
+                        },
+                        "border_radius": {
+                          "unit": "px",
+                          "top": "50",
+                          "right": "50",
+                          "bottom": "50",
+                          "left": "50",
+                          "isLinked": true
+                        },
+                        "align": "left",
+                        "_element_width": "auto",
+                        "__globals__": {
+                          "typography_typography": "",
+                          "background_color": "",
+                          "button_text_color": ""
+                        },
+                        "_margin": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "cec4d932",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 0,
+                  "column": "0",
+                  "row": "0",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": "tb-person-card",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "18",
+                  "right": "18",
+                  "bottom": "18",
+                  "left": "18",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "0c721938",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "team_asset": "75f6a9abfbd2c9a1203e"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "align": "center",
+                    "link_to": "custom",
+                    "link": {
+                      "url": "@@link:you-xie@@"
+                    },
+                    "__globals__": {},
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_css_classes": "tb-person-image"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "f10c6f30",
+                  "elType": "container",
+                  "isInner": false,
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_direction_mobile": "column",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "width_mobile": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "padding_mobile": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "flex_gap": {
+                      "unit": "px",
+                      "size": 14,
+                      "column": "14",
+                      "row": "14",
+                      "isLinked": true
+                    },
+                    "flex_align_items": "stretch",
+                    "css_classes": "tb-person-caption"
+                  },
+                  "elements": [
+                    {
+                      "id": "a89b11c6",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -2179,7 +2536,7 @@
                       "elements": []
                     },
                     {
-                      "id": "1f968c46",
+                      "id": "8aa9d81c",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -2238,7 +2595,7 @@
           ]
         },
         {
-          "id": "fa8c7192",
+          "id": "3b819d1f",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -2272,7 +2629,7 @@
       ]
     },
     {
-      "id": "a559324d",
+      "id": "020e8edc",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -2329,7 +2686,7 @@
       },
       "elements": [
         {
-          "id": "c90dc082",
+          "id": "646f1aed",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -2372,7 +2729,7 @@
           },
           "elements": [
             {
-              "id": "646b79d6",
+              "id": "e9ac7198",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2415,7 +2772,7 @@
               },
               "elements": [
                 {
-                  "id": "a3c0e79f",
+                  "id": "97731e4a",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -2462,7 +2819,7 @@
                   "elements": []
                 },
                 {
-                  "id": "9cd9867c",
+                  "id": "dc7e62e1",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -2508,7 +2865,7 @@
                   "elements": []
                 },
                 {
-                  "id": "ce8a2c4e",
+                  "id": "d6676afa",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -2542,7 +2899,7 @@
               ]
             },
             {
-              "id": "625cfd17",
+              "id": "40864f59",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2586,7 +2943,7 @@
               },
               "elements": [
                 {
-                  "id": "2e09c6ce",
+                  "id": "a1ac44f5",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -2643,7 +3000,7 @@
           ]
         },
         {
-          "id": "0a091130",
+          "id": "39eae53c",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -2686,7 +3043,7 @@
           },
           "elements": [
             {
-              "id": "83554b08",
+              "id": "89f8e522",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2729,7 +3086,7 @@
               },
               "elements": [
                 {
-                  "id": "fcbeae7c",
+                  "id": "cdceb7ed",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -2760,7 +3117,7 @@
                   "elements": []
                 },
                 {
-                  "id": "ca83ac5c",
+                  "id": "cdede517",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -2804,7 +3161,7 @@
                   },
                   "elements": [
                     {
-                      "id": "053d4a39",
+                      "id": "300ca061",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -2850,7 +3207,7 @@
                       "elements": []
                     },
                     {
-                      "id": "b0f9d956",
+                      "id": "992fc6f8",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -2907,7 +3264,7 @@
               ]
             },
             {
-              "id": "ab16dc71",
+              "id": "0cc5855f",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2950,7 +3307,7 @@
               },
               "elements": [
                 {
-                  "id": "dd65a705",
+                  "id": "362ed95e",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -2981,7 +3338,7 @@
                   "elements": []
                 },
                 {
-                  "id": "689e6842",
+                  "id": "56ec1745",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -3025,7 +3382,7 @@
                   },
                   "elements": [
                     {
-                      "id": "b4a76edd",
+                      "id": "ecaabd62",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -3071,7 +3428,7 @@
                       "elements": []
                     },
                     {
-                      "id": "86f43fbf",
+                      "id": "4ab1fa0c",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -3128,7 +3485,7 @@
               ]
             },
             {
-              "id": "d0fb5991",
+              "id": "4a8cbe66",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -3171,7 +3528,7 @@
               },
               "elements": [
                 {
-                  "id": "cce6544c",
+                  "id": "d0769854",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -3202,7 +3559,7 @@
                   "elements": []
                 },
                 {
-                  "id": "6ce296bc",
+                  "id": "74092f4d",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -3246,7 +3603,7 @@
                   },
                   "elements": [
                     {
-                      "id": "e3c80cee",
+                      "id": "a63b3050",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -3292,7 +3649,7 @@
                       "elements": []
                     },
                     {
-                      "id": "2bf6c06b",
+                      "id": "35d05c0f",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -3349,7 +3706,7 @@
               ]
             },
             {
-              "id": "992fc6f8",
+              "id": "1ef1e5e7",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -3392,7 +3749,7 @@
               },
               "elements": [
                 {
-                  "id": "d9db021a",
+                  "id": "a2805868",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -3423,7 +3780,7 @@
                   "elements": []
                 },
                 {
-                  "id": "300ca061",
+                  "id": "506af060",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -3467,7 +3824,7 @@
                   },
                   "elements": [
                     {
-                      "id": "e4ef4588",
+                      "id": "88552c23",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -3513,7 +3870,7 @@
                       "elements": []
                     },
                     {
-                      "id": "cdceb7ed",
+                      "id": "f521965f",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -3570,7 +3927,7 @@
               ]
             },
             {
-              "id": "4ab1fa0c",
+              "id": "e4d36c7e",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -3613,7 +3970,7 @@
               },
               "elements": [
                 {
-                  "id": "cdede517",
+                  "id": "7ff12fc9",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -3644,7 +4001,7 @@
                   "elements": []
                 },
                 {
-                  "id": "ecaabd62",
+                  "id": "26aa3831",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -3688,7 +4045,7 @@
                   },
                   "elements": [
                     {
-                      "id": "89f8e522",
+                      "id": "70abaea9",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -3734,7 +4091,7 @@
                       "elements": []
                     },
                     {
-                      "id": "362ed95e",
+                      "id": "2bede1fe",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -3791,7 +4148,7 @@
               ]
             },
             {
-              "id": "35d05c0f",
+              "id": "2f3ddd30",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -3834,7 +4191,7 @@
               },
               "elements": [
                 {
-                  "id": "56ec1745",
+                  "id": "e5c320fd",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -3865,7 +4222,7 @@
                   "elements": []
                 },
                 {
-                  "id": "a63b3050",
+                  "id": "95329417",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -3909,7 +4266,7 @@
                   },
                   "elements": [
                     {
-                      "id": "0cc5855f",
+                      "id": "98befff7",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -3955,7 +4312,7 @@
                       "elements": []
                     },
                     {
-                      "id": "d0769854",
+                      "id": "23baa67d",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -4012,7 +4369,7 @@
               ]
             },
             {
-              "id": "f521965f",
+              "id": "6f338be1",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -4055,7 +4412,7 @@
               },
               "elements": [
                 {
-                  "id": "74092f4d",
+                  "id": "272b4c3e",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -4086,7 +4443,7 @@
                   "elements": []
                 },
                 {
-                  "id": "88552c23",
+                  "id": "c263ae3a",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -4130,7 +4487,7 @@
                   },
                   "elements": [
                     {
-                      "id": "4a8cbe66",
+                      "id": "fc2b13b3",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -4176,7 +4533,7 @@
                       "elements": []
                     },
                     {
-                      "id": "a2805868",
+                      "id": "ecccf359",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -4233,7 +4590,7 @@
               ]
             },
             {
-              "id": "2bede1fe",
+              "id": "90cf6838",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -4276,7 +4633,7 @@
               },
               "elements": [
                 {
-                  "id": "506af060",
+                  "id": "5b0ba97f",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -4307,7 +4664,7 @@
                   "elements": []
                 },
                 {
-                  "id": "70abaea9",
+                  "id": "90cf3c85",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -4351,7 +4708,7 @@
                   },
                   "elements": [
                     {
-                      "id": "1ef1e5e7",
+                      "id": "ab9ac9fa",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -4397,7 +4754,7 @@
                       "elements": []
                     },
                     {
-                      "id": "7ff12fc9",
+                      "id": "65adfd3d",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -4458,7 +4815,411 @@
       ]
     },
     {
-      "id": "020e8edc",
+      "id": "d0e7984b",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "padding": {
+          "unit": "px",
+          "top": "55",
+          "right": "40",
+          "bottom": "55",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "42",
+          "right": "20",
+          "bottom": "42",
+          "left": "20",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "px",
+          "size": 24,
+          "column": "24",
+          "row": "24",
+          "isLinked": true
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "tb-gaustadt-feature",
+        "background_background": "classic",
+        "background_color": "#e5ddce",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1240
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "60",
+          "right": "30",
+          "bottom": "60",
+          "left": "30",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "d8ed4a53",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "flex_gap": {
+              "unit": "px",
+              "size": 55,
+              "column": "55",
+              "row": "55",
+              "isLinked": true
+            },
+            "flex_align_items": "stretch",
+            "css_classes": ""
+          },
+          "elements": [
+            {
+              "id": "1d1a838c",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 48
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": ""
+              },
+              "elements": [
+                {
+                  "id": "f7904a08",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "team_asset": "44fbb114578f4d715fbe"
+                    },
+                    "image_size": "full",
+                    "width": {
+                      "unit": "%",
+                      "size": 100
+                    },
+                    "align": "center",
+                    "link_to": "custom",
+                    "link": {
+                      "url": "@@link:csu-gaustadt@@"
+                    },
+                    "__globals__": {},
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_css_classes": "tb-gaustadt-feature-image"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "2084bcfb",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "width": {
+                  "unit": "%",
+                  "size": 52
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "flex_gap": {
+                  "unit": "px",
+                  "size": 24,
+                  "column": "24",
+                  "row": "24",
+                  "isLinked": true
+                },
+                "flex_align_items": "stretch",
+                "css_classes": "",
+                "flex_justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "c4885ffe",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "BAMBERG HAT VIELE GESICHTER",
+                    "header_size": "p",
+                    "title_color": "#006da9",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -0.3
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_css_classes": "tb-eyebrow"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "fdd5737b",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Gaustadt.<br>Mit eigener Geschichte.",
+                    "header_size": "h2",
+                    "title_color": "#142b43",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "800",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 44
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 44
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 30
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.08
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -1.6
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b4559d57",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>An der Regnitz zu Hause, mit einer eigenen Geschichte und einem lebendigen Vereinsleben. Lernen Sie den CSU-Ortsverband Gaustadt und seinen Stadtteil kennen.</p>",
+                    "text_color": "#566779",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.75
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "018d666f",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Den Ortsverband Gaustadt entdecken →",
+                    "link": {
+                      "url": "@@link:csu-gaustadt@@",
+                      "is_external": false
+                    },
+                    "background_color": "#112b4b",
+                    "button_text_color": "#ffffff",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "18",
+                      "right": "25",
+                      "bottom": "18",
+                      "left": "25",
+                      "isLinked": false
+                    },
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "50",
+                      "right": "50",
+                      "bottom": "50",
+                      "left": "50",
+                      "isLinked": true
+                    },
+                    "align": "left",
+                    "_element_width": "auto",
+                    "__globals__": {
+                      "typography_typography": "",
+                      "background_color": "",
+                      "button_text_color": ""
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9099ff86",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -4515,7 +5276,7 @@
       },
       "elements": [
         {
-          "id": "39eae53c",
+          "id": "308a38c9",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -4558,7 +5319,7 @@
           },
           "elements": [
             {
-              "id": "52557910",
+              "id": "7055bb6c",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -4601,7 +5362,7 @@
               },
               "elements": [
                 {
-                  "id": "f7a7d92d",
+                  "id": "35b692e7",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -4648,7 +5409,7 @@
                   "elements": []
                 },
                 {
-                  "id": "2faa49e1",
+                  "id": "6aee3714",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -4694,7 +5455,7 @@
                   "elements": []
                 },
                 {
-                  "id": "60764285",
+                  "id": "0b6f331c",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -4726,7 +5487,7 @@
                   "elements": []
                 },
                 {
-                  "id": "fe822200",
+                  "id": "63febff1",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -4781,7 +5542,7 @@
               ]
             },
             {
-              "id": "646f1aed",
+              "id": "6c0098f4",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -4824,7 +5585,7 @@
               },
               "elements": [
                 {
-                  "id": "dc7e62e1",
+                  "id": "93b697cc",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -4877,7 +5638,7 @@
                   },
                   "elements": [
                     {
-                      "id": "0acfa733",
+                      "id": "03d662fb",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -4924,7 +5685,7 @@
                       "elements": []
                     },
                     {
-                      "id": "3b819d1f",
+                      "id": "d744d5ce",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -4970,7 +5731,7 @@
                       "elements": []
                     },
                     {
-                      "id": "365228d9",
+                      "id": "5c548787",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "settings": {
@@ -5002,7 +5763,7 @@
                       "elements": []
                     },
                     {
-                      "id": "97731e4a",
+                      "id": "394dc62e",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -5057,7 +5818,7 @@
                   ]
                 },
                 {
-                  "id": "40864f59",
+                  "id": "f650cfbe",
                   "elType": "container",
                   "isInner": false,
                   "settings": {
@@ -5110,7 +5871,7 @@
                   },
                   "elements": [
                     {
-                      "id": "d6676afa",
+                      "id": "9fbb1caf",
                       "elType": "widget",
                       "widgetType": "heading",
                       "settings": {
@@ -5156,7 +5917,7 @@
                       "elements": []
                     },
                     {
-                      "id": "e9ac7198",
+                      "id": "506f2dfb",
                       "elType": "widget",
                       "widgetType": "text-editor",
                       "settings": {
@@ -5188,7 +5949,7 @@
                       "elements": []
                     },
                     {
-                      "id": "a1ac44f5",
+                      "id": "68b3953d",
                       "elType": "widget",
                       "widgetType": "button",
                       "settings": {
@@ -5249,7 +6010,7 @@
       ]
     },
     {
-      "id": "394dc62e",
+      "id": "be2b12f3",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -5306,7 +6067,7 @@
       },
       "elements": [
         {
-          "id": "5c548787",
+          "id": "87596475",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -5349,7 +6110,7 @@
           },
           "elements": [
             {
-              "id": "63febff1",
+              "id": "e82682b9",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -5392,7 +6153,7 @@
               },
               "elements": [
                 {
-                  "id": "35b692e7",
+                  "id": "19af8051",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -5439,7 +6200,7 @@
                   "elements": []
                 },
                 {
-                  "id": "6aee3714",
+                  "id": "76348d76",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -5485,7 +6246,7 @@
                   "elements": []
                 },
                 {
-                  "id": "0b6f331c",
+                  "id": "77647059",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -5519,7 +6280,7 @@
               ]
             },
             {
-              "id": "d744d5ce",
+              "id": "a5aa968a",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -5562,7 +6323,7 @@
               },
               "elements": [
                 {
-                  "id": "7055bb6c",
+                  "id": "eeee5728",
                   "elType": "widget",
                   "widgetType": "team-bamberg-events",
                   "settings": {
@@ -5583,7 +6344,7 @@
                   "elements": []
                 },
                 {
-                  "id": "03d662fb",
+                  "id": "719f2f9d",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -5642,7 +6403,7 @@
       ]
     },
     {
-      "id": "19af8051",
+      "id": "a4f509cf",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -5699,7 +6460,7 @@
       },
       "elements": [
         {
-          "id": "9099ff86",
+          "id": "ab4f2840",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -5742,7 +6503,7 @@
           },
           "elements": [
             {
-              "id": "68b3953d",
+              "id": "22ad47d8",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -5785,7 +6546,7 @@
               },
               "elements": [
                 {
-                  "id": "93b697cc",
+                  "id": "2a7b426b",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -5832,7 +6593,7 @@
                   "elements": []
                 },
                 {
-                  "id": "9fbb1caf",
+                  "id": "c805076b",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -5878,7 +6639,7 @@
                   "elements": []
                 },
                 {
-                  "id": "506f2dfb",
+                  "id": "e06a1237",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -5912,7 +6673,7 @@
               ]
             },
             {
-              "id": "308a38c9",
+              "id": "71c94185",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -5956,7 +6717,7 @@
               },
               "elements": [
                 {
-                  "id": "f650cfbe",
+                  "id": "caab201c",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {
@@ -6009,7 +6770,7 @@
                   "elements": []
                 },
                 {
-                  "id": "6c0098f4",
+                  "id": "fc28a459",
                   "elType": "widget",
                   "widgetType": "button",
                   "settings": {

@@ -211,8 +211,100 @@
       "posts_imported": false
     }
   },
+  "live_source_checks": [
+    {
+      "slug": "csu-mitte",
+      "url": "https://team-bamberg.de/csu-mitte/",
+      "status": 200,
+      "checked_on": "2026-10-11",
+      "sha256": "f1c40eedf01e5c0d0dc4a8015844747a408c8a1939b12db65b76adaa453649b4"
+    },
+    {
+      "slug": "csu-gangolf",
+      "url": "https://team-bamberg.de/csu-gangolf/",
+      "status": 200,
+      "checked_on": "2026-10-11",
+      "sha256": "53cfe0ceceeed8e97cd919cbb85aa3aaed14012ff2c396835cdb4a9a66ea5f67"
+    },
+    {
+      "slug": "csu-berg",
+      "url": "https://team-bamberg.de/csu-berg/",
+      "status": 200,
+      "checked_on": "2026-10-11",
+      "sha256": "ae302f5473e4dace3b7354a8bd9e4c3a1680ecb39433904d34a550b757835508"
+    },
+    {
+      "slug": "csu-wunderburg",
+      "url": "https://team-bamberg.de/csu-wunderburg/",
+      "status": 200,
+      "checked_on": "2026-10-11",
+      "sha256": "5d730c177d997b92784ae199e04919c36a69f4af1f3cf6a5cfa77b94968f9709"
+    },
+    {
+      "slug": "csu-nord",
+      "url": "https://team-bamberg.de/csu-nord/",
+      "status": 200,
+      "checked_on": "2026-10-11",
+      "sha256": "f77b249916e7908d068bd4e932ead210cfc80dfbbdd96d88472e8aeff4420113"
+    },
+    {
+      "slug": "csu-ost",
+      "url": "https://team-bamberg.de/csu-ost/",
+      "status": 200,
+      "checked_on": "2026-10-11",
+      "sha256": "f495b631624ffdfe6447802d160ad9b4d41657cf1f147fe7e37d82d641f8f54f"
+    },
+    {
+      "slug": "csu-gartenstadt",
+      "url": "https://team-bamberg.de/csu-gartenstadt/",
+      "status": 200,
+      "checked_on": "2026-10-11",
+      "sha256": "5f04a992c026211c40b4a685484622b5faf79d933b20af0735ab0888dbadf4e2"
+    },
+    {
+      "slug": "csu-gaustadt",
+      "url": "https://team-bamberg.de/csu-gaustadt/",
+      "status": 200,
+      "checked_on": "2026-10-11",
+      "sha256": "3e977fc1d2ac95a0a1173f8b66efee2af365d4cc8638f73763969d31fe2b8ada"
+    },
+    {
+      "slug": "kreisvorstand-2",
+      "url": "https://team-bamberg.de/kreisvorstand-2/",
+      "status": 200,
+      "checked_on": "2026-10-11",
+      "sha256": "4dd8be1b64a74213876c606f1cb6cfcf062700ed40f49b05997357e7c8d8febe"
+    },
+    {
+      "slug": "fraktion",
+      "url": "https://team-bamberg.de/fraktion/",
+      "status": 200,
+      "checked_on": "2026-10-11",
+      "sha256": "67b224cdaa319ca2538d75a686b28cb8be4152575e7c7f89ad40cc9fe4ae4cfe"
+    }
+  ],
+  "personnel_updates": {
+    "reported_at": "2026-10-11",
+    "source": "Angabe des Auftraggebers; Zeitungsartikel nicht unabhängig abgerufen",
+    "left_fraction": [
+      "anna-niedermaier",
+      "anne-rudel",
+      "michael-kalb",
+      "peter-neller",
+      "stefan-kuhn"
+    ],
+    "party_membership": "Keine Änderung aus Fraktionsaustritt abgeleitet"
+  },
+  "design_references": {
+    "requested": [
+      "https://www.spd-bamberg-stadt.de/",
+      "https://afd-bamberg.de/"
+    ],
+    "retrieval": "Beide exakten Adressen vom Cloud-Netzwerkproxy gesperrt; keine direkte Sichtprüfung behauptet",
+    "applied_direction": "Große lokale Bilder, optionales eigenes Video, klare Navigation und Meldungen"
+  },
   "review_notes": [
-    "Personen und Funktionen bestätigen.",
+    "Aktuelle vollständige Fraktionsliste, Personen und Funktionen bestätigen.",
     "Veröffentlichte E-Mail-Adressen sind teilweise verschleiert; nicht erraten.",
     "IBAN ohne Länderkennung auf der Originalseite: vor Verwendung bestätigen.",
     "Datenschutzerklärung Stand Mai 2018: an neuen Betrieb anpassen.",

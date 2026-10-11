@@ -5,7 +5,7 @@
   "page_settings": {},
   "content": [
     {
-      "id": "443df173",
+      "id": "310153d4",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -62,7 +62,7 @@
       },
       "elements": [
         {
-          "id": "987dd1e1",
+          "id": "1b5f76c8",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -105,7 +105,7 @@
           },
           "elements": [
             {
-              "id": "9bc419bf",
+              "id": "fd29ccc1",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -149,7 +149,7 @@
               },
               "elements": [
                 {
-                  "id": "41899936",
+                  "id": "72a811ee",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -181,7 +181,7 @@
                   "elements": []
                 },
                 {
-                  "id": "851b7595",
+                  "id": "8a7b26df",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -228,7 +228,7 @@
                   "elements": []
                 },
                 {
-                  "id": "acf85ae1",
+                  "id": "6a3d08a4",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -274,7 +274,7 @@
                   "elements": []
                 },
                 {
-                  "id": "c213ea48",
+                  "id": "b33c4a00",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -308,7 +308,7 @@
               ]
             },
             {
-              "id": "62942c5d",
+              "id": "8ac855fe",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -351,7 +351,7 @@
               },
               "elements": [
                 {
-                  "id": "4b838468",
+                  "id": "7effdd7e",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -384,7 +384,7 @@
       ]
     },
     {
-      "id": "77a94abd",
+      "id": "97e8cc27",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -439,7 +439,7 @@
       },
       "elements": [
         {
-          "id": "e4d7894b",
+          "id": "92eb9922",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
@@ -474,7 +474,7 @@
       ]
     },
     {
-      "id": "b31dc3d1",
+      "id": "91ba7580",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -529,7 +529,7 @@
       },
       "elements": [
         {
-          "id": "71bf0e30",
+          "id": "8348e82f",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -572,7 +572,7 @@
           },
           "elements": [
             {
-              "id": "66241db0",
+              "id": "cb7b53b3",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -623,7 +623,7 @@
               },
               "elements": [
                 {
-                  "id": "b613e1d1",
+                  "id": "7c5183fc",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -675,7 +675,7 @@
       ]
     },
     {
-      "id": "269bbe35",
+      "id": "32748ce5",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -730,7 +730,7 @@
       },
       "elements": [
         {
-          "id": "81d5fd40",
+          "id": "8ee8de92",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -773,7 +773,7 @@
           },
           "elements": [
             {
-              "id": "aab0b47e",
+              "id": "20492c0b",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -824,7 +824,7 @@
               },
               "elements": [
                 {
-                  "id": "f1c3bec7",
+                  "id": "30241b8e",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -851,7 +851,7 @@
                   "elements": []
                 },
                 {
-                  "id": "608783a7",
+                  "id": "74534908",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -889,7 +889,7 @@
       ]
     },
     {
-      "id": "72bd4741",
+      "id": "a271b093",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -944,7 +944,7 @@
       },
       "elements": [
         {
-          "id": "4d88033a",
+          "id": "feb5b6b8",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -987,7 +987,7 @@
           },
           "elements": [
             {
-              "id": "e574d7bd",
+              "id": "235f2e3c",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1038,7 +1038,7 @@
               },
               "elements": [
                 {
-                  "id": "db1bbf48",
+                  "id": "ee052b02",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1065,7 +1065,7 @@
                   "elements": []
                 },
                 {
-                  "id": "14887d1d",
+                  "id": "df0d32ce",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1113,7 +1113,7 @@
               ]
             },
             {
-              "id": "28a89c23",
+              "id": "a258315f",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1164,7 +1164,7 @@
               },
               "elements": [
                 {
-                  "id": "2f689a57",
+                  "id": "5b64f2ad",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1191,7 +1191,7 @@
                   "elements": []
                 },
                 {
-                  "id": "9eaf5d2e",
+                  "id": "da9ae2c0",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1239,7 +1239,7 @@
               ]
             },
             {
-              "id": "fb9a4bfd",
+              "id": "88324fb7",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1290,7 +1290,7 @@
               },
               "elements": [
                 {
-                  "id": "8b556932",
+                  "id": "3191ba1b",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1317,7 +1317,7 @@
                   "elements": []
                 },
                 {
-                  "id": "927d4ef2",
+                  "id": "0778aaae",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1365,7 +1365,7 @@
               ]
             },
             {
-              "id": "797326af",
+              "id": "7a908742",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1416,7 +1416,7 @@
               },
               "elements": [
                 {
-                  "id": "dc7c1d7e",
+                  "id": "3ab190a6",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1443,7 +1443,7 @@
                   "elements": []
                 },
                 {
-                  "id": "98ee70b8",
+                  "id": "3e14f667",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1491,7 +1491,7 @@
               ]
             },
             {
-              "id": "bb1567b1",
+              "id": "17435729",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1542,7 +1542,7 @@
               },
               "elements": [
                 {
-                  "id": "ee4ad112",
+                  "id": "647c981e",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1569,7 +1569,7 @@
                   "elements": []
                 },
                 {
-                  "id": "46b76f73",
+                  "id": "b4f47b40",
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
@@ -1621,7 +1621,7 @@
       ]
     },
     {
-      "id": "8ccd3aa3",
+      "id": "4c7c0365",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -1676,7 +1676,7 @@
       },
       "elements": [
         {
-          "id": "12dec077",
+          "id": "d475520a",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -1719,7 +1719,7 @@
           },
           "elements": [
             {
-              "id": "8cc1635d",
+              "id": "a97ee003",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1770,7 +1770,7 @@
               },
               "elements": [
                 {
-                  "id": "af05380b",
+                  "id": "67f7eb65",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1797,7 +1797,7 @@
                   "elements": []
                 },
                 {
-                  "id": "88fb6488",
+                  "id": "60e41ff3",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1831,7 +1831,7 @@
               ]
             },
             {
-              "id": "809fe11d",
+              "id": "f4976a74",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1882,7 +1882,7 @@
               },
               "elements": [
                 {
-                  "id": "fa9b59d5",
+                  "id": "b62dd0c3",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -1909,7 +1909,7 @@
                   "elements": []
                 },
                 {
-                  "id": "cd59779b",
+                  "id": "b7788838",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -1943,7 +1943,7 @@
               ]
             },
             {
-              "id": "0ee87377",
+              "id": "4be9086a",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -1994,7 +1994,7 @@
               },
               "elements": [
                 {
-                  "id": "7c798360",
+                  "id": "2a31c3a7",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -2021,7 +2021,7 @@
                   "elements": []
                 },
                 {
-                  "id": "3cb4c881",
+                  "id": "ca6e0275",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -2055,7 +2055,7 @@
               ]
             },
             {
-              "id": "e7929990",
+              "id": "c25714a5",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2106,7 +2106,7 @@
               },
               "elements": [
                 {
-                  "id": "0daaf767",
+                  "id": "fb2b4b52",
                   "elType": "widget",
                   "widgetType": "image",
                   "settings": {
@@ -2133,7 +2133,7 @@
                   "elements": []
                 },
                 {
-                  "id": "732f2e9a",
+                  "id": "29544aeb",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -2171,7 +2171,7 @@
       ]
     },
     {
-      "id": "20e2fe98",
+      "id": "c6f8f706",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -2226,7 +2226,7 @@
       },
       "elements": [
         {
-          "id": "579491ed",
+          "id": "79640efe",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -2269,7 +2269,7 @@
           },
           "elements": [
             {
-              "id": "6267491a",
+              "id": "f4608c64",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2320,7 +2320,7 @@
               },
               "elements": [
                 {
-                  "id": "bc04bde5",
+                  "id": "4587c1f2",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -2358,7 +2358,7 @@
       ]
     },
     {
-      "id": "139cda57",
+      "id": "bbad682c",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -2413,7 +2413,7 @@
       },
       "elements": [
         {
-          "id": "a17b787d",
+          "id": "648967c3",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -2456,7 +2456,7 @@
           },
           "elements": [
             {
-              "id": "b72640fd",
+              "id": "5676df25",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2507,7 +2507,7 @@
               },
               "elements": [
                 {
-                  "id": "1197e307",
+                  "id": "6bfd47d0",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -2545,7 +2545,7 @@
       ]
     },
     {
-      "id": "7da6c6a3",
+      "id": "e7fafe83",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -2600,7 +2600,7 @@
       },
       "elements": [
         {
-          "id": "4141b4d8",
+          "id": "c605f12e",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -2643,7 +2643,7 @@
           },
           "elements": [
             {
-              "id": "9dbe32f3",
+              "id": "4ef73652",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2694,11 +2694,11 @@
               },
               "elements": [
                 {
-                  "id": "ae6bdf66",
+                  "id": "a32dd6bf",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
-                    "editor": "<p><strong><u>Mitglieder im Kreisvorstand mit beratender Stimme</u><br/></strong>Vorsitzende der Arbeitsgemeinschaften in ihrer Funktion</p><p><strong>Christlich Soziale Arbeitnehmerschaft (CSA)</strong><br/>Kreisvorsitzender Hans-Joachim Freytag</p><p><strong>Mittelstands-Union (MU)</strong><br/>Kreisvorsitzender Benedikt Feuerstake</p><p><span><strong>Kooptierte Mitglieder in den Kreisvorstand mit beratender Stimme<br/></strong></span>Personen mit besonderer Stellung in der CSU Bamberg</p><p><strong>Ehrenvorsitzender</strong><br/>Rudolf Grafberger</p><p><strong>Altbürgermeister</strong><br/>Werner Hipelius</p><p><strong>Altbürgermeister</strong><br/>Christian Lange</p><p><strong>Fraktionsvorsitzender auf Grund des Amtes</strong><br/>Peter Neller</p><p><span><strong>Ortsvorsitzende über ihre Funktion mit beratender Stimme</strong></span></p><p><strong>Ortsverband Mitte</strong><br/>Stefan Kuhn</p><p><strong>Ortsverband Gangolf</strong><br/>Stefan Dotterweich</p><p><strong>Ortsverband Berg</strong><br/>Christian Schiener</p><p><strong>Ortsverband Wunderburg/Gereuth</strong><br/>Gerd Schimmer</p><p><strong>Ortsverband Bamberg Nord</strong><br/>Dieter Backert</p><p><strong>Ortsverband Ost</strong><br/>Jochen Kellner</p><p><strong>Ortsverband Gartenstadt</strong><br/>Peter Neller</p><p><strong>Ortsverband Gaustadt</strong><br/>Benedikt Feuerstake</p><p><span><strong>Vorsitzende der Arbeitskreise in ihrer Funktion</strong></span></p><p><strong>Außen- und Sicherheitspolitischer Arbeitskreis (ASP)</strong><br/>Josef Lypp</p><p><strong>Evangelischer Arbeitskreis der CSU (EAK)</strong><br/>Stefan Kuhn</p><p><strong>Arbeitskreis öffentlicher Dienst (OED)</strong><br/>Franz Eckert</p><p><strong>Ring Christlich-Demokratischer Studenten (RCDS)<br/></strong>Anton Reichard</p><p><strong>Bundeswahlkreisgeschäftsstelle (Bamberg-Forchheim)</strong><br/>BWK-Geschäftsführerin Elif Weitzenfelder</p><p><strong>Ständige Gäste</strong></p><p>Bundestagsabgeordneter Thomas Silberhorn</p><p>Landtagsabgeordnete Melanie Huml</p><p>Bezirksrat Thomas Söder</p><p><strong>Bei Bedarf zu ladende Stadträte als Gäste </strong></p><p>Dr. Franz-Wilhelm Heller<br/>Andreas Dechant<br/>Michael Kalb<br/>Anne Rudel<br/>Anna Niedermaier<br/>Peter Neller<br/>You Xie</p>",
+                    "editor": "<p><strong><u>Mitglieder im Kreisvorstand mit beratender Stimme</u><br/></strong>Vorsitzende der Arbeitsgemeinschaften in ihrer Funktion</p><p><strong>Christlich Soziale Arbeitnehmerschaft (CSA)</strong><br/>Kreisvorsitzender Hans-Joachim Freytag</p><p><strong>Mittelstands-Union (MU)</strong><br/>Kreisvorsitzender Benedikt Feuerstake</p><p><span><strong>Kooptierte Mitglieder in den Kreisvorstand mit beratender Stimme<br/></strong></span>Personen mit besonderer Stellung in der CSU Bamberg</p><p><strong>Ehrenvorsitzender</strong><br/>Rudolf Grafberger</p><p><strong>Altbürgermeister</strong><br/>Werner Hipelius</p><p><strong>Altbürgermeister</strong><br/>Christian Lange</p><p><span><strong>Ortsvorsitzende über ihre Funktion mit beratender Stimme</strong></span></p><p><strong>Ortsverband Mitte</strong><br/>Stefan Kuhn</p><p><strong>Ortsverband Gangolf</strong><br/>Stefan Dotterweich</p><p><strong>Ortsverband Berg</strong><br/>Christian Schiener</p><p><strong>Ortsverband Wunderburg/Gereuth</strong><br/>Gerd Schimmer</p><p><strong>Ortsverband Bamberg Nord</strong><br/>Dieter Backert</p><p><strong>Ortsverband Ost</strong><br/>Jochen Kellner</p><p><strong>Ortsverband Gartenstadt</strong><br/>Peter Neller</p><p><strong>Ortsverband Gaustadt</strong><br/>Benedikt Feuerstake</p><p><span><strong>Vorsitzende der Arbeitskreise in ihrer Funktion</strong></span></p><p><strong>Außen- und Sicherheitspolitischer Arbeitskreis (ASP)</strong><br/>Josef Lypp</p><p><strong>Evangelischer Arbeitskreis der CSU (EAK)</strong><br/>Stefan Kuhn</p><p><strong>Arbeitskreis öffentlicher Dienst (OED)</strong><br/>Franz Eckert</p><p><strong>Ring Christlich-Demokratischer Studenten (RCDS)<br/></strong>Anton Reichard</p><p><strong>Bundeswahlkreisgeschäftsstelle (Bamberg-Forchheim)</strong><br/>BWK-Geschäftsführerin Elif Weitzenfelder</p><p><strong>Ständige Gäste</strong></p><p>Bundestagsabgeordneter Thomas Silberhorn</p><p>Landtagsabgeordnete Melanie Huml</p><p>Bezirksrat Thomas Söder</p><p><strong>Bei Bedarf zu ladende Stadträte als Gäste </strong></p><p>Dr. Franz-Wilhelm Heller<br/>Andreas Dechant<br/>Michael Kalb<br/>Anne Rudel<br/>Anna Niedermaier<br/>Peter Neller<br/>You Xie</p>",
                     "text_color": "#566779",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
@@ -2732,7 +2732,7 @@
       ]
     },
     {
-      "id": "b194c15c",
+      "id": "ffad0554",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -2787,7 +2787,7 @@
       },
       "elements": [
         {
-          "id": "cfc832d4",
+          "id": "f56e403c",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -2830,7 +2830,7 @@
           },
           "elements": [
             {
-              "id": "3050f393",
+              "id": "5f712056",
               "elType": "container",
               "isInner": false,
               "settings": {
@@ -2881,7 +2881,7 @@
               },
               "elements": [
                 {
-                  "id": "73fc21b8",
+                  "id": "2a4b27eb",
                   "elType": "widget",
                   "widgetType": "text-editor",
                   "settings": {
@@ -2919,7 +2919,7 @@
       ]
     },
     {
-      "id": "db7e12ed",
+      "id": "663634f1",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -2974,7 +2974,7 @@
       },
       "elements": [
         {
-          "id": "1705779a",
+          "id": "9e06589d",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -3017,7 +3017,7 @@
           },
           "elements": [
             {
-              "id": "9d3f9e34",
+              "id": "c1fc0101",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -3070,7 +3070,7 @@
               "elements": []
             },
             {
-              "id": "6c42e465",
+              "id": "aa94d153",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -3127,7 +3127,7 @@
       ]
     },
     {
-      "id": "ad98e25a",
+      "id": "6d9bed90",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -3184,7 +3184,7 @@
       },
       "elements": [
         {
-          "id": "9573d563",
+          "id": "4c5f399b",
           "elType": "container",
           "isInner": false,
           "settings": {
@@ -3228,7 +3228,7 @@
           },
           "elements": [
             {
-              "id": "62e3206a",
+              "id": "b7aaedb9",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -3274,7 +3274,7 @@
               "elements": []
             },
             {
-              "id": "3519b539",
+              "id": "d77b3f8e",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -3331,7 +3331,7 @@
       ]
     },
     {
-      "id": "93b6ae0e",
+      "id": "7cdaba77",
       "elType": "container",
       "isInner": false,
       "settings": {
@@ -3386,7 +3386,7 @@
       },
       "elements": [
         {
-          "id": "9e29231f",
+          "id": "a046361a",
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
