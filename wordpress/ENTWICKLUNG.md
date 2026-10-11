@@ -24,10 +24,12 @@ Prüfungen für Änderungen:
 2. Starterimport im Backend; acht Seiten als Entwürfe, zwei gemeinsame Vorlagen, wiederholter Import ohne Duplikate oder Überschreiben von Bearbeitungen.
 3. Im echten Elementor-Editor eine Überschrift ändern, speichern/veröffentlichen und das Ergebnis im Frontend prüfen. Auch Kopf-/Fußvorlagen öffnen.
 4. Im Termine-Widget einen zukünftigen Auftritt eintragen; er erscheint auf der Termineseite und automatisch auf der Startseite. Vergangene und ungültige Datumsangaben getrennt prüfen.
-5. Kontaktadresse in Elementor ändern. Anfragevalidierung, kopierter Text, `mailto:`-Inhalt und Instagram-Fallback prüfen. Es gibt keinen Formularserver. Ohne JavaScript bleiben die Formularfelder deaktiviert.
+5. Kontaktadresse in Elementor ändern. Servervalidierung, festen Empfänger, Reply-To, ungültige Nonces, Header-Injection, Honeypot, Rate-Limit und fehlende Empfängeradresse prüfen. `wp_mail` in der isolierten Prüfung abfangen; keine echten Nachrichten senden. Im Browser tatsächlichen POST, Erfolg und Mailfehler mit erhaltenen Eingaben prüfen. Ohne JavaScript bleiben die Formularfelder deaktiviert; der direkte E-Mail-Link ist verfügbar. Tatsächliche Zustellung gesondert beim Hoster testen.
 6. Galerie-Vergrößerung, internes Menü, HTTP-Status der Seiten, 404-Seite, Desktop und schmale Mobilansicht prüfen.
 7. Upload-ZIP mit WordPress installieren und den Inhalt prüfen; keine Testdaten, Geheimnisse, Abhängigkeiten oder WordPress-Core-Dateien einpacken.
 
 Der Starterimport arbeitet nur mit den von ihm gespeicherten Seiten-IDs. Vorhandene Vereinsseiten, bestehende Elementor-Kit-Einstellungen und eigene Bearbeitungen werden beim Wiederholen erhalten. Die Startseiten-Zuordnung wird ausschließlich durch den separaten Button im Backend geändert. Alle schreibenden Backendaktionen benötigen Administratorrechte und einen gültigen WordPress-Nonce.
 
 Die Astro-Dateien im Repository bleiben als ursprünglicher Design-Prototyp erhalten; die eigentliche Elementor-Auslieferung liegt unter `wordpress/`.
+
+Version 1.1 ergänzt Wappenfarben, ein frei bearbeitbares Logo-Widget, gesicherten Farbwechsel vorhandener Dokumente und direkten Kontaktversand. Private Test-Mail-Abfänger oder Test-Empfänger dürfen nie im Theme-Paket stehen. Der Kontakt benutzt weder Nachrichtenspeicherung in WordPress noch externe CAPTCHA-Dienste. [Datenschutz und Übergabe](DATENSCHUTZ-UND-UEBERGABE.md) beschreibt offene Betriebspunkte.

@@ -44,7 +44,7 @@
           "size": 100
         },
         "flex_align_items": "stretch",
-        "_css_classes": "bg-section-title",
+        "css_classes": "bg-section-title",
         "_title": "",
         "boxed_width": {
           "unit": "px",
@@ -59,7 +59,7 @@
           "isLinked": false
         },
         "background_background": "classic",
-        "background_color": "#f0eee4"
+        "background_color": "#f1ead9"
       },
       "elements": [
         {
@@ -69,7 +69,7 @@
           "settings": {
             "title": "RECHTLICHES",
             "header_size": "p",
-            "title_color": "#65716a",
+            "title_color": "#635f58",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
             "typography_font_weight": "700",
@@ -112,7 +112,7 @@
           "settings": {
             "title": "Impressum",
             "header_size": "h1",
-            "title_color": "#233c33",
+            "title_color": "#211d19",
             "typography_typography": "custom",
             "typography_font_family": "Gaustadt Serif",
             "typography_font_weight": "400",
@@ -153,7 +153,7 @@
           "widgetType": "text-editor",
           "settings": {
             "editor": "<p>Angaben zum Anbieter dieser Website.</p>",
-            "text_color": "#65716a",
+            "text_color": "#635f58",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
             "typography_font_size": {
@@ -221,7 +221,7 @@
           "size": 100
         },
         "flex_align_items": "stretch",
-        "_css_classes": "bg-legal",
+        "css_classes": "bg-legal",
         "_title": "",
         "boxed_width": {
           "unit": "px",
@@ -319,7 +319,7 @@
           "settings": {
             "title": "Anbieter",
             "header_size": "h2",
-            "title_color": "#233c33",
+            "title_color": "#211d19",
             "typography_typography": "custom",
             "typography_font_family": "Gaustadt Serif",
             "typography_font_weight": "400",
@@ -360,7 +360,7 @@
           "widgetType": "text-editor",
           "settings": {
             "editor": "<p>[Vollständiger Vereinsname und Rechtsform]<br>[Straße, Hausnummer, PLZ und Ort]</p>",
-            "text_color": "#65716a",
+            "text_color": "#635f58",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
             "typography_font_size": {
@@ -393,7 +393,7 @@
           "settings": {
             "title": "Vertreten durch",
             "header_size": "h2",
-            "title_color": "#233c33",
+            "title_color": "#211d19",
             "typography_typography": "custom",
             "typography_font_family": "Gaustadt Serif",
             "typography_font_weight": "400",
@@ -434,7 +434,7 @@
           "widgetType": "text-editor",
           "settings": {
             "editor": "<p>[Vertretungsberechtigte Person(en)]</p>",
-            "text_color": "#65716a",
+            "text_color": "#635f58",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
             "typography_font_size": {
@@ -467,7 +467,7 @@
           "settings": {
             "title": "Kontakt",
             "header_size": "h2",
-            "title_color": "#233c33",
+            "title_color": "#211d19",
             "typography_typography": "custom",
             "typography_font_family": "Gaustadt Serif",
             "typography_font_weight": "400",
@@ -508,7 +508,7 @@
           "widgetType": "text-editor",
           "settings": {
             "editor": "<p>[gaustadt_email]<br>[Weitere Möglichkeit zur unmittelbaren Kontaktaufnahme ergänzen]</p>",
-            "text_color": "#65716a",
+            "text_color": "#635f58",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
             "typography_font_size": {
@@ -541,7 +541,7 @@
           "settings": {
             "title": "Registerangaben",
             "header_size": "h2",
-            "title_color": "#233c33",
+            "title_color": "#211d19",
             "typography_typography": "custom",
             "typography_font_family": "Gaustadt Serif",
             "typography_font_weight": "400",
@@ -582,7 +582,7 @@
           "widgetType": "text-editor",
           "settings": {
             "editor": "<p>[Registergericht und Registernummer, falls zutreffend]</p>",
-            "text_color": "#65716a",
+            "text_color": "#635f58",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
             "typography_font_size": {
@@ -615,7 +615,7 @@
           "settings": {
             "title": "Inhaltlich verantwortlich",
             "header_size": "h2",
-            "title_color": "#233c33",
+            "title_color": "#211d19",
             "typography_typography": "custom",
             "typography_font_family": "Gaustadt Serif",
             "typography_font_weight": "400",
@@ -656,7 +656,7 @@
           "widgetType": "text-editor",
           "settings": {
             "editor": "<p>[Inhaltlich verantwortliche Person und Anschrift, falls erforderlich]</p>",
-            "text_color": "#65716a",
+            "text_color": "#635f58",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
             "typography_font_size": {
@@ -689,7 +689,7 @@
           "settings": {
             "title": "Bildnachweise",
             "header_size": "h2",
-            "title_color": "#233c33",
+            "title_color": "#211d19",
             "typography_typography": "custom",
             "typography_font_family": "Gaustadt Serif",
             "typography_font_weight": "400",
@@ -730,7 +730,7 @@
           "widgetType": "text-editor",
           "settings": {
             "editor": "<p>Die derzeit verwendeten Instrumenten- und Musikdarstellungen sind Illustrationen. Sie zeigen keine tatsächlichen Mitglieder oder Auftritte der Kapelle.<br>[Nach Ergänzung eigener Fotos: Fotografen und Bildnachweise ergänzen]</p>",
-            "text_color": "#65716a",
+            "text_color": "#635f58",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
             "typography_font_size": {

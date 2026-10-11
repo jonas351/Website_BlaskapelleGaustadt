@@ -44,7 +44,7 @@
           "size": 100
         },
         "flex_align_items": "stretch",
-        "_css_classes": "bg-section-title",
+        "css_classes": "bg-section-title",
         "_title": "",
         "boxed_width": {
           "unit": "px",
@@ -59,7 +59,7 @@
           "isLinked": false
         },
         "background_background": "classic",
-        "background_color": "#f0eee4"
+        "background_color": "#f1ead9"
       },
       "elements": [
         {
@@ -69,7 +69,7 @@
           "settings": {
             "title": "BILDER & EINDRÜCKE",
             "header_size": "p",
-            "title_color": "#65716a",
+            "title_color": "#635f58",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
             "typography_font_weight": "700",
@@ -112,7 +112,7 @@
           "settings": {
             "title": "Momente, die nachklingen.",
             "header_size": "h1",
-            "title_color": "#233c33",
+            "title_color": "#211d19",
             "typography_typography": "custom",
             "typography_font_family": "Gaustadt Serif",
             "typography_font_weight": "400",
@@ -153,7 +153,7 @@
           "widgetType": "text-editor",
           "settings": {
             "editor": "<p>Auf der Bühne, hinter den Kulissen und miteinander. Hier ist Platz für die kleinen und großen Momente aus unserem Kapellenleben.</p>",
-            "text_color": "#65716a",
+            "text_color": "#635f58",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
             "typography_font_size": {
@@ -221,7 +221,7 @@
           "size": 100
         },
         "flex_align_items": "stretch",
-        "_css_classes": "",
+        "css_classes": "",
         "_title": "",
         "boxed_width": {
           "unit": "px",
@@ -275,7 +275,7 @@
           "widgetType": "text-editor",
           "settings": {
             "editor": "<p>Unsere Fotogalerie entsteht hier. Diese Bilder sind Illustrationen – echte Vereinsfotos folgen. Bis dahin findest du aktuelle Einblicke auf Instagram.</p>",
-            "text_color": "#65716a",
+            "text_color": "#635f58",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
             "typography_font_size": {
@@ -343,7 +343,7 @@
           "size": 100
         },
         "flex_align_items": "stretch",
-        "_css_classes": "",
+        "css_classes": "",
         "_title": "",
         "boxed_width": {
           "unit": "px",
@@ -358,7 +358,7 @@
           "isLinked": false
         },
         "background_background": "classic",
-        "background_color": "#183c34"
+        "background_color": "#211d19"
       },
       "elements": [
         {
@@ -401,7 +401,7 @@
               "size": 100
             },
             "flex_align_items": "stretch",
-            "_css_classes": "",
+            "css_classes": "",
             "_title": ""
           },
           "elements": [
@@ -445,7 +445,7 @@
                   "size": 100
                 },
                 "flex_align_items": "stretch",
-                "_css_classes": "",
+                "css_classes": "",
                 "_title": ""
               },
               "elements": [
@@ -456,7 +456,7 @@
                   "settings": {
                     "title": "DEIN PLATZ IN DER KAPELLE",
                     "header_size": "p",
-                    "title_color": "#dbc18a",
+                    "title_color": "#fff000",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
                     "typography_font_weight": "700",
@@ -499,7 +499,7 @@
                   "settings": {
                     "title": "Kapellenleben zum Mitnehmen.",
                     "header_size": "h2",
-                    "title_color": "#faf8f1",
+                    "title_color": "#faf7ed",
                     "typography_typography": "custom",
                     "typography_font_family": "Gaustadt Serif",
                     "typography_font_weight": "400",
@@ -540,7 +540,7 @@
                   "widgetType": "text-editor",
                   "settings": {
                     "editor": "<p>Direkt von uns. Auf Instagram: @bk.gaustadt</p>",
-                    "text_color": "#c1cdbc",
+                    "text_color": "#e8e2d7",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
                     "typography_font_size": {
@@ -608,7 +608,7 @@
                   "size": 100
                 },
                 "flex_align_items": "stretch",
-                "_css_classes": "",
+                "css_classes": "",
                 "_title": "",
                 "flex_justify_content": "center"
               },
@@ -623,8 +623,8 @@
                       "url": "https://www.instagram.com/bk.gaustadt/",
                       "is_external": false
                     },
-                    "background_color": "#faf8f1",
-                    "button_text_color": "#183c34",
+                    "background_color": "#faf7ed",
+                    "button_text_color": "#211d19",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
                     "typography_font_size": {

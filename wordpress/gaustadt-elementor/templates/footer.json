@@ -44,7 +44,7 @@
           "size": 100
         },
         "flex_align_items": "stretch",
-        "_css_classes": "",
+        "css_classes": "",
         "_title": "",
         "boxed_width": {
           "unit": "px",
@@ -59,7 +59,7 @@
           "isLinked": false
         },
         "background_background": "classic",
-        "background_color": "#eeeee3"
+        "background_color": "#f1ead9"
       },
       "elements": [
         {
@@ -102,7 +102,7 @@
               "size": 100
             },
             "flex_align_items": "stretch",
-            "_css_classes": "",
+            "css_classes": "",
             "_title": ""
           },
           "elements": [
@@ -146,7 +146,7 @@
                   "size": 100
                 },
                 "flex_align_items": "stretch",
-                "_css_classes": "",
+                "css_classes": "",
                 "_title": ""
               },
               "elements": [
@@ -155,9 +155,9 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "<small>BLASKAPELLE</small>GAUSTADT",
+                    "title": "<small>BLASKAPELLE ST. JOSEF</small>GAUSTADT",
                     "header_size": "h3",
-                    "title_color": "#183c34",
+                    "title_color": "#211d19",
                     "typography_typography": "custom",
                     "typography_font_family": "Gaustadt Serif",
                     "typography_font_weight": "400",
@@ -199,7 +199,7 @@
                   "widgetType": "text-editor",
                   "settings": {
                     "editor": "<p>Heimat im Herzen.<br>Musik im Blut.</p>",
-                    "text_color": "#65716a",
+                    "text_color": "#635f58",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
                     "typography_font_size": {
@@ -267,7 +267,7 @@
                   "size": 100
                 },
                 "flex_align_items": "stretch",
-                "_css_classes": "bg-footer-links",
+                "css_classes": "bg-footer-links",
                 "_title": ""
               },
               "elements": [
@@ -278,7 +278,7 @@
                   "settings": {
                     "title": "Entdecken",
                     "header_size": "p",
-                    "title_color": "#65716a",
+                    "title_color": "#635f58",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
                     "typography_font_weight": "700",
@@ -320,7 +320,7 @@
                   "widgetType": "text-editor",
                   "settings": {
                     "editor": "<p><a href=\"@@link:kapelle@@\">Die Kapelle</a></p><p><a href=\"@@link:termine@@\">Termine & Auftritte</a></p><p><a href=\"@@link:galerie@@\">Bilder & Eindrücke</a></p>",
-                    "text_color": "#65716a",
+                    "text_color": "#635f58",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
                     "typography_font_size": {
@@ -388,7 +388,7 @@
                   "size": 100
                 },
                 "flex_align_items": "stretch",
-                "_css_classes": "bg-footer-links",
+                "css_classes": "bg-footer-links",
                 "_title": ""
               },
               "elements": [
@@ -399,7 +399,7 @@
                   "settings": {
                     "title": "Zusammenkommen",
                     "header_size": "p",
-                    "title_color": "#65716a",
+                    "title_color": "#635f58",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
                     "typography_font_weight": "700",
@@ -441,7 +441,7 @@
                   "widgetType": "text-editor",
                   "settings": {
                     "editor": "<p><a href=\"@@link:mitmachen@@\">Mitmachen</a></p><p><a href=\"@@link:kontakt@@\">Auftritt anfragen</a></p><p><a href=\"@@link:kontakt@@\">Kontakt</a></p>",
-                    "text_color": "#65716a",
+                    "text_color": "#635f58",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
                     "typography_font_size": {
@@ -509,7 +509,7 @@
                   "size": 100
                 },
                 "flex_align_items": "stretch",
-                "_css_classes": "",
+                "css_classes": "",
                 "_title": ""
               },
               "elements": [
@@ -520,7 +520,7 @@
                   "settings": {
                     "title": "Immer in Verbindung",
                     "header_size": "p",
-                    "title_color": "#65716a",
+                    "title_color": "#635f58",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
                     "typography_font_weight": "700",
@@ -562,7 +562,7 @@
                   "widgetType": "text-editor",
                   "settings": {
                     "editor": "<p>Neuigkeiten und kleine Einblicke gibt’s auch auf Instagram.</p>",
-                    "text_color": "#65716a",
+                    "text_color": "#635f58",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
                     "typography_font_size": {
@@ -598,8 +598,8 @@
                       "url": "https://www.instagram.com/bk.gaustadt/",
                       "is_external": true
                     },
-                    "background_color": "#183c34",
-                    "button_text_color": "#faf8f1",
+                    "background_color": "#211d19",
+                    "button_text_color": "#faf7ed",
                     "typography_typography": "custom",
                     "typography_font_family": "Arial",
                     "typography_font_size": {
@@ -685,7 +685,7 @@
               "size": 100
             },
             "flex_align_items": "stretch",
-            "_css_classes": "",
+            "css_classes": "",
             "_title": ""
           },
           "elements": [
@@ -695,7 +695,7 @@
               "widgetType": "text-editor",
               "settings": {
                 "editor": "<p>Blaskapelle Gaustadt</p>",
-                "text_color": "#65716a",
+                "text_color": "#635f58",
                 "typography_typography": "custom",
                 "typography_font_family": "Arial",
                 "typography_font_size": {
@@ -727,7 +727,7 @@
               "widgetType": "text-editor",
               "settings": {
                 "editor": "<p><a href=\"@@link:impressum@@\">Impressum</a> · <a href=\"@@link:datenschutz@@\">Datenschutz</a></p>",
-                "text_color": "#65716a",
+                "text_color": "#635f58",
                 "typography_typography": "custom",
                 "typography_font_family": "Arial",
                 "typography_font_size": {
@@ -759,7 +759,7 @@
               "widgetType": "text-editor",
               "settings": {
                 "editor": "<p>Mit ♡ für Gaustadt.</p>",
-                "text_color": "#65716a",
+                "text_color": "#635f58",
                 "typography_typography": "custom",
                 "typography_font_family": "Arial",
                 "typography_font_size": {

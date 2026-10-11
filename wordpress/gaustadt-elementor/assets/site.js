@@ -20,24 +20,38 @@
       const query = new URLSearchParams(location.search).get('anliegen');
       if (query === 'auftritt') subject.value = 'Auftrittsanfrage';
       if (query === 'mitmachen') subject.value = 'Mitmachen';
-      const result = container.querySelector('.bg-inquiry-result');
-      const prepared = container.querySelector('.bg-prepared');
       const status = container.querySelector('[role=status]');
-      form.addEventListener('submit', event => {
-        event.preventDefault(); if (!form.reportValidity()) return;
+      const fieldset = form.querySelector('fieldset');
+      if (fieldset.dataset.configured !== 'yes') return;
+      fieldset.disabled = false;
+      let sending = false;
+      form.addEventListener('submit', async event => {
+        event.preventDefault();
+        if (sending || !form.reportValidity()) return;
+        sending = true;
         const data = new FormData(form);
-        prepared.value = `${data.get('subject')}\n\nHallo Blaskapelle Gaustadt,\n\n${String(data.get('message')).trim()}\n\nViele Grüße\n${String(data.get('name')).trim()}\nE-Mail: ${String(data.get('email')).trim()}`;
-        const send = result.querySelector('[data-bg-send]');
-        if (send && container.dataset.email) send.href = `mailto:${container.dataset.email}?subject=${encodeURIComponent(String(data.get('subject')))}&body=${encodeURIComponent(prepared.value)}`;
-        status.textContent = ''; result.hidden = false; result.querySelector('h3').focus();
-        result.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion:reduce)').matches ? 'instant' : 'smooth', block: 'nearest' });
+        fieldset.disabled = true;
+        status.textContent = 'Deine Nachricht wird gesendet …';
+        status.dataset.state = 'sending';
+        try {
+          const response = await fetch(container.dataset.endpoint, { method: 'POST', body: data, credentials: 'same-origin' });
+          const result = await response.json();
+          if (!response.ok || !result.success) {
+            const error = new Error(result.data?.message || 'Der Versand hat nicht funktioniert. Bitte nutze den direkten Kontaktweg.');
+            error.userMessage = true;
+            throw error;
+          }
+          status.textContent = result.data.message;
+          status.dataset.state = 'success';
+          form.reset();
+        } catch (error) {
+          status.textContent = error.userMessage ? error.message : 'Keine Verbindung. Bitte versuche es erneut oder nutze den direkten Kontaktweg.';
+          status.dataset.state = 'error';
+        } finally {
+          fieldset.disabled = false;
+          sending = false;
+        }
       });
-      result.querySelector('button').addEventListener('click', async () => {
-        try { await navigator.clipboard.writeText(prepared.value); status.textContent = 'Kopiert! Du kannst die Nachricht jetzt einfügen und senden.'; }
-        catch { prepared.focus(); prepared.select(); status.textContent = 'Bitte kopiere den markierten Text mit Strg+C oder über das Kopieren-Menü.'; }
-      });
-      form.addEventListener('input', () => { result.hidden = true; });
-      form.querySelector('fieldset').disabled = false;
     });
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', () => initialize()); else initialize();
