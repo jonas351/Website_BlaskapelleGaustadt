@@ -1,0 +1,695 @@
+{
+  "version": "0.4",
+  "title": "Kontakt",
+  "type": "page",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "ef43ea31",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": "22",
+          "row": "22",
+          "isLinked": true,
+          "size": 22
+        },
+        "padding": {
+          "unit": "px",
+          "top": "75",
+          "right": "45",
+          "bottom": "75",
+          "left": "45",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "isLinked": false
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "fb-page-title",
+        "_title": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1160
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "65",
+          "right": "35",
+          "bottom": "65",
+          "left": "35",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#eee5d8"
+      },
+      "elements": [
+        {
+          "id": "f5bcbcf2",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "KONTAKT",
+            "header_size": "p",
+            "title_color": "#a44720",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.07
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": -0.5
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            },
+            "_css_classes": "fb-eyebrow"
+          },
+          "elements": []
+        },
+        {
+          "id": "8940d723",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Erzählt uns,<br>was ihr vorhabt.",
+            "header_size": "h1",
+            "title_color": "#30251f",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 64
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 54
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.07
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": -1.6
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "93744855",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Eine neue Website, eine Terminbuchung oder erst einmal eine Frage? Jonas und Benedikt freuen sich auf eure Nachricht.</p>",
+            "text_color": "#6e5f54",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.7
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            }
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "9fc22cfa",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": "60",
+          "row": "60",
+          "isLinked": true,
+          "size": 60
+        },
+        "padding": {
+          "unit": "px",
+          "top": "90",
+          "right": "45",
+          "bottom": "90",
+          "left": "45",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "isLinked": false
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "_title": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1160
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "65",
+          "right": "35",
+          "bottom": "65",
+          "left": "35",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "45a89bb2",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "column": "22",
+              "row": "22",
+              "isLinked": true,
+              "size": 22
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 37
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_align_items": "stretch",
+            "css_classes": "",
+            "_title": ""
+          },
+          "elements": [
+            {
+              "id": "7b3c1e65",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "EIN DIREKTER DRAHT",
+                "header_size": "p",
+                "title_color": "#a44720",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.07
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -0.5
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "title_color": ""
+                },
+                "_css_classes": "fb-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "cae2d7b4",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Der erste Schritt<br>ist ein Hallo.",
+                "header_size": "h2",
+                "title_color": "#30251f",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 39
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 39
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 32
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.07
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -1.6
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "title_color": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "a7570a2b",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Beschreibt kurz euer Unternehmen und eure Idee. Was soll leichter werden? Was fehlt euch heute? Gemeinsam klären wir den nächsten Schritt.</p>",
+                "text_color": "#6e5f54",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "text_color": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "dc04f206",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "E-MAIL",
+                "header_size": "p",
+                "title_color": "#6e5f54",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.07
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -0.5
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "title_color": ""
+                },
+                "_css_classes": "fb-eyebrow"
+              },
+              "elements": []
+            },
+            {
+              "id": "2e851c3e",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>[firebow_email]</p>",
+                "text_color": "#30251f",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "text_color": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "be540f81",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "So geht es danach weiter.",
+                "header_size": "h3",
+                "title_color": "#30251f",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 26
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 26
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 26
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.07
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -0.5
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "title_color": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "e9f2c9c6",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Wir lesen eure Anfrage, klären offene Fragen und besprechen mit euch den passenden Umfang. Es wird erst beauftragt, wenn Angebot und Vorgehen abgestimmt sind.</p>",
+                "text_color": "#6e5f54",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "text_color": ""
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "cdf6d5a0",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "column": "22",
+              "row": "22",
+              "isLinked": true,
+              "size": 22
+            },
+            "padding": {
+              "unit": "px",
+              "top": "35",
+              "right": "35",
+              "bottom": "35",
+              "left": "35",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "25",
+              "right": "20",
+              "bottom": "25",
+              "left": "20",
+              "isLinked": false
+            },
+            "width": {
+              "unit": "%",
+              "size": 57
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_align_items": "stretch",
+            "css_classes": "fb-service-card",
+            "_title": "",
+            "background_background": "classic",
+            "background_color": "#fffcf7",
+            "border_radius": {
+              "unit": "px",
+              "top": "15",
+              "right": "15",
+              "bottom": "15",
+              "left": "15",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "0acb50fc",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Was können wir für euch tun?",
+                "header_size": "h2",
+                "title_color": "#30251f",
+                "typography_typography": "custom",
+                "typography_font_family": "Arial",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 30
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 30
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 30
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.07
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -1.6
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "__globals__": {
+                  "typography_typography": "",
+                  "title_color": ""
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "1e48a365",
+              "elType": "widget",
+              "widgetType": "firebow-inquiry",
+              "settings": {
+                "email": "jonas.bogensperger@firebow.net",
+                "privacy_link": {
+                  "url": "@@link:datenschutz@@"
+                },
+                "__globals__": {},
+                "_title": "Kontaktadresse und Formular"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

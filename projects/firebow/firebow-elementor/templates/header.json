@@ -1,0 +1,216 @@
+{
+  "version": "0.4",
+  "title": "Kopfbereich & Menü",
+  "type": "section",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "3cca975d",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_direction_mobile": "row",
+        "flex_gap": {
+          "unit": "px",
+          "column": "0",
+          "row": "0",
+          "isLinked": true,
+          "size": 0
+        },
+        "padding": {
+          "unit": "px",
+          "top": "23",
+          "right": "45",
+          "bottom": "23",
+          "left": "45",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "20",
+          "right": "20",
+          "bottom": "20",
+          "left": "20",
+          "isLinked": true
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_align_items": "center",
+        "css_classes": "fb-header-row",
+        "_title": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1160
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "20",
+          "right": "30",
+          "bottom": "20",
+          "left": "30",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#f8f4ed"
+      },
+      "elements": [
+        {
+          "id": "2ba1285f",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "column": "22",
+              "row": "22",
+              "isLinked": true,
+              "size": 22
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 24
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_align_items": "stretch",
+            "css_classes": "fb-header-brand",
+            "_title": ""
+          },
+          "elements": [
+            {
+              "id": "95579413",
+              "elType": "widget",
+              "widgetType": "firebow-logo",
+              "settings": {
+                "__globals__": {}
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "8f3201b5",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "column": "22",
+              "row": "22",
+              "isLinked": true,
+              "size": 22
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 76
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_align_items": "flex-end",
+            "css_classes": "fb-header-nav",
+            "_title": "",
+            "flex_justify_content": "center"
+          },
+          "elements": [
+            {
+              "id": "d638e623",
+              "elType": "widget",
+              "widgetType": "firebow-navigation",
+              "settings": {
+                "items": [
+                  {
+                    "_id": "fd0f7d07",
+                    "label": "Start",
+                    "link": {
+                      "url": "@@link:startseite@@"
+                    }
+                  },
+                  {
+                    "_id": "f4b42ea9",
+                    "label": "Leistungen",
+                    "link": {
+                      "url": "@@link:leistungen@@"
+                    }
+                  },
+                  {
+                    "_id": "22570131",
+                    "label": "Über uns",
+                    "link": {
+                      "url": "@@link:ueber-uns@@"
+                    }
+                  },
+                  {
+                    "_id": "377bd49a",
+                    "label": "FAQ",
+                    "link": {
+                      "url": "@@link:faq@@"
+                    }
+                  },
+                  {
+                    "_id": "e67bc7d4",
+                    "label": "Projekt besprechen",
+                    "link": {
+                      "url": "@@link:kontakt@@"
+                    }
+                  }
+                ],
+                "__globals__": {}
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

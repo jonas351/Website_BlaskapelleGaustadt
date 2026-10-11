@@ -1,0 +1,761 @@
+{
+  "version": "0.4",
+  "title": "Fragen & Antworten",
+  "type": "page",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "88f8bf36",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": "22",
+          "row": "22",
+          "isLinked": true,
+          "size": 22
+        },
+        "padding": {
+          "unit": "px",
+          "top": "75",
+          "right": "45",
+          "bottom": "75",
+          "left": "45",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "isLinked": false
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "fb-page-title",
+        "_title": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1160
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "65",
+          "right": "35",
+          "bottom": "65",
+          "left": "35",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#eee5d8"
+      },
+      "elements": [
+        {
+          "id": "a45b15a2",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "FRAGEN & ANTWORTEN",
+            "header_size": "p",
+            "title_color": "#a44720",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 11
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.07
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": -0.5
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            },
+            "_css_classes": "fb-eyebrow"
+          },
+          "elements": []
+        },
+        {
+          "id": "643638c5",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Gut zu wissen.<br>Einfach erklärt.",
+            "header_size": "h1",
+            "title_color": "#30251f",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 64
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 54
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.07
+            },
+            "typography_letter_spacing": {
+              "unit": "px",
+              "size": -1.6
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "title_color": ""
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "32276cb5",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Hier findet ihr Antworten auf die häufigsten Fragen rund um Zusammenarbeit, Technik und Pflege.</p>",
+            "text_color": "#6e5f54",
+            "typography_typography": "custom",
+            "typography_font_family": "Arial",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.7
+            },
+            "_margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "__globals__": {
+              "typography_typography": "",
+              "text_color": ""
+            }
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "58db3c86",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": "30",
+          "row": "30",
+          "isLinked": true,
+          "size": 30
+        },
+        "padding": {
+          "unit": "px",
+          "top": "65",
+          "right": "45",
+          "bottom": "65",
+          "left": "45",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "isLinked": false
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "",
+        "_title": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1160
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "65",
+          "right": "35",
+          "bottom": "65",
+          "left": "35",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "baf831d6",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "column": "0",
+              "row": "0",
+              "isLinked": true,
+              "size": 0
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_align_items": "stretch",
+            "css_classes": "fb-faq-list",
+            "_title": ""
+          },
+          "elements": [
+            {
+              "id": "6493dded",
+              "elType": "widget",
+              "widgetType": "firebow-faq",
+              "settings": {
+                "source": "this",
+                "limit": 0,
+                "items": [
+                  {
+                    "_id": "2c53258d",
+                    "question": "Was kostet eine Website bei euch?",
+                    "answer": "<p>Das hängt davon ab, was ihr braucht: etwa einen Onepager, mehrere Unterseiten oder eine Terminbuchung. Nach einem Gespräch über Inhalte und Funktionen erstellen wir ein individuelles Angebot. Umfang und Kosten stimmen wir vor dem Start gemeinsam ab.</p>"
+                  },
+                  {
+                    "_id": "fc421c80",
+                    "question": "Wie lange dauert die Umsetzung?",
+                    "answer": "<p>Der Zeitplan hängt vom Umfang und davon ab, wann Texte, Bilder und Rückmeldungen vorliegen. Wir besprechen die einzelnen Schritte vor Projektbeginn und legen einen realistischen Ablauf fest.</p>"
+                  },
+                  {
+                    "_id": "d2dc1791",
+                    "question": "Könnt ihr Buchungssysteme wie Doctolib oder Bookly einbauen?",
+                    "answer": "<p>Wir prüfen für euren konkreten Anbieter, welche Einbindung technisch möglich ist und welche Lizenz-, Datenschutz- und Vertragsbedingungen gelten. Nicht jedes System bietet dieselben Schnittstellen. Eine verbindliche Zusage gibt es nach dieser Prüfung.</p>"
+                  },
+                  {
+                    "_id": "e75b964b",
+                    "question": "Kann ich Texte und Bilder später selbst ändern?",
+                    "answer": "<p>Ja, die neue FireBow-Website lässt sich mit WordPress und dem kostenlosen Elementor bearbeiten. Für Kundenprojekte stimmen wir ebenfalls ab, welche Inhalte ihr selbst pflegen möchtet, und richten die Bedienung entsprechend ein.</p>"
+                  },
+                  {
+                    "_id": "8d808081",
+                    "question": "Muss ich mich selbst um Updates und Pflege kümmern?",
+                    "answer": "<p>Das klären wir gemeinsam. Regelmäßige Updates, Sicherungen und technische Pflege müssen eingeplant werden. Ob ihr das selbst übernimmt oder eine Betreuung vereinbart, wird Teil der Projektabsprache; eine laufende Betreuung ist nicht automatisch enthalten.</p>"
+                  },
+                  {
+                    "_id": "59fddd97",
+                    "question": "Was braucht ihr, bevor wir starten?",
+                    "answer": "<p>Hilfreich sind euer Angebot, eure Zielgruppe, das Logo sowie vorhandene Texte und Bilder. Wenn noch etwas fehlt, gehen wir die Inhalte gemeinsam durch. Auch die Frage, wer Hosting und Domain betreut, klären wir frühzeitig.</p>"
+                  },
+                  {
+                    "_id": "2c57438a",
+                    "question": "Könnt ihr eine bestehende Website überarbeiten?",
+                    "answer": "<p>Ja. Wir schauen uns den vorhandenen Auftritt an und besprechen, welche Inhalte bleiben sollen und was sich verbessern lässt. Danach entscheiden wir gemeinsam zwischen gezielter Überarbeitung und einem neuen Aufbau.</p>"
+                  },
+                  {
+                    "_id": "6b0822a7",
+                    "question": "Wie gehen wir mit Datenschutz um?",
+                    "answer": "<p>Wir berücksichtigen Datenschutz bei technischen Entscheidungen, etwa bei Formularen, Schriften und externen Diensten. Welche Rechtstexte, Verträge oder Einwilligungen erforderlich sind, hängt vom tatsächlichen Betrieb ab. Eine individuelle rechtliche Prüfung wird dadurch nicht ersetzt.</p>"
+                  }
+                ],
+                "__globals__": {},
+                "_title": "Hier Fragen und Antworten bearbeiten"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2aa4bbe5",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_direction_mobile": "column",
+        "flex_gap": {
+          "unit": "px",
+          "column": "30",
+          "row": "30",
+          "isLinked": true,
+          "size": 30
+        },
+        "padding": {
+          "unit": "px",
+          "top": "65",
+          "right": "45",
+          "bottom": "65",
+          "left": "45",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "20",
+          "bottom": "48",
+          "left": "20",
+          "isLinked": false
+        },
+        "width": {
+          "unit": "%",
+          "size": 100
+        },
+        "width_mobile": {
+          "unit": "%",
+          "size": 100
+        },
+        "flex_align_items": "stretch",
+        "css_classes": "fb-cta",
+        "_title": "",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1160
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "65",
+          "right": "35",
+          "bottom": "65",
+          "left": "35",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#30251f"
+      },
+      "elements": [
+        {
+          "id": "b4797811",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_direction_mobile": "column",
+            "flex_gap": {
+              "unit": "px",
+              "column": "40",
+              "row": "40",
+              "isLinked": true,
+              "size": 40
+            },
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_align_items": "stretch",
+            "css_classes": "",
+            "_title": ""
+          },
+          "elements": [
+            {
+              "id": "aac955f9",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "22",
+                  "row": "22",
+                  "isLinked": true,
+                  "size": 22
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 68
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_align_items": "stretch",
+                "css_classes": "",
+                "_title": ""
+              },
+              "elements": [
+                {
+                  "id": "3ab42ad0",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "EUER NÄCHSTER SCHRITT",
+                    "header_size": "p",
+                    "title_color": "#e4b88a",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 11
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.07
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -0.5
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    },
+                    "_css_classes": "fb-eyebrow"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "177ae335",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Eine Idee?<br>Lass uns darüber sprechen.",
+                    "header_size": "h2",
+                    "title_color": "#f8f4ed",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_weight": "700",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 43
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 43
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 32
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.07
+                    },
+                    "typography_letter_spacing": {
+                      "unit": "px",
+                      "size": -1.6
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "title_color": ""
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "21c75670",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Ob neue Website oder eine konkrete Funktion: Erzählt uns, was euch im Alltag helfen würde.</p>",
+                    "text_color": "#dfd1c3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "b2df33a4",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_direction_mobile": "column",
+                "flex_gap": {
+                  "unit": "px",
+                  "column": "22",
+                  "row": "22",
+                  "isLinked": true,
+                  "size": 22
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "padding_mobile": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 28
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                },
+                "flex_align_items": "stretch",
+                "css_classes": "",
+                "_title": "",
+                "flex_justify_content": "center"
+              },
+              "elements": [
+                {
+                  "id": "456ea10e",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Projekt besprechen",
+                    "link": {
+                      "url": "@@link:kontakt@@",
+                      "is_external": false
+                    },
+                    "background_color": "#e8b27b",
+                    "button_text_color": "#30251f",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 14
+                    },
+                    "typography_font_weight": "700",
+                    "border_radius": {
+                      "unit": "px",
+                      "top": "7",
+                      "right": "7",
+                      "bottom": "7",
+                      "left": "7",
+                      "isLinked": true
+                    },
+                    "text_padding": {
+                      "unit": "px",
+                      "top": "15",
+                      "right": "23",
+                      "bottom": "15",
+                      "left": "23",
+                      "isLinked": false
+                    },
+                    "align": "left",
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "_element_width": "auto",
+                    "__globals__": {
+                      "typography_typography": "",
+                      "background_color": "",
+                      "button_text_color": ""
+                    },
+                    "_css_classes": "fb-arrow-link"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "766ec7f7",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Unverbindlich anfragen. Gemeinsam den Umfang klären.</p>",
+                    "text_color": "#dfd1c3",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Arial",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.7
+                    },
+                    "_margin": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "__globals__": {
+                      "typography_typography": "",
+                      "text_color": ""
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
