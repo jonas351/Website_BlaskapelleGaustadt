@@ -44,7 +44,7 @@
           "size": 100
         },
         "flex_align_items": "stretch",
-        "_css_classes": "",
+        "css_classes": "",
         "_title": "",
         "boxed_width": {
           "unit": "px",
@@ -59,7 +59,7 @@
           "isLinked": false
         },
         "background_background": "classic",
-        "background_color": "#123129"
+        "background_color": "#211d19"
       },
       "elements": [
         {
@@ -102,7 +102,7 @@
               "size": 100
             },
             "flex_align_items": "stretch",
-            "_css_classes": "",
+            "css_classes": "",
             "_title": ""
           },
           "elements": [
@@ -112,7 +112,7 @@
               "widgetType": "text-editor",
               "settings": {
                 "editor": "<p>BLASMUSIK AUS GAUSTADT. MIT HERZ.</p>",
-                "text_color": "#d7dccb",
+                "text_color": "#e8e2d7",
                 "typography_typography": "custom",
                 "typography_font_family": "Arial",
                 "typography_font_size": {
@@ -144,7 +144,7 @@
               "widgetType": "text-editor",
               "settings": {
                 "editor": "<p><a href=\"https://www.instagram.com/bk.gaustadt/\" target=\"_blank\" rel=\"noopener noreferrer\">Instagram · @bk.gaustadt ↗</a></p>",
-                "text_color": "#d7dccb",
+                "text_color": "#e8e2d7",
                 "typography_typography": "custom",
                 "typography_font_family": "Arial",
                 "typography_font_size": {
@@ -214,7 +214,7 @@
           "size": 100
         },
         "flex_align_items": "center",
-        "_css_classes": "",
+        "css_classes": "",
         "_title": "Logo & Navigation",
         "boxed_width": {
           "unit": "px",
@@ -229,7 +229,7 @@
           "isLinked": false
         },
         "background_background": "classic",
-        "background_color": "#faf8f1"
+        "background_color": "#faf7ed"
       },
       "elements": [
         {
@@ -272,7 +272,7 @@
               "size": 80
             },
             "flex_align_items": "stretch",
-            "_css_classes": "",
+            "css_classes": "",
             "_title": ""
           },
           "elements": [
@@ -316,30 +316,16 @@
                   "size": 100
                 },
                 "flex_align_items": "center",
-                "_css_classes": "",
+                "css_classes": "",
                 "_title": ""
               },
               "elements": [
                 {
                   "id": "061d5c52",
                   "elType": "widget",
-                  "widgetType": "heading",
+                  "widgetType": "gaustadt-logo",
                   "settings": {
-                    "title": "bg",
-                    "header_size": "p",
-                    "title_color": "#183c34",
-                    "typography_typography": "custom",
-                    "typography_font_family": "Gaustadt Serif",
-                    "typography_font_size": {
-                      "unit": "px",
-                      "size": 27
-                    },
-                    "_element_width": "auto",
-                    "__globals__": {
-                      "typography_typography": "",
-                      "title_color": ""
-                    },
-                    "_css_classes": "bg-roundmark"
+                    "__globals__": {}
                   },
                   "elements": []
                 },
@@ -348,9 +334,9 @@
                   "elType": "widget",
                   "widgetType": "heading",
                   "settings": {
-                    "title": "<small>BLASKAPELLE</small>GAUSTADT",
+                    "title": "<small>BLASKAPELLE ST. JOSEF</small>GAUSTADT",
                     "header_size": "h3",
-                    "title_color": "#183c34",
+                    "title_color": "#211d19",
                     "typography_typography": "custom",
                     "typography_font_family": "Gaustadt Serif",
                     "typography_font_weight": "400",
@@ -430,7 +416,7 @@
               "size": 20
             },
             "flex_align_items": "flex-end",
-            "_css_classes": "",
+            "css_classes": "",
             "_title": "",
             "flex_justify_content": "center"
           },

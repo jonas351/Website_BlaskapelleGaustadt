@@ -44,7 +44,7 @@
           "size": 100
         },
         "flex_align_items": "stretch",
-        "_css_classes": "bg-section-title",
+        "css_classes": "bg-section-title",
         "_title": "",
         "boxed_width": {
           "unit": "px",
@@ -59,7 +59,7 @@
           "isLinked": false
         },
         "background_background": "classic",
-        "background_color": "#f0eee4"
+        "background_color": "#f1ead9"
       },
       "elements": [
         {
@@ -69,7 +69,7 @@
           "settings": {
             "title": "RECHTLICHES",
             "header_size": "p",
-            "title_color": "#65716a",
+            "title_color": "#635f58",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
             "typography_font_weight": "700",
@@ -112,7 +112,7 @@
           "settings": {
             "title": "Datenschutz",
             "header_size": "h1",
-            "title_color": "#233c33",
+            "title_color": "#211d19",
             "typography_typography": "custom",
             "typography_font_family": "Gaustadt Serif",
             "typography_font_weight": "400",
@@ -153,7 +153,7 @@
           "widgetType": "text-editor",
           "settings": {
             "editor": "<p>Informationen zum Umgang mit personenbezogenen Daten auf dieser Website.</p>",
-            "text_color": "#65716a",
+            "text_color": "#635f58",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
             "typography_font_size": {
@@ -221,7 +221,7 @@
           "size": 100
         },
         "flex_align_items": "stretch",
-        "_css_classes": "bg-legal",
+        "css_classes": "bg-legal",
         "_title": "",
         "boxed_width": {
           "unit": "px",
@@ -319,7 +319,7 @@
           "settings": {
             "title": "1. Verantwortlicher",
             "header_size": "h2",
-            "title_color": "#233c33",
+            "title_color": "#211d19",
             "typography_typography": "custom",
             "typography_font_family": "Gaustadt Serif",
             "typography_font_weight": "400",
@@ -360,7 +360,7 @@
           "widgetType": "text-editor",
           "settings": {
             "editor": "<p>[Vollständiger Vereinsname und Rechtsform]<br>[Adresse und vertretungsberechtigte Personen]<br>Kontakt: [gaustadt_email]</p>",
-            "text_color": "#65716a",
+            "text_color": "#635f58",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
             "typography_font_size": {
@@ -393,7 +393,7 @@
           "settings": {
             "title": "2. Hosting und WordPress",
             "header_size": "h2",
-            "title_color": "#233c33",
+            "title_color": "#211d19",
             "typography_typography": "custom",
             "typography_font_family": "Gaustadt Serif",
             "typography_font_weight": "400",
@@ -434,7 +434,7 @@
           "widgetType": "text-editor",
           "settings": {
             "editor": "<p>Beim Aufruf der Website werden technisch erforderliche Verbindungsdaten, darunter die IP-Adresse, an den Server übermittelt. Der tatsächliche Hosting-Anbieter und seine Protokollierung sind zu ergänzen. WordPress und Elementor verarbeiten für Anmeldung, Verwaltung und Bearbeitung der Website Daten und können hierbei Cookies und lokale Browser-Speicher verwenden. Besucher benötigen für die hier angebotenen Inhalte kein Benutzerkonto.</p>",
-            "text_color": "#65716a",
+            "text_color": "#635f58",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
             "typography_font_size": {
@@ -465,7 +465,7 @@
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "<p>[Hosting-Anbieter, Serverstandort, Empfänger, Zwecke, Rechtsgrundlagen, Speicherdauer, eingesetzte Plugins und gegebenenfalls Auftragsverarbeitung ergänzen]</p>",
+            "editor": "<p>[Hosting- und Mail-Anbieter, Serverstandorte, Empfänger, Zwecke, Rechtsgrundlagen, Speicherdauer, eingesetzte Plugins und Auftragsverarbeitung ergänzen]</p>",
             "text_color": "#7c6342",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
@@ -499,7 +499,7 @@
           "settings": {
             "title": "3. Kontaktaufnahme",
             "header_size": "h2",
-            "title_color": "#233c33",
+            "title_color": "#211d19",
             "typography_typography": "custom",
             "typography_font_family": "Gaustadt Serif",
             "typography_font_weight": "400",
@@ -539,8 +539,8 @@
           "elType": "widget",
           "widgetType": "text-editor",
           "settings": {
-            "editor": "<p>Die Anfragehilfe stellt die Eingaben ausschließlich im Browser zur Nachricht zusammen. Sie übermittelt sie nicht an einen Formularserver und speichert sie nicht dauerhaft im Browser. Über die Kopierfunktion kann der Text in die Zwischenablage übernommen werden. Erst wenn du die Nachricht selbst per E-Mail oder Instagram sendest, wird sie über den gewählten Dienst übermittelt. Für die Bearbeitung eingehender Anfragen werden die mitgeteilten Angaben benötigt.</p>",
-            "text_color": "#65716a",
+            "editor": "<p>Beim Absenden des Kontaktformulars werden E-Mail-Adresse, Anliegen, Nachricht und optional der Name an den Website-Server und anschließend an das konfigurierte Vereins-Postfach übermittelt. Das Theme legt keine Nachrichten-Datenbank an. E-Mail-Dienste, Serverprotokolle und zusätzlich installierte Plugins können Daten speichern. Für die Bearbeitung eingehender Anfragen werden die mitgeteilten Angaben benötigt. Zum Schutz gegen wiederholte Anfragen nutzt das Theme einen mit geheimem Schlüssel abgeleiteten IP-Hash als kurzlebigen Zähler mit einer Stunde Gültigkeit. Darin stehen weder der Nachrichtentext noch die rohe IP-Adresse. Abgelaufene Zähler werden durch die WordPress-Bereinigungsroutinen entfernt; die Laufzeitumgebung und ihre Protokollierung sind gesondert zu prüfen.</p>",
+            "text_color": "#635f58",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
             "typography_font_size": {
@@ -605,7 +605,7 @@
           "settings": {
             "title": "4. Instagram und externe Links",
             "header_size": "h2",
-            "title_color": "#233c33",
+            "title_color": "#211d19",
             "typography_typography": "custom",
             "typography_font_family": "Gaustadt Serif",
             "typography_font_weight": "400",
@@ -646,7 +646,7 @@
           "widgetType": "text-editor",
           "settings": {
             "editor": "<p>Diese Website verlinkt auf das Instagram-Profil der Kapelle. Instagram-Beiträge werden nicht eingebettet. Wenn du dem Link folgst, gelten die Datenschutzinformationen des jeweiligen Anbieters.</p>",
-            "text_color": "#65716a",
+            "text_color": "#635f58",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
             "typography_font_size": {
@@ -679,7 +679,7 @@
           "settings": {
             "title": "5. Schriftarten, Dienste und Cookies",
             "header_size": "h2",
-            "title_color": "#233c33",
+            "title_color": "#211d19",
             "typography_typography": "custom",
             "typography_font_family": "Gaustadt Serif",
             "typography_font_weight": "400",
@@ -720,7 +720,7 @@
           "widgetType": "text-editor",
           "settings": {
             "editor": "<p>Die gelieferten Seiten verwenden die Systemschriften Georgia und Arial. Es ist kein Analyse- oder Werbedienst Bestandteil dieses Themes. WordPress-, Elementor-, Hosting- und Plugin-Einstellungen können zusätzliche Dienste oder Datenverarbeitung aktivieren; der tatsächliche Betrieb muss geprüft werden. Das Theme unterbindet das externe Laden von Google Fonts durch Elementor. Bei zusätzlichen Plugins oder eigenen Erweiterungen muss dies erneut geprüft werden.</p>",
-            "text_color": "#65716a",
+            "text_color": "#635f58",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
             "typography_font_size": {
@@ -785,7 +785,7 @@
           "settings": {
             "title": "6. Deine Rechte",
             "header_size": "h2",
-            "title_color": "#233c33",
+            "title_color": "#211d19",
             "typography_typography": "custom",
             "typography_font_family": "Gaustadt Serif",
             "typography_font_weight": "400",
@@ -826,7 +826,7 @@
           "widgetType": "text-editor",
           "settings": {
             "editor": "<p>Unter den gesetzlichen Voraussetzungen hast du insbesondere Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit. Du kannst einer Verarbeitung widersprechen und eine Einwilligung für die Zukunft widerrufen. Außerdem kannst du dich bei einer Datenschutzaufsichtsbehörde beschweren.</p>",
-            "text_color": "#65716a",
+            "text_color": "#635f58",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
             "typography_font_size": {

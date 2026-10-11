@@ -44,7 +44,7 @@
           "size": 100
         },
         "flex_align_items": "stretch",
-        "_css_classes": "bg-section-title",
+        "css_classes": "bg-section-title",
         "_title": "",
         "boxed_width": {
           "unit": "px",
@@ -59,7 +59,7 @@
           "isLinked": false
         },
         "background_background": "classic",
-        "background_color": "#f0eee4"
+        "background_color": "#f1ead9"
       },
       "elements": [
         {
@@ -69,7 +69,7 @@
           "settings": {
             "title": "KONTAKT",
             "header_size": "p",
-            "title_color": "#65716a",
+            "title_color": "#635f58",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
             "typography_font_weight": "700",
@@ -112,7 +112,7 @@
           "settings": {
             "title": "Der gute Ton beginnt mit einem Hallo.",
             "header_size": "h1",
-            "title_color": "#233c33",
+            "title_color": "#211d19",
             "typography_typography": "custom",
             "typography_font_family": "Gaustadt Serif",
             "typography_font_weight": "400",
@@ -153,7 +153,7 @@
           "widgetType": "text-editor",
           "settings": {
             "editor": "<p>Eine Frage, eine Idee oder ein Fest in Planung? Wir freuen uns, von dir zu hören.</p>",
-            "text_color": "#65716a",
+            "text_color": "#635f58",
             "typography_typography": "custom",
             "typography_font_family": "Arial",
             "typography_font_size": {
@@ -221,7 +221,7 @@
           "size": 100
         },
         "flex_align_items": "stretch",
-        "_css_classes": "",
+        "css_classes": "",
         "_title": "",
         "boxed_width": {
           "unit": "px",
@@ -277,7 +277,7 @@
               "size": 100
             },
             "flex_align_items": "stretch",
-            "_css_classes": "",
+            "css_classes": "",
             "_title": ""
           },
           "elements": [
@@ -288,7 +288,7 @@
               "settings": {
                 "title": "SO ERREICHST DU UNS",
                 "header_size": "p",
-                "title_color": "#65716a",
+                "title_color": "#635f58",
                 "typography_typography": "custom",
                 "typography_font_family": "Arial",
                 "typography_font_weight": "700",
@@ -331,7 +331,7 @@
               "settings": {
                 "title": "Lass uns reden.",
                 "header_size": "h2",
-                "title_color": "#233c33",
+                "title_color": "#211d19",
                 "typography_typography": "custom",
                 "typography_font_family": "Gaustadt Serif",
                 "typography_font_weight": "400",
@@ -372,7 +372,7 @@
               "widgetType": "text-editor",
               "settings": {
                 "editor": "<p>Für Auftritte, fürs Mitspielen und für alles, was du uns gerne sagen möchtest.</p>",
-                "text_color": "#65716a",
+                "text_color": "#635f58",
                 "typography_typography": "custom",
                 "typography_font_family": "Arial",
                 "typography_font_size": {
@@ -405,7 +405,7 @@
               "settings": {
                 "title": "E-Mail",
                 "header_size": "h3",
-                "title_color": "#233c33",
+                "title_color": "#211d19",
                 "typography_typography": "custom",
                 "typography_font_family": "Gaustadt Serif",
                 "typography_font_weight": "400",
@@ -446,7 +446,7 @@
               "widgetType": "text-editor",
               "settings": {
                 "editor": "<p>[gaustadt_email]</p>",
-                "text_color": "#65716a",
+                "text_color": "#635f58",
                 "typography_typography": "custom",
                 "typography_font_family": "Arial",
                 "typography_font_size": {
@@ -479,7 +479,7 @@
               "settings": {
                 "title": "Instagram",
                 "header_size": "h3",
-                "title_color": "#233c33",
+                "title_color": "#211d19",
                 "typography_typography": "custom",
                 "typography_font_family": "Gaustadt Serif",
                 "typography_font_weight": "400",
@@ -520,7 +520,7 @@
               "widgetType": "text-editor",
               "settings": {
                 "editor": "<p><a href=\"https://www.instagram.com/bk.gaustadt/\" target=\"_blank\" rel=\"noopener noreferrer\">@bk.gaustadt ↗</a></p>",
-                "text_color": "#65716a",
+                "text_color": "#635f58",
                 "typography_typography": "custom",
                 "typography_font_family": "Arial",
                 "typography_font_size": {
@@ -553,7 +553,7 @@
               "settings": {
                 "title": "Unser Probenraum",
                 "header_size": "h3",
-                "title_color": "#233c33",
+                "title_color": "#211d19",
                 "typography_typography": "custom",
                 "typography_font_family": "Gaustadt Serif",
                 "typography_font_weight": "400",
@@ -662,7 +662,7 @@
               "size": 100
             },
             "flex_align_items": "stretch",
-            "_css_classes": "bg-card",
+            "css_classes": "bg-card",
             "_title": "",
             "background_background": "classic",
             "background_color": "#fffefa"
@@ -675,7 +675,7 @@
               "settings": {
                 "title": "Was liegt dir auf dem Herzen?",
                 "header_size": "h2",
-                "title_color": "#233c33",
+                "title_color": "#211d19",
                 "typography_typography": "custom",
                 "typography_font_family": "Gaustadt Serif",
                 "typography_font_weight": "400",
@@ -720,7 +720,7 @@
                   "url": "@@link:datenschutz@@"
                 },
                 "__globals__": {},
-                "_title": "Kontakt-E-Mail und Anfragehilfe"
+                "_title": "Kontakt-E-Mail und Formular"
               },
               "elements": []
             }

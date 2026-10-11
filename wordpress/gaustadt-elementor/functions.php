@@ -1,6 +1,6 @@
 <?php
 if (!defined('ABSPATH')) { exit; }
-define('GAUSTADT_THEME_VERSION', '1.0.0');
+define('GAUSTADT_THEME_VERSION', '1.1.0');
 // Supplied layouts use device fonts; avoid requests to external font services.
 add_filter('elementor/frontend/print_google_fonts', '__return_false');
 add_filter('elementor/fonts/additional_fonts', function ($fonts) {
@@ -84,9 +84,11 @@ add_shortcode('gaustadt_email', function () {
 });
 
 require_once get_theme_file_path('/includes/setup.php');
+require_once get_theme_file_path('/includes/contact.php');
 add_action('elementor/widgets/register', function ($manager) {
     require_once get_theme_file_path('/includes/widgets.php');
     $manager->register(new Gaustadt_Navigation_Widget());
     $manager->register(new Gaustadt_Events_Widget());
     $manager->register(new Gaustadt_Inquiry_Widget());
+    $manager->register(new Gaustadt_Logo_Widget());
 });

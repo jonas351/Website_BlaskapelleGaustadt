@@ -1,5 +1,6 @@
 <?php
 if (!defined('ABSPATH')) { exit; }
+require_once get_theme_file_path('/includes/brand.php');
 
 add_action('admin_menu', function () {
     add_menu_page('Gaustadt Website', 'Gaustadt', 'manage_options', 'gaustadt', 'gaustadt_setup_screen', 'dashicons-format-audio', 25);
@@ -28,6 +29,20 @@ function gaustadt_setup_screen() {
     submit_button($state ? 'Fehlende Starterseiten ergänzen' : 'Website-Seiten anlegen', 'primary', 'submit', false);
     echo '</form>';
     if (!empty($state['pages'])) {
+        if (($state['design_version'] ?? '') !== GAUSTADT_THEME_VERSION) {
+            echo '<h2>Wappenfarben und Kontakt aktualisieren</h2><p>Übernimmt die neuen Farben und den direkten Formularversand. Bestehende Texte, Termine und Kontaktadresse bleiben erhalten. Die Elementor-Inhalte werden vorher gesichert.</p><form method="post" action="' . esc_url(admin_url('admin-post.php')) . '"><input type="hidden" name="action" value="gaustadt_brand">';
+            wp_nonce_field('gaustadt_brand');
+            echo '<p><label><input type="checkbox" name="privacy_template" value="1" checked> Neue Datenschutzvorlage einfügen (ersetzt diese eine Seite; Vereins- und Hostingangaben anschließend ergänzen).</label></p>';
+            submit_button('Logo-Farben und Kontakt aktualisieren', 'primary', 'submit', false); echo '</form>';
+        }
+        if (get_option('gaustadt_brand_backup')) {
+            echo '<form method="post" action="' . esc_url(admin_url('admin-post.php')) . '"><input type="hidden" name="action" value="gaustadt_restore_brand">';
+            wp_nonce_field('gaustadt_restore_brand'); submit_button('Gesicherte Elementor-Inhalte wiederherstellen', 'secondary', 'submit', false); echo '</form>';
+        }
+        if (gaustadt_is_local()) {
+            echo '<h2>Vollständige Local-Vorschau</h2><p>Gibt die acht Projektentwürfe in Local frei und aktiviert die Startseite, damit auch Unterseiten erreichbar sind.</p><form method="post" action="' . esc_url(admin_url('admin-post.php')) . '"><input type="hidden" name="action" value="gaustadt_local_preview">';
+            wp_nonce_field('gaustadt_local_preview'); submit_button('Alle Seiten in Local anschauen', 'primary', 'submit', false); echo '</form>';
+        }
         echo '<h2>Deine Seiten bearbeiten</h2><p>Seite öffnen, Inhalte anklicken und links ändern. Mit <strong>Veröffentlichen</strong> bzw. <strong>Aktualisieren</strong> speichern.</p><table class="widefat striped"><thead><tr><th>Seite</th><th>Status</th><th>Bearbeiten</th></tr></thead><tbody>';
         foreach ($labels as $slug => $label) {
             $id = (int) ($state['pages'][$slug] ?? 0);
@@ -48,8 +63,8 @@ function gaustadt_setup_screen() {
             submit_button('Gaustadt als Startseite aktivieren', 'secondary', 'submit', false);
             echo '</form>';
         } else { echo '<p>Zuerst die Startseite in Elementor prüfen und veröffentlichen. Danach erscheint hier der Aktivierungsbutton.</p>'; }
-        echo '<h2>Die häufigsten Änderungen</h2><ul style="list-style:disc;padding-left:22px"><li><strong>Text:</strong> Text anklicken und links ersetzen.</li><li><strong>Foto:</strong> Bild anklicken → Bild auswählen → eigene Datei hochladen.</li><li><strong>Termin:</strong> Termineseite öffnen → Widget „Gaustadt Termine“ anklicken → „Element hinzufügen“ → Datum, Ort und Uhrzeit eintragen → speichern. Die Startseite übernimmt den nächsten Auftritt automatisch, sobald die Termineseite veröffentlicht ist.</li><li><strong>Kontakt-E-Mail:</strong> Kontaktseite → Widget „Gaustadt Anfrage“ → Eure Kontakt-E-Mail. Die angezeigte Kontaktadresse verwendet denselben Wert nach Veröffentlichung der Seite.</li><li><strong>Farben:</strong> Das gewünschte Element auswählen → Stil. Grün, Creme und Gold sowie das Textlogo sind weiterhin vorläufig.</li></ul>';
-        echo '<div class="notice notice-warning inline"><p><strong>Vor dem öffentlichen Start:</strong> Platzhalter, Probenangaben, Impressum und Datenschutz vervollständigen. Die Beispielbilder sind Illustrationen. Die Anfragehilfe bereitet eine Nachricht vor, versendet aber nichts automatisch. Ein direkter Formularversand ist nicht enthalten.</p></div>';
+        echo '<h2>Die häufigsten Änderungen</h2><ul style="list-style:disc;padding-left:22px"><li><strong>Text:</strong> Text anklicken und links ersetzen.</li><li><strong>Foto:</strong> Bild anklicken → Bild auswählen → eigene Datei hochladen.</li><li><strong>Termin:</strong> Termineseite öffnen → Widget „Gaustadt Termine“ anklicken → „Element hinzufügen“ → Datum, Ort und Uhrzeit eintragen → speichern. Die Startseite übernimmt den nächsten Auftritt automatisch, sobald die Termineseite veröffentlicht ist.</li><li><strong>Kontakt-E-Mail:</strong> Kontaktseite → Widget „Gaustadt Anfrage“ → Eure Kontakt-E-Mail. Die angezeigte Kontaktadresse verwendet denselben Wert nach Veröffentlichung der Seite.</li><li><strong>Farben:</strong> Das gewünschte Element auswählen → Stil. Schwarz, Gelb, Blau und warme helle Flächen orientieren sich am Wappen. Das Originallogo im Widget „Gaustadt Vereinslogo“ hochladen.</li></ul>';
+        echo '<div class="notice notice-warning inline"><p><strong>Vor dem öffentlichen Start:</strong> Platzhalter, Probenangaben, Impressum und Datenschutz vervollständigen. Die Beispielbilder sind Illustrationen. Das Formular versendet über WordPress an die veröffentlichte Kontaktadresse; ohne diese Adresse ist es deaktiviert. Mailversand und SMTP beim Hoster einrichten und eine tatsächliche Zustellung testen. Das Originalwappen im Kopfbereich im Widget „Gaustadt Vereinslogo“ hochladen.</p></div>';
     }
     echo '</div>';
 }
@@ -100,6 +115,7 @@ function gaustadt_import_starters() {
         $templates[$slug] = $template;
     }
     $state = get_option('gaustadt_setup_state', array());
+    if (!$state) { $state['design_version'] = GAUSTADT_THEME_VERSION; }
     $state += array('pages' => array(), 'parts' => array(), 'media' => array());
     $assets = array();
     foreach (array('brass', 'together', 'illustration-1', 'illustration-2', 'illustration-3') as $asset) {
@@ -126,7 +142,7 @@ function gaustadt_import_starters() {
         update_post_meta($id, '_elementor_version', ELEMENTOR_VERSION);
         update_post_meta($id, '_elementor_data', wp_slash(wp_json_encode($content)));
         delete_post_meta($id, '_elementor_element_cache');
-        update_post_meta($id, '_elementor_page_settings', array('hide_title' => 'yes', 'background_background' => 'classic', 'background_color' => '#faf8f1'));
+        update_post_meta($id, '_elementor_page_settings', array('hide_title' => 'yes', 'background_background' => 'classic', 'background_color' => '#faf7ed'));
         update_post_meta($id, '_wp_page_template', 'default');
         if (in_array($slug, array('header', 'footer'), true)) { wp_set_object_terms($id, 'section', 'elementor_library_type'); }
     }
