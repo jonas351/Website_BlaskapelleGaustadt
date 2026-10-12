@@ -8,17 +8,19 @@ class Firebow_Logo_Widget extends \Elementor\Widget_Base {
     public function get_icon() { return 'eicon-image'; }
     public function get_categories() { return array('general'); }
     protected function register_controls() {
-        $this->start_controls_section('content', array('label' => 'Original-Logo'));
-        $this->add_control('image', array('label' => 'Logo auswählen', 'type' => \Elementor\Controls_Manager::MEDIA, 'description' => 'PNG oder WebP mit transparentem Hintergrund. Ohne Datei erscheint der Schriftzug FireBow.'));
+        $this->start_controls_section('content', array('label' => 'FireBow-Logo'));
+        $this->add_control('image', array('label' => 'Eigenes vollständiges Logo (optional)', 'type' => \Elementor\Controls_Manager::MEDIA, 'description' => 'Ohne eigene Datei erscheint der neue Bogen mit brennendem Pfeil neben FireBow. Ein eigenes vollständiges Logo ersetzt Symbol und Schriftzug.'));
         $this->end_controls_section();
     }
     protected function render() {
         $image = $this->get_settings_for_display('image');
         $id = (int) ($image['id'] ?? 0);
         if (!$id) { $shared = firebow_page_widget_settings('header', 'firebow-logo', true); $id = (int) ($shared['image']['id'] ?? get_theme_mod('custom_logo', 0)); }
-        echo '<a class="fb-brand" href="' . esc_url(home_url('/')) . '" aria-label="FireBow – Startseite">';
+        echo '<a class="fb-brand" href="' . esc_url(firebow_start_url()) . '" aria-label="FireBow – Startseite">';
         if ($id) { echo wp_get_attachment_image($id, 'medium', false, array('alt' => 'FireBow', 'class' => 'fb-brand-image')); }
-        else { echo '<span class="fb-brand-word">Fire<span>Bow</span><i aria-hidden="true"></i></span>'; }
+        else {
+            echo '<img class="fb-brand-icon" src="' . esc_url(get_theme_file_uri('/assets/firebow-bogen.png')) . '" alt="" width="62" height="62" aria-hidden="true"><span class="fb-brand-word">Fire<span>Bow</span></span>';
+        }
         echo '</a>';
     }
 }

@@ -1,5 +1,16 @@
 # FireBow – Prüfbericht
 
+## Update 1.1 – 12. Oktober 2026
+
+- Neues transparentes PNG-Symbol: Bogen mit brennendem Pfeil, leicht comicartig, in warmen Braun-, Kupfer- und Flammentönen. Im Kopf- und Fußbereich zusammen mit FireBow eingebaut; das alte kleine Pfeilsymbol entfernt.
+- Fehlerursache korrigiert: Das Logo verwendete bisher die allgemeine WordPress-Adresse. Es verwendet jetzt die tatsächliche FireBow-Startseite aus dem Projektzustand. Auch der Rückweg auf der 404-Seite verwendet dieses Ziel.
+- Echte Klicks auf Kopf- und Fußlogo geprüft, während WordPress noch eine Beitragsliste als Startseite zeigt. Auch mit einer anderen veröffentlichten Seite als WordPress-Startseite landet der Klick bei FireBow.
+- Logo-Klick bei einfachen `?page_id=...`-Adressen geprüft. Für den Wechsel der WordPress-Permalink-Einstellungen wurde ein frischer Browserkontext verwendet, damit vorherige permanente Weiterleitungen aus dem Browsercache die Prüfung nicht verfälschen.
+- Nach Aktivierung der FireBow-Startseite verwendet das Logo korrekt die Root-Adresse.
+- Alle elf Seiten bei 1440, 768, 390 und 320 Pixeln erneut geprüft: Beide Logo-Bilder laden, beide Logo-Links zeigen auf FireBow, kein horizontaler Überlauf und keine JavaScript-Fehler.
+- Mit echtem WordPress-Installer von 1.0 auf 1.1 aktualisiert. Die automatische Cache-Aktualisierung lässt alle gespeicherten Elementor-Inhalte unverändert. Keine neuen Projektseiten erforderlich.
+- Vorschauen mit neuem Logo aktualisiert. Die ursprüngliche Startseiten- und Permalink-Konfiguration der separaten Testinstallation wurde anschließend wiederhergestellt.
+
 Geprüft am 11. Oktober 2026 in einer **eigenen, frischen Testinstallation** mit WordPress 7.1.3, Elementor Free 4.3.0 und PHP 8.3.35. Die bestehende Website firebow.de sowie die Local-Projekte von Jonas wurden nicht verändert. Die bisherigen Blaskapellen- und CSU-Quelltexte bleiben unverändert.
 
 ## Installation und Inhalte
@@ -43,4 +54,4 @@ PHP-Syntax aller Theme-Dateien, JavaScript-Syntax, JSON-Dokumente, ZIP-Integrit�
 
 ## Noch zu ergänzen
 
-Original-Logo und Teamfoto fehlen als eigenständige Bilddateien. Die neuen FAQ-Antworten und Leistungsbeschreibungen sind freizugebende Textentwürfe. Preise und feste Umsetzungstermine werden nicht behauptet. Impressum und Datenschutz sind markierte Vorlagen. Für eine echte Veröffentlichung müssen Betreiberangaben, Nutzungsrechte, Hosting und Mailanbieter ergänzt bzw. geprüft werden; SMTP und tatsächliche Postfachzustellung sind erst auf dem echten Server zu testen. Es wurde keine allgemeine rechtliche Zertifizierung vorgenommen.
+Das echte Teamfoto fehlt als eigenständige Bilddatei; das neu gestaltete Logo ist enthalten. Die neuen FAQ-Antworten und Leistungsbeschreibungen sind freizugebende Textentwürfe. Preise und feste Umsetzungstermine werden nicht behauptet. Impressum und Datenschutz sind markierte Vorlagen. Für eine echte Veröffentlichung müssen Betreiberangaben, Nutzungsrechte, Hosting und Mailanbieter ergänzt bzw. geprüft werden; SMTP und tatsächliche Postfachzustellung sind erst auf dem echten Server zu testen. Es wurde keine allgemeine rechtliche Zertifizierung vorgenommen.

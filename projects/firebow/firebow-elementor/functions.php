@@ -1,6 +1,6 @@
 <?php
 if (!defined('ABSPATH')) { exit; }
-define('FIREBOW_THEME_VERSION', '1.0.0');
+define('FIREBOW_THEME_VERSION', '1.1.0');
 add_filter('elementor/frontend/print_google_fonts', '__return_false');
 add_action('after_setup_theme', function () {
     add_theme_support('title-tag');
@@ -22,6 +22,27 @@ add_action('wp_enqueue_scripts', function () {
         }
     }
 });
+function firebow_start_url() {
+    $state = get_option('firebow_setup_state', array());
+    $id = (int) ($state['pages']['startseite'] ?? 0);
+    if ($id && get_post_type($id) === 'page') {
+        if (get_post_status($id) === 'publish') { return get_permalink($id); }
+        if (get_post_status($id) !== 'trash' && current_user_can('edit_post', $id)) {
+            return get_preview_post_link($id);
+        }
+    }
+    return home_url('/');
+}
+// Upgrades change rendering and the bundled emblem without overwriting user content.
+add_action('admin_init', function () {
+    if (!current_user_can('manage_options') || get_option('firebow_cached_theme_version') === FIREBOW_THEME_VERSION) { return; }
+    $state = get_option('firebow_setup_state', array());
+    foreach (array_merge($state['pages'] ?? array(), $state['parts'] ?? array()) as $id) {
+        delete_post_meta((int) $id, '_elementor_element_cache');
+    }
+    if (did_action('elementor/loaded')) { \Elementor\Plugin::instance()->files_manager->clear_cache(); }
+    update_option('firebow_cached_theme_version', FIREBOW_THEME_VERSION, false);
+});
 function firebow_render_part($part) {
     $state = get_option('firebow_setup_state', array());
     $id = (int) ($state['parts'][$part] ?? 0);
@@ -29,7 +50,7 @@ function firebow_render_part($part) {
         echo \Elementor\Plugin::instance()->frontend->get_builder_content_for_display($id, true);
         return;
     }
-    echo '<div class="fb-fallback"><a href="' . esc_url(home_url('/')) . '">FireBow</a>';
+    echo '<div class="fb-fallback"><a href="' . esc_url(firebow_start_url()) . '">FireBow</a>';
     if (current_user_can('manage_options')) { echo ' · <a href="' . esc_url(admin_url('admin.php?page=firebow')) . '">Website einrichten</a>'; }
     echo '</div>';
 }
